@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__DontSpecifyStartDateEndDateForFullRecogn</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL(blng__DistributionMethod__c, &apos;Full Recognition&apos;))
+&amp;&amp;
+(
+(!ISPICKVAL(blng__RevenueScheduleTermEndDate__c, &apos;&apos;))
+|| 
+(!ISPICKVAL(blng__RevenueScheduleTermStartDate__c, &apos;&apos;))
+)</errorConditionFormula>
+    <errorMessage>Revenue Schedule Start Date and End Date should not be specified when distribution method is Full Recognition</errorMessage>
+</ValidationRule>

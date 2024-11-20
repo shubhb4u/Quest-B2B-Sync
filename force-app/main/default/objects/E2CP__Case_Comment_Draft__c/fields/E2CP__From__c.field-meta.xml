@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__From__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores sender selected on the New Comment page in the To field for Widespread Issues.</description>
+    <externalId>false</externalId>
+    <label>From</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>case_owner</fullName>
+                <default>false</default>
+                <label>Case Owner</label>
+            </value>
+            <value>
+                <fullName>current_user</fullName>
+                <default>false</default>
+                <label>Current User</label>
+            </value>
+            <value>
+                <fullName>wsi_owner</fullName>
+                <default>false</default>
+                <label>Widespread Issue Owner</label>
+            </value>
+            <value>
+                <fullName>hybrid_disabled</fullName>
+                <default>false</default>
+                <label>Support Address</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

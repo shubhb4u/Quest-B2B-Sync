@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__ExpireWarnDays__c</fullName>
+    <deprecated>false</deprecated>
+    <description>An email message to alert recipients that a deadline approaches for completing an envelope. This is
+			sent only to recipients who have not yet completed the envelope.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicate how many days prior to expiration you want an email message to alert recipients that a deadline
+			approaches for completion. This is sent only to recipients who have not yet completed the transaction.</inlineHelpText>
+    <label>Warn of expiration in N day(s) prior</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

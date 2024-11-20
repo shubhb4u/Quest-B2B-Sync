@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__FullRecDateEmptyForDailyMonthlyMethod</fullName>
+    <active>true</active>
+    <errorConditionFormula>(
+(!ISPICKVAL(blng__DistributionMethod__c, &apos;Full Recognition&apos;))
+&amp;&amp;
+(!ISPICKVAL(blng__FullRecognitionDate__c,&apos;&apos;))
+)</errorConditionFormula>
+    <errorMessage>Full Recognition Date cannot be selected when Distribution Method is other than Full Recognition</errorMessage>
+</ValidationRule>

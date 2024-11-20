@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Target_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Target Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>GitHub Cloud</fullName>
+                <default>false</default>
+                <label>GitHub Cloud</label>
+            </value>
+            <value>
+                <fullName>GitHub Enterprise Server</fullName>
+                <default>false</default>
+                <label>GitHub Enterprise Server</label>
+            </value>
+            <value>
+                <fullName>Azure Cloud</fullName>
+                <default>false</default>
+                <label>Azure Cloud</label>
+            </value>
+            <value>
+                <fullName>Bitbucket Cloud</fullName>
+                <default>false</default>
+                <label>Bitbucket Cloud</label>
+            </value>
+            <value>
+                <fullName>Bitbucket Enterprise Server</fullName>
+                <default>false</default>
+                <label>Bitbucket Enterprise Server</label>
+            </value>
+            <value>
+                <fullName>GitLab Cloud</fullName>
+                <default>false</default>
+                <label>GitLab Cloud</label>
+            </value>
+            <value>
+                <fullName>GitLab Enterprise Server</fullName>
+                <default>false</default>
+                <label>GitLab Enterprise Server</label>
+            </value>
+            <value>
+                <fullName>Bundle</fullName>
+                <default>false</default>
+                <label>Bundle</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

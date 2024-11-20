@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__Replacement__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Replacement document</inlineHelpText>
+    <label>Replacement Document</label>
+    <referenceTo>dfsle__Document__c</referenceTo>
+    <relationshipLabel>Replacement Document</relationshipLabel>
+    <relationshipName>Replacement</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

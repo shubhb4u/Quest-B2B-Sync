@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__EchoSign_Allow_Delegated_Sending__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box so that others in this Salesforce organization can send Adobe Acrobat Sign agreements on behalf of this user.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box so that others in this Salesforce organization can send Adobe Acrobat Sign agreements on behalf of this user.</inlineHelpText>
+    <label>Allow Sending As Other Users</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

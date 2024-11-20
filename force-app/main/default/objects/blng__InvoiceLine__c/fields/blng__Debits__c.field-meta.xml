@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Debits__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Net of allocations and canceled allocations for debit notes</inlineHelpText>
+    <label>Debits</label>
+    <summarizedField>blng__DebitNoteAllocation__c.blng__Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>blng__DebitNoteAllocation__c.blng__Type__c</field>
+        <operation>equals</operation>
+        <value>Allocation</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>blng__DebitNoteAllocation__c.blng__Unallocated__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>blng__DebitNoteAllocation__c.blng__InvoiceLine__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

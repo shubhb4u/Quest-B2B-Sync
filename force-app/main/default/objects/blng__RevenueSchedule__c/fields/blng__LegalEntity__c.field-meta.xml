@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__LegalEntity__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Refers to the legal entity where this revenue is recorded</inlineHelpText>
+    <label>Revenue Legal Entity</label>
+    <referenceTo>blng__LegalEntity__c</referenceTo>
+    <relationshipLabel>Revenue Schedules</relationshipLabel>
+    <relationshipName>RevenueSchedules</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

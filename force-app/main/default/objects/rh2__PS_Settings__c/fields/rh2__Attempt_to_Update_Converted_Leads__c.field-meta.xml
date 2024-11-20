@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Attempt_to_Update_Converted_Leads__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Unchecked - Rollup Helper will ignore all converted leads 
+Checked - Rollup Helper will attempt to update converted leads (may or may not succeed depending this org&apos;s configurations)
+The converted leads are identified by the &quot;isConverted&quot; system field.
+Required settings:
+1. The &quot;Enable Set Audit Fields upon Record Creation and Update Records with Inactive Owners User Permissions&quot; option is checked, found under Setup -&gt; User Interface
+2. Rollup Helper&apos;s record scope is set to 1 (or update single records with real time if applicable)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When checked, Rollup Helper will attempt to update converted leads (the update may or may not succeed depending this org&apos;s configurations). This option is off by default.
+The converted leads are identified by the &quot;isConverted&quot; system field.</inlineHelpText>
+    <label>Attempt to Update Converted Leads</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

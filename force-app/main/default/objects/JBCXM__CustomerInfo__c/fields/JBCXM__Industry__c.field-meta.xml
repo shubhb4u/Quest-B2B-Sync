@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Industry__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Customer&apos;s industry is same as the associated Account&apos;s industry.</description>
+    <externalId>false</externalId>
+    <formula>TEXT(JBCXM__Account__r.Industry)</formula>
+    <inlineHelpText>Customer Industry auto populated from the associated Account&apos;s industry.</inlineHelpText>
+    <label>Industry</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

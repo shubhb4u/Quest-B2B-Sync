@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Large_Value_Required</fullName>
+    <active>true</active>
+    <description>Requires a value in the Large_Value__c field IF the Allow_Blank_Value__ is set to false.</description>
+    <errorConditionFormula>(InSituGen__Allow_Blank_Value__c  ==  false )  &amp;&amp;  
+(InSituGen__Value_Data_Type__c == 9 || InSituGen__Value_Data_Type__c == 10) &amp;&amp;
+(LEN( InSituGen__Large_Value__c ) == 0)</errorConditionFormula>
+    <errorDisplayField>InSituGen__Large_Value__c</errorDisplayField>
+    <errorMessage>The Large Value cannot be blank.</errorMessage>
+</ValidationRule>

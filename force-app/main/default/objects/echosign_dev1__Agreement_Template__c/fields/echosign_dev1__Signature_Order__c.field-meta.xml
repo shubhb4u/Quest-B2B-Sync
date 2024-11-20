@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Signature_Order__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enable the sender to also sign the agreement by selecting a signature order.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable the sender to also sign the agreement by selecting a signature order.</inlineHelpText>
+    <label>Sender Signature Order</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recipients sign first, then sender signs</fullName>
+                <default>false</default>
+                <label>Recipients sign first, then sender signs</label>
+            </value>
+            <value>
+                <fullName>Sender signs first, then recipients sign</fullName>
+                <default>false</default>
+                <label>Sender signs first, then recipients sign</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

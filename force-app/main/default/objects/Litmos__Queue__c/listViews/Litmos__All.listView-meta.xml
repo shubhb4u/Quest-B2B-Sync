@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__All</fullName>
+    <columns>OBJECT_ID</columns>
+    <columns>Litmos__RecordStatus__c</columns>
+    <columns>Litmos__ContactID__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Litmos__LitmosID__c</columns>
+    <columns>Litmos__LitmosQueueId__c</columns>
+    <columns>Litmos__ProgramID__c</columns>
+    <columns>Litmos__ProgramModuleID__c</columns>
+    <columns>NAME</columns>
+    <columns>Litmos__RecordType__c</columns>
+    <columns>Litmos__UserID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Litmos__RecordStatus__c</field>
+        <operation>equals</operation>
+        <value>Pending</value>
+    </filters>
+    <label>All</label>
+</ListView>

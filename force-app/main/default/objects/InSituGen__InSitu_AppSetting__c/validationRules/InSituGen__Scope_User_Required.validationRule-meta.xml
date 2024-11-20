@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_User_Required</fullName>
+    <active>true</active>
+    <description>The Scope_User__c must be set when the Scope_Indicator is set to User (5)</description>
+    <errorConditionFormula>InSituGen__Scope_Indicator__c == 5 &amp;&amp; InSituGen__Scope_User__c == null</errorConditionFormula>
+    <errorDisplayField>InSituGen__Scope_User__c</errorDisplayField>
+    <errorMessage>Scope User is required when Scope Indicator is set to User Specific (5)</errorMessage>
+</ValidationRule>

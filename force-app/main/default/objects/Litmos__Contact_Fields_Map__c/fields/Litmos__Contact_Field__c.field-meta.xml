@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Contact_Field__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Contact Field</label>
+    <referenceTo>Litmos__Contact_Field__c</referenceTo>
+    <relationshipLabel>Contact Fields Map</relationshipLabel>
+    <relationshipName>Contact_Fields_Map</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

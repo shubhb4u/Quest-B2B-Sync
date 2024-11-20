@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__FinanceBook__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Finance Book</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>blng__FinanceBook__c.blng__Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>blng__FinanceBook__c</referenceTo>
+    <relationshipLabel>Finance Periods</relationshipLabel>
+    <relationshipName>FinancePeriods</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Dynamic_Invoicing_Amendment</fullName>
+    <active>true</active>
+    <description>Dynamic Invoicing only supports amendment cancellation and below error will be shown if a quantity increase or decrease is done instead.</description>
+    <errorConditionFormula>ISPICKVAL(SBQQ__BillingFrequency__c, &apos;Invoice Plan&apos;) &amp;&amp; SBQQ__Quantity__c != SBQQ__PriorQuantity__c &amp;&amp;
+SBQQ__Quantity__c != 0 &amp;&amp;
+ISPICKVAL( SBQQ__Quote__r.SBQQ__Type__c , &apos;Amendment&apos;)</errorConditionFormula>
+    <errorMessage>Can’t update the quantity. Dynamic Invoicing only supports cancellation amendments.</errorMessage>
+</ValidationRule>

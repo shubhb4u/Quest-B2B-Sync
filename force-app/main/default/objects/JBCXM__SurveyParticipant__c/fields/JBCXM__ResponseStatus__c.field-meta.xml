@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__ResponseStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Current status of the saved responses for this participant.This field differentiate between response submitted by user,saved by user and auto submission.</description>
+    <externalId>false</externalId>
+    <label>Response Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SUBMITTED</fullName>
+                <default>false</default>
+                <label>SUBMITTED</label>
+            </value>
+            <value>
+                <fullName>PARTIALLY_SUBMITTED</fullName>
+                <default>false</default>
+                <label>PARTIALLY_SUBMITTED</label>
+            </value>
+            <value>
+                <fullName>PARTIALLY_SAVED</fullName>
+                <default>false</default>
+                <label>PARTIALLY_SAVED</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__Encoded_FullName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The URI-encoded fullName. Needed for the readMetadata() call.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The URI-encoded fullName. Needed for the readMetadata() call.</inlineHelpText>
+    <label>Encoded FullName</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__RenewalBasedChurn__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To show churn calculation based on the renewal information or not.</description>
+    <externalId>false</externalId>
+    <label>Show Renewal based churn</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

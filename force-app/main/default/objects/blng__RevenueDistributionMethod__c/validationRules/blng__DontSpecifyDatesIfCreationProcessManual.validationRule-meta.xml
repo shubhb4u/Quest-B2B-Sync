@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__DontSpecifyDatesIfCreationProcessManual</fullName>
+    <active>true</active>
+    <errorConditionFormula>((!ISPICKVAL(blng__DistributionMethod__c, &apos;Full Recognition&apos;) )
+|| 
+(!ISPICKVAL(blng__DistributionMethod__c, &apos;Manual&apos;)))
+ &amp;&amp; 
+(ISPICKVAL( blng__RevenueTransactionCreationProcess__c, &apos;Manual&apos;) )
+ &amp;&amp; 
+((ISPICKVAL(blng__RevenueScheduleTermStartDate__c, &apos;Invoice Line Start Date&apos;))
+ || 
+(ISPICKVAL( blng__RevenueScheduleTermStartDate__c, &apos;Order Product Start Date&apos;))) 
+
+ || 
+
+(ISPICKVAL( blng__RevenueTransactionCreationProcess__c, &apos;Manual&apos;) )
+ &amp;&amp; 
+((ISPICKVAL(blng__RevenueScheduleTermEndDate__c, &apos;Invoice Line End Date&apos;))
+ || 
+(ISPICKVAL( blng__RevenueScheduleTermEndDate__c, &apos;Order Product End Date&apos;)))</errorConditionFormula>
+    <errorMessage>Revenue Schedule Start Date and End Date should only be manual when Revenue Transaction Creation Process is Manual</errorMessage>
+</ValidationRule>

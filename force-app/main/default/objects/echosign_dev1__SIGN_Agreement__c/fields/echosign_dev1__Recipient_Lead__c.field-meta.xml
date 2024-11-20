@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Recipient_Lead__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Recipient (from Lead)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Agreement will be sent to the email address associated with the lead</inlineHelpText>
+    <label>Recipient (Lead)</label>
+    <referenceTo>Lead</referenceTo>
+    <relationshipLabel>Agreements</relationshipLabel>
+    <relationshipName>Agreements4</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

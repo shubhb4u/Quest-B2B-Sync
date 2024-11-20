@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Override_Recipient_Field_List__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This setting will override the list of recipients in an agreement. Specify the full API name of the fields on the agreement record where recipients should be read from, in order and separated by commas. (e.g. SignerA_Email__c, SignerB_Email__c)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting will override the list of recipients in an agreement. Specify the full API name of the fields on the agreement record where recipients should be read from, in order and separated by commas. (e.g. SignerA_Email__c, SignerB_Email__c)</inlineHelpText>
+    <label>Override Recipient Field List</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

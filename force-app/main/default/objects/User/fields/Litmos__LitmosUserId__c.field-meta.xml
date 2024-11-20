@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__LitmosUserId__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <deprecated>false</deprecated>
+    <externalId>true</externalId>
+    <inlineHelpText>Once this field is updated by Litmos, it means this person is synced to Litmos and the Litmos UserId for this individual will display.</inlineHelpText>
+    <label>Litmos UserId</label>
+    <length>100</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

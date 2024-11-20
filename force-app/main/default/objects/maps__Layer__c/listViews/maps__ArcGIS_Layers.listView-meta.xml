@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__ArcGIS_Layers</fullName>
+    <columns>NAME</columns>
+    <columns>maps__Folder__c</columns>
+    <columns>maps__Description__c</columns>
+    <columns>maps__Options__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>maps__Type__c</field>
+        <operation>equals</operation>
+        <value>ArcGIS Online</value>
+    </filters>
+    <label>ArcGIS Layers</label>
+    <language>en_US</language>
+</ListView>

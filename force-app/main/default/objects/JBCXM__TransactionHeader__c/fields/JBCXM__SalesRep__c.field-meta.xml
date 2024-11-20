@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__SalesRep__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Sales Representative</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sales Representative (optional field)</inlineHelpText>
+    <label>SalesRep</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>JBCXM__PickList__c.JBCXM__Category__c</field>
+            <operation>equals</operation>
+            <value>SalesRep Name</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Transaction Header</relationshipLabel>
+    <relationshipName>TransactionHeader</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

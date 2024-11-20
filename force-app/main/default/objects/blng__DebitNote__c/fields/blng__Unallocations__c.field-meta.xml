@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Unallocations__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Unallocations</label>
+    <summarizedField>blng__DebitNoteLine__c.blng__Unallocations__c</summarizedField>
+    <summaryForeignKey>blng__DebitNoteLine__c.blng__DebitNote__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

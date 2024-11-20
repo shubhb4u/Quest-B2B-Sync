@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Source of Recipient</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Predefine the Recipient</fullName>
+                <default>true</default>
+                <label>Predefine the Recipient</label>
+            </value>
+            <value>
+                <fullName>Look Up Based on Master Object Field</fullName>
+                <default>false</default>
+                <label>Look Up Based on Master Object Field</label>
+            </value>
+            <value>
+                <fullName>Opportunity Primary Contact Role</fullName>
+                <default>false</default>
+                <label>Opportunity Primary Contact Role</label>
+            </value>
+            <value>
+                <fullName>Opportunity Contact Role</fullName>
+                <default>false</default>
+                <label>Opportunity Contact Role</label>
+            </value>
+            <value>
+                <fullName>All Opportunity Contact Roles</fullName>
+                <default>false</default>
+                <label>All Opportunity Contact Roles</label>
+            </value>
+            <value>
+                <fullName>Account Primary Contact Role</fullName>
+                <default>false</default>
+                <label>Account Primary Contact Role</label>
+            </value>
+            <value>
+                <fullName>Account Contact Role</fullName>
+                <default>false</default>
+                <label>Account Contact Role</label>
+            </value>
+            <value>
+                <fullName>All Account Contact Roles</fullName>
+                <default>false</default>
+                <label>All Account Contact Roles</label>
+            </value>
+            <value>
+                <fullName>Runtime Variable</fullName>
+                <default>false</default>
+                <label>Runtime Variable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

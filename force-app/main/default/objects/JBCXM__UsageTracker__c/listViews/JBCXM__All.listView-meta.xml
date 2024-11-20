@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__ActionTime__c</columns>
+    <columns>JBCXM__Account__c</columns>
+    <columns>JBCXM__Module__c</columns>
+    <columns>JBCXM__AdoptionMeasure__c</columns>
+    <columns>JBCXM__UserName__c</columns>
+    <columns>JBCXM__Comments__c</columns>
+    <columns>JBCXM__Device__c</columns>
+    <columns>JBCXM__Browser__c</columns>
+    <columns>JBCXM__BrowserResolutoin__c</columns>
+    <columns>JBCXM__IPAddress__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

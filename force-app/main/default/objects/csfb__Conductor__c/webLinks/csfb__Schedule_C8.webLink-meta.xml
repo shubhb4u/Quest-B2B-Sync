@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Schedule_C8</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>650</height>
+    <linkType>url</linkType>
+    <masterLabel>Schedule C8</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://{!SUBSTITUTE(TEXT(csfb__Conductor__c.csfb__Conductor_Environment__c), &quot;prod-&quot;, &quot;&quot;)}conductor.congamerge.com/conductor8/index.html?uiscreen=schedule&amp;Id={!csfb__Conductor__c.Id}&amp;ServerUrl={!$Api.Partner_Server_URL_310}&amp;srcpkg=sfb</url>
+</WebLink>

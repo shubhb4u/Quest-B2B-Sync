@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__AdvRoute__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This the route that the Advanced Route waypoint is associated to</description>
+    <externalId>false</externalId>
+    <label>Maps Advanced Route</label>
+    <referenceTo>maps__AdvRoute__c</referenceTo>
+    <relationshipName>AdvRouteWaypoints</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__MapToBookingType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is used to associate the new transaction booking/order type to core types like New Business, Upsell, Downsell, Debook, etc. and this populated for only records of Category &quot;Order Type&quot;.</description>
+    <externalId>false</externalId>
+    <label>Map to Booking Type</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

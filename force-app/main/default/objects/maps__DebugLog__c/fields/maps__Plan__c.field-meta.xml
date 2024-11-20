@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Plan__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Maps Assignment Plan</label>
+    <referenceTo>maps__AssignmentPlan__c</referenceTo>
+    <relationshipLabel>Maps Auto-Assignment Logs</relationshipLabel>
+    <relationshipName>PlanLogs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

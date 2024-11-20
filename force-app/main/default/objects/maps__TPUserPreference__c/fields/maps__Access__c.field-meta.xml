@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Access__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Access</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Editor</label>
+            </value>
+            <value>
+                <fullName>Commenter</fullName>
+                <default>true</default>
+                <label>Commenter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

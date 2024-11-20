@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__RevenueDistributionMethod__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>As defined in the revenue recognition rule, the method for calculating how revenue will be spread
+        across time periods.</inlineHelpText>
+    <label>Revenue Distribution Method</label>
+    <referenceTo>blng__RevenueDistributionMethod__c</referenceTo>
+    <relationshipLabel>Revenue Schedules</relationshipLabel>
+    <relationshipName>RevenueDistributionMethodRevenueSchedule</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

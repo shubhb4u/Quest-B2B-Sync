@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Churn__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Look up to transaction to get the Churn information.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Look up to transaction to get the Churn information.</inlineHelpText>
+    <label>Churn</label>
+    <referenceTo>JBCXM__TransHeader__c</referenceTo>
+    <relationshipLabel>Customers Info</relationshipLabel>
+    <relationshipName>Customers_Info</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

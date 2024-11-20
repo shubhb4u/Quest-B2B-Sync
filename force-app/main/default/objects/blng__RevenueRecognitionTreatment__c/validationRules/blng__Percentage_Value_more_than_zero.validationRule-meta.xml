@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Percentage_Value_more_than_zero</fullName>
+    <active>true</active>
+    <description>Percentage must be equal to or greater than zero</description>
+    <errorConditionFormula>IF((!ISBLANK(blng__Percentage__c))  &amp;&amp;  blng__Percentage__c &lt;= 0, True, False)</errorConditionFormula>
+    <errorMessage>Percentage must be greater than zero</errorMessage>
+</ValidationRule>

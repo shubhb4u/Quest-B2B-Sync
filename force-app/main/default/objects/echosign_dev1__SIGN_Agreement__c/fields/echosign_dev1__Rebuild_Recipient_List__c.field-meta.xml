@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Rebuild_Recipient_List__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set this field to force the basic Adobe Acrobat Sign agreement and advanced Adobe Acrobat Sign agreement pages to rebuild the related Recipient List using the Lookup fields on the Agreement record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set this field to force the basic Adobe Acrobat Sign agreement and advanced Adobe Acrobat Sign agreement pages to rebuild the related Recipient List using the Lookup fields on the Agreement record.</inlineHelpText>
+    <label>Rebuild Recipient List</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

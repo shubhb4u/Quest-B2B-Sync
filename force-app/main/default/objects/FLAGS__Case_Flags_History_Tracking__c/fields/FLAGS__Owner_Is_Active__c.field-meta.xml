@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Owner_Is_Active__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>FLAGS__Owner__r.IsActive</formula>
+    <label>Owner Is Active</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

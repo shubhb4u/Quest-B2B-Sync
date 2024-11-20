@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__DML_Exception_Message__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The message reported from a DMLException, if any.</description>
+    <externalId>false</externalId>
+    <label>DML Exception Message</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

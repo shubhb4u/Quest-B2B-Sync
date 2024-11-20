@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_User_Null</fullName>
+    <active>true</active>
+    <description>The Scope_User__c field must be null when the Acope_Indicator__c is set to global</description>
+    <errorConditionFormula>InSituGen__Scope_Indicator__c  =  1 &amp;&amp; InSituGen__Scope_User__c  !=  null</errorConditionFormula>
+    <errorDisplayField>InSituGen__Scope_User__c</errorDisplayField>
+    <errorMessage>Scope user cannot be set when the Scope Indicator is set to Global(1)</errorMessage>
+</ValidationRule>

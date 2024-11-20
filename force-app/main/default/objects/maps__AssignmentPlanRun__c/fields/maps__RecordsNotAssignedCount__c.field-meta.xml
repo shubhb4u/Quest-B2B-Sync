@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__RecordsNotAssignedCount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of Records Not Assigned</description>
+    <externalId>false</externalId>
+    <formula>maps__RecordsTotal__c - maps__RecordsAssignedCount__c - maps__RecordsErrorCount__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Number of Records Not Assigned</inlineHelpText>
+    <label>Records Not Assigned Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

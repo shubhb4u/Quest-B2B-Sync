@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>NAME</columns>
+    <columns>JBCXM__Account__c</columns>
+    <columns>JBCXM__Features__c</columns>
+    <columns>JBCXM__Enabled__c</columns>
+    <columns>JBCXM__Licensed__c</columns>
+    <columns>JBCXM__Comment__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

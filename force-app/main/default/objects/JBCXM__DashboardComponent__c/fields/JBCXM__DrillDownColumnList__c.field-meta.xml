@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__DrillDownColumnList__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is used to store the list of columns to show on drill down.</description>
+    <externalId>false</externalId>
+    <label>Drill Down Column List</label>
+    <length>10000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

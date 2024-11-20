@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Exception_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of exception recorded.  If it&apos;s of a common type, that will be recorded so troubleshooting steps may be provided.</description>
+    <externalId>false</externalId>
+    <label>Exception Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

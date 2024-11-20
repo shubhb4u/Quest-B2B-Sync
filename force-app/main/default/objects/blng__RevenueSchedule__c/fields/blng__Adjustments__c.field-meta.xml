@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Adjustments__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Total of all adjustments made to the Revenue Schedule.</inlineHelpText>
+    <label>Adjustments</label>
+    <summarizedField>blng__RevenueAdjustmentLine__c.blng__AdjustmentAmount__c</summarizedField>
+    <summaryFilterItems>
+        <field>blng__RevenueAdjustmentLine__c.blng__Status__c</field>
+        <operation>equals</operation>
+        <value>Posted</value>
+    </summaryFilterItems>
+    <summaryForeignKey>blng__RevenueAdjustmentLine__c.blng__TargetRevenueSchedule__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

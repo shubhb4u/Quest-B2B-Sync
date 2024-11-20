@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__ViewEnvelope</fullName>
+    <availability>online</availability>
+    <description>This button will open your Envelope in DocuSign</description>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>View Envelope</masterLabel>
+    <openType>sidebar</openType>
+    <page>dfsle__ViewEnvelope</page>
+    <protected>false</protected>
+</WebLink>

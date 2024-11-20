@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__CurrentProcessingStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is used to determine where we are in the process and rather or not we need to kick off the next step.</description>
+    <externalId>false</externalId>
+    <label>Current Processing Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Object Priorities Submitted</fullName>
+                <default>false</default>
+                <label>Object Priorities Submitted</label>
+            </value>
+            <value>
+                <fullName>Object Priorities Not Submitted</fullName>
+                <default>false</default>
+                <label>Object Priorities Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Routing Submitted</fullName>
+                <default>false</default>
+                <label>Routing Submitted</label>
+            </value>
+            <value>
+                <fullName>Routing Not Submitted</fullName>
+                <default>false</default>
+                <label>Routing Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Routing Poll Submitted</fullName>
+                <default>false</default>
+                <label>Routing Poll Submitted</label>
+            </value>
+            <value>
+                <fullName>Routing Poll Not Submitted</fullName>
+                <default>false</default>
+                <label>Routing Poll Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Next Working Day Submitted</fullName>
+                <default>false</default>
+                <label>Next Working Day Submitted</label>
+            </value>
+            <value>
+                <fullName>Next Working Day Not Submitted</fullName>
+                <default>false</default>
+                <label>Next Working Day Not Submitted</label>
+            </value>
+            <value>
+                <fullName>Available For Submission</fullName>
+                <default>true</default>
+                <label>Available For Submission</label>
+            </value>
+            <value>
+                <fullName>Geocoding Submitted</fullName>
+                <default>false</default>
+                <label>Geocoding Submitted</label>
+            </value>
+            <value>
+                <fullName>Geocoding Not Submitted</fullName>
+                <default>false</default>
+                <label>Geocoding Not Submitted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

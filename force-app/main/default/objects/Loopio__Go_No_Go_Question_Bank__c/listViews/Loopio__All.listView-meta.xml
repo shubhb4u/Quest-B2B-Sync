@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__All</fullName>
+    <columns>NAME</columns>
+    <columns>Loopio__Question_Label__c</columns>
+    <columns>Loopio__Question_Sequence__c</columns>
+    <columns>Loopio__Data_Type__c</columns>
+    <columns>Loopio__Make_Required__c</columns>
+    <columns>Loopio__Go_No_Go_Section__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

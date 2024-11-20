@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__UniqueID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field Uniquely Identifies an alert can be used as an ExternalID</description>
+    <displayFormat>AL-{0}</displayFormat>
+    <externalId>true</externalId>
+    <inlineHelpText>This field Uniquely Identifies an alert can be used as an ExternalID</inlineHelpText>
+    <label>Unique ID</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

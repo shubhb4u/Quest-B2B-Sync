@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Referenced_Data_Set_Element__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Created for MD-2942</description>
+    <externalId>false</externalId>
+    <label>Referenced Data Set Element</label>
+    <referenceTo>PDRI__DataSet__c</referenceTo>
+    <relationshipLabel>Field Value Mappings</relationshipLabel>
+    <relationshipName>Field_Value_Mappings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

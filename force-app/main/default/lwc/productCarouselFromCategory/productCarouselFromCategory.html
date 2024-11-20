@@ -1,0 +1,56 @@
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>{categoryName}</h2>
+            <a href={categoryURL} class="q-link-arrow q-arrow-orange">See All Products <lightning-icon class=" q-icon-brand"
+                icon-name="utility:forward" size="small" aria-label="Seel All products"></lightning-icon></a>
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div class="product-block" key={product.Product2.Id}>
+                                    <h3 class="product-name">{product.Product2.Name}</h3>
+                                    <div class="product-model description">{product.Product2.Description}</div>
+                                    <span class="q-start-at">STARTS AT</span>
+                                    <div class="slds-grid">
+                                        
+                                        <div class="slds-col slds-size_10-of-12">
+                                            <div class="q-price product-price-mobile">${product.formattedUnitPrice}</div>
+                                        </div>
+                                        
+                                        <div class="slds-col slds-size_2-of-12">
+                                            <div class="q-wish-list">
+                                                <lightning-icon icon-name="utility:heart" class={product.wishlistClass} data-id={product.Product2Id}
+                                                    onclick={handleAddToWishlist}>
+                                                </lightning-icon>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="q-cta-wrapper">
+                                        <a class="q-cta slds-button slds-button_brand slds-button_stretch" data-id={product.Product2.Id}
+                                            data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="splide__arrows icomoon-container">
+                        <lightning-icon class="splide__arrow splide__arrow--prev q-icon-brand" size="x-small" icon-name="utility:back"
+                            aria-label="Previous slide" onclick={handlePrevious}></lightning-icon>
+                        <ul class="splide__pagination">
+                            <template for:each={carouselIndicators} for:item="indicator">
+                                <li key={indicator.index}>
+                                    <button class={indicator.class} type="button" data-index={indicator.index}
+                                        aria-controls="splide01-slide" onclick={handleIndicatorClick}></button>
+                                </li>
+                            </template>
+                        </ul>
+                        <lightning-icon class="splide__arrow splide__arrow--next q-icon-brand" size="x-small" aria-label="Next slide"
+                            icon-name="utility:forward" onclick={handleNext}></lightning-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

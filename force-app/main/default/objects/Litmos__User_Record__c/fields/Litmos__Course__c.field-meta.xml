@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Course__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Course</label>
+    <referenceTo>Litmos__Course__c</referenceTo>
+    <relationshipLabel>User Records</relationshipLabel>
+    <relationshipName>User_Records</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

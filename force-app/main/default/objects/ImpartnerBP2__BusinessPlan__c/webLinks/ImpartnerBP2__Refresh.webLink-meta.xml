@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpartnerBP2__Refresh</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Refresh</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/46.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/46.0/apex.js&quot;)}
+
+var div, img;
+
+if (document.getElementById(&apos;myDiv&apos;) &amp;&amp; document.getElementById(&apos;myImg&apos;))
+{
+    div = document.getElementById(&apos;myDiv&apos;);
+    img = document.getElementById(&apos;myImg&apos;);
+    div.style.display = &apos;block&apos;;
+    img.style.display = &apos;block&apos;;
+}
+else
+{
+    // Create a background and show the image on top
+    div = document.createElement(&apos;div&apos;);
+    div.id = &apos;myDiv&apos;;
+    div.style.width = &apos;100%&apos;;
+    div.style.height = &apos;100%&apos;;
+    div.style.position = &apos;absolute&apos;;
+    div.style.top = &apos;0&apos;;
+    div.style.left = &apos;0&apos;;
+    div.style.backgroundColor = &apos;black&apos;;
+    div.style.opacity = &apos;0.5&apos;;
+    div.style.zIndex = &apos;100&apos;;
+    //document.body.appendChild(div);
+
+    img = document.createElement(&apos;img&apos;);
+    img.id = &apos;myImg&apos;;
+    img.src = &apos;/img/loading32.gif&apos;; // your spinner gif
+    img.style.position = &apos;absolute&apos;;
+    img.style.top = &apos;50%&apos;;
+    img.style.left = &apos;50%&apos;;
+    img.style.zIndex = &apos;101&apos;;
+    //div.appendChild(img);
+}
+
+var refReqId = sforce.apex.execute(&quot;ImpartnerBP2.Refresh&quot;,&quot;getRefreshRequestId&quot;,
+                             {bizPlanId:&quot;{!ImpartnerBP2__BusinessPlan__c.Id}&quot;});
+
+sforce.apex.execute(&quot;ImpartnerBP2.Refresh&quot;, &quot;refreshBusinessPlanV2&quot;,
+    {
+        bizPlanId:    &quot;{!ImpartnerBP2__BusinessPlan__c.Id}&quot;,
+        refreshReqId: refReqId
+    },
+    {
+        onSuccess: function(result) {
+            //location.reload(true);
+        },
+        onFailure: function(error) {
+            alert(&apos;Attempt to Refresh failed. The error is: [&apos; + error + &apos;].&apos;);
+        }
+    }
+);</url>
+</WebLink>

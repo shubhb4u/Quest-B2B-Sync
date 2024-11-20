@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LunchBreakStart__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the start of the lunch break</description>
+    <externalId>false</externalId>
+    <label>Lunch Break Start</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>maps__AdvRouteTimeWindows</valueSetName>
+    </valueSet>
+</CustomField>

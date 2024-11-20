@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Enable_Tile_View__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Click here to switch Litmos to Tile View Version 2</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Click here to switch Litmos to Tile View Version 2</inlineHelpText>
+    <label>Enable Tile View</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

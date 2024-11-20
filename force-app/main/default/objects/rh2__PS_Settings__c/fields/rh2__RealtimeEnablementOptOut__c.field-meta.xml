@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__RealtimeEnablementOptOut__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this field prevents the Realtime Enablement pop up from displaying when saving a new Rollup Helper setting.</inlineHelpText>
+    <label>Realtime Enablement Opt Out</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

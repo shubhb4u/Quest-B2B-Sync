@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__DeveloperExceptionEmailOptOut__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this field prevents Rollup Helper exception emails from being forwarded to our developers.</inlineHelpText>
+    <label>Developer Exception Email Opt Out</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__NextRenewalDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Next Renewal Date of the customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Next Renewal Date of the Customer, auto populated based on the first transaction (New Business) and subsequent renewals.</inlineHelpText>
+    <label>RenewalDate</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This stores types like &quot;API&quot;,&quot;Application&quot;  and &quot;Other&quot; etc</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Types like &quot;API&quot;,&quot;Application&quot;  and &quot;Other&quot; etc</inlineHelpText>
+    <label>Type</label>
+    <length>50</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

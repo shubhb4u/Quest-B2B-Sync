@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__All</fullName>
+    <columns>NAME</columns>
+    <columns>maps__Folder__c</columns>
+    <columns>maps__User__c</columns>
+    <columns>maps__ProfileId__c</columns>
+    <columns>maps__Create__c</columns>
+    <columns>maps__Modify__c</columns>
+    <columns>maps__Delete__c</columns>
+    <columns>maps__SetPermissions__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

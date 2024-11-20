@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Sync_Frequency__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Sync Frequency</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Once Daily</fullName>
+                <default>false</default>
+                <label>Once Daily</label>
+            </value>
+            <value>
+                <fullName>Every 15 Minutes</fullName>
+                <default>false</default>
+                <label>Every 15 Minutes</label>
+            </value>
+            <value>
+                <fullName>Every 30 Minutes</fullName>
+                <default>false</default>
+                <label>Every 30 Minutes</label>
+            </value>
+            <value>
+                <fullName>Every 1 Hour</fullName>
+                <default>true</default>
+                <label>Every 1 Hour</label>
+            </value>
+            <value>
+                <fullName>Every 4 Hours</fullName>
+                <default>false</default>
+                <label>Every 4 Hours</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

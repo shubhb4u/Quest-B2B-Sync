@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Restricted_Recipient_Domains__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Restricted recipient email domains separated by comma.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Restricted recipient email domains separated by comma.</inlineHelpText>
+    <label>Restricted Recipient Domains</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__TimeToComplete__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(dfsle__Status__c  = &quot;Voided&quot;, &quot;&quot;,  IF(dfsle__Status__c  = &quot;Declined&quot;,  &quot;&quot;,   IF(dfsle__Status__c  = &quot;Sent&quot;,  &quot;&quot;,
+			TEXT(ROUND((dfsle__Completed__c  -  dfsle__Sent__c) - MOD(dfsle__Completed__c  - dfsle__Sent__c, 1), 0)) &amp;&quot; day(s), &quot;&amp;
+			TEXT(ROUND(MOD(dfsle__Completed__c - dfsle__Sent__c, 1) * 24 - MOD(MOD(dfsle__Completed__c - dfsle__Sent__c,1) * 24, 1), 0)) &amp;&quot; hour(s), &quot;&amp;
+			TEXT(ROUND(MOD(MOD(dfsle__Completed__c - dfsle__Sent__c, 1) * 24, 1) * 60, 0)) &amp;&quot; minute(s)&quot;)))</formula>
+    <label>Time to Complete</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

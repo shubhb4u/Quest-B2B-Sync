@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Show to which one batch log is related.</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data Population Batch Log</fullName>
+                <default>false</default>
+                <label>Data Population Batch Log</label>
+            </value>
+            <value>
+                <fullName>Scheduled Data Population Log</fullName>
+                <default>false</default>
+                <label>Scheduled Data Population Log</label>
+            </value>
+            <value>
+                <fullName>Picklist Values Population</fullName>
+                <default>false</default>
+                <label>Picklist Values Population</label>
+            </value>
+            <value>
+                <fullName>Record Type Usage</fullName>
+                <default>false</default>
+                <label>Record Type Usage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

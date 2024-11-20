@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__ClearFlagDays__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Flags will be automatically cleared by Case Flags after the number of days specified</description>
+    <externalId>false</externalId>
+    <label>Clear Flag Days</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

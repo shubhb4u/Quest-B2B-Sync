@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__TransactionLines__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Transaction line item.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Transaction line item.</inlineHelpText>
+    <label>Transaction Lines</label>
+    <referenceTo>JBCXM__TransactionType__c</referenceTo>
+    <relationshipLabel>Transaction Lines</relationshipLabel>
+    <relationshipName>TransactionLinesForTL</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

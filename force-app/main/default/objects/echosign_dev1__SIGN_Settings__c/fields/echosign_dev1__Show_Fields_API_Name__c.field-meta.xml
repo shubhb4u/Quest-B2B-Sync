@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Show_Fields_API_Name__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</inlineHelpText>
+    <label>Show Fields API Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

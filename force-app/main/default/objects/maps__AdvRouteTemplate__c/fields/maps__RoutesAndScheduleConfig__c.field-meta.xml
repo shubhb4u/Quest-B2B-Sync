@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__RoutesAndScheduleConfig__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This will look up to the Maps Routes and Schedule Config setting used for outputs and future visits</description>
+    <externalId>false</externalId>
+    <label>Routes and Schedule Config</label>
+    <referenceTo>maps__CalEventBaseObj__c</referenceTo>
+    <relationshipLabel>Maps Advanced Route Templates</relationshipLabel>
+    <relationshipName>AdvRouteTemplates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

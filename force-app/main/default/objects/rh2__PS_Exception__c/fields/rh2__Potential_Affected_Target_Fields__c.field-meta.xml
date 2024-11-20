@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Potential_Affected_Target_Fields__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If any, the field(s) being processed when the error was encountered.</description>
+    <externalId>false</externalId>
+    <label>Potentially Affected Target Fields</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

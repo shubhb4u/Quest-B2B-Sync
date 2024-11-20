@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__Title__c</columns>
+    <columns>JBCXM__SurveyMaster__c</columns>
+    <columns>JBCXM__SurveyQuestion__c</columns>
+    <columns>JBCXM__DisplayOrder__c</columns>
+    <columns>JBCXM__IsActive__c</columns>
+    <columns>JBCXM__AllowOther__c</columns>
+    <columns>JBCXM__AllowOtherLabel__c</columns>
+    <columns>JBCXM__GroupIcon__c</columns>
+    <columns>JBCXM__GroupLabel__c</columns>
+    <columns>JBCXM__UserResponseCount__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

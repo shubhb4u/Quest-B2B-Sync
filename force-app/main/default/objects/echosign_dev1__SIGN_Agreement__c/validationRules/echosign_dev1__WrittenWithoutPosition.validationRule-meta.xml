@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__WrittenWithoutPosition</fullName>
+    <active>true</active>
+    <description>Fail validation if we want a written signature, and have position form fields selected.</description>
+    <errorConditionFormula>TEXT(echosign_dev1__SignatureType__c)  = &apos;Written Signature&apos; &amp;&amp; echosign_dev1__Authoring__c</errorConditionFormula>
+    <errorMessage>Positioning fields and signatures is not possible with a written signature.</errorMessage>
+</ValidationRule>

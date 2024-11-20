@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="productcode" type="String" label="1st Product Code" />
+            <property name="productcode2" type="String" label="2nd Product Code" />
+            <property name="productcode3" type="String" label="3rd Product Code" />
+            <property name="productcode4" type="String" label="4th Product Code" />
+            <property name="isAwardComponent" type="Boolean" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

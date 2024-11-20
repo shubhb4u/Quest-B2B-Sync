@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__TYPESHOULDALIGNFULLRECOGNITIONDATE</fullName>
+    <active>true</active>
+    <description>Full Recognition Date End Date should align with Type.</description>
+    <errorConditionFormula>(ISPICKVAL(blng__Type__c, &apos;Order&apos;)
+&amp;&amp;
+(ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Other&apos;))
+)
+
+||
+
+(ISPICKVAL(blng__Type__c, &apos;Invoice&apos;)
+&amp;&amp;
+(ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Other&apos;))
+)
+
+||
+
+(ISPICKVAL(blng__Type__c, &apos;Credit Note&apos;)
+&amp;&amp;
+(ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Other&apos;))
+)
+
+||
+
+(ISPICKVAL(blng__Type__c, &apos;Debit Note&apos;)
+&amp;&amp;
+(ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Other&apos;))
+)
+
+||
+
+(ISPICKVAL(blng__Type__c, &apos;Other&apos;)
+&amp;&amp;
+(ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line End Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Invoice Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Order Product Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Line Start Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Debit Note Date&apos;)
+||
+ISPICKVAL
+(blng__FullRecognitionDate__c, &apos;Credit Note Date&apos;))
+)</errorConditionFormula>
+    <errorMessage>Full Recognition Date End Date should align with Type.</errorMessage>
+</ValidationRule>

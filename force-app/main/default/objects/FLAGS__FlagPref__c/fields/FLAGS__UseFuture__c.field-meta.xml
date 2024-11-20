@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__UseFuture__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Move the logic to set the custom Business Hours lookup on new cases to Apex Future methods.</description>
+    <externalId>false</externalId>
+    <label>Use Future</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

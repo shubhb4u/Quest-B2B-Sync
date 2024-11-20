@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__runAsModifyingUserOnly__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This checkbox will cause Rollup Helper to only process queued asynchronous requests for the user that initiated the asynchronous request. If there is a queue record for a user that is not the Modified By user then the queue record will not be processed until a scheduled class runs the queue record or the user associated with the queue record adds an item to the Rollup Helper queue.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This checkbox will cause Rollup Helper to only process queued asynchronous requests for the user that initiated the asynchronous request. Enabling this setting may be necessary if there are parent objects that have custom field-level security checks or have field-level security checks from a third-party managed package.</inlineHelpText>
+    <label>Process Queue Items Based On Modified By</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

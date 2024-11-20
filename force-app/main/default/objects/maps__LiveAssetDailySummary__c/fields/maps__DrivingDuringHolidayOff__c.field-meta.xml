@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__DrivingDuringHolidayOff__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indication if a trip took place within denoted holiday off</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indication if a trip took place within denoted holiday off</inlineHelpText>
+    <label>Driving During Holiday Off</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

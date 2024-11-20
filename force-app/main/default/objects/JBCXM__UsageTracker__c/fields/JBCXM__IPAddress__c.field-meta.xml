@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__IPAddress__c</fullName>
+    <deprecated>false</deprecated>
+    <description>IP address from where the usage action occurred.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>IP address from where the usage action occurred.</inlineHelpText>
+    <label>IP Address</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

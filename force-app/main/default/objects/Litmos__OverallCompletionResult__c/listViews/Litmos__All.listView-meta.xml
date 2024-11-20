@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__All</fullName>
+    <columns>NAME</columns>
+    <columns>Litmos__ContactID__c</columns>
+    <columns>Litmos__UserID__c</columns>
+    <columns>Litmos__OverallUserCourseCompletionPercentage__c</columns>
+    <columns>Litmos__OverallUserLearningPathCompletionPercent__c</columns>
+    <columns>Litmos__TotalCoursesAssigned__c</columns>
+    <columns>Litmos__TotalCoursesCompleted__c</columns>
+    <columns>Litmos__TotalLearningPathAssigned__c</columns>
+    <columns>Litmos__TotalLearningPathsCompleted__c</columns>
+    <columns>Litmos__isProcessed__c</columns>
+    <columns>Litmos__LitmosID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

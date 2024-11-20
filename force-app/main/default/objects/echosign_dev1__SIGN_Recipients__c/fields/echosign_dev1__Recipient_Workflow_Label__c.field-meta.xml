@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Recipient_Workflow_Label__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Recipient label defined in sign workflow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Recipient label defined in sign workflow</inlineHelpText>
+    <label>Recipient Workflow Label</label>
+    <length>128</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

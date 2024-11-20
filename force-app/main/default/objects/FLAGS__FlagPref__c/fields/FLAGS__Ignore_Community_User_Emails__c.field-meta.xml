@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Ignore_Community_User_Emails__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Prevent the modification of a Case&apos;s flag if an outbound email is from a non-standard user.</description>
+    <externalId>false</externalId>
+    <label>Ignore Community User Emails</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

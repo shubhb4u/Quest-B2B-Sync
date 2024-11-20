@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Enable_Phone_Authentication__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to show the phone authentication option for verifying recipient identity.  Usage of this feature is limited and may incur added costs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to show the phone authentication option for verifying recipient identity.  Usage of this feature is limited and may incur added costs.</inlineHelpText>
+    <label>Enable Phone Authentication</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

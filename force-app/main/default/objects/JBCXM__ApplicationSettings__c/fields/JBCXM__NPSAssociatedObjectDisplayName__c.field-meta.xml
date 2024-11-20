@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__NPSAssociatedObjectDisplayName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>What is the Display field name that should be used in Reports. For eg: (&apos;Opportunity Name&apos; if The name within the Opportunity object is associated with NPS)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What is the Display field name that should be used in Reports. For eg: (&apos;Opportunity Name&apos; if The name within the Opportunity object is associated with NPS)</inlineHelpText>
+    <label>NPS Associated Object Display Name</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

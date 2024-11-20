@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Invocation_Scope__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Invocation Scope</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>PDRI__Deployment_Scope</valueSetName>
+    </valueSet>
+</CustomField>

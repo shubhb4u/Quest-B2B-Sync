@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__Type__c</columns>
+    <columns>JBCXM__ParentQuestion__c</columns>
+    <columns>JBCXM__Code__c</columns>
+    <columns>JBCXM__Title__c</columns>
+    <columns>JBCXM__Dependent__c</columns>
+    <columns>JBCXM__HasRules__c</columns>
+    <columns>JBCXM__DisplayOrder__c</columns>
+    <columns>JBCXM__IsActive__c</columns>
+    <columns>JBCXM__SurveyMaster__c</columns>
+    <columns>JBCXM__AllowComment__c</columns>
+    <columns>JBCXM__CommentLabel__c</columns>
+    <columns>JBCXM__UserResponseCount__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

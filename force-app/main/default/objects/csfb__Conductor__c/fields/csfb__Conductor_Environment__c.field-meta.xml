@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Conductor_Environment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>ONLY USED BY CONGA SUPPORT
+
+* Recommended to remove from page layout when not in use *</description>
+    <externalId>false</externalId>
+    <label>Conga Batch Environment</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>prod-</fullName>
+                <default>true</default>
+                <label>prod-</label>
+            </value>
+            <value>
+                <fullName>staging-</fullName>
+                <default>false</default>
+                <label>staging-</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

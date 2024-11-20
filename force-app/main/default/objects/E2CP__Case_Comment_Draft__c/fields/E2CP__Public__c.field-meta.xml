@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Public__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>New Comment page Public/Private toggle value.</description>
+    <externalId>false</externalId>
+    <label>Public</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

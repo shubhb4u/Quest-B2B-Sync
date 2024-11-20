@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Do_Not_Create_Empty__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you do not want a blank placeholder recipient to be created on the agreement page if no record is found based on the selected criteria.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want a blank placeholder recipient to be created on the agreement page if no record is found based on the selected criteria.</inlineHelpText>
+    <label>Do Not Create Blank Recipient Row</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

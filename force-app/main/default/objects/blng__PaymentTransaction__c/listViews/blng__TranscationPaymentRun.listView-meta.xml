@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__TranscationPaymentRun</fullName>
+    <columns>NAME</columns>
+    <columns>blng__PaymentRun__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>blng__PaymentRun__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>TranscationPaymentRun</label>
+    <language>en_US</language>
+</ListView>

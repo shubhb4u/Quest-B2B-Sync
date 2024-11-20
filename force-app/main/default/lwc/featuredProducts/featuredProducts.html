@@ -1,0 +1,15 @@
+<template>
+  <div class="q-feature-products">
+      <div class="q-container">
+          <div class="product-list">
+              <template for:each={products} for:item="product">
+                  <div class="product-block" key={product.Id}>
+                      <div class="product-name slds-m-bottom_xx-small">{product.Product2.Name}</div>
+                      <div class="product-description slds-m-bottom_xx-small">{product.Product2.Description}</div>
+                      <a class="buyAnchor" data-id={product.Product2Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy Now</a>
+                  </div>
+              </template>
+          </div>
+      </div>
+  </div>
+</template>

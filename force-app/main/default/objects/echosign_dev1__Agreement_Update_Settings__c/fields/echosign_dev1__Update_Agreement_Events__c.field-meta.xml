@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Update_Agreement_Events__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to update events of an agreement</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to update events of an agreement</inlineHelpText>
+    <label>Update Agreement Events</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

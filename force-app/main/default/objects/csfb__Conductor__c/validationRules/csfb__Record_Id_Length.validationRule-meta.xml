@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Record_Id_Length</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( csfb__Record_Id__c != &quot;&quot; ,
+
+LEN( csfb__Record_Id__c ) &gt; 18)</errorConditionFormula>
+    <errorDisplayField>csfb__Record_Id__c</errorDisplayField>
+    <errorMessage>The Record Id must be a 15- or 18-character Salesforce ID</errorMessage>
+</ValidationRule>

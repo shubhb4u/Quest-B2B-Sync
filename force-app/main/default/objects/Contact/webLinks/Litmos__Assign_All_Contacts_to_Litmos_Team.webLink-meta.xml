@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Assign_All_Contacts_to_Litmos_Team</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Assign all Contacts to Litmos Team</masterLabel>
+    <openType>sidebar</openType>
+    <page>Litmos__LMAssignContactToAccountTeam</page>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+</WebLink>

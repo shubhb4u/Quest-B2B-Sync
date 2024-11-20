@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Case_Flag_Business__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This should be used  to display the Case Flag if your organization is using business hours.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(FLAGS__ViewedFlag__c),null, 
+IF(FLAGS__Case_Flag_Business_Age__c &gt; (IF(ISBLANK(FLAGS__CaseTimeOffset4__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset4__c,FLAGS__CaseTimeOffset4__c)), 
+IMAGE( &quot;/servlet/servlet.FileDownload?flagsort=&quot; &amp; FLAGS__Case_Flag_Age_Text__c &amp; &quot;&amp;file=&quot; &amp; $Setup.FLAGS__FlagPref__c.FLAGS__Offset4Image__c, &quot;L4&quot;, 16, 16), 
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset3__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset3__c,FLAGS__CaseTimeOffset3__c)), 
+IMAGE( &quot;/servlet/servlet.FileDownload?flagsort=&quot; &amp; FLAGS__Case_Flag_Age_Text__c &amp; &quot;&amp;file=&quot; &amp; $Setup.FLAGS__FlagPref__c.FLAGS__Offset3Image__c, &quot;L3&quot;, 16, 16), 
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset2__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset2__c,FLAGS__CaseTimeOffset2__c)), 
+IMAGE( &quot;/servlet/servlet.FileDownload?flagsort=&quot; &amp; FLAGS__Case_Flag_Age_Text__c &amp; &quot;&amp;file=&quot; &amp; $Setup.FLAGS__FlagPref__c.FLAGS__Offset2Image__c, &quot;L2&quot;, 16, 16), 
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset1__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset1__c,FLAGS__CaseTimeOffset1__c)), 
+IMAGE( &quot;/servlet/servlet.FileDownload?flagsort=&quot; &amp; FLAGS__Case_Flag_Age_Text__c &amp; &quot;&amp;file=&quot; &amp; $Setup.FLAGS__FlagPref__c.FLAGS__Offset1Image__c, &quot;L1&quot;,16,16), 
+IMAGE( &quot;/servlet/servlet.FileDownload?flagsort=&quot; &amp; FLAGS__Case_Flag_Age_Text__c &amp; &quot;&amp;file=&quot; &amp; $Setup.FLAGS__FlagPref__c.FLAGS__BlankOffsetImage__c, &quot;L0&quot;,16,16)) 
+))) 
+)</formula>
+    <label>Flag (BH)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

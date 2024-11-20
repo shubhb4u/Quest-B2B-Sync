@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Case_Flags_Sort__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used for sorting Cases based on flag level and next escalation time.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(FLAGS__ViewedFlag__c),null,
+
+IF($Setup.FLAGS__FlagPref__c.FLAGS__JobId__c == null,
+
+IF(FLAGS__Case_Flag_Age__c &gt; (IF(ISBLANK(FLAGS__CaseTimeOffset4__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset4__c, FLAGS__CaseTimeOffset4__c)),
+&quot;L4-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime4__c)),
+
+IF(FLAGS__Case_Flag_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset3__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset3__c, FLAGS__CaseTimeOffset3__c)),
+&quot;L3-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime4__c)),
+
+IF(FLAGS__Case_Flag_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset2__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset2__c, FLAGS__CaseTimeOffset2__c)),
+&quot;L2-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime3__c)),
+
+IF(FLAGS__Case_Flag_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset1__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset1__c, FLAGS__CaseTimeOffset1__c)),
+&quot;L1-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime2__c)),
+
+&quot;L0-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime1__c))))))
+,
+
+IF(FLAGS__Case_Flag_Business_Age__c &gt; (IF(ISBLANK(FLAGS__CaseTimeOffset4__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset4__c,FLAGS__CaseTimeOffset4__c)),
+&quot;L4-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime4__c)),
+
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset3__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset3__c,FLAGS__CaseTimeOffset3__c)),
+&quot;L3-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime4__c)),
+
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset2__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset2__c,FLAGS__CaseTimeOffset2__c)),
+&quot;L2-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime3__c)),
+
+IF(FLAGS__Case_Flag_Business_Age__c &gt;= (IF(ISBLANK(FLAGS__CaseTimeOffset1__c), $Setup.FLAGS__FlagPref__c.FLAGS__TimeOffset1__c,FLAGS__CaseTimeOffset1__c)),
+&quot;L1-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime2__c)),
+
+&quot;L0-&quot; &amp; TEXT(86400 * (DATETIMEVALUE(&quot;9999-12-31 23:59:59&quot;)-FLAGS__CaseFlagsEscalationTime1__c))
+))))))</formula>
+    <label>Case Flags Sort</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

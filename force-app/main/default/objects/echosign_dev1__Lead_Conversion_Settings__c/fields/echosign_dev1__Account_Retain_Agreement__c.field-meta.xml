@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Account_Retain_Agreement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>When a Lead is converted to an Account, retain all previous agreements from the Lead with the Account record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When a Lead is converted to an Account, retain all previous agreements from the Lead with the Account record.</inlineHelpText>
+    <label>Account Retain Agreement</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

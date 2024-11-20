@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__CustomerScheme__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This used to specify whether you use the scheme for the customer overall health calculation or not</description>
+    <externalId>false</externalId>
+    <label>Customer Scheme</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

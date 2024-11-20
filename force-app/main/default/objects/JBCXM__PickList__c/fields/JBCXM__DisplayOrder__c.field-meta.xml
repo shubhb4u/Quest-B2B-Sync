@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__DisplayOrder__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This order will be used while the PickList values are being used as lookup relations while creating other objects.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The order in which the picklist item should appear in any list interface or drop down selection</inlineHelpText>
+    <label>Display Order</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

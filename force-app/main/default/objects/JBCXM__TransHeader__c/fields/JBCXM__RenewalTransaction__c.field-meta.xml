@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__RenewalTransaction__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>If this transaction is Renewable and Renewed (Even Renewal with upsell/Downsell), The Renewal transaction look. This is a self relation object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this transaction is Renewable and Renewed (Even Renewal with upsell/Downsell), The Renewal transaction look. This is a self relation object</inlineHelpText>
+    <label>Renewal Transaction</label>
+    <referenceTo>JBCXM__TransHeader__c</referenceTo>
+    <relationshipLabel>Transaction Header (Renewed Transaction)</relationshipLabel>
+    <relationshipName>Transaction_Header_Reneweal</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

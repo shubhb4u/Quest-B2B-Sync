@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituCah__EnableCustomPermissions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Set to true if your org uses iTools custom permissions to control access to iTools actions (i.e.	iTools_AllowEditMySettings, iTools_AllowExportPrintView, iTools_ShowBuilderLink)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set to true if your org uses iTools custom permissions to control access to iTools actions (i.e.	iTools_AllowEditMySettings, iTools_AllowExportPrintView, iTools_ShowBuilderLink)</inlineHelpText>
+    <label>EnableCustomPermissions</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

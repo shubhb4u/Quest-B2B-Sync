@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Object Name</fullName>
+                <default>false</default>
+                <label>Object Name</label>
+            </value>
+            <value>
+                <fullName>Record Type</fullName>
+                <default>false</default>
+                <label>Record Type</label>
+            </value>
+            <value>
+                <fullName>Field Name</fullName>
+                <default>false</default>
+                <label>Field Name</label>
+            </value>
+            <value>
+                <fullName>Relationship Name</fullName>
+                <default>false</default>
+                <label>Relationship Name</label>
+            </value>
+            <value>
+                <fullName>Picklist Value</fullName>
+                <default>false</default>
+                <label>Picklist Value</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

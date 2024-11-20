@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__All_New_Comment_Actions</fullName>
+    <columns>NAME</columns>
+    <columns>E2CP__Active__c</columns>
+    <columns>E2CP__Page_Order__c</columns>
+    <columns>E2CP__Label__c</columns>
+    <columns>E2CP__Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All New Comment Actions</label>
+</ListView>

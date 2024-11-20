@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Button_Adder</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <hasMenubar>false</hasMenubar>
+    <hasScrollbars>true</hasScrollbars>
+    <hasToolbar>false</hasToolbar>
+    <height>600</height>
+    <isResizable>true</isResizable>
+    <linkType>url</linkType>
+    <masterLabel>Button Adder</masterLabel>
+    <openType>newWindow</openType>
+    <position>none</position>
+    <protected>false</protected>
+    <showsLocation>false</showsLocation>
+    <showsStatus>false</showsStatus>
+    <url>/apex/csfb__ComposerSolutionButtonAdder?csRecordId={!csfb__Conga_Solution__c.Id}&amp;objectType={!csfb__Conga_Solution__c.csfb__Master_Object_Type__c}&amp;solutionRecordName={!csfb__Conga_Solution__c.Name}&amp;ButtonAPIName={!csfb__Conga_Solution__c.csfb__Button_Link_API_Name__c}</url>
+</WebLink>

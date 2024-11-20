@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__sourceField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The field in which rollup results are sourced from. For example: Opportunity.Amount</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The field in which rollup results are sourced from. For example: Opportunity.Amount</inlineHelpText>
+    <label>Source Field</label>
+    <length>150</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

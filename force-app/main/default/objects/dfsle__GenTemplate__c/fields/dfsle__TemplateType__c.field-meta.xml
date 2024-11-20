@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__TemplateType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Template Type</description>
+    <externalId>false</externalId>
+    <label>Template Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Online Editor</fullName>
+                <default>false</default>
+                <label>DocuSign Agreement Cloud Editor</label>
+            </value>
+            <value>
+                <fullName>Microsoft Word</fullName>
+                <default>false</default>
+                <label>Microsoft Word</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

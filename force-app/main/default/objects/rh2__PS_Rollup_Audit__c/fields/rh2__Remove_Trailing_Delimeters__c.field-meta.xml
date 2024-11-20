@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Remove_Trailing_Delimeters__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls whether Rollup Helper will trim any delimiters that would be placed at the end of the rolled-up text value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls whether Rollup Helper will trim any delimiters that would be placed at the end of the rolled-up text value.</inlineHelpText>
+    <label>Remove Trailing Delimeters</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

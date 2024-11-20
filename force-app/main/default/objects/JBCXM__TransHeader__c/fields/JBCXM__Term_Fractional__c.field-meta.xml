@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Term_Fractional__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Term in months and accepts fractional months</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Term in months and accepts fractional months</inlineHelpText>
+    <label>Term</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>8</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

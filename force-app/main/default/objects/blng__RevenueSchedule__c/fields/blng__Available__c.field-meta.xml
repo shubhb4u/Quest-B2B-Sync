@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Available__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>blng__TotalRevenueAmount__c -  (blng__RecognizedRevenueLastClosedPeriod__c +  blng__Unrecognized__c) + blng__Adjustments__c</formula>
+    <inlineHelpText>All revenue for a revenue schedule that is available to be adjusted or distributed.</inlineHelpText>
+    <label>Available</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

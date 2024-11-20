@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Applications</fullName>
+    <columns>InSituGen__Publisher__c</columns>
+    <columns>InSituGen__Setting__c</columns>
+    <columns>InSituGen__Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>InSituGen__Application__c</field>
+        <operation>equals</operation>
+        <value>SYSTEM</value>
+    </filters>
+    <label>Applications</label>
+</ListView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__DisconnectFromLitmos</fullName>
+    <active>true</active>
+    <errorConditionFormula>((PRIORVALUE(Litmos__Deactivate_From_Litmos__c)=true &amp;&amp; Litmos__Deactivate_From_Litmos__c=true )&amp;&amp;(Litmos__Litmos_Activated__c=true || Litmos__Sync_Litmos__c=true))</errorConditionFormula>
+    <errorDisplayField>Litmos__Deactivate_From_Litmos__c</errorDisplayField>
+    <errorMessage>Please uncheck Disconnect from Litmos.</errorMessage>
+</ValidationRule>

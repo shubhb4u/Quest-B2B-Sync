@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Used to determine what layer type the record represents.</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Data Layer</fullName>
+                <default>false</default>
+                <label>Data Layer</label>
+            </value>
+            <value>
+                <fullName>Tile Set</fullName>
+                <default>false</default>
+                <label>Tile Set</label>
+            </value>
+            <value>
+                <fullName>ArcGIS Online</fullName>
+                <default>false</default>
+                <label>ArcGIS Online</label>
+            </value>
+            <value>
+                <fullName>Territory</fullName>
+                <default>false</default>
+                <label>Territory</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

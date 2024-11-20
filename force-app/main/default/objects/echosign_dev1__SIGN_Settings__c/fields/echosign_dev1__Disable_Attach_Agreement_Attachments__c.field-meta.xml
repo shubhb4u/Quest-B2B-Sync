@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_Attach_Agreement_Attachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</inlineHelpText>
+    <label>Hide Salesforce Documents Attachments</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

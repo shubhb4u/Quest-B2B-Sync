@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__useCommaAndDelim__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, comma-separated rollup results will be formatted in the form &quot;one, two, and three.&quot; If unchecked, rollup results will be formatted as &quot;one, two, three.&quot;</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If checked, comma-separated rollup results will be formatted in the form &quot;one, two, and three.&quot; If unchecked, rollup results will be formatted as &quot;one, two, three.&quot;</inlineHelpText>
+    <label>Use Comma-And Delimiter</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

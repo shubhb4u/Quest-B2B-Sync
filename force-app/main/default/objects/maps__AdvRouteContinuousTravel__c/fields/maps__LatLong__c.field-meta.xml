@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LatLong__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This holds the latitude and longitude of the continuous travel</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <label>Lat/Long</label>
+    <required>false</required>
+    <scale>15</scale>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

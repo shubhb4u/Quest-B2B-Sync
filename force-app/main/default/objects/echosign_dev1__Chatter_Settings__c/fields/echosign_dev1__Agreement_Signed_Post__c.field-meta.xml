@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Agreement_Signed_Post__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Post Chatter update when agreement is signed/approved/accepted/form-filled/delivered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Post Chatter update when agreement is signed/approved/accepted/form-filled/delivered.</inlineHelpText>
+    <label>Post when Agreement transaction done</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

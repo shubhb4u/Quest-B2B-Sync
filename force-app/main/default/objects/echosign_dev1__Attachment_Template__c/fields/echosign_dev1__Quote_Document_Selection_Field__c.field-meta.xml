@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Quote_Document_Selection_Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Quote Document Selection Determined By</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Last Modified Date</fullName>
+                <default>true</default>
+                <label>Last Modified Date</label>
+            </value>
+            <value>
+                <fullName>Created Date</fullName>
+                <default>false</default>
+                <label>Created Date</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

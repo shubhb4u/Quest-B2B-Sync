@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_RoleID_Required</fullName>
+    <active>true</active>
+    <description>The Scope_RoleID__c must be set when the Scope_Indicator is set to Role (4)</description>
+    <errorConditionFormula>InSituGen__Scope_Indicator__c == 4 &amp;&amp; InSituGen__Scope_RoleID__c == null</errorConditionFormula>
+    <errorDisplayField>InSituGen__Scope_RoleID__c</errorDisplayField>
+    <errorMessage>RoleID is required when Scope Indicator is set to Role Specific (4)</errorMessage>
+</ValidationRule>

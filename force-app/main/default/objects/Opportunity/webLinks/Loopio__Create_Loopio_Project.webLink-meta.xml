@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Create_Loopio_Project</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Create Loopio Project</masterLabel>
+    <openType>replace</openType>
+    <page>Loopio__Create_Loopio_Project</page>
+    <protected>false</protected>
+</WebLink>

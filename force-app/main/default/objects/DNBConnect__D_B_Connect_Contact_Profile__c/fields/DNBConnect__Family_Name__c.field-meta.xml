@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNBConnect__Family_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The surname of the individual without suffixes.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The surname of the individual without suffixes.</inlineHelpText>
+    <label>Family Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

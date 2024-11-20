@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Record_Size__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Maximum number of records to process asynchronously with Rollup Helper.  This impacts the number of batch / future methods will be called in order to process your entire set of records to complete an asynchronous transaction.  Best to be a multiple of 5.</inlineHelpText>
+    <label>zDeprecated</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

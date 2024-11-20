@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__SourceObject__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will store Source Object  like &quot;Alert&quot;,&quot;SurveyResponses&quot;  and &quot;Transactions&quot; etc</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Source Object  like &quot;Alert&quot;,&quot;SurveyResponses&quot;  and &quot;Transactions&quot; etc</inlineHelpText>
+    <label>Source Object</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__StartDateValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>JBCXM__PublishDate__c  &gt; JBCXM__StartDate__c</errorConditionFormula>
+    <errorMessage>Start Date cannot be less than Publish Date</errorMessage>
+</ValidationRule>

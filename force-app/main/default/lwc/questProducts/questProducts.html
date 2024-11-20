@@ -1,0 +1,121 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 11-20-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="container">
+        <div class="center-title">
+            <div class="slds-card__header-title">All Quest Products</div>
+        </div>
+
+        <div class="subtitle">
+            Quest products help solve IT Management challenges. Find what you need by category, alphabetically, or by
+            solution and brand.
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="q-listing-filter slds-grid slds-grid_vertical-align-center slds-wrap slds-m-bottom_medium slds-card slds-p-around_small">
+            <!-- Product Family Filter -->
+            <div class="q-filter q-solutions slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:light_bulb" size="x-small" ></lightning-icon>
+                <lightning-combobox
+                    data-id="productFamily"
+                    placeholder="Select Product Family"
+                    options={productFamilyOptions}
+                    value={filters.productFamily}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                    
+                </lightning-combobox>
+            </div>
+
+            <!-- Quantity Unit Filter -->
+            <div class="q-filter q-platforms slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:program_cohort" size="x-small"></lightning-icon >
+                <lightning-combobox
+                    data-id="quantityUnit"
+                    placeholder="Select Quantity Unit"
+                    options={quantityUnitOptions}
+                    value={filters.quantityUnit}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                </lightning-combobox>
+            </div>
+
+            <!-- Pricing Method Filter -->
+            <div class="q-filter q-products slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:apps" size="x-small"></lightning-icon>
+                <lightning-combobox
+                    data-id="pricingMethod"
+                    placeholder="Select Pricing Method"
+                    options={pricingMethodOptions}
+                    value={filters.pricingMethod}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                </lightning-combobox>
+            </div>
+
+            <!-- Clear Filters Button -->
+            <div class="q-filter q-clear slds-col slds-size_1-of-4 slds-text-align_right slds-p-around_x-small">
+                <button class="clear-button" onclick={clearFilters}>Clear All</button>
+            </div>
+        </div>
+
+        <!-- Filtered Results -->
+        <div class="results-count">Results: {filteredProducts.length} Products Found</div>
+        <div class="products-grid">
+            <template for:each={filteredProducts} for:item="product">
+                <div key={product.Product2.Id} class="product-card">
+                    <div class="product-header">{product.Product2.Name}</div>
+                    <div class="product-description">{product.Product2.Description}</div>
+                    <div class="pricing">
+                        <div class="product-price">
+                            <span>Starts at </span>${product.formattedUnitPrice}
+                        </div>
+                        <button
+                            class="save-button"
+                            data-id={product.Product2Id}
+                            onclick={handleAddToWishlist}>
+                            Save
+                        </button>
+                    </div>
+                    <button
+                        class="buy-button" onclick={handleBuy}
+                        data-id={product.Product2.Id} data-name={product.Product2.Name}>
+                        Buy
+                    </button>
+                </div>
+            </template>
+        </div>
+
+        <!-- Load More Section -->
+        <!-- <div class="loadMore">
+            
+            <template if:true={isLoading}>
+                <div class="spinner-container">
+                    <lightning-spinner alternative-text="Loading more products..." size="medium"></lightning-spinner>
+                </div>
+            </template>
+
+            
+            <template if:true={hasMoreProducts}>
+                <div class="load-more-container">
+                    <button
+                        onclick={handleLoadMore}
+                        class="load-more-button">
+                        Load More
+                    </button>
+                </div>
+            </template>
+        </div> -->
+    </div>
+</template>

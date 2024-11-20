@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__PaymentMode__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select Electronic if payments are made through Salesforce Billing; select External to manually enter a payment processed elsewhere.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Electronic if payments are made through Salesforce Billing; select External to manually enter a payment processed elsewhere.</inlineHelpText>
+    <label>Payment Mode</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>blng__PaymentMode</valueSetName>
+    </valueSet>
+</CustomField>

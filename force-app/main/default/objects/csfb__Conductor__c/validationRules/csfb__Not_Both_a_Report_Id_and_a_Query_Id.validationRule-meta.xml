@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Not_Both_a_Report_Id_and_a_Query_Id</fullName>
+    <active>true</active>
+    <errorConditionFormula>( csfb__Has_Query_Id__c +  csfb__Has_Record_Id__c +  csfb__Has_Report_Id__c ) &gt; 1</errorConditionFormula>
+    <errorDisplayField>csfb__Report_Id__c</errorDisplayField>
+    <errorMessage>You must supply *only one* of the following:  a Report Id, a Query Id or a Record Id.</errorMessage>
+</ValidationRule>

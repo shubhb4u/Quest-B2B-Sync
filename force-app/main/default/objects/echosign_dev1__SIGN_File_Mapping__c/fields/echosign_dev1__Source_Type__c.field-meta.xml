@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Source_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Source Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Signed Agreement - Merged PDF</fullName>
+                <default>true</default>
+                <label>Signed Agreement - Merged PDF</label>
+            </value>
+            <value>
+                <fullName>Signed Agreement - Separate PDFs</fullName>
+                <default>false</default>
+                <label>Signed Agreement - Separate PDFs</label>
+            </value>
+            <value>
+                <fullName>Audit Trail</fullName>
+                <default>false</default>
+                <label>Audit Trail</label>
+            </value>
+            <value>
+                <fullName>Supporting Documents</fullName>
+                <default>false</default>
+                <label>Supporting Documents</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

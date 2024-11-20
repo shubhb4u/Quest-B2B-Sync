@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LastOptimizationRunAt__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the last time that a route optimization was run</description>
+    <externalId>false</externalId>
+    <label>Last Optimization Run At</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

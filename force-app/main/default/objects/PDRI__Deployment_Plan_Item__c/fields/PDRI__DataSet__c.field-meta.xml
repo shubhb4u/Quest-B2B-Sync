@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__DataSet__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Specifies the data set to deploy.</inlineHelpText>
+    <label>Data Set</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>PDRI__DataSet__c.PDRI__Root__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>PDRI__DataSet__c</referenceTo>
+    <relationshipLabel>Deployment Plan Items</relationshipLabel>
+    <relationshipName>Deployment_Plan_Items</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

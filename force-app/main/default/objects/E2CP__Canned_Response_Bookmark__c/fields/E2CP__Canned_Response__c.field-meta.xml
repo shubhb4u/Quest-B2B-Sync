@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Canned_Response__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Canned Response</label>
+    <referenceTo>E2CP__Canned_Comment__c</referenceTo>
+    <relationshipLabel>Canned Response Bookmarks</relationshipLabel>
+    <relationshipName>Canned_Response_Bookmarks</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

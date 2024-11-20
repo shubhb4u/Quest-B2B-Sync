@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_KBA_Name_Change__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you want to disable changing name when replacing recipient authenticated by KBA.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you want to disable changing name when replacing recipient authenticated by KBA.</inlineHelpText>
+    <label>Disable KBA Name Change</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

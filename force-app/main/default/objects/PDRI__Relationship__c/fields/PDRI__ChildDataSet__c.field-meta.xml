@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__ChildDataSet__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Data set for the child or referenced object</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter data set for the child or referenced object.</inlineHelpText>
+    <label>Child Data Set</label>
+    <referenceTo>PDRI__DataSet__c</referenceTo>
+    <relationshipLabel>Parent Relationships</relationshipLabel>
+    <relationshipName>ParentRelationships</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

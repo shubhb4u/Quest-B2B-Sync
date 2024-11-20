@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Preview_Hosted_With_Auto_Send</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( OR( echosign_dev1__Hosted_Signing__c, echosign_dev1__Preview_Position__c ),  echosign_dev1__Auto_Send__c )</errorConditionFormula>
+    <errorMessage>Enabling in-person or preview/position fields is not allowed with auto send enabled.</errorMessage>
+</ValidationRule>

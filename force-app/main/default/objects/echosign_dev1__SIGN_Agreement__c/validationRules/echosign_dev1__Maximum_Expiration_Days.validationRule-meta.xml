@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Maximum_Expiration_Days</fullName>
+    <active>true</active>
+    <errorConditionFormula>echosign_dev1__DaysUntilSigningDeadline__c &gt; 180</errorConditionFormula>
+    <errorMessage>There is a maximum of 180 days before document expiration.</errorMessage>
+</ValidationRule>

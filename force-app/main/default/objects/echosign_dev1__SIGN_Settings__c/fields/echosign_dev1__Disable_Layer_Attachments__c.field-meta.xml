@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_Layer_Attachments__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</inlineHelpText>
+    <label>Hide Ability to Add Field Templates</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Usage_of_Shared_Limits__c</fullName>
+    <defaultValue>90</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines the percentage of shared limit usage at which Rollup Helper should switch to asynchronous processing.  It is generally not recommended to lower this value below 60%, and the default is 90%.</inlineHelpText>
+    <label>Usage Shared % of Limits</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

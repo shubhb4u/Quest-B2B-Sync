@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Selected_Files__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores IDs of the selected files on the New Comment page.</description>
+    <externalId>false</externalId>
+    <label>Selected Files</label>
+    <length>2048</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__NextEmailId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the id of the next email to send out</description>
+    <externalId>false</externalId>
+    <label>Next Email Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

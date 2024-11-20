@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__All</fullName>
+    <columns>NAME</columns>
+    <columns>PDRI__Active__c</columns>
+    <columns>PDRI__Connection_Type__c</columns>
+    <columns>PDRI__Local_Connection__c</columns>
+    <columns>PDRI__Org_Type__c</columns>
+    <columns>PDRI__OrganizationId__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

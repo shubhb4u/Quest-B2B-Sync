@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__FolderName__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A field to store the folder name generated during the object mapping process.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A field to store the folder name generated during the object mapping process.</inlineHelpText>
+    <label>Folder Name</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

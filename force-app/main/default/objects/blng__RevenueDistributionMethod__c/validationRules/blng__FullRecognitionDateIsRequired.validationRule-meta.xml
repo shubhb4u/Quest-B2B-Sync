@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__FullRecognitionDateIsRequired</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(blng__DistributionMethod__c, &apos;Full Recognition&apos;)
+&amp;&amp; 
+ISPICKVAL( blng__FullRecognitionDate__c,&apos;&apos;)</errorConditionFormula>
+    <errorDisplayField>blng__FullRecognitionDate__c</errorDisplayField>
+    <errorMessage>Full Recognition Date is required when Distribution Method = Full Recognition</errorMessage>
+</ValidationRule>

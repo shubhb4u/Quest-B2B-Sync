@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Agreement_Cancelled_Post__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Post Chatter update when agreement is canceled.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Post Chatter update when agreement is canceled.</inlineHelpText>
+    <label>Post when Agreement Canceled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

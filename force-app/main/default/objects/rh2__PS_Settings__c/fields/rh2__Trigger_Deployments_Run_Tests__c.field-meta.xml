@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Trigger_Deployments_Run_Tests__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is checked all local tests will run during realtime trigger deployments. If left unchecked only the realtime trigger test will run.  It is recommended to run all local tests when adding a new trigger.</description>
+    <externalId>false</externalId>
+    <label>Run All Local Tests on Trigger Creation?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

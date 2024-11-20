@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Dedup_Flag__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls whether Rollup Helper will deduplicate multipicklist values when rolling them up</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls whether Rollup Helper will deduplicate multipicklist values when rolling them up</inlineHelpText>
+    <label>Dedup Flag</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

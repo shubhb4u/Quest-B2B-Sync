@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Options__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is a JSON object of options used by Core Maps</description>
+    <externalId>false</externalId>
+    <label>Options</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

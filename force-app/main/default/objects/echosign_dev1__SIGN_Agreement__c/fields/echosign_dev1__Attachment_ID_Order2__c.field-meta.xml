@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Attachment_ID_Order2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>(Optional) Enter a list of comma separated Attachment IDs in the order to be displayed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(Optional) Enter a list of comma separated Attachment IDs in the order to be displayed.</inlineHelpText>
+    <label>Attachment ID Order</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

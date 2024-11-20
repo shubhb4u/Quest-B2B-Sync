@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__relationshipField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The Lookup Relationship field on the source object which points to the target object. For example: Opportunity.AccountId</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The Lookup Relationship field on the source object which points to the target object. For example: Opportunity.AccountId</inlineHelpText>
+    <label>Relationship Field</label>
+    <length>100</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

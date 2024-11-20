@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__EventType__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of summary event represented by this record</inlineHelpText>
+    <label>Event Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stop</fullName>
+                <default>false</default>
+                <label>Stop</label>
+            </value>
+            <value>
+                <fullName>Speeding</fullName>
+                <default>false</default>
+                <label>Speeding</label>
+            </value>
+            <value>
+                <fullName>Hard Acceleration</fullName>
+                <default>false</default>
+                <label>Hard Acceleration</label>
+            </value>
+            <value>
+                <fullName>Hard Braking</fullName>
+                <default>false</default>
+                <label>Hard Braking</label>
+            </value>
+            <value>
+                <fullName>Speed Threshold</fullName>
+                <default>false</default>
+                <label>Speed Threshold</label>
+            </value>
+            <value>
+                <fullName>First Message of Day</fullName>
+                <default>false</default>
+                <label>First Message of Day</label>
+            </value>
+            <value>
+                <fullName>Last Message of Day</fullName>
+                <default>false</default>
+                <label>Last Message of Day</label>
+            </value>
+            <value>
+                <fullName>First Motion</fullName>
+                <default>false</default>
+                <label>First Motion</label>
+            </value>
+            <value>
+                <fullName>Last Motion</fullName>
+                <default>false</default>
+                <label>Last Motion</label>
+            </value>
+            <value>
+                <fullName>Live App Toggle On</fullName>
+                <default>false</default>
+                <label>Live App Toggle On</label>
+            </value>
+            <value>
+                <fullName>Live App Toggle Off</fullName>
+                <default>false</default>
+                <label>Live App Toggle Off</label>
+            </value>
+            <value>
+                <fullName>Device Battery On</fullName>
+                <default>false</default>
+                <label>Device Battery On</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

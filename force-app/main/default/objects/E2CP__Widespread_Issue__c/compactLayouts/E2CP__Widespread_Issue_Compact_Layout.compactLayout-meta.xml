@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Widespread_Issue_Compact_Layout</fullName>
+    <fields>E2CP__Title__c</fields>
+    <fields>E2CP__Status__c</fields>
+    <fields>OwnerId</fields>
+    <label>Widespread Issue Compact Layout</label>
+</CompactLayout>

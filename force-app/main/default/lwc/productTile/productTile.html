@@ -1,0 +1,44 @@
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div class="product-block" key={product.Id}>
+                                    <div class="pricingDetails">
+                                        <div class="product-name slds-m-bottom_xx-small">
+                                            <a data-id={product.Product2Id} data-name={product.Product2.Name} onclick={handleNavigate}>{product.Product2.Name}</a>
+                                        </div>
+                                        <div class="product-model slds-m-bottom_small"><span>{product.Product2.Description}</span></div>
+                                        <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
+                                        <div class="pricesAndDiscounts">
+                                            <div class="actualPrice">
+                                                <div class="product-price-mobile"><span style="font-size: 1rem;">$</span>{product.formattedUnitPrice}</div>
+                                                <lightning-icon
+                                                icon-name="utility:heart"
+                                                data-id={product.Product2Id}
+                                                onclick={handleAddToWishlist}>
+                                            </lightning-icon>
+                                            </div>
+                                        </div>
+                                        <div class="msrpPrice">
+                                            <template lwc:if={product.isDiscounted}>
+                                                <div><span class="msrp">MSRP: ${product.UnitPrice}</span></div>
+                                            </template>
+                                            <template lwc:else>
+                                                <div><span class="msrp"></span></div>
+                                            </template>
+                                        </div>
+                                    </div>
+                                    <a class="buyAnchor" data-id={product.Product2Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

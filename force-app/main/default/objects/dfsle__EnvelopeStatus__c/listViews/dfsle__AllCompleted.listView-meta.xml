@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__AllCompleted</fullName>
+    <columns>NAME</columns>
+    <columns>dfsle__SenderName__c</columns>
+    <columns>dfsle__EmailSubject__c</columns>
+    <columns>dfsle__Sent__c</columns>
+    <columns>dfsle__Completed__c</columns>
+    <columns>dfsle__TimeToComplete__c</columns>
+    <columns>dfsle__SourceId__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>dfsle__Status__c</field>
+        <operation>equals</operation>
+        <value>Completed</value>
+    </filters>
+    <label>All Completed Envelopes</label>
+</ListView>

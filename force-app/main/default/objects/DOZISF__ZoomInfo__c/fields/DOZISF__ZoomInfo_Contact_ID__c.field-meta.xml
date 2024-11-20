@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOZISF__ZoomInfo_Contact_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Internal ID number of the matching ZoomInfo person profile.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Internal ID number of the matching ZoomInfo person profile.</inlineHelpText>
+    <label>ZoomInfo Contact ID</label>
+    <length>30</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

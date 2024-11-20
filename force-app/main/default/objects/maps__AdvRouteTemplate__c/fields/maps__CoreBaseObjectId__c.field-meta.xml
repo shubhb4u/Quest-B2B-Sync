@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__CoreBaseObjectId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the core base object associated to the template</description>
+    <externalId>false</externalId>
+    <label>Core Base Object Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

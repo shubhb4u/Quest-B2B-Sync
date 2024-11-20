@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Configuration_Tab__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Configuration Tab</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Initial</fullName>
+                <default>true</default>
+                <label>Initial</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Inbound</fullName>
+                <default>false</default>
+                <label>Inbound</label>
+            </value>
+            <value>
+                <fullName>Outbound</fullName>
+                <default>false</default>
+                <label>Outbound</label>
+            </value>
+            <value>
+                <fullName>New Comment Page</fullName>
+                <default>false</default>
+                <label>New Comment Page</label>
+            </value>
+            <value>
+                <fullName>Timeline</fullName>
+                <default>false</default>
+                <label>Timeline</label>
+            </value>
+            <value>
+                <fullName>Widespread Issues</fullName>
+                <default>false</default>
+                <label>Widespread Issues</label>
+            </value>
+            <value>
+                <fullName>Setting Variations</fullName>
+                <default>false</default>
+                <label>Setting Variations</label>
+            </value>
+            <value>
+                <fullName>Deliver the Best Experience</fullName>
+                <default>false</default>
+                <label>Deliver the Best Experience</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

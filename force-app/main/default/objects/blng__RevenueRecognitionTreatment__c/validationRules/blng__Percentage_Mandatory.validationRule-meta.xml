@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Percentage_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(blng__Percentage__c) &amp;&amp; ISPICKVAL( blng__Type__c, &apos;Percentage&apos;)</errorConditionFormula>
+    <errorDisplayField>blng__Percentage__c</errorDisplayField>
+    <errorMessage>If type is &quot;Percentage&quot;, Percentage is mandatory to populate.</errorMessage>
+</ValidationRule>

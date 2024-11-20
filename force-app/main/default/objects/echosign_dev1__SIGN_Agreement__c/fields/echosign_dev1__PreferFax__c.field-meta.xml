@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__PreferFax__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>When checking this box, Adobe Acrobat Sign  will send the document to the Contact&apos;s Fax number. If the Contact&apos;s Fax Number is empty, Adobe Acrobat Sign will send the document to the Contact&apos;s Email address.</inlineHelpText>
+    <label>Send written signatures to fax number</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

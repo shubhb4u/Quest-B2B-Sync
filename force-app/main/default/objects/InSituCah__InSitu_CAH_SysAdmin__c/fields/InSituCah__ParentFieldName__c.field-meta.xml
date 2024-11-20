@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituCah__ParentFieldName__c</fullName>
+    <defaultValue>&quot;parentid&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates the Account Reference field used to build the iTools Account Hierarchy. Default is ParentID</description>
+    <externalId>false</externalId>
+    <label>ParentFieldName</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

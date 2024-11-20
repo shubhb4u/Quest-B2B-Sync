@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__DoPartialSubmit__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Whether this participant&apos;s partially saved response is eligible for automatic submission or not.</description>
+    <externalId>false</externalId>
+    <formula>IF(AND(ISPICKVAL(JBCXM__ResponseStatus__c,&quot;PARTIALLY_SAVED&quot;),OR(JBCXM__SurveyMaster__r.JBCXM__IsExpired__c,AND(NOT(ISBLANK(JBCXM__SurveyMaster__r.JBCXM__DaysToAutoSubmit__c)),NOT(ISBLANK(JBCXM__LastResponseRecordTime__c)),DATEVALUE(JBCXM__LastResponseRecordTime__c+JBCXM__SurveyMaster__r.JBCXM__DaysToAutoSubmit__c) &lt; Today()))),true,false)</formula>
+    <label>Do Partial Submit</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

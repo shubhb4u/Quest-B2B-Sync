@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__StatusFlag__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Yellow - Invoices that are Active
+Green - Invoices that have been Paid
+Red - Invoices that are Overdue
+White - Invoices that have been Cancelled</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(blng__InvoiceStatus__c, &apos;Cancelled&apos;),IMAGE(&quot;/resource/blng__images/Flag_white.gif&quot;, &quot;White&quot;),
+IF((blng__Balance__c = 0), Image(&quot;/img/samples/flag_green.gif&quot;,&quot;Green&quot;) ,
+     IF(TODAY() &gt;  blng__DueDate__c &amp;&amp; (blng__Balance__c &gt; 0),                                               
+			Image(&quot;/img/samples/flag_red.gif&quot;,&quot;Red&quot;),
+			Image(&quot;/img/samples/flag_yellow.gif&quot;,&quot;Yellow&quot;)
+		)
+))</formula>
+    <inlineHelpText>Orange = active invoice with a balance;  Green = no balance due; Red = past due; White = canceled</inlineHelpText>
+    <label>Status Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

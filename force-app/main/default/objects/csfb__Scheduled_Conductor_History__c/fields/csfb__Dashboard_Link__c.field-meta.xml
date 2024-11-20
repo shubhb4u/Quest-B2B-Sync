@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Dashboard_Link__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A link to the Conga Batch Dashboard for this schedule.</description>
+    <externalId>false</externalId>
+    <label>Dashboard Link</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Url</type>
+</CustomField>

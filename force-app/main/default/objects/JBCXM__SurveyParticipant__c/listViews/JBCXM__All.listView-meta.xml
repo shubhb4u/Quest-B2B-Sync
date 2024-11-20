@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__SurveyMaster__c</columns>
+    <columns>JBCXM__Account__c</columns>
+    <columns>JBCXM__Contact__c</columns>
+    <columns>JBCXM__Email__c</columns>
+    <columns>JBCXM__SentEmail__c</columns>
+    <columns>JBCXM__Role__c</columns>
+    <columns>JBCXM__DeliveryResponse__c</columns>
+    <columns>JBCXM__Scheduled__c</columns>
+    <columns>JBCXM__Processed__c</columns>
+    <columns>JBCXM__Sent__c</columns>
+    <columns>JBCXM__Opened__c</columns>
+    <columns>JBCXM__Responsed__c</columns>
+    <columns>JBCXM__EmailSentCount__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Data_Record_Failures_Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF((ISPICKVAL( PDRI__Status__c , &apos;Started&apos;) &amp;&amp;  PDRI__Data_Record_Failures__c == true),IMAGE(&quot;/resource/PDRI__MooverResources/images/Base_With_Warning_Icon_Partially_Drained.png&quot;,&quot;In progress with few failures.&quot;,20,20),
+  IF((ISPICKVAL( PDRI__Status__c , &apos;Started&apos;) &amp;&amp;  PDRI__Data_Record_Failures__c == false),IMAGE(&quot;/resource/PDRI__MooverResources/images/Base_Progress_Ring_Partially_Drained.png&quot;,&quot;In progress with no failures.&quot;,20,20),
+    IF((ISPICKVAL( PDRI__Status__c , &apos;Finished&apos;) &amp;&amp;  PDRI__Data_Record_Failures__c == true),IMAGE(&quot;/resource/PDRI__MooverResources/images/Base_With_Warning_Icon_No_Drained.png&quot;,&quot;Deployment record failure.&quot;,20,20),
+     IF((ISPICKVAL( PDRI__Status__c , &apos;Finished&apos;) &amp;&amp;  PDRI__Data_Record_Failures__c == false),IMAGE(&quot;/resource/PDRI__MooverResources/images/Base_Complete_No_Drained.png&quot;,&quot;Success.&quot;,20,20),&apos;&apos;)
+    )
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Data Record Failures Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

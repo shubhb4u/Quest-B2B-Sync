@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__DrivingOutsideWorkingHours__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indication if a trip took place outside of denoted working hours</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indication if a trip took place outside of denoted working hours</inlineHelpText>
+    <label>Driving Outside Working Hours</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

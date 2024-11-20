@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Rename_Agreement_Attachment__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Rename the agreement using the name of the added document or the attached file</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Rename the agreement using the name of the added document or the attached file</inlineHelpText>
+    <label>Rename Agreement with Document Name</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,52 @@
+<template>
+    <div class={parentClass}>
+        <div class="slider-container q-product-slider-v1 q-product-boxes">
+            <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                <div class="splide__track" id="splide01-track">
+                    <div class="splide__list" id="splide01-list">
+                        <template for:each={displayedProducts} for:item="product">
+                            <div key={product.Id}>
+                                <div class="q-hero-text">
+                                    <h1>{product.Name}</h1>
+                                    <strong>{product.ProductCode}</strong>
+                                    <p class="q-description">{product.Description}</p>
+                                    <div class="q-buynow-cta">
+                                        <lightning-button class="q-cta q-cta-orange" variant="brand" label="Buy Now" data-id={product.Id}
+                                            onclick={redirectToPDP}></lightning-button>
+                                    </div>
+                                </div>
+                                <div class="q-hero-img">
+                                    <!-- Render this block only if isAwardComponent is true -->
+                                    <template if:true={isAwardComponent}>
+                                        <c-slds-carousel-cms-panel content-key={product.Award_Image_ID__c}></c-slds-carousel-cms-panel>
+                                    </template>
+
+                                    <!-- Render this block only if isAwardComponent is false -->
+                                    <template if:false={isAwardComponent}>
+                                        <c-slds-carousel-cms-panel content-key={product.Content_Type__c}></c-slds-carousel-cms-panel>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                <template if:true={displayCarousel}>
+                    <div class="splide__arrows icomoon-container">
+                        <lightning-icon class="splide__arrow splide__arrow--prev q-icon-brand" size="x-small" icon-name="utility:back"
+                            aria-label="Previous slide" onclick={handlePrevious}></lightning-icon>
+                        <ul class="splide__pagination">
+                            <template for:each={carouselIndicators} for:item="indicator">
+                                <li key={indicator.index}>
+                                    <button class={indicator.class} type="button" data-index={indicator.index}
+                                        aria-controls="splide01-slide" onclick={handleIndicatorClick}></button>
+                                </li>
+                            </template>
+                        </ul>
+                        <lightning-icon class="splide__arrow splide__arrow--next q-icon-brand" size="x-small" aria-label="Next slide"
+                            icon-name="utility:forward" onclick={handleNext}></lightning-icon>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+</template>

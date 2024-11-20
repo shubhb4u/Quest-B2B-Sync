@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Sections_Collapsed__c</fullName>
+    <deprecated>false</deprecated>
+    <description>New Comment page sections collapsed.</description>
+    <externalId>false</externalId>
+    <label>Sections Collapsed</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>attachments</fullName>
+                <default>false</default>
+                <label>attachments</label>
+            </value>
+            <value>
+                <fullName>comment</fullName>
+                <default>false</default>
+                <label>comment</label>
+            </value>
+            <value>
+                <fullName>fields</fullName>
+                <default>false</default>
+                <label>fields</label>
+            </value>
+            <value>
+                <fullName>recipients</fullName>
+                <default>false</default>
+                <label>recipients</label>
+            </value>
+            <value>
+                <fullName>template</fullName>
+                <default>false</default>
+                <label>template</label>
+            </value>
+            <value>
+                <fullName>timeline</fullName>
+                <default>false</default>
+                <label>timeline</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

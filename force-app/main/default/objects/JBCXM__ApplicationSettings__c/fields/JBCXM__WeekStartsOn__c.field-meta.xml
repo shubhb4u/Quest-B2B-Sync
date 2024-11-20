@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__WeekStartsOn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will stores the start day of  week. (This field should contains only week days)</description>
+    <externalId>false</externalId>
+    <label>Week Starts On</label>
+    <length>40</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

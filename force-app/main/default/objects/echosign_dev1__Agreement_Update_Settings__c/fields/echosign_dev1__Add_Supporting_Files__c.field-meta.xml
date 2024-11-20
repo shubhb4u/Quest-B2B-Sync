@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Add_Supporting_Files__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</inlineHelpText>
+    <label>Add Supporting Files</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

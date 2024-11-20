@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Disable_Currency_Update_Recalculation__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checking this box will disable the functionality which recalculates currency rollups after changing the CurrencyIsoCode of a child record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you do not want to recalculate currency rollups after a change in a child record&apos;s CurrencyIsoCode field</inlineHelpText>
+    <label>Disable Currency Update Recalculation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

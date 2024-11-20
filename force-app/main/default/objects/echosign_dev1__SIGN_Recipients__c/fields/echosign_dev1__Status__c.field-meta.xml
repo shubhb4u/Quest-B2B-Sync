@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Status__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Declined</fullName>
+                <default>false</default>
+                <label>Declined</label>
+            </value>
+            <value>
+                <fullName>Delegated</fullName>
+                <default>false</default>
+                <label>Delegated</label>
+            </value>
+            <value>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+                <label>Delivered</label>
+            </value>
+            <value>
+                <fullName>Form-Filled</fullName>
+                <default>false</default>
+                <label>Form-Filled</label>
+            </value>
+            <value>
+                <fullName>Recalled</fullName>
+                <default>false</default>
+                <label>Recalled</label>
+            </value>
+            <value>
+                <fullName>Replaced</fullName>
+                <default>false</default>
+                <label>Replaced</label>
+            </value>
+            <value>
+                <fullName>Shared</fullName>
+                <default>false</default>
+                <label>Shared</label>
+            </value>
+            <value>
+                <fullName>Signed</fullName>
+                <default>false</default>
+                <label>Signed</label>
+            </value>
+            <value>
+                <fullName>Waiting for Acceptance</fullName>
+                <default>false</default>
+                <label>Waiting for Acceptance</label>
+            </value>
+            <value>
+                <fullName>Waiting for Approval</fullName>
+                <default>false</default>
+                <label>Waiting for Approval</label>
+            </value>
+            <value>
+                <fullName>Waiting for Authoring</fullName>
+                <default>false</default>
+                <label>Waiting for Authoring</label>
+            </value>
+            <value>
+                <fullName>Waiting for Delegation</fullName>
+                <default>false</default>
+                <label>Waiting for Delegation</label>
+            </value>
+            <value>
+                <fullName>Waiting for Delivery</fullName>
+                <default>false</default>
+                <label>Waiting for Delivery</label>
+            </value>
+            <value>
+                <fullName>Waiting for Faxin</fullName>
+                <default>false</default>
+                <label>Waiting for Faxin</label>
+            </value>
+            <value>
+                <fullName>Waiting for Form-Filling</fullName>
+                <default>false</default>
+                <label>Waiting for Form-Filling</label>
+            </value>
+            <value>
+                <fullName>Waiting for Review</fullName>
+                <default>false</default>
+                <label>Waiting for Review</label>
+            </value>
+            <value>
+                <fullName>Waiting for Signature</fullName>
+                <default>false</default>
+                <label>Waiting for Signature</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Default_Configuration_Name__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores default configuration name which will open on click of Go/No-Go button on salesforce opportunity.</description>
+    <externalId>false</externalId>
+    <label>Default Configuration Name</label>
+    <length>100</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

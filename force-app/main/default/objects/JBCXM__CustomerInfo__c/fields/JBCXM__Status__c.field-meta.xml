@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Status__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This field describes if the customer is Active or Inactive</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the Customer Status, which is defaulted to Active. When the customer churns, the status is set to Churn. Select the status as inactive when the customer is not using the product, but has not officially churned.</inlineHelpText>
+    <label>Status</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>JBCXM__PickList__c.JBCXM__Category__c</field>
+            <operation>equals</operation>
+            <value>Customer Status</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Customer Status</relationshipLabel>
+    <relationshipName>CustomersInfoStatus</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,61 @@
+<template>
+    <div class="product-tile">
+        <div class = "product-content">
+        <template if:true={product}>
+            <div class="product-price"> 
+                <span class="current-price">${product.formattedUnitPrice}</span>  
+              </div>
+            <div class="product-description">{product.description}</div>
+           
+            <div class="quantity">
+                <label for="quantity"><strong>Quantity:</strong></label>
+                <!-- <lightning-input
+                    class="quantity-input"
+                    type="number"
+                    value="1"
+                    min="1"
+                    data-id={product.Id}
+                    onchange={handleQuantityChange}>
+                </lightning-input> -->
+                    <input
+                        type="number"
+                        value="1"
+                        min="1"
+                        data-id={product.Id}
+                        onchange={handleQuantityChange}>
+
+     
+            </div>
+
+            <template if:true={product.sellingModel}>
+                <div class="product-selling-model">
+                    <p><strong>Pricing Term:</strong> {product.sellingModel.pricingTerm}</p>
+                    <p>
+                        <strong>Pricing Unit:</strong> {product.sellingModel.pricingTermUnit}
+                        <lightning-icon 
+                            icon-name="utility:info" 
+                            alternative-text="Pricing Unit Info" 
+                            class="tooltip-icon"
+                            size="x-small"
+                            title="This indicates the unit of measurement for the pricing term.">
+                        </lightning-icon>
+                    </p>
+                    <p><strong>Selling Model:</strong> {product.sellingModel.sellingModelType}</p>
+                </div>
+            </template>
+
+            <div class="actions">
+                <button class="addToCart-button" data-id={product.Product2.Id} onclick={handleAddToCart}>
+                    Add to Cart
+                </button>
+                <a class="contact-us-link" href="https://force-innovation-984--b2bsync.sandbox.my.site.com/CIQuestEStore/contact-us" target="_blank">Contact Us</a>
+            </div>
+            
+        </template>
+        <template if:false={product}>
+            <div class="error">Product not found. Please check the URL.</div>
+        </template>
+    </div>
+</div>
+    
+</template>

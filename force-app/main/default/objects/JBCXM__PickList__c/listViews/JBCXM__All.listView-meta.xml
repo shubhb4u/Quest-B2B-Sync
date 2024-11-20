@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>NAME</columns>
+    <columns>JBCXM__SystemName__c</columns>
+    <columns>JBCXM__ShortName__c</columns>
+    <columns>JBCXM__IncludeInWidget__c</columns>
+    <columns>JBCXM__Category__c</columns>
+    <columns>JBCXM__Attribute1__c</columns>
+    <columns>JBCXM__DisplayOrder__c</columns>
+    <columns>JBCXM__Active__c</columns>
+    <columns>JBCXM__AdoptionMeasure__c</columns>
+    <columns>JBCXM__UsageTrackingMeasure__c</columns>
+    <columns>JBCXM__SystemDefined__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>CREATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__RevRecStartDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Revenue Recognition Start Date - yet to be implemented.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Revenue Recognition Start Date</inlineHelpText>
+    <label>Revenue Recurring Start Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

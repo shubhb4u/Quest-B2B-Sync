@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__AdditionalAvailable__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores additional email addresses on the New Comment page Available Case Recipients section.</description>
+    <externalId>false</externalId>
+    <label>Additional Available</label>
+    <length>5000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

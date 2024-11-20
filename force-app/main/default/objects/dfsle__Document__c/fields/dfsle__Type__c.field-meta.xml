@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Document Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Document Type</inlineHelpText>
+    <label>Document Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>File</fullName>
+                <default>false</default>
+                <label>File</label>
+            </value>
+            <value>
+                <fullName>Template</fullName>
+                <default>false</default>
+                <label>Template</label>
+            </value>
+            <value>
+                <fullName>Document</fullName>
+                <default>false</default>
+                <label>Document</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

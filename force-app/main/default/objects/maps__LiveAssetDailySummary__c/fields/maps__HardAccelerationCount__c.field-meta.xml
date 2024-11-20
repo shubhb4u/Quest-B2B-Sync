@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__HardAccelerationCount__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of Quick Acceleration message count</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Count of device messages indicating a quick acceleration event that day (when available)</inlineHelpText>
+    <label>Number of Hard Acceleration Events</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

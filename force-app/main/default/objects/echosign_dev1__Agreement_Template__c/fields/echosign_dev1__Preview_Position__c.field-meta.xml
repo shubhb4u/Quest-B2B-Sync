@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Preview_Position__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable signers to preview and position fields on the document before agreement is sent for signature.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable signers to preview and position fields on the document before agreement is sent for signature.</inlineHelpText>
+    <label>Enable Preview and Position Fields</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

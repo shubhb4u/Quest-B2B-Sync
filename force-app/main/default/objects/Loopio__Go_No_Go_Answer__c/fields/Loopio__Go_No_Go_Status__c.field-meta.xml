@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Go_No_Go_Status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Stores the Go/No-Go Status.</description>
+    <externalId>false</externalId>
+    <formula>IMAGE(&quot;/resource/&quot; +  Loopio__Static_Resource_Name__c , &quot;Status&quot;, 30, 30)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Prevent_duplicates</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR( Litmos__Contact_Field__r.Name =&quot;Id&quot;,Litmos__Contact_Field__r.Name =&quot;FirstName&quot;,Litmos__Contact_Field__r.Name =&quot;LastName&quot;,
+Litmos__Contact_Field__r.Name =&quot;Email&quot;,Litmos__Contact_Field__r.Name =&quot;Litmos_LitmosID_c&quot;,
+Litmos__Contact_Field__r.Name=&quot;AccountId&quot;,Litmos__Contact_Field__r.Name=&quot;Litmos_Sync_Litmos_c&quot;,
+Litmos__Contact_Field__r.Name=&quot;Litmos_Litmos_Activated_c&quot;,Litmos__Contact_Field__r.Name=&quot;Account.Name&quot;,
+Litmos__Contact_Field__r.Name=&quot;MobilePhone&quot;,Litmos__Contact_Field__r.Name=&quot;Phone&quot;)</errorConditionFormula>
+    <errorDisplayField>Litmos__Contact_Field__c</errorDisplayField>
+    <errorMessage>Selected Contact field already in Sync with Litmos</errorMessage>
+</ValidationRule>

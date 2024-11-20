@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Score__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The sum of Vote Score for all related Widespread Issue Solution Votes</description>
+    <externalId>false</externalId>
+    <label>Score</label>
+    <summarizedField>E2CP__Widespread_Issue_Solution_Vote__c.E2CP__Vote_Score__c</summarizedField>
+    <summaryForeignKey>E2CP__Widespread_Issue_Solution_Vote__c.E2CP__Widespread_Issue_Solution__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

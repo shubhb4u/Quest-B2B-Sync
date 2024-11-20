@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__SurveyType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To describe the type of the survey. For example NPS would mean that this survey master record is to track NPS survey responses.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Survey Type: Eg:NPS</inlineHelpText>
+    <label>Survey Type</label>
+    <length>80</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

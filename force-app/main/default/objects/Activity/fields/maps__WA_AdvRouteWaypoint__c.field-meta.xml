@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__WA_AdvRouteWaypoint__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This is the default lookup to associate the Advanced Route Waypoint</description>
+    <externalId>false</externalId>
+    <label>Maps Advanced Route Waypoint</label>
+    <referenceTo>maps__AdvRouteWaypoint__c</referenceTo>
+    <relationshipLabel>Activities</relationshipLabel>
+    <relationshipName>Activities</relationshipName>
+    <required>false</required>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__CompletedTabs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will be an array of numbers.  Each number will correspond to a tab on the template builder.  If a number is missing, it is assumed that that tab has not been completed yet for this template;
+
+Using a text field instead of a multi select picklist, in case we add more tabs later on.  I don&apos;t believe new picklist values will get pushed in a managed package.</description>
+    <externalId>false</externalId>
+    <label>Completed Tabs</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__ApprovalSubmissionDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date Alignment was submitted for approval</description>
+    <externalId>false</externalId>
+    <label>ApprovalSubmissionDate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

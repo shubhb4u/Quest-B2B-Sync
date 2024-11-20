@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__HistoryTrackingMonths__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number of months to keep Case Flags History Tracking records for.</description>
+    <externalId>false</externalId>
+    <label>History Tracking Months</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>NAME</columns>
+    <columns>JBCXM__SurveyName__c</columns>
+    <columns>JBCXM__UserLevelAggregation__c</columns>
+    <columns>JBCXM__AccountLevelAggregation__c</columns>
+    <columns>JBCXM__CustomerDistributionCount__c</columns>
+    <columns>JBCXM__UserDistributionCount__c</columns>
+    <columns>JBCXM__SurveyType__c</columns>
+    <columns>JBCXM__PublishDate__c</columns>
+    <columns>JBCXM__StartDate__c</columns>
+    <columns>JBCXM__EndDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

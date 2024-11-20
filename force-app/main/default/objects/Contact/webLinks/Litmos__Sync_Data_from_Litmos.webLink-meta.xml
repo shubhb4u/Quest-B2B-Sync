@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Sync_Data_from_Litmos</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <height>600</height>
+    <linkType>page</linkType>
+    <masterLabel>Sync Training Now</masterLabel>
+    <openType>sidebar</openType>
+    <page>Litmos__CreateLitmosContactTraining</page>
+    <protected>false</protected>
+</WebLink>

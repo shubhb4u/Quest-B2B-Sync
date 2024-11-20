@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__UserLevelAggregation__c</fullName>
+    <defaultValue>&quot;{}&quot;</defaultValue>
+    <deprecated>false</deprecated>
+    <description>To store the account level aggregation data of Promoters, Passives, Detractors by user role.</description>
+    <externalId>false</externalId>
+    <label>User Level Aggregation</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

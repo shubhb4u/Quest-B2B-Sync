@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__SavedQueryId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will be the id of the related Saved Query record for Maps</description>
+    <externalId>false</externalId>
+    <label>Saved Query Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

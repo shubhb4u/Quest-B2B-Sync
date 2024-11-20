@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__DueDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When is the last date of invoice to be paid.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date when payment for the invoice is due.</inlineHelpText>
+    <label>Due Date</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

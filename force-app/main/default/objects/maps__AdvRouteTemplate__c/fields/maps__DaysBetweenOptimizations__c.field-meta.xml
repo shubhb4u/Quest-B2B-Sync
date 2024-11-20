@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__DaysBetweenOptimizations__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This represents how many days will go before optimizing each user</description>
+    <externalId>false</externalId>
+    <label>Days Between Optimizations</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

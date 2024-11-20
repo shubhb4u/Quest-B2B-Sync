@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_In_Flight_Host_Sign__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</inlineHelpText>
+    <label>Disable In Flight Host Sign</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

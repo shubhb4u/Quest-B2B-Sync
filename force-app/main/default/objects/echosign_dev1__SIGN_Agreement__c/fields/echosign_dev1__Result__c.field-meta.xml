@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Result__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( AND(LEN(echosign_dev1__ErrorMessage__c) &gt; 0, ISPICKVAL( echosign_dev1__Status__c , &apos;Draft&apos;)), 
+      IMAGE(&apos;https://secure.echosignforsalesforce.com/images/salesforce-error.gif&apos;, &apos;Error&apos;) &amp; &apos; &apos; &amp; echosign_dev1__ErrorMessage__c, 
+      IF( AND(LEN(echosign_dev1__SignedPDF__c) &gt; 0, ISPICKVAL( echosign_dev1__Status__c , &apos;Signed&apos;)), 
+           HYPERLINK( echosign_dev1__SignedPDF__c , IMAGE(&apos;https://secure.echosignforsalesforce.com/images/salesforce-pdf-icon.gif&apos;, &apos;PDF&apos;) &amp; &apos; &apos; &amp; Name &amp; &apos; - signed.pdf&apos;), 
+           &apos;&apos;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Result</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

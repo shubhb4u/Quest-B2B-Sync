@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOZISF__All</fullName>
+    <columns>CREATED_DATE</columns>
+    <columns>DOZISF__Account__c</columns>
+    <columns>DOZISF__Lead__c</columns>
+    <columns>DOZISF__Type__c</columns>
+    <columns>DOZISF__Topics__c</columns>
+    <columns>DOZISF__Description__c</columns>
+    <columns>DOZISF__Date_Published__c</columns>
+    <columns>DOZISF__Scoop_ID__c</columns>
+    <columns>DOZISF__ZoomInfo_External_Id__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__SurveyUserAnswer__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Survey User Answer</label>
+    <referenceTo>JBCXM__SurveyUserAnswer__c</referenceTo>
+    <relationshipLabel>Survey Text Analytics Answer</relationshipLabel>
+    <relationshipName>Survey_Text_Analytics_Answer</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Attach_Audit_Report_to_Signed_PDF__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to attach an audit report to the final signed agreement PDF.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to attach an audit report to the final signed agreement PDF.</inlineHelpText>
+    <label>Attach Audit Report to Final Signed PDF</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

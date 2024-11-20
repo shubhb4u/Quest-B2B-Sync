@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Mapping Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Input Specific Value</fullName>
+                <default>true</default>
+                <label>Input Specific Value</label>
+            </value>
+            <value>
+                <fullName>Select Master Object Field</fullName>
+                <default>false</default>
+                <label>Select Master Object Field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

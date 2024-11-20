@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_Indicator_Valid_Value</fullName>
+    <active>true</active>
+    <description>The Scope_Indicator__c must be either 1 (Global), 3 (Profile), 4 (Role), or 5 (User Specific)</description>
+    <errorConditionFormula>InSituGen__Scope_Indicator__c  != 1 &amp;&amp; InSituGen__Scope_Indicator__c  != 3 &amp;&amp; 
+InSituGen__Scope_Indicator__c  != 4 &amp;&amp; InSituGen__Scope_Indicator__c  !=  5</errorConditionFormula>
+    <errorDisplayField>InSituGen__Scope_Indicator__c</errorDisplayField>
+    <errorMessage>Invalid value for Scope Indicator.  Must be set to 1 if a Global setting, 3 if a Profile Specific setting, 4 if Role Specific, or 5 if a User Specific setting.</errorMessage>
+</ValidationRule>

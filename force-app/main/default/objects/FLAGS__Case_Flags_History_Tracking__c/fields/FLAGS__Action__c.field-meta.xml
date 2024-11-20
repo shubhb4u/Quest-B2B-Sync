@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Action</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Local Automation</fullName>
+                <default>false</default>
+                <label>Local Automation</label>
+            </value>
+            <value>
+                <fullName>Case Created</fullName>
+                <default>false</default>
+                <label>Case Created</label>
+            </value>
+            <value>
+                <fullName>Case Closed</fullName>
+                <default>false</default>
+                <label>Case Closed</label>
+            </value>
+            <value>
+                <fullName>Set Flag Button</fullName>
+                <default>false</default>
+                <label>Set Flag Button</label>
+            </value>
+            <value>
+                <fullName>Clear Flag Button</fullName>
+                <default>false</default>
+                <label>Clear Flag Button</label>
+            </value>
+            <value>
+                <fullName>External Comment Added</fullName>
+                <default>false</default>
+                <label>External Comment Added</label>
+            </value>
+            <value>
+                <fullName>Internal Comment Added</fullName>
+                <default>false</default>
+                <label>Internal Comment Added</label>
+            </value>
+            <value>
+                <fullName>Email Received</fullName>
+                <default>false</default>
+                <label>Email Received</label>
+            </value>
+            <value>
+                <fullName>Email Sent</fullName>
+                <default>false</default>
+                <label>Email Sent</label>
+            </value>
+            <value>
+                <fullName>Customer Attachment Added</fullName>
+                <default>false</default>
+                <label>Customer Attachment Added</label>
+            </value>
+            <value>
+                <fullName>Task Completed</fullName>
+                <default>false</default>
+                <label>Task Completed</label>
+            </value>
+            <value>
+                <fullName>Chatter Post Sent</fullName>
+                <default>false</default>
+                <label>Chatter Post Sent</label>
+            </value>
+            <value>
+                <fullName>Chatter Post Received</fullName>
+                <default>false</default>
+                <label>Chatter Post Received</label>
+            </value>
+            <value>
+                <fullName>Automatically Cleared</fullName>
+                <default>false</default>
+                <label>Automatically Cleared</label>
+            </value>
+            <value>
+                <fullName>Follow-Up Process</fullName>
+                <default>false</default>
+                <label>Follow-Up Process</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

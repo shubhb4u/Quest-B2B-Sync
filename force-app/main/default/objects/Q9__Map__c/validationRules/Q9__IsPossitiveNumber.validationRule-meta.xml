@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__IsPossitiveNumber</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(ISBLANK(Q9__DiagramId__c), false, NOT(
+    AND(
+         ISNUMBER(Q9__DiagramId__c),
+         VALUE(Q9__DiagramId__c) &gt; 0, 
+         VALUE(Q9__DiagramId__c) = ROUND(VALUE(Q9__DiagramId__c), 0)
+    )
+))</errorConditionFormula>
+    <errorDisplayField>Q9__DiagramId__c</errorDisplayField>
+    <errorMessage>The value should be positive integer number.</errorMessage>
+</ValidationRule>

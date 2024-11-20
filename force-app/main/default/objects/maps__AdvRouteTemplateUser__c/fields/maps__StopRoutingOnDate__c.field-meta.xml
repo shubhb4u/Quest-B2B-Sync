@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__StopRoutingOnDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the date that the current route process should generate till</description>
+    <externalId>false</externalId>
+    <label>Stop Routing on Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

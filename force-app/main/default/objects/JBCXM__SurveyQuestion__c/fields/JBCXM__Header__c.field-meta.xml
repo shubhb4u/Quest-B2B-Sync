@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Header__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Header Question Lookup</description>
+    <externalId>false</externalId>
+    <label>Header Question</label>
+    <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
+    <relationshipLabel>Survey Question (Header Question)</relationshipLabel>
+    <relationshipName>Question_Header</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

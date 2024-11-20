@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Version__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Used to upgrade from prior versions of Conga Batch.
+
+* Recommended to remove from page layout when not in use *</description>
+    <externalId>false</externalId>
+    <label>Version</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C8</fullName>
+                <default>true</default>
+                <label>C8</label>
+            </value>
+            <value>
+                <fullName>C7</fullName>
+                <default>false</default>
+                <label>C7</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

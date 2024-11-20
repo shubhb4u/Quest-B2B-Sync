@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__WeightPerAxle__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>CASE(maps__WeightUnits__c,  
+&quot;pounds&quot;, 
+    (maps__Weight__c/maps__NumberOfAxles__c)/2000,  
+&quot;kilos&quot;, 
+    (maps__Weight__c/maps__NumberOfAxles__c)/1000,
+    (maps__Weight__c/maps__NumberOfAxles__c)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Weight Per Axle</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

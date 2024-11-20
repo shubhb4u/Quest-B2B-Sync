@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Enable_Delegate_Acceptor_Workflow_Role__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</inlineHelpText>
+    <label>Enable Delegate Acceptor Role</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

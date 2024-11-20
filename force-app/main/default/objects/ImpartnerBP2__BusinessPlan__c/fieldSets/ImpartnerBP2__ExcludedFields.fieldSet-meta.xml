@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpartnerBP2__ExcludedFields</fullName>
+    <description>Number fields that will NOT be set to 0 when a plan refresh occurs</description>
+    <displayedFields>
+        <field>ImpartnerBP2__RevenueObjective__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ImpartnerBP2__RevenueObjectiveQ1__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ImpartnerBP2__RevenueObjectiveQ2__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ImpartnerBP2__RevenueObjectiveQ3__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ImpartnerBP2__RevenueObjectiveQ4__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </displayedFields>
+    <label>Excluded Fields</label>
+</FieldSet>

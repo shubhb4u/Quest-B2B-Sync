@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOZISF__Total_Funding__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sum of all rounds of funding, found in the Funding History of the company&apos;s profile.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sum of all rounds of funding, found in the Funding History of the company&apos;s profile.</inlineHelpText>
+    <label>Total Funding</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

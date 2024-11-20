@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__ComparisonView__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Action to be taken by this rule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What action should this rule take?</inlineHelpText>
+    <label>Metadata Filter</label>
+    <referenceTo>PDRI__ComparisonView__c</referenceTo>
+    <relationshipName>Comparison_View_Rules</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

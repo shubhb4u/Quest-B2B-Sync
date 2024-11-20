@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__validationHelperDuringAsync__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enables Validation Helper will be active during asynchronous processing</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this is checked, Enable Validation Helper will be active during asynchronous processing.  Disable if frequent row lock errors have been encountered by Rollup Helper asynchronous jobs.</inlineHelpText>
+    <label>Allow Validation Helper During Async</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

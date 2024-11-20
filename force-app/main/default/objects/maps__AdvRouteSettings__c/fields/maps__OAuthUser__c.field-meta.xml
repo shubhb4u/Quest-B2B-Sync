@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__OAuthUser__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This is a lookup to the last user that was oauthed</description>
+    <externalId>false</externalId>
+    <label>OAuth User</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>AdvRouteSettings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

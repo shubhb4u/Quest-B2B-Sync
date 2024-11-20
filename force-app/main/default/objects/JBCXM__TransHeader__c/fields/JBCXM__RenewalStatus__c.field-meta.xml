@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__RenewalStatus__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>This field defines the renewal status of the current transaction. For transactions that are renewable, there are four status Open, Closed - Renewed, Closed -Lost, Closed - Will not renew</inlineHelpText>
+    <label>Renewal Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Closed - Renewed</fullName>
+                <default>false</default>
+                <label>Closed - Renewed</label>
+            </value>
+            <value>
+                <fullName>Closed - Co-Termed</fullName>
+                <default>false</default>
+                <label>Closed - Co-Termed</label>
+            </value>
+            <value>
+                <fullName>Closed - Will not renew</fullName>
+                <default>false</default>
+                <label>Closed - Will not renew</label>
+            </value>
+            <value>
+                <fullName>Not renewable</fullName>
+                <default>false</default>
+                <label>Not renewable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

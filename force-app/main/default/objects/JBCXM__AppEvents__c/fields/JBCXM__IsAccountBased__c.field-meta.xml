@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__IsAccountBased__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Flag to know whether this event get delivered on account subscription or not</description>
+    <externalId>false</externalId>
+    <label>Account based subscription event</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

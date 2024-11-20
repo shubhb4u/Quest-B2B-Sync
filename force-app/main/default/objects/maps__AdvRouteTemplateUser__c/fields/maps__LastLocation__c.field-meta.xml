@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LastLocation__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the last location registered by the user.  Used when routing the partial day from last location.</description>
+    <displayLocationInDecimal>true</displayLocationInDecimal>
+    <externalId>false</externalId>
+    <label>Last Location</label>
+    <required>false</required>
+    <scale>15</scale>
+    <trackTrending>false</trackTrending>
+    <type>Location</type>
+</CustomField>

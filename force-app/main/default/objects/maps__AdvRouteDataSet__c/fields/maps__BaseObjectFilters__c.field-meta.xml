@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__BaseObjectFilters__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Base Object Filters</label>
+    <referenceTo>maps__AdvRouteQueryFilterGrouping__c</referenceTo>
+    <relationshipLabel>Maps Adv Route Data Sets (Base Obj Filters)</relationshipLabel>
+    <relationshipName>AdvRouteDataSetsBaseObjFilters</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

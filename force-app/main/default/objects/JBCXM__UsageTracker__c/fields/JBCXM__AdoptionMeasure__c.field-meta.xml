@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__AdoptionMeasure__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Lookup to the the adoption measure being tracked. This is the action that is being tracked.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Adoption Measure.</inlineHelpText>
+    <label>Adoption Measure</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>JBCXM__PickList__c.JBCXM__Category__c</field>
+            <operation>equals</operation>
+            <value>Adoption Measure Types</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Usage Tracker</relationshipLabel>
+    <relationshipName>UsageTracker</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

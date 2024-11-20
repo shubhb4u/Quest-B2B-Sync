@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Daily_Sync_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Daily Sync Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>12 AM</fullName>
+                <default>false</default>
+                <label>12 AM</label>
+            </value>
+            <value>
+                <fullName>01 AM</fullName>
+                <default>false</default>
+                <label>01 AM</label>
+            </value>
+            <value>
+                <fullName>02 AM</fullName>
+                <default>false</default>
+                <label>02 AM</label>
+            </value>
+            <value>
+                <fullName>03 AM</fullName>
+                <default>false</default>
+                <label>03 AM</label>
+            </value>
+            <value>
+                <fullName>04 AM</fullName>
+                <default>false</default>
+                <label>04 AM</label>
+            </value>
+            <value>
+                <fullName>05 AM</fullName>
+                <default>false</default>
+                <label>05 AM</label>
+            </value>
+            <value>
+                <fullName>06 AM</fullName>
+                <default>false</default>
+                <label>06 AM</label>
+            </value>
+            <value>
+                <fullName>07 AM</fullName>
+                <default>false</default>
+                <label>07 AM</label>
+            </value>
+            <value>
+                <fullName>08 AM</fullName>
+                <default>false</default>
+                <label>08 AM</label>
+            </value>
+            <value>
+                <fullName>09 AM</fullName>
+                <default>false</default>
+                <label>09 AM</label>
+            </value>
+            <value>
+                <fullName>10 AM</fullName>
+                <default>false</default>
+                <label>10 AM</label>
+            </value>
+            <value>
+                <fullName>11 AM</fullName>
+                <default>false</default>
+                <label>11 AM</label>
+            </value>
+            <value>
+                <fullName>12 PM</fullName>
+                <default>false</default>
+                <label>12 PM</label>
+            </value>
+            <value>
+                <fullName>01 PM</fullName>
+                <default>false</default>
+                <label>01 PM</label>
+            </value>
+            <value>
+                <fullName>02 PM</fullName>
+                <default>false</default>
+                <label>02 PM</label>
+            </value>
+            <value>
+                <fullName>03 PM</fullName>
+                <default>false</default>
+                <label>03 PM</label>
+            </value>
+            <value>
+                <fullName>04 PM</fullName>
+                <default>false</default>
+                <label>04 PM</label>
+            </value>
+            <value>
+                <fullName>05 PM</fullName>
+                <default>false</default>
+                <label>05 PM</label>
+            </value>
+            <value>
+                <fullName>06 PM</fullName>
+                <default>false</default>
+                <label>06 PM</label>
+            </value>
+            <value>
+                <fullName>07 PM</fullName>
+                <default>false</default>
+                <label>07 PM</label>
+            </value>
+            <value>
+                <fullName>08 PM</fullName>
+                <default>false</default>
+                <label>08 PM</label>
+            </value>
+            <value>
+                <fullName>09 PM</fullName>
+                <default>false</default>
+                <label>09 PM</label>
+            </value>
+            <value>
+                <fullName>10 PM</fullName>
+                <default>false</default>
+                <label>10 PM</label>
+            </value>
+            <value>
+                <fullName>11 PM</fullName>
+                <default>false</default>
+                <label>11 PM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

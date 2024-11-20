@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__LibQuestion__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Library Question Lookup</description>
+    <externalId>false</externalId>
+    <label>Library Question</label>
+    <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
+    <relationshipLabel>Survey Question (Library Question)</relationshipLabel>
+    <relationshipName>Survey_Question</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

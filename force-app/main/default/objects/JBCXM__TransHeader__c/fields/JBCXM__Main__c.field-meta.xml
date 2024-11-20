@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Main__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>There should be only main transaction at one time. Usually the New Business or the most Resent Renewal transaction available for a Customer.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>There should be only main transaction at one time. Usually the New Business or the most Resent Renewal transaction available for a Customer.</inlineHelpText>
+    <label>Main</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

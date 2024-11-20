@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Create_Loopio_Project</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>[deprecated] Create Loopio Opportunity</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/Loopio__Create_Loopio_Project?id={!Loopio__Go_No_Go_Answer__c.Loopio__OpportunityId__c}&amp;gonogoId={!Loopio__Go_No_Go_Answer__c.Id}</url>
+</WebLink>

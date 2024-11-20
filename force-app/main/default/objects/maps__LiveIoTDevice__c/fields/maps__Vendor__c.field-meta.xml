@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Vendor__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Device Vendor</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CalAmp</fullName>
+                <default>false</default>
+                <label>CalAmp</label>
+            </value>
+            <value>
+                <fullName>Geometris</fullName>
+                <default>false</default>
+                <label>Geometris</label>
+            </value>
+            <value>
+                <fullName>GM</fullName>
+                <default>false</default>
+                <label>GM</label>
+            </value>
+            <value>
+                <fullName>MapAnything</fullName>
+                <default>false</default>
+                <label>Maps Live Tracking: Mobile</label>
+            </value>
+            <value>
+                <fullName>Geotab</fullName>
+                <default>true</default>
+                <label>Geotab</label>
+            </value>
+            <value>
+                <fullName>Ford</fullName>
+                <default>false</default>
+                <label>Ford</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

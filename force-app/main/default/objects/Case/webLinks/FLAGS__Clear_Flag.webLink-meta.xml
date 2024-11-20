@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Clear_Flag</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>Clear Flag</masterLabel>
+    <openType>replace</openType>
+    <page>FLAGS__FlagClear</page>
+    <protected>false</protected>
+</WebLink>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Group_From_Template__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Whether the group value comes from an agreement template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field indicates if the agreement&apos;s group value comes from an agreement template from which it was generated.</inlineHelpText>
+    <label>Group From Agreement Template</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

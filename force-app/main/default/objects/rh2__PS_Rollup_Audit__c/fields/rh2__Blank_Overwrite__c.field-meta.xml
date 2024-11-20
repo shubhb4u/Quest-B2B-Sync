@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Blank_Overwrite__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls whether Rollup Helper will overwrite populated fields with a blank value.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls whether Rollup Helper will overwrite populated fields with a blank value.</inlineHelpText>
+    <label>Blank Overwrite fields</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

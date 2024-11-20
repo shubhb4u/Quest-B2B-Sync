@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__CaseFlagsEscalationTime4__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A timestamp to indicate when the total business hours on the case will exceed Age 4 Hours. This can be used as the basis for workflow email alerts or other automation.</description>
+    <externalId>false</externalId>
+    <label>Case Flags Escalation Time 4</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

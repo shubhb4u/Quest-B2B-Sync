@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__UseDatedConversionRatesForNonOpps__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This option is for orgs with MC &amp; ACM enabled. When unchecked (by default), rollups will use the static conversion rate for non-opportunity target objects; when checked, rollups will use the dated conversion rate for non-opp target objects, decided by the child record&apos;s date field (the date field can be selected under per rollup&apos;s advanced settings).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>When unchecked (by default), rollups will use the static rate for non-opp target objs; otherwise, use the dated currency rate, decided by each child record&apos;s date field (this date field can be selected under per rollup&apos;s advanced settings).</inlineHelpText>
+    <label>Use Dated Conversion Rates For Non Opps</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

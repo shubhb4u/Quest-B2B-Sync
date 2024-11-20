@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Go_No_Go_Question_Bank__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Master-Detail relation with Go/No-Go Question Bank.</description>
+    <externalId>false</externalId>
+    <label>Go/No-Go Question</label>
+    <referenceTo>Loopio__Go_No_Go_Question_Bank__c</referenceTo>
+    <relationshipName>Go_No_Go_Question_Bank_Scorings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

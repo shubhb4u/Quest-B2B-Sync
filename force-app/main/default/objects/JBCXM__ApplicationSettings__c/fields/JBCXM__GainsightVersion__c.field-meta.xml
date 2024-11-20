@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__GainsightVersion__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will be used to record Gainsight version being deployed onto the org.</description>
+    <externalId>false</externalId>
+    <label>Gainsight app version</label>
+    <length>20</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__ValidDiagramId</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(ISBLANK(Q9__DiagramId__c), false, NOT(REGEX(Q9__DiagramId__c, &quot;[a-f0-9]{24}&quot;)))</errorConditionFormula>
+    <errorDisplayField>Q9__DiagramId__c</errorDisplayField>
+    <errorMessage>Should be 24 characters long and should contain only numbers and letters</errorMessage>
+</ValidationRule>

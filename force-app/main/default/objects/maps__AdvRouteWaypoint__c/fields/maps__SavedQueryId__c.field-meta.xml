@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__SavedQueryId__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will be the id of the related Saved Query record for Maps</description>
+    <externalId>false</externalId>
+    <formula>IF(maps__RoutedObjectId__c == null,
+null,
+IF(maps__AdvRouteDataSet__c != null,
+maps__AdvRouteDataSet__r.maps__SavedQueryId__c,
+IF(maps__RelatedAdvRouteTemplate__c == null,
+maps__AdvRoute__r.maps__AdvRouteTemplateUser__r.maps__AdvRouteTemplate__r.maps__SavedQueryId__c,
+maps__RelatedAdvRouteTemplate__r.maps__SavedQueryId__c)))</formula>
+    <label>Saved Query Id</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

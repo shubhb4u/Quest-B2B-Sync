@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Auto_Send__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Automatically send the agreement without displaying the send page. (e.g. triggered workflows) Make sure to add a recipient and a file attachment if using this option.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Automatically send the agreement without displaying the send page. (e.g. triggered workflows) Make sure to add a recipient and a file attachment if using this option.</inlineHelpText>
+    <label>Auto Send</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

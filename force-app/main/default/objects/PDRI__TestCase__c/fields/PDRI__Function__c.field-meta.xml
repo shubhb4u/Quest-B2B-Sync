@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Function__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>calculate</fullName>
+                <default>false</default>
+                <label>calculate</label>
+            </value>
+            <value>
+                <fullName>contract</fullName>
+                <default>false</default>
+                <label>contract</label>
+            </value>
+            <value>
+                <fullName>renew</fullName>
+                <default>false</default>
+                <label>renew</label>
+            </value>
+            <value>
+                <fullName>amend</fullName>
+                <default>false</default>
+                <label>amend</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

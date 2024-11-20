@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__TooltipFieldApis__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field holds a JSON array of field apis to be used for tooltips</description>
+    <externalId>false</externalId>
+    <label>Tooltip Field Apis</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

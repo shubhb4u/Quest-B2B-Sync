@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Days_Until_Expiration2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set the number of days before the agreement expires.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the number of days before the agreement expires.</inlineHelpText>
+    <label>Days Until Expiration</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

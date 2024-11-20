@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Days_Sign_Deadline_Reminder_Event__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter a number of days and enable the Create Deadline Reminder Event setting. This allows ‘agreement about-to-expire alerts’ to be shown to your users in Salesforce. Alerts are shown the specified number of days before agreement expiration.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter a number of days and enable the Create Deadline Reminder Event setting. This allows ‘agreement about-to-expire alerts’ to be shown to your users in Salesforce. Alerts are shown the specified number of days before agreement expiration.</inlineHelpText>
+    <label>Days Sign Deadline Reminder Event</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__View_Report</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>View Report</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>if( &quot;{!csfb__Conductor__c.csfb__Report_Id__c}&quot; == &quot;&quot; )
+    alert(&quot;Please paste a Report Id.&quot;);
+else
+    window.open( &quot;/&quot; + &quot;{!csfb__Conductor__c.csfb__Report_Id__c}&quot; );</url>
+</WebLink>

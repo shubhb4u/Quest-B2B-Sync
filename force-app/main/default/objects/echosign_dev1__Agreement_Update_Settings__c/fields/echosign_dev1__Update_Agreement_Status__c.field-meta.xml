@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Update_Agreement_Status__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</inlineHelpText>
+    <label>Update Agreement Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

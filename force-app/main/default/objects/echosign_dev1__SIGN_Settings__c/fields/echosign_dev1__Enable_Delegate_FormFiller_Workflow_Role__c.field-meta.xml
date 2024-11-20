@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Enable_Delegate_FormFiller_Workflow_Role__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</inlineHelpText>
+    <label>Enable Delegate Form Filler Role</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

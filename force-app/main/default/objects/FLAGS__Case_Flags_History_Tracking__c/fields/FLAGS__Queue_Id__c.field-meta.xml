@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Queue_Id__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Id of the Queue the Case was assigned to when this record was created if assigned to a Queue.</description>
+    <externalId>false</externalId>
+    <label>Queue Id</label>
+    <length>18</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

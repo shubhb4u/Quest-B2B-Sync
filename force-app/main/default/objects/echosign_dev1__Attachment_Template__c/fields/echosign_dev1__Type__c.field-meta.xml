@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Attachment Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Document Builder Template</fullName>
+                <default>false</default>
+                <label>Document Builder Template</label>
+            </value>
+            <value>
+                <fullName>Document from Content</fullName>
+                <default>false</default>
+                <label>Document from Content</label>
+            </value>
+            <value>
+                <fullName>Document from EchoSign Library</fullName>
+                <default>false</default>
+                <label>Document from EchoSign Library</label>
+            </value>
+            <value>
+                <fullName>Document from Library</fullName>
+                <default>true</default>
+                <label>Document from Library</label>
+            </value>
+            <value>
+                <fullName>Document from Master Object</fullName>
+                <default>false</default>
+                <label>Document from Master Object</label>
+            </value>
+            <value>
+                <fullName>Quote Document from Master Quote</fullName>
+                <default>false</default>
+                <label>Quote Document from Master Quote</label>
+            </value>
+            <value>
+                <fullName>Quote Document from Opportunity Quote</fullName>
+                <default>false</default>
+                <label>Quote Document from Opportunity Quote</label>
+            </value>
+            <value>
+                <fullName>Runtime Variable</fullName>
+                <default>false</default>
+                <label>Runtime Variable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

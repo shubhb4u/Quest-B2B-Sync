@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Pull_Request__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Pull Request</label>
+    <referenceTo>PDRI__VCS_Pull_Request__c</referenceTo>
+    <relationshipLabel>VCS Pull Request Work Item Trackings</relationshipLabel>
+    <relationshipName>VCS_Pull_Request_Work_Item_Trackings</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

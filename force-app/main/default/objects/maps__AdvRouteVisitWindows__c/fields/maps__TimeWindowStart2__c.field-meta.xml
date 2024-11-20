@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__TimeWindowStart2__c</fullName>
+    <deprecated>false</deprecated>
+    <description>start time of second time window option</description>
+    <externalId>false</externalId>
+    <inlineHelpText>(optional) Time Window 2 cannot overlap Time Window 1</inlineHelpText>
+    <label>Time Window Start 2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>maps__AdvRouteTimeWindows</valueSetName>
+    </valueSet>
+</CustomField>

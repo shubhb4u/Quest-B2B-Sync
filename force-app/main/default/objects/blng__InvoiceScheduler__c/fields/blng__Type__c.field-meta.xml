@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of Schedule.
+Once - Billing will be done only one time.
+Daily - Billing will be repeated continuously daily and so on</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select how often to run invoices.</inlineHelpText>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>blng__SchedulerType</valueSetName>
+    </valueSet>
+</CustomField>

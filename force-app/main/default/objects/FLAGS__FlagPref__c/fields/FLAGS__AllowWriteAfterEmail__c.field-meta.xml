@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__AllowWriteAfterEmail__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable the Case Flag to automatically be set on immediately after an email has been received for the Case.
+
+Set in the Case Flags Setup Wizard.</description>
+    <externalId>false</externalId>
+    <label>Allow write after email</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

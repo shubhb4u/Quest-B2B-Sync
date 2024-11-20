@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Initial_Interaction__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Custom Text on case creation</description>
+    <externalId>false</externalId>
+    <label>Case creation</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

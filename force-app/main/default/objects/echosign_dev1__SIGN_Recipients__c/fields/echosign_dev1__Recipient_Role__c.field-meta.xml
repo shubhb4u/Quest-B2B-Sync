@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Recipient_Role__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Recipient Role</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Signer</fullName>
+                <default>true</default>
+                <label>Signer</label>
+            </value>
+            <value>
+                <fullName>Approver</fullName>
+                <default>false</default>
+                <label>Approver</label>
+            </value>
+            <value>
+                <fullName>Acceptor</fullName>
+                <default>false</default>
+                <label>Acceptor</label>
+            </value>
+            <value>
+                <fullName>Form Filler</fullName>
+                <default>false</default>
+                <label>Form Filler</label>
+            </value>
+            <value>
+                <fullName>Certified Recipient</fullName>
+                <default>false</default>
+                <label>Certified Recipient</label>
+            </value>
+            <value>
+                <fullName>Delegate to Signer</fullName>
+                <default>false</default>
+                <label>Delegate to Signer</label>
+            </value>
+            <value>
+                <fullName>Delegate to Approver</fullName>
+                <default>false</default>
+                <label>Delegate to Approver</label>
+            </value>
+            <value>
+                <fullName>Delegate to Acceptor</fullName>
+                <default>false</default>
+                <label>Delegate to Acceptor</label>
+            </value>
+            <value>
+                <fullName>Delegate to Form Filler</fullName>
+                <default>false</default>
+                <label>Delegate to Form Filler</label>
+            </value>
+            <value>
+                <fullName>Delegate to Certified Recipient</fullName>
+                <default>false</default>
+                <label>Delegate to Certified Recipient</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Conga_Query_Builder</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Conga Query Builder</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://composer.congamerge.com?ServerUrl={!$Api.Partner_Server_URL_370}&amp;uiscreen=qb&amp;id={!csfb__Conga_Merge_Query__c.Id}&amp;srcpkg=sfb</url>
+</WebLink>

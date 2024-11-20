@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_ProfileID_Required</fullName>
+    <active>true</active>
+    <description>The Scope_ProfileID__c must be set when the Scope_Indicator is set to Profile (3)</description>
+    <errorConditionFormula>InSituGen__Scope_Indicator__c == 3 &amp;&amp; InSituGen__Scope_ProfileID__c == null</errorConditionFormula>
+    <errorDisplayField>InSituGen__Scope_ProfileID__c</errorDisplayField>
+    <errorMessage>ProfileID is required when Scope Indicator is set to Profile Specific (3)</errorMessage>
+</ValidationRule>

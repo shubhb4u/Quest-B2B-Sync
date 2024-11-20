@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type of Schedule.
+Once - Payment Scheduler will be done only one time.
+Daily - Payment Scheduler will be repeated continuously daily and so on</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of Schedule.
+Once - Payment Scheduler will be done only one time.
+Daily - Payment Scheduler will be repeated continuously daily and so on</inlineHelpText>
+    <label>Type</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>blng__SchedulerType</valueSetName>
+    </valueSet>
+</CustomField>

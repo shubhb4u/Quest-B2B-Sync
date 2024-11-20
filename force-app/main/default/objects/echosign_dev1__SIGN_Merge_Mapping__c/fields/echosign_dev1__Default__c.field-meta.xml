@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Default__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box if you want this merge mapping to run by default for all agreements sent. You can override the default if you specify a different merge mapping to use with a specific agreement or agreement template.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box if you want this merge mapping to run by default for all agreements sent. You can override the default if you specify a different merge mapping to use with a specific agreement or agreement template.</inlineHelpText>
+    <label>Default Merge Mapping?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

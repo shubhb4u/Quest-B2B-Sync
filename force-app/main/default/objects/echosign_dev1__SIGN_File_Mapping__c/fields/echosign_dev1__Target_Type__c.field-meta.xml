@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Target_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Target Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Attach file directly to object</fullName>
+                <default>true</default>
+                <label>Attach file directly to object</label>
+            </value>
+            <value>
+                <fullName>Add a reference link to the file</fullName>
+                <default>false</default>
+                <label>Add a reference link to the file</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

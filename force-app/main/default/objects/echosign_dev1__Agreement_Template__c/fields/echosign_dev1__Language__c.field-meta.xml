@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Language__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Select the language of the recipients.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the language of the recipients.</inlineHelpText>
+    <label>Language</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Chinese (China)</fullName>
+                <default>false</default>
+                <label>Chinese (China)</label>
+            </value>
+            <value>
+                <fullName>Chinese (Taiwan)</fullName>
+                <default>false</default>
+                <label>Chinese (Taiwan region)</label>
+            </value>
+            <value>
+                <fullName>Croatian (Croatia)</fullName>
+                <default>false</default>
+                <label>Croatian (Croatia)</label>
+            </value>
+            <value>
+                <fullName>Czech (Czech Republic)</fullName>
+                <default>false</default>
+                <label>Czech (Czech Republic)</label>
+            </value>
+            <value>
+                <fullName>Danish (Denmark)</fullName>
+                <default>false</default>
+                <label>Danish (Denmark)</label>
+            </value>
+            <value>
+                <fullName>Dutch (Netherlands)</fullName>
+                <default>false</default>
+                <label>Dutch (Netherlands)</label>
+            </value>
+            <value>
+                <fullName>English (United Kingdom)</fullName>
+                <default>false</default>
+                <label>English (United Kingdom)</label>
+            </value>
+            <value>
+                <fullName>English (United States)</fullName>
+                <default>true</default>
+                <label>English (United States)</label>
+            </value>
+            <value>
+                <fullName>Finnish (Finland)</fullName>
+                <default>false</default>
+                <label>Finnish (Finland)</label>
+            </value>
+            <value>
+                <fullName>French (France)</fullName>
+                <default>false</default>
+                <label>French (France)</label>
+            </value>
+            <value>
+                <fullName>German (Germany)</fullName>
+                <default>false</default>
+                <label>German (Germany)</label>
+            </value>
+            <value>
+                <fullName>Hungarian (Hungary)</fullName>
+                <default>false</default>
+                <label>Hungarian (Hungary)</label>
+            </value>
+            <value>
+                <fullName>Icelandic (Iceland)</fullName>
+                <default>false</default>
+                <label>Icelandic (Iceland)</label>
+            </value>
+            <value>
+                <fullName>Indonesian (Indonesia)</fullName>
+                <default>false</default>
+                <label>Indonesian (Indonesia)</label>
+            </value>
+            <value>
+                <fullName>Italian (Italy)</fullName>
+                <default>false</default>
+                <label>Italian (Italy)</label>
+            </value>
+            <value>
+                <fullName>Japanese (Japan)</fullName>
+                <default>false</default>
+                <label>Japanese (Japan)</label>
+            </value>
+            <value>
+                <fullName>Korean (South Korea)</fullName>
+                <default>false</default>
+                <label>Korean (South Korea)</label>
+            </value>
+            <value>
+                <fullName>Malay (Malaysia)</fullName>
+                <default>false</default>
+                <label>Malay (Malaysia)</label>
+            </value>
+            <value>
+                <fullName>Norwegian (Bokmal: Norway)</fullName>
+                <default>false</default>
+                <label>Norwegian (Bokmal: Norway)</label>
+            </value>
+            <value>
+                <fullName>Norwegian (Norway)</fullName>
+                <default>false</default>
+                <label>Norwegian (Norway)</label>
+            </value>
+            <value>
+                <fullName>Norwegian (Nynorsk: Norway)</fullName>
+                <default>false</default>
+                <label>Norwegian (Nynorsk: Norway)</label>
+            </value>
+            <value>
+                <fullName>Polish (Poland)</fullName>
+                <default>false</default>
+                <label>Polish (Poland)</label>
+            </value>
+            <value>
+                <fullName>Portuguese (Brazil)</fullName>
+                <default>false</default>
+                <label>Portuguese (Brazil)</label>
+            </value>
+            <value>
+                <fullName>Portuguese (Portugal)</fullName>
+                <default>false</default>
+                <label>Portuguese (Portugal)</label>
+            </value>
+            <value>
+                <fullName>Romanian (Romania)</fullName>
+                <default>false</default>
+                <label>Romanian (Romania)</label>
+            </value>
+            <value>
+                <fullName>Russian (Russia)</fullName>
+                <default>false</default>
+                <label>Russian (Russia)</label>
+            </value>
+            <value>
+                <fullName>Slovak (Slovakia)</fullName>
+                <default>false</default>
+                <label>Slovak (Slovakia)</label>
+            </value>
+            <value>
+                <fullName>Slovenian (Slovenia)</fullName>
+                <default>false</default>
+                <label>Slovenian (Slovenia)</label>
+            </value>
+            <value>
+                <fullName>Spanish (Basque: Spain)</fullName>
+                <default>false</default>
+                <label>Spanish (Basque: Spain)</label>
+            </value>
+            <value>
+                <fullName>Spanish (Catalan: Spain)</fullName>
+                <default>false</default>
+                <label>Spanish (Catalan: Spain)</label>
+            </value>
+            <value>
+                <fullName>Spanish (Spain)</fullName>
+                <default>false</default>
+                <label>Spanish (Spain)</label>
+            </value>
+            <value>
+                <fullName>Swedish (Sweden)</fullName>
+                <default>false</default>
+                <label>Swedish (Sweden)</label>
+            </value>
+            <value>
+                <fullName>Thai (Thailand)</fullName>
+                <default>false</default>
+                <label>Thai (Thailand)</label>
+            </value>
+            <value>
+                <fullName>Turkish (Turkey)</fullName>
+                <default>false</default>
+                <label>Turkish (Turkey)</label>
+            </value>
+            <value>
+                <fullName>Ukrainian (Ukraine)</fullName>
+                <default>false</default>
+                <label>Ukrainian (Ukraine)</label>
+            </value>
+            <value>
+                <fullName>Vietnamese (Vietnam)</fullName>
+                <default>false</default>
+                <label>Vietnamese (Vietnam)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

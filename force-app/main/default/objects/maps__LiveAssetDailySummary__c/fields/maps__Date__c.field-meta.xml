@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Date__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Date and time report generated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Date that this summary applies to</inlineHelpText>
+    <label>Summary Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

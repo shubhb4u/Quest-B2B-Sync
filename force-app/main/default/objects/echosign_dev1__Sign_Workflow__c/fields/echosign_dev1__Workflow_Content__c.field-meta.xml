@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Workflow_Content__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sign Workflow Content in JSON String Format</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sign Workflow Content in JSON String Format</inlineHelpText>
+    <label>Workflow Content</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

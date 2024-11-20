@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__AlertSent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Denotes if this event was included in a previous email alert</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Denotes if this event was included in a previous email alert</inlineHelpText>
+    <label>Alert Sent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

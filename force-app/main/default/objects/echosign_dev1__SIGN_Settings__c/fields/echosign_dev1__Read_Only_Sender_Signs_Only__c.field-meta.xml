@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Read_Only_Sender_Signs_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</inlineHelpText>
+    <label>Read Only Sender Signs Only</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

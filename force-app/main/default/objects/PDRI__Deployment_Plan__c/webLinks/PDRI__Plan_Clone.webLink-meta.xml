@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Plan_Clone</fullName>
+    <availability>online</availability>
+    <description>This custom button clone the Deployment Plan, Deployment Steps and Deployment Items records (the referenced Data Set records will NOT be cloned).</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Clone</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/PDRI/DeploymentPlanClone.app?deploymentPlanId={!PDRI__Deployment_Plan__c.Id}</url>
+</WebLink>

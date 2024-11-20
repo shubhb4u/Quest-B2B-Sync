@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Widespread_Issue__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Widespread Issue</label>
+    <referenceTo>E2CP__Widespread_Issue__c</referenceTo>
+    <relationshipLabel>Case Comment Drafts</relationshipLabel>
+    <relationshipName>Case_Comment_Drafts</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

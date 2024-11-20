@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__LegalEntityNumber__c</fullName>
+    <deprecated>false</deprecated>
+    <displayFormat>LE-{00000}</displayFormat>
+    <externalId>true</externalId>
+    <inlineHelpText>System generated. A unique number for this Legal Entity record.</inlineHelpText>
+    <label>Legal Entity Number</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

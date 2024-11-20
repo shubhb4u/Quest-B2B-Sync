@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Ignore_Query_Error__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to ignore query errors when calculating lookup skew</description>
+    <externalId>false</externalId>
+    <label>Ignore Query Error</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

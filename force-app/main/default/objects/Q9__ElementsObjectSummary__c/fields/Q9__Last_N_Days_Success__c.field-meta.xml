@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Q9__Last_N_Days_Success__c</fullName>
+    <defaultValue>0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The time interval over which the record count was finally accumulated. This value is used in the Record Type Usage, Data Population, and Picklist Value Population batches to limit the number of records returned, preventing Internal Salesforce.com Errors.</description>
+    <externalId>false</externalId>
+    <label>Last N Days Success</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

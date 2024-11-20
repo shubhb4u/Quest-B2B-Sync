@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__PERCENTAGE_MUST_BE_LESS_THAN_HUNDRED</fullName>
+    <active>true</active>
+    <description>PERCENTAGE MUST BE LESS THAN HUNDRED</description>
+    <errorConditionFormula>blng__Percentage__c  &gt; 1.0</errorConditionFormula>
+    <errorMessage>Percentage Cannot be greater than 100</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__LinkedToNPS__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Checked if the Alert is associated to the NPS response from the customer that the alert is linked to.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checked if the Alert is associated to the NPS response from the customer that the alert is linked to.</inlineHelpText>
+    <label>Linked to NPS</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

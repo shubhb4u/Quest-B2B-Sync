@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Schedule_C7</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Schedule C7</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://{!SUBSTITUTE(TEXT(csfb__Conductor__c.csfb__Conductor_Environment__c), &quot;prod-&quot;, &quot;&quot;)}conductor.appextremes.com/apps/Conga/Conductor/Schedule.aspx?
+Id={!csfb__Conductor__c.Id}
+&amp;SessionId={!$Api.Session_ID}
+&amp;ServerUrl={!$Api.Partner_Server_URL_310}</url>
+</WebLink>

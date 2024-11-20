@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Automatic_Reminders__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Send automatic reminders to signers.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Send automatic reminders to signers.</inlineHelpText>
+    <label>Automatic Reminders</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Never</fullName>
+                <default>true</default>
+                <label>Never</label>
+            </value>
+            <value>
+                <fullName>Every Day, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Day, Until Signed</label>
+            </value>
+            <value>
+                <fullName>Every Week, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Week, Until Signed</label>
+            </value>
+            <value>
+                <fullName>Every Business Day, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Business Day, Until Signed</label>
+            </value>
+            <value>
+                <fullName>Every Other Day, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Other Day, Until Signed</label>
+            </value>
+            <value>
+                <fullName>Every Third Day, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Third Day, Until Signed</label>
+            </value>
+            <value>
+                <fullName>Every Fifth Day, Until Signed</fullName>
+                <default>false</default>
+                <label>Every Fifth Day, Until Signed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

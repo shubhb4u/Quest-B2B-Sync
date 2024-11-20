@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Display_Sequence__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Number to control the order of settings displayed within a Display Group.  Settings with a smaller number appear first.</description>
+    <externalId>false</externalId>
+    <label>Display Sequence</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

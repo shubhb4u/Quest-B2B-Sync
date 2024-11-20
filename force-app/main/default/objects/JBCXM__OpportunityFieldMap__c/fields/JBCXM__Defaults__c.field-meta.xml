@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Defaults__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Default data to be used for required fields in Opportunity</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Default data to be used for required fields in Opportunity</inlineHelpText>
+    <label>Defaults</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

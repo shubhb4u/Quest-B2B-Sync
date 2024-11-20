@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__HistoryText__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains a chronology of the most recent 25 public case comments (up to 32,000 chars) for inclusion in email templates. This field is updated when inbound emails are received and outbound emails are sent through the New Comment page.</description>
+    <externalId>false</externalId>
+    <label>HistoryText</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

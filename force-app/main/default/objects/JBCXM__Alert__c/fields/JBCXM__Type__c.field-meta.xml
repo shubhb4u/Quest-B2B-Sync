@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Type__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Select the type of Alert being issued. 3 alert types are supported - Customer Concern, Downsell and Churn.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the type of Alert being issued. 3 alert types are supported - Customer Concern, Downsell and Churn.</inlineHelpText>
+    <label>Type</label>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Alerts (Type)</relationshipLabel>
+    <relationshipName>AlertsPicklistType</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Event_Control__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Event Control</label>
+    <referenceTo>PDRI__Event_Control__c</referenceTo>
+    <relationshipLabel>Event Control Items</relationshipLabel>
+    <relationshipName>Event_Control_Items</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Test_Rollup_Exception_Error_2</fullName>
+    <active>true</active>
+    <description>Test validation rule for PS_Error_Handler</description>
+    <errorConditionFormula>rh2__Rollup_64__c = &apos;Test Second Error Test Second Error&apos;</errorConditionFormula>
+    <errorDisplayField>rh2__Rollup_64__c</errorDisplayField>
+    <errorMessage>Test error for PS_Error_Handler Second</errorMessage>
+</ValidationRule>

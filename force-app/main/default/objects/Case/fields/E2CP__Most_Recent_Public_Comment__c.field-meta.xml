@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Most_Recent_Public_Comment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Contains the most recent public comment, as it was typed, without any pre-pended recipients or attachments notations that may be added to the case comment record.</description>
+    <externalId>false</externalId>
+    <label>Most Recent Public Comment</label>
+    <length>4000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

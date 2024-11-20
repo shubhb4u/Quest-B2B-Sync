@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>csfb__Workspace_Id_Length</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  csfb__Content_Workspace_Id__c  != &quot;&quot; ,
+
+OR( LEN( csfb__Content_Workspace_Id__c ) &gt; 18 ,
+LEFT( csfb__Content_Workspace_Id__c , 3) != &quot;058&quot; ))</errorConditionFormula>
+    <errorDisplayField>csfb__Content_Workspace_Id__c</errorDisplayField>
+    <errorMessage>The Workspace Id must be a 15- or 18-character Salesforce ID from a Content Worksapce.</errorMessage>
+</ValidationRule>

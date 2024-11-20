@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Create_Finance_Periods</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Create Finance Periods</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/apex/blng__createFinancePeriods?Id={!blng__FinanceBook__c.Id}</url>
+</WebLink>

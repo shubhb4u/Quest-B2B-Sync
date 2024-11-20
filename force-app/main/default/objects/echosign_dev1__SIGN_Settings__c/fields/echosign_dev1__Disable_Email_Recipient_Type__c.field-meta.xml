@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_Email_Recipient_Type__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This setting controls whether users can type in manual Email addresses as Recipients on Agreements.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting controls whether users can type in manual Email addresses as Recipients on Agreements.</inlineHelpText>
+    <label>Disable Email Recipient Type</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

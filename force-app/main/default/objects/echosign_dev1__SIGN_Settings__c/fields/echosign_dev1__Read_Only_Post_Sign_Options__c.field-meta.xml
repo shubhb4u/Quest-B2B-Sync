@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Read_Only_Post_Sign_Options__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</inlineHelpText>
+    <label>Read Only Post Sign Options</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

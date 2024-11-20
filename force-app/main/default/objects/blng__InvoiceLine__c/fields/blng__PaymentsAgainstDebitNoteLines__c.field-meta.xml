@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__PaymentsAgainstDebitNoteLines__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Allocations Against Debit Note Lines</label>
+    <summarizedField>blng__DebitNoteAllocation__c.blng__Payments__c</summarizedField>
+    <summaryFilterItems>
+        <field>blng__DebitNoteAllocation__c.blng__Type__c</field>
+        <operation>equals</operation>
+        <value>Allocation</value>
+    </summaryFilterItems>
+    <summaryForeignKey>blng__DebitNoteAllocation__c.blng__InvoiceLine__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

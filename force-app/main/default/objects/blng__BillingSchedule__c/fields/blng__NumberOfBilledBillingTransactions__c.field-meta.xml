@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__NumberOfBilledBillingTransactions__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Number of Billed Billing Transactions</label>
+    <summaryFilterItems>
+        <field>blng__BillingTransaction__c.blng__Status__c</field>
+        <operation>equals</operation>
+        <value>Billed</value>
+    </summaryFilterItems>
+    <summaryForeignKey>blng__BillingTransaction__c.blng__BillingSchedule__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__New_Comment_Lightning</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>page</linkType>
+    <masterLabel>New Comment</masterLabel>
+    <openType>replace</openType>
+    <page>E2CP__New_Comment</page>
+    <protected>false</protected>
+</WebLink>

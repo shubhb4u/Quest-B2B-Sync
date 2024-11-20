@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__ResponseURL__c</fullName>
+    <deprecated>false</deprecated>
+    <description>URL to preview survey response.</description>
+    <externalId>false</externalId>
+    <formula>IF((JBCXM__Responsed__c == true),HYPERLINK(LEFT($Api.Partner_Server_URL_390, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_390))+&apos;apex/JBCXM__SurveyResponse?mode=REPORT_PREVIEW&amp;surveyId=&apos;+JBCXM__SurveyMaster__c+&apos;&amp;pId=&apos;+Id, &apos;ResponseUrl&apos;),null)</formula>
+    <label>Response URL</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

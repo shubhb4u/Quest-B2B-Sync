@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__RefundPaymentMethod__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The payment method represents a credit card or banking information that can be used to process a payment</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The payment method represents a credit card or banking information that can be used to process a payment</inlineHelpText>
+    <label>Refund Payment Method</label>
+    <referenceTo>blng__PaymentMethod__c</referenceTo>
+    <relationshipLabel>Refunds</relationshipLabel>
+    <relationshipName>PaymentMethodRefunds</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

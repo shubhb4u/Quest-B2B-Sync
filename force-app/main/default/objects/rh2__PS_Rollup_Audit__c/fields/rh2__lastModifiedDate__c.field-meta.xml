@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__lastModifiedDate__c</fullName>
+    <deprecated>false</deprecated>
+    <description>String of the date and time the rollup was last modified.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>String of the date and time the rollup was last modified.</inlineHelpText>
+    <label>Rollup Last Modified Date</label>
+    <length>50</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

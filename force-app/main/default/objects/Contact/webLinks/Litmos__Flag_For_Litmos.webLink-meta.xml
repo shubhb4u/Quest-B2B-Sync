@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Flag_For_Litmos</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Provision to Litmos</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>{!REQUIRESCRIPT(&quot;/soap/ajax/19.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/24.0/apex.js&quot;)}
+
+var url = parent.location.href; //string for the URL of the current page
+var records = {!GETRECORDIDS($ObjectType.Contact)};
+var updateRecords = [];
+
+if (records[0] == null)
+alert(&quot;Please select atleast One Record!!!&quot;);
+else{
+var strIDs=&apos;&apos;;
+for(var i=0;i&lt;records.length;i++){
+strIDs=strIDs+records[i]+&apos;\&apos;,\&apos;&apos;;
+}
+strIDs=strIDs.substr(0,strIDs.length-3);
+var query1 = sforce.connection.query(&apos;select id,name,Litmos__Sync_Litmos__c from contact where id in (\&apos;&apos; + strIDs + &apos;\&apos;) and Litmos__Sync_Litmos__c = false&apos;);
+
+var records1 = query1.getArray(&quot;records&quot;);
+var updateList = [];
+for(var a=0;a&lt;records1.length;a++){
+var cntObj = new sforce.SObject(&quot;contact&quot;);
+cntObj.Id=records1[a].Id;
+
+cntObj.Litmos__Sync_Litmos__c=true;
+updateList.push(cntObj);
+}
+var conf=confirm(records1.length+ &quot; Contacts will be created as new users in Litmos. Please confirm before proceeding.&quot;);
+
+if(records1.length&gt;0 &amp;&amp; conf==true){
+result = sforce.connection.update(updateList); //push the updated records back to Salesforce
+parent.location.href = url; //refresh the page
+}
+}</url>
+</WebLink>

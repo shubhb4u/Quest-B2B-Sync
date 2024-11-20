@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Account_Record_Post__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Post Chatter updates for Adobe Acrobat Sign agreements on the related Account record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Post Chatter updates for Adobe Acrobat Sign agreements on the related Account record.</inlineHelpText>
+    <label>Post on Account Record</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

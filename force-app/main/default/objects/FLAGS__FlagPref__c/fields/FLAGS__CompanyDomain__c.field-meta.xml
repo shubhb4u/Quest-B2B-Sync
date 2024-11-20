@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__CompanyDomain__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The domain of the user&apos;s company needed to distinguish emails between users and their customers.
+
+Set in the Case Flags Setup Wizard.</description>
+    <externalId>false</externalId>
+    <label>Company Domain</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

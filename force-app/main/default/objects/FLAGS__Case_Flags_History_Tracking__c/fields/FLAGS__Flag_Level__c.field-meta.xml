@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Flag_Level__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Flag level in text (L0 - L4), useful for analytics.</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(FLAGS__Flag_Set__c),null,IF(FLAGS__Hours_Offset__c+FLAGS__Hours_Elapsed__c &gt;= FLAGS__CaseTimeOffset4__c, 
+&quot;L4&quot;, 
+IF(FLAGS__Hours_Offset__c+FLAGS__Hours_Elapsed__c &gt;= FLAGS__CaseTimeOffset3__c, 
+&quot;L3&quot;, 
+IF(FLAGS__Hours_Offset__c+FLAGS__Hours_Elapsed__c &gt;= FLAGS__CaseTimeOffset2__c, 
+&quot;L2&quot;, 
+IF(FLAGS__Hours_Offset__c+FLAGS__Hours_Elapsed__c &gt;= FLAGS__CaseTimeOffset1__c, 
+&quot;L1&quot;, 
+&quot;L0&quot;) 
+))))</formula>
+    <inlineHelpText>Flag level in text (L0 - L4), useful for analytics.</inlineHelpText>
+    <label>Flag Level</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

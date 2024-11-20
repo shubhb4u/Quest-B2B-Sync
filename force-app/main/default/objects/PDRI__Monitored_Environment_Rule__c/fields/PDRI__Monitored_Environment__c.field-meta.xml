@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Monitored_Environment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Monitored Environment</label>
+    <referenceTo>PDRI__Monitored_Environment__c</referenceTo>
+    <relationshipLabel>Monitored Environment Rules</relationshipLabel>
+    <relationshipName>Monitored_Environment_Rules</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

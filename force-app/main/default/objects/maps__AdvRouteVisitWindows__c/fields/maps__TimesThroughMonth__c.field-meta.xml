@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__TimesThroughMonth__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Times Through Month</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1st Time Through</fullName>
+                <default>false</default>
+                <label>1st Time Through</label>
+            </value>
+            <value>
+                <fullName>2nd Time Through</fullName>
+                <default>false</default>
+                <label>2nd Time Through</label>
+            </value>
+            <value>
+                <fullName>3rd Time Through</fullName>
+                <default>false</default>
+                <label>3rd Time Through</label>
+            </value>
+            <value>
+                <fullName>4th Time Through</fullName>
+                <default>false</default>
+                <label>4th Time Through</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

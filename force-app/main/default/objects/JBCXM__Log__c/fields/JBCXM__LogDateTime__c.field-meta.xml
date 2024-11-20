@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__LogDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will store date time when log is created</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date time when the log is created</inlineHelpText>
+    <label>Log Date Time</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__PartialPeriodTreatment__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Combine a partial billing period with the previous full period when creating an invoice line, or leave the partial period as a separate invoice line.</inlineHelpText>
+    <label>Partial Period Treatment</label>
+    <required>true</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>blng__PartialPeriodTreatment</valueSetName>
+    </valueSet>
+</CustomField>

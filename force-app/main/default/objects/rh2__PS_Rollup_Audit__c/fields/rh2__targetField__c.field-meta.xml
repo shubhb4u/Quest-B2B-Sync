@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__targetField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The object/field combination in which rollup results are populated. For example: Account.Site</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The object/field combination in which rollup results are populated. For example: Account.Site</inlineHelpText>
+    <label>Target Field</label>
+    <length>150</length>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__CalculateASVByTerm__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This flag is used to calculate the ASV using term if term is less than 12.</description>
+    <externalId>false</externalId>
+    <label>Calculate ASV By Term</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

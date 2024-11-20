@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Latest_Inbound_BH__c</fullName>
+    <deprecated>false</deprecated>
+    <description>When the Enable Latest Inbound BH setting is enabled in setup, this field is populated with the current state of Business Hours each time a new inbound email is received through Email to Case Premium. Consider using this field in your rule criteria for Auto-Response rules (or other automation such as Flows) to send appropriate emails based on whether the current time falls inside or outside of Business Hours.</description>
+    <externalId>false</externalId>
+    <label>Latest Inbound BH</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Inside of Business Hours</fullName>
+                <default>false</default>
+                <label>Inside of Business Hours</label>
+            </value>
+            <value>
+                <fullName>Outside of Business Hours</fullName>
+                <default>false</default>
+                <label>Outside of Business Hours</label>
+            </value>
+            <value>
+                <fullName>Holiday</fullName>
+                <default>false</default>
+                <label>Holiday</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

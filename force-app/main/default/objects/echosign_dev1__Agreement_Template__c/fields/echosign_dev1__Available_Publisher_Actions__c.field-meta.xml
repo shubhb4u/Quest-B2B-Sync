@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Available_Publisher_Actions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>On the Master object record, make this agreement template available to senders via the Chatter Feed Adobe Acrobat Sign send for signature action.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>On the Master object record, make this agreement template available to senders via the Chatter Feed Adobe Acrobat Sign send for signature action.</inlineHelpText>
+    <label>Available for Publisher Actions</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

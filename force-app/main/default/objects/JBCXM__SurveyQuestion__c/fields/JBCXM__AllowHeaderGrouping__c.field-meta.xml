@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__AllowHeaderGrouping__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This is used to enable header grouping for question type of Matrix,and NPS</description>
+    <externalId>false</externalId>
+    <label>AllowHeaderGrouping</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

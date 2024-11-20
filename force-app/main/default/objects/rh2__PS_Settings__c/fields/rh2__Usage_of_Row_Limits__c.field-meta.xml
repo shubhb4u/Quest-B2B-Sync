@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Usage_of_Row_Limits__c</fullName>
+    <defaultValue>100</defaultValue>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Determines the percentage of query row limit usage Rollup Helper should use when retrieving child records. Lowering this setting may impact rollup accuracy, so it is recommended to keep this setting at or close to 100%. The default value is 100%.</inlineHelpText>
+    <label>zDeprecated</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

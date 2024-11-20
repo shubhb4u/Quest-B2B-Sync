@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Deployment_Batch_Result_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>PDRI__Operation__c</fields>
+    <fields>PDRI__Result_Icon__c</fields>
+    <fields>PDRI__Upsert_Method_Used__c</fields>
+    <fields>PDRI__Data_Records_Processed__c</fields>
+    <fields>PDRI__Deployment_Duration_Minutes__c</fields>
+    <fields>PDRI__Data_Records_Succeeded__c</fields>
+    <fields>PDRI__Data_Records_Failed__c</fields>
+    <fields>PDRI__Data_Set__c</fields>
+    <label>Deployment Batch Result Compact Layout</label>
+</CompactLayout>

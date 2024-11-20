@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Processing_Order_Cannot_be_negative</fullName>
+    <active>true</active>
+    <description>Processing Order Cannot be Negative</description>
+    <errorConditionFormula>blng__ProcessingOrder__c  &lt; 0</errorConditionFormula>
+    <errorMessage>Processing Order cannot be Negative</errorMessage>
+</ValidationRule>

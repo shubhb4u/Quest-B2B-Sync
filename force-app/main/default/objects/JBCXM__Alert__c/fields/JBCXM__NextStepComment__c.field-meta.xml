@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__NextStepComment__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Enter details of the remedial actions proposed or under taken to address the Alert - max allowed length 4096 characters.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter details of the remedial actions proposed or under taken to address the Alert - max allowed length 4096 characters.</inlineHelpText>
+    <label>Next Step Comment</label>
+    <length>4096</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpartnerBP2__New_Plan</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>New Plan</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>{!URLFOR(&apos;/apex/ImpartnerBP2__BPEdit&apos;,&apos;&apos;,[&apos;AccountId&apos; =Account.Id,&apos;AccountName&apos;=Account.Name])}</url>
+</WebLink>

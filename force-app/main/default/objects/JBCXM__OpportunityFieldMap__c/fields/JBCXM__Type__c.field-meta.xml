@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The type of the mapping field that specifies if the mapping is related to JBara TransHeader of the JBara TransLines Objects. There are also be Opportunity Fields that are required but are not mapped to JBara objects. In this case provide a Default value</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The type of the mapping field that specifies if the mapping is related to JBara TransHeader of the JBara TransLines Objects. There are also be Opportunity Fields that are required but are not mapped to JBara objects. In this case provide a Default value</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>JBara Header Field</fullName>
+                <default>false</default>
+                <label>JBara Header Field</label>
+            </value>
+            <value>
+                <fullName>JBara Line Item</fullName>
+                <default>false</default>
+                <label>JBara Line Item</label>
+            </value>
+            <value>
+                <fullName>Booking Type</fullName>
+                <default>false</default>
+                <label>Booking Type</label>
+            </value>
+            <value>
+                <fullName>Opportunity Required Field</fullName>
+                <default>false</default>
+                <label>Opportunity Required Field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

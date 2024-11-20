@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__sourceFieldType__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field type of the Rollup&apos;s source field</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Field type of the Rollup&apos;s source field</inlineHelpText>
+    <label>Source Field Type</label>
+    <length>30</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

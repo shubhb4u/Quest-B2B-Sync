@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Total_Number_of_Questions__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Total number of questions in the Project, regardless of state</description>
+    <externalId>false</externalId>
+    <formula>Loopio__Number_of_Assigned_Questions__c +
+ Loopio__Number_of_Complete_Questions__c +
+ Loopio__Number_of_Pending_Questions__c +
+ Loopio__Number_of_Review_Questions__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Total number of questions in the Project, regardless of state</inlineHelpText>
+    <label>Total Questions</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__ReadyForUse__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This checkbox determines if the template user is ready for the user to input their data and is also used to determine if the user is ready for routing</description>
+    <externalId>false</externalId>
+    <label>Ready for Use</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

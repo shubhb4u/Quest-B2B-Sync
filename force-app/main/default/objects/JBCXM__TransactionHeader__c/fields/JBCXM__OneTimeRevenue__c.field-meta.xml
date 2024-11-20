@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__OneTimeRevenue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>One-time revenue</description>
+    <externalId>false</externalId>
+    <inlineHelpText>One-time revenue</inlineHelpText>
+    <label>OneTime Revenue</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

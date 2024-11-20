@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>A DFS-CLM specific custom setting to store the templates for object mappings between DFS-CLM and
+		SpringCM.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>EOS Type</label>
+    <visibility>Public</visibility>
+</CustomObject>

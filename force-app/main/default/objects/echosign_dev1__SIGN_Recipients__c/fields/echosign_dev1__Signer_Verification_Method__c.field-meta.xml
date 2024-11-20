@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Signer_Verification_Method__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Signer Verification Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Email OTP</fullName>
+                <default>false</default>
+                <label>Email OTP</label>
+            </value>
+            <value>
+                <fullName>Password</fullName>
+                <default>false</default>
+                <label>Password</label>
+            </value>
+            <value>
+                <fullName>KBA</fullName>
+                <default>false</default>
+                <label>KBA</label>
+            </value>
+            <value>
+                <fullName>Phone</fullName>
+                <default>false</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Government ID</fullName>
+                <default>false</default>
+                <label>Government ID</label>
+            </value>
+            <value>
+                <fullName>Acrobat Sign</fullName>
+                <default>false</default>
+                <label>Acrobat Sign</label>
+            </value>
+            <value>
+                <fullName>Digital Identity</fullName>
+                <default>false</default>
+                <label>Digital Identity</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InSituGen__Scope_Indicator__c</fullName>
+    <defaultValue>1</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Indicates if the setting value is global (1), profile (3) or a user specific (5).</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1 = Global 
+3 = Profile 
+5 = User Specific</inlineHelpText>
+    <label>Scope Indicator</label>
+    <precision>2</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

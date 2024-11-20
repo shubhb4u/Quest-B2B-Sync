@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__ExceptionDescription__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will system exception and business exception code like &quot;DML Exception &quot;
+,&quot;Account Not Found&quot; with detail messages</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter system exception and business exception code like &quot;DML Exception &quot;
+,&quot;Account Not Found&quot; with detail messages</inlineHelpText>
+    <label>Exception Description</label>
+    <length>4000</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

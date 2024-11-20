@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpartnerBP2__All1</fullName>
+    <columns>NAME</columns>
+    <columns>ImpartnerBP2__PartnerAccount__c</columns>
+    <columns>ImpartnerBP2__Active__c</columns>
+    <columns>ImpartnerBP2__IsPreview__c</columns>
+    <columns>ImpartnerBP2__LastRefreshed__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

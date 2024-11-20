@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__InvoiceLine__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Invoice Line</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Draft Invoice Lines would not be available</errorMessage>
+        <filterItems>
+            <field>blng__InvoiceLine__c.blng__InvoiceLineStatus__c</field>
+            <operation>notEqual</operation>
+            <value>Draft</value>
+        </filterItems>
+        <infoMessage>Draft Invoice Lines would not be available</infoMessage>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>blng__InvoiceLine__c</referenceTo>
+    <relationshipLabel>Credit Note Lines</relationshipLabel>
+    <relationshipName>InvoiceLineCreditNoteLines</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

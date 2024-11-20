@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_Agreement_Chatter_Feed__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to turn off the Chatter feed on the Agreement object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to turn off the Chatter feed on the Agreement object.</inlineHelpText>
+    <label>Disable Agreement Chatter Feed</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

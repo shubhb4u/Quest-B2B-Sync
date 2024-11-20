@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Workflow_Created_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Sign Workflow Creation Time and Date</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Sign Workflow Creation Time and Date</inlineHelpText>
+    <label>Workflow Created Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

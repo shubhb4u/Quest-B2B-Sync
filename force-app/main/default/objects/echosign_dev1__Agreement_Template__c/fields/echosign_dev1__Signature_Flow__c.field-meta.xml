@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Signature_Flow__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Set the recipient order for signing documents.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Set the recipient order for signing documents.</inlineHelpText>
+    <label>Signature Flow</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recipients sign in order</fullName>
+                <default>true</default>
+                <label>Recipients sign in order</label>
+            </value>
+            <value>
+                <fullName>Recipients sign in any order</fullName>
+                <default>false</default>
+                <label>Recipients sign in any order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

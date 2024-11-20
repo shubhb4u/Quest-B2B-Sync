@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Filter</fullName>
+                <default>true</default>
+                <label>Filter</label>
+            </value>
+            <value>
+                <fullName>Cross Filter</fullName>
+                <default>false</default>
+                <label>Cross Filter</label>
+            </value>
+            <value>
+                <fullName>Subfilter</fullName>
+                <default>false</default>
+                <label>Subfilter</label>
+            </value>
+            <value>
+                <fullName>Activity Subfilter</fullName>
+                <default>false</default>
+                <label>Activity Subfilter</label>
+            </value>
+            <value>
+                <fullName>DeviceLayerVendor</fullName>
+                <default>false</default>
+                <label>DeviceLayerVendor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

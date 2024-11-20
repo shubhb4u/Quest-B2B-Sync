@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__RepeatsAs__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the frequency at which the visit will repeat</description>
+    <externalId>false</externalId>
+    <label>Repeats As</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Daily</fullName>
+                <default>false</default>
+                <label>Daily</label>
+            </value>
+            <value>
+                <fullName>Times Through Month</fullName>
+                <default>false</default>
+                <label>Times Through Month</label>
+            </value>
+            <value>
+                <fullName>Single Day</fullName>
+                <default>false</default>
+                <label>Single Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

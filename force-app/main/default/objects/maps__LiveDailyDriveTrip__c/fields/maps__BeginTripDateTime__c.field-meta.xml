@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__BeginTripDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Time when this trip started</description>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(maps__BeginTripStop__r.maps__EventType__c, &quot;firstPoint&quot;), maps__BeginTripStop__r.maps__EventStarted__c, maps__BeginTripStop__r.maps__EventEnded__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Time when this trip started</inlineHelpText>
+    <label>Begin Trip Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

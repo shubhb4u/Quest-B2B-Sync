@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Uniform_Index__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</inlineHelpText>
+    <label>Uniform Index</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__All</fullName>
+    <columns>NAME</columns>
+    <columns>blng__Account__c</columns>
+    <columns>blng__CreditNoteDate__c</columns>
+    <columns>blng__TotalAmount__c</columns>
+    <columns>blng__Allocations__c</columns>
+    <columns>blng__Unallocations__c</columns>
+    <columns>blng__Balance__c</columns>
+    <columns>blng__Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

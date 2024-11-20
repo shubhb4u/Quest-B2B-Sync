@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOZISF__Free_Email__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Indicates if ZoomInfo recognizes an email address input value as managed by a free or temporary email service provider.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates if ZoomInfo recognizes an email address input value as managed by a free or temporary email service provider.</inlineHelpText>
+    <label>Free Email</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

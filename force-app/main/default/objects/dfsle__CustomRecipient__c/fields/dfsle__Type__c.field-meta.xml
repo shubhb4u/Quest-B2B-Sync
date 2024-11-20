@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dfsle__Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Type</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type</inlineHelpText>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Signer</fullName>
+                <default>true</default>
+                <label>Needs to Sign</label>
+            </value>
+            <value>
+                <fullName>InPersonSigner</fullName>
+                <default>false</default>
+                <label>In Person Signer</label>
+            </value>
+            <value>
+                <fullName>CarbonCopy</fullName>
+                <default>false</default>
+                <label>Receives a Copy</label>
+            </value>
+            <value>
+                <fullName>CertifiedDelivery</fullName>
+                <default>false</default>
+                <label>Needs to View</label>
+            </value>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Specify Recipients</label>
+            </value>
+            <value>
+                <fullName>Editor</fullName>
+                <default>false</default>
+                <label>Allow to Edit</label>
+            </value>
+            <value>
+                <fullName>Intermediary</fullName>
+                <default>false</default>
+                <label>Update Recipients</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

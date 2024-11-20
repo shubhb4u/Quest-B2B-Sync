@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Event__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Event that triggered this History Tracking record to be created.</description>
+    <externalId>false</externalId>
+    <label>Event</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Flag Cleared</fullName>
+                <default>false</default>
+                <label>Flag Cleared</label>
+            </value>
+            <value>
+                <fullName>Case Owner Changed</fullName>
+                <default>false</default>
+                <label>Case Owner Changed</label>
+            </value>
+            <value>
+                <fullName>Case Status Changed</fullName>
+                <default>false</default>
+                <label>Case Status Changed</label>
+            </value>
+            <value>
+                <fullName>Flag Set</fullName>
+                <default>false</default>
+                <label>Flag Set</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

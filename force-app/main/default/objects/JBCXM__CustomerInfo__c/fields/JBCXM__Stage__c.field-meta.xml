@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Stage__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This field describes the stage of the customer</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Customer Stage is a configurable attribute that provides additional information on the customer journey / status.</inlineHelpText>
+    <label>Stage</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>JBCXM__PickList__c.JBCXM__Category__c</field>
+            <operation>equals</operation>
+            <value>Customer Stage</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Customers Info (Customer Stage)</relationshipLabel>
+    <relationshipName>Customers_Info</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Hours_Age_2__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Hours Age 2</label>
+    <summarizedField>FLAGS__Case_Flags_History_Tracking__c.FLAGS__Hours_in_Age_2__c</summarizedField>
+    <summaryForeignKey>FLAGS__Case_Flags_History_Tracking__c.FLAGS__Case__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

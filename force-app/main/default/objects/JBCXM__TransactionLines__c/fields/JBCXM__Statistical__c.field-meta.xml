@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Statistical__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Statistical Amount under the Transaction Line.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Statistical Amount under the Transaction Line.</inlineHelpText>
+    <label>Statistical</label>
+    <precision>10</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

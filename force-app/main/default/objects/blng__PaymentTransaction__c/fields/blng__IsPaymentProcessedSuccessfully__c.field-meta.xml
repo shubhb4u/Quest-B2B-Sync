@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__IsPaymentProcessedSuccessfully__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>It determines whether the Transaction has created Payment.
+This is only for charged transactions.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It determines whether the Transaction has created Payment.
+This is only for charged transactions.</inlineHelpText>
+    <label>Payment Created</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__TerritoryAggregationSetting__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Maps Territory Aggregation Setting</label>
+    <referenceTo>maps__TerritoryAggregationSetting__c</referenceTo>
+    <relationshipLabel>Maps Territory Aggregations</relationshipLabel>
+    <relationshipName>TerritoryAggregations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

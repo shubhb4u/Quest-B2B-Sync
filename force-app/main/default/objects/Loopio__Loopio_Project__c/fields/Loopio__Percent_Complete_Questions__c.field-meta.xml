@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loopio__Percent_Complete_Questions__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF(
+   OR(
+       ISNULL(Loopio__Total_Number_of_Questions__c),
+       Loopio__Total_Number_of_Questions__c = 0
+   ),
+   0,
+   BLANKVALUE(Loopio__Number_of_Complete_Questions__c, 0) / Loopio__Total_Number_of_Questions__c
+)</formula>
+    <inlineHelpText>Percentage of Total Questions that are marked as complete</inlineHelpText>
+    <label>Percent Completed</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

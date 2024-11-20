@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Root_Data_Set_ID__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IF( PDRI__Data_Set_Field__r.PDRI__Data_Set__r.PDRI__Root__c ,  PDRI__Data_Set_Field__r.PDRI__Data_Set__c ,  PDRI__Data_Set_Field__r.PDRI__Data_Set__r.PDRI__Root_Data_Set__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Root Data Set ID</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

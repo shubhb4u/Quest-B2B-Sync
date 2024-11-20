@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Data_Records_Failed__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Data Records Failed</label>
+    <summaryFilterItems>
+        <field>PDRI__Deployment_Record_Result__c.PDRI__Success__c</field>
+        <operation>equals</operation>
+        <value>False</value>
+    </summaryFilterItems>
+    <summaryForeignKey>PDRI__Deployment_Record_Result__c.PDRI__Deployment_Batch_Result__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Object_Selector_Page_Size__c</fullName>
+    <defaultValue>900</defaultValue>
+    <deprecated>false</deprecated>
+    <description>The number of objects to display in the Deployment Object picklist on the data set editor. For orgs with a large number of custom objects, set a lower number to improve performance.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The number of objects to display in the Deployment Object picklist on the data set editor. For orgs with a large number of custom objects, set a lower number to improve performance.</inlineHelpText>
+    <label>Object Selector Page Size</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__OrderNumber__c</columns>
+    <columns>NAME</columns>
+    <columns>JBCXM__TransactionLines__c</columns>
+    <columns>JBCXM__Type__c</columns>
+    <columns>JBCXM__Booking__c</columns>
+    <columns>JBCXM__ASV__c</columns>
+    <columns>JBCXM__MRR__c</columns>
+    <columns>JBCXM__OneTimeRevenue__c</columns>
+    <columns>JBCXM__Users__c</columns>
+    <columns>JBCXM__Statistical__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

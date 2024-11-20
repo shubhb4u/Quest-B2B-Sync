@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__Case_Flags_Business_Hours__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>A reference to the Case Flags Business Hours record used to calculate the Case Flag Business Age. This is set automatically and should not be manipulated.</description>
+    <externalId>false</externalId>
+    <label>Case Flags Business Hours</label>
+    <referenceTo>FLAGS__CaseFlagsBusinessHours__c</referenceTo>
+    <relationshipLabel>Case Flags History Tracking</relationshipLabel>
+    <relationshipName>Case_Flags_History</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__childExistsCheckboxRollup__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If checked, Rollup Helper will use the source field isDeleted to determine if a source record exists. 
+        If a source record exists on the target record, then the target field checkbox will be set to true. 
+        The target field will be set to false if no source records exist for the target record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checks the target checkbox if a source record exists</inlineHelpText>
+    <label>Child Exists Checkbox Rollup</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

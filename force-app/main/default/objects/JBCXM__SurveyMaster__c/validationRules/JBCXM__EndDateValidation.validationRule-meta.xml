@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__EndDateValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>JBCXM__EndDate__c  &lt;  JBCXM__StartDate__c</errorConditionFormula>
+    <errorMessage>Start Date cannot be greater than End date.</errorMessage>
+</ValidationRule>

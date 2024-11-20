@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__BusinessHours__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The standard Business Hour record being referenced.</description>
+    <externalId>false</externalId>
+    <label>Business Hours</label>
+    <referenceTo>BusinessHours</referenceTo>
+    <relationshipLabel>Case Flags Business Hours</relationshipLabel>
+    <relationshipName>Case_Flags_Business_Hours</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

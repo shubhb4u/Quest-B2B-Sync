@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__RevenueRecognitionGLRule__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>The revenue recognition general ledger rule selected in the revenue schedule.</inlineHelpText>
+    <label>Revenue Recognition GL Rule</label>
+    <referenceTo>blng__GLRule__c</referenceTo>
+    <relationshipLabel>RevenueTransactions</relationshipLabel>
+    <relationshipName>GLRuleRevenueTransactions</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

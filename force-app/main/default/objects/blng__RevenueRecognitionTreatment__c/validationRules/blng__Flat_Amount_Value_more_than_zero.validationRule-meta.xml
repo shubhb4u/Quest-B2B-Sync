@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Flat_Amount_Value_more_than_zero</fullName>
+    <active>true</active>
+    <description>Amount must be equal to or greater than zero</description>
+    <errorConditionFormula>IF((!ISBLANK(blng__FlatAmount__c)) &amp;&amp; blng__FlatAmount__c &lt; 0, True, False)</errorConditionFormula>
+    <errorMessage>Flat Amount Cannot be less than Zero</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Merge_Mapping__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Select the merge mapping to merge Salesforce fields into the Adobe Acrobat Sign agreement before it is sent for signature.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the merge mapping to merge Salesforce fields into the Adobe Acrobat Sign agreement before it is sent for signature.</inlineHelpText>
+    <label>Merge Mapping</label>
+    <referenceTo>echosign_dev1__SIGN_Merge_Mapping__c</referenceTo>
+    <relationshipLabel>Agreement Templates</relationshipLabel>
+    <relationshipName>Agreement_Templates</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

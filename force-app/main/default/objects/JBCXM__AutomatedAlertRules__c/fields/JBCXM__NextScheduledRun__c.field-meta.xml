@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__NextScheduledRun__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The next scheduled run date-time of the rule.</description>
+    <externalId>false</externalId>
+    <label>NextScheduledRun</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Hide_Sidebar_Agreement_Page__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</inlineHelpText>
+    <label>Hide Sidebar for Agreement Editor Page</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

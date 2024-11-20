@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Invocation_Rule__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Invocation Rule</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>PDRI__Invocation_Order__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Stop deployment if invocation fails.</fullName>
+                <default>true</default>
+                <label>Stop deployment if invocation fails.</label>
+            </value>
+            <value>
+                <fullName>Continue deployment if invocation fails.</fullName>
+                <default>false</default>
+                <label>Continue deployment if invocation fails.</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Before</controllingFieldValue>
+            <valueName>Stop deployment if invocation fails.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Before</controllingFieldValue>
+            <valueName>Continue deployment if invocation fails.</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

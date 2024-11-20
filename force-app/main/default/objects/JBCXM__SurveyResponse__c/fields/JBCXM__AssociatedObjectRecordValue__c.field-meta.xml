@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__AssociatedObjectRecordValue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The value of the Associated object that is usually sent via the API Call</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Associated Object Value</inlineHelpText>
+    <label>Associated Object Record Value</label>
+    <length>160</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

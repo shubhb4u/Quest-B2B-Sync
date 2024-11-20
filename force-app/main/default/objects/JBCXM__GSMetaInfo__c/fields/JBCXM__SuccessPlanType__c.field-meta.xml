@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__SuccessPlanType__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Success Plan Type</label>
+    <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
+    <relationshipLabel>GSMetaInfo Success Plan Type</relationshipLabel>
+    <relationshipName>GSMetaInfoSuccessPlanType</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

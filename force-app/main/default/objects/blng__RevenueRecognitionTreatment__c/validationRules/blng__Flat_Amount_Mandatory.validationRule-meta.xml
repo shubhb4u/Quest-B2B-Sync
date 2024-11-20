@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Flat_Amount_Mandatory</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(blng__FlatAmount__c) &amp;&amp; ISPICKVAL( blng__Type__c, &apos;Flat Amount&apos;)</errorConditionFormula>
+    <errorDisplayField>blng__FlatAmount__c</errorDisplayField>
+    <errorMessage>If type is &quot;Flat Amount&quot;, Flat Amount is mandatory to populate.</errorMessage>
+</ValidationRule>

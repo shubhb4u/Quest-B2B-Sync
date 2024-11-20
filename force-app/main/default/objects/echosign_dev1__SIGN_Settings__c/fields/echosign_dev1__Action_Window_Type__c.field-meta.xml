@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Action_Window_Type__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Determine how Adobe Acrobat Sign windows open in users&apos; browsers. &apos;Window&apos; - Open in a new windows; &apos;Frame&apos; - Open as a layer on top of the Agreement page; Default/Empty: Auto-detect based on the user&apos;s browser capabilities.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Determine how Adobe Acrobat Sign windows open in users&apos; browsers. &apos;Window&apos; - Open in a new windows; &apos;Frame&apos; - Open as a layer on top of the Agreement page; Default/Empty: Auto-detect based on the user&apos;s browser capabilities.</inlineHelpText>
+    <label>Action Window Type</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__AdvRouteTemplateUser__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>This is a lookup to the Advanced Route template user the error is related to</description>
+    <externalId>false</externalId>
+    <label>Maps Advanced Route Template User</label>
+    <referenceTo>maps__AdvRouteTemplateUser__c</referenceTo>
+    <relationshipLabel>Maps Advanced Route Debugs</relationshipLabel>
+    <relationshipName>AdvRouteDebugs</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

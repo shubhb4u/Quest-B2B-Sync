@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNBConnect__D_B_Contact_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <deprecated>false</deprecated>
+    <description>The Dun &amp; Bradstreet Contact ID is an identification number assigned by Dun &amp; Bradstreet that uniquely identifies the Contact.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>The Dun &amp; Bradstreet Contact ID is an identification number assigned by Dun &amp; Bradstreet that uniquely identifies the Contact.</inlineHelpText>
+    <label>D&amp;B Contact ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Constant_Value__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Input a value for the target field.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Input a value for the target field.</inlineHelpText>
+    <label>Target Field Value</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

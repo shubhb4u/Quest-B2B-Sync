@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FLAGS__CurrentBusinessHours__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The amount of business hours that have lapsed on the current day.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(FLAGS__ViewedFlag__c) || FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayStartTime__c &gt; NOW() || FLAGS__ViewedFlag__c &gt; FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayEndTime__c,0,(
+IF(FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayEndTime__c &lt; NOW(),FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayEndTime__c,NOW()) - IF(FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayStartTime__c &gt; FLAGS__ViewedFlag__c,FLAGS__CaseFlagsBusinessHours__r.FLAGS__TodayStartTime__c,FLAGS__ViewedFlag__c))*24)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Business Hours</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

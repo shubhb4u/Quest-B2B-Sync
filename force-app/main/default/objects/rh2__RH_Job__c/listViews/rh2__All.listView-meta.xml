@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__All</fullName>
+    <columns>OWNER.ALIAS</columns>
+    <columns>rh2__Rollup_Name__c</columns>
+    <columns>rh2__Active__c</columns>
+    <columns>rh2__PreviousFireTime__c</columns>
+    <columns>rh2__NextFireTime__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>en_US</language>
+</ListView>

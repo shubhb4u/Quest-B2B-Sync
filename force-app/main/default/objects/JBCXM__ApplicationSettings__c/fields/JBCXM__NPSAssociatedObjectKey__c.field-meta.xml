@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__NPSAssociatedObjectKey__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This will be used to record key column based on which need to associated object id</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This is usually not entered from the UI. This is the Record ID of the object that is associated to this NPS Response.</inlineHelpText>
+    <label>NPS Associated Object Key</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

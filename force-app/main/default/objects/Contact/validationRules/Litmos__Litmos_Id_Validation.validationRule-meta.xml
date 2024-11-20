@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Litmos__Litmos_Id_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Litmos__Deactivate_From_Litmos__c = false &amp;&amp; (PRIORVALUE( Litmos__LitmosID__c ) &lt;&gt; null &amp;&amp; PRIORVALUE( Litmos__LitmosID__c ) &lt;&gt; &apos;ERROR&apos; &amp;&amp; PRIORVALUE( Litmos__LitmosID__c ) &lt;&gt; Litmos__LitmosID__c))</errorConditionFormula>
+    <errorDisplayField>Litmos__LitmosID__c</errorDisplayField>
+    <errorMessage>You can&apos;t edit this field</errorMessage>
+</ValidationRule>

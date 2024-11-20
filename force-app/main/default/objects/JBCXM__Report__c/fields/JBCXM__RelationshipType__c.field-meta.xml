@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__RelationshipType__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Relationship Type</label>
+    <referenceTo>JBCXM__GSRelationshipType__c</referenceTo>
+    <relationshipLabel>Reports (Relationship Type)</relationshipLabel>
+    <relationshipName>RelationshipType</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

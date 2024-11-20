@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Deferred__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>blng__Unrecognized__c + blng__Available__c</formula>
+    <inlineHelpText>Revenue that has not yet been recognized in the Revenue Schedule.</inlineHelpText>
+    <label>Deferred</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

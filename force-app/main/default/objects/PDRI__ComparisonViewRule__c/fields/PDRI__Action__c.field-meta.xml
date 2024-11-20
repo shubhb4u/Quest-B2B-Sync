@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PDRI__Action__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Action to be taken by this rule.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>What action should this rule take?</inlineHelpText>
+    <label>Action</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Include</fullName>
+                <default>true</default>
+                <label>Include</label>
+            </value>
+            <value>
+                <fullName>Exclude</fullName>
+                <default>false</default>
+                <label>Exclude</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

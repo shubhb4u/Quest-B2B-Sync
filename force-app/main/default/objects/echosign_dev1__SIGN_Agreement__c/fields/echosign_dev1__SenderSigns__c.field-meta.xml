@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__SenderSigns__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this option if you also need to sign this agreement. Then select if you sign first or if your recipients sign first.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this option if you also need to sign this agreement. Then select if you sign first or if your recipients sign first.</inlineHelpText>
+    <label>I also need to sign this document</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__IsModified__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This lets us know if the waypoint was edited from core</description>
+    <externalId>false</externalId>
+    <label>Modified from Core</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

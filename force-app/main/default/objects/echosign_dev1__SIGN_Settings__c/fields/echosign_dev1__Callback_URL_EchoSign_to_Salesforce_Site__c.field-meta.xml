@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Callback_URL_EchoSign_to_Salesforce_Site__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This setting is the Secure Web Address copied from the Adobe Acrobat Sign Callback Site which is set up to send large agreements transactions over 4.0MB.  Follow instructions in the installation and configuration guide.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This setting is the Secure Web Address copied from the Adobe Acrobat Sign Callback Site which is set up to send large agreements transactions over 4.0MB.  Follow instructions in the installation and configuration guide.</inlineHelpText>
+    <label>Callback URL Adobe to Salesforce Site</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

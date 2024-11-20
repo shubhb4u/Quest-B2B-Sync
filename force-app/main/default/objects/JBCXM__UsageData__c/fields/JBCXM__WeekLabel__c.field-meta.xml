@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__WeekLabel__c</fullName>
+    <deprecated>false</deprecated>
+    <description>To store the week label based on the week configuration when adoption data granularity on weekly</description>
+    <externalId>false</externalId>
+    <label>Week Label</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

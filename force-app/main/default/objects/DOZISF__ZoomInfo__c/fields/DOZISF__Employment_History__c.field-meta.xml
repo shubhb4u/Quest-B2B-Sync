@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DOZISF__Employment_History__c</fullName>
+    <deprecated>false</deprecated>
+    <description>A person&apos;s history of employment.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>A person&apos;s history of employment.</inlineHelpText>
+    <label>Employment History</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

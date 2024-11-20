@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__FixedFireTime__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If this is unchecked, daily scheduled jobs will run one day after the previous fire time.  If this is checked, daily scheduled jobs will run one day after the initial next fire time.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If this is unchecked, daily scheduled jobs will run one day after the previous fire time.  If this is checked, daily scheduled jobs will run one day after the initial next fire time.</inlineHelpText>
+    <label>Fixed Fire Time</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

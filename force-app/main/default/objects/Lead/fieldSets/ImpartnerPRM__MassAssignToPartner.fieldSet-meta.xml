@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FieldSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ImpartnerPRM__MassAssignToPartner</fullName>
+    <availableFields>
+        <field>ImpartnerPRM__DateAssignedToPartner__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>ImpartnerPRM__NotifyPartner__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <availableFields>
+        <field>ImpartnerPRM__PartnerLeadAcceptance__c</field>
+        <isFieldManaged>false</isFieldManaged>
+        <isRequired>false</isRequired>
+    </availableFields>
+    <description>Mass Assign Leads to Partner Page</description>
+    <displayedFields>
+        <field>ImpartnerPRM__PartnerAccount__c</field>
+        <isFieldManaged>true</isFieldManaged>
+        <isRequired>true</isRequired>
+    </displayedFields>
+    <displayedFields>
+        <field>ImpartnerPRM__PartnerContact__c</field>
+        <isFieldManaged>true</isFieldManaged>
+        <isRequired>true</isRequired>
+    </displayedFields>
+    <label>Mass Assign to Partner</label>
+</FieldSet>

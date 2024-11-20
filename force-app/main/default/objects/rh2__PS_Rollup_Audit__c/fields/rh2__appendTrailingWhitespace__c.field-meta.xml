@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__appendTrailingWhitespace__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Controls whether TXT rollups will append a space at the end of each delimiter.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Controls whether TXT rollups will append a space at the end of each delimiter.</inlineHelpText>
+    <label>Append Trailing Whitespace</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

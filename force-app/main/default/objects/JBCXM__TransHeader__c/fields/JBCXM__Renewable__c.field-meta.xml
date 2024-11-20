@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__Renewable__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>All transactions that have recurring component are renewable. Transaction that have only a fixed revenue component are not renewable</description>
+    <externalId>false</externalId>
+    <inlineHelpText>All transactions that have recurring component are renewable. Transaction that have only a fixed revenue component are not renewable</inlineHelpText>
+    <label>Renewable</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

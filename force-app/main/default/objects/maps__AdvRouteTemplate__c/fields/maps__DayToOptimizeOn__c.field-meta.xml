@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__DayToOptimizeOn__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Thiese are the days of the week optimizations can run on</description>
+    <externalId>false</externalId>
+    <label>Day(s) To Optimize On</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>maps__AdvRouteDaysOfWeek</valueSetName>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

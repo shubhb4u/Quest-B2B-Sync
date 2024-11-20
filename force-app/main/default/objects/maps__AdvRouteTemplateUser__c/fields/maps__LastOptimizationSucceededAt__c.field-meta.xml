@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LastOptimizationSucceededAt__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field tracks the last time a job was submitted and it was successful</description>
+    <externalId>false</externalId>
+    <label>Last Optimization Succeeded At</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

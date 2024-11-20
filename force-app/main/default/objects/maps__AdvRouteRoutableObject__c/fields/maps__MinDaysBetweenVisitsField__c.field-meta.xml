@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__MinDaysBetweenVisitsField__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This is the field used to get the minimum number of days between visits</description>
+    <externalId>false</externalId>
+    <label>Min Days Between Visits Field</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

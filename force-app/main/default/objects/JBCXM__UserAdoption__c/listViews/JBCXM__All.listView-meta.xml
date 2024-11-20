@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>JBCXM__Account__c</columns>
+    <columns>JBCXM__Date__c</columns>
+    <columns>JBCXM__MeasureID__c</columns>
+    <columns>JBCXM__MeasureValue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>JBCXM__Year__c</field>
+        <operation>equals</operation>
+        <value>2011</value>
+    </filters>
+    <label>All</label>
+</ListView>

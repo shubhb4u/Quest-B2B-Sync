@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__Run_Validation_Rule__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>LEAVE THIS OPTION CHECKED. If unchecked then users will enter records with validation rules not in effect.  When this setting is added to a validation rule, Rollup Helper will turn off the validation rule upon update to a target record.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>LEAVE THIS OPTION CHECKED</inlineHelpText>
+    <label>Run Validation Rule</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

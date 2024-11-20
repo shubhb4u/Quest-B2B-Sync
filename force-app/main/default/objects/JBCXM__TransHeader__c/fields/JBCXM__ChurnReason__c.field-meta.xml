@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__ChurnReason__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>Select Churn Reason (applicable for Churn Transactions only). Churn reasons are customizable by adding records into PickList object.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Select Churn Reason (applicable for Churn Transactions only).</inlineHelpText>
+    <label>Churn Reason</label>
+    <referenceTo>JBCXM__PickList__c</referenceTo>
+    <relationshipLabel>Transaction Header (Churn Reason)</relationshipLabel>
+    <relationshipName>TransHeaderChurnReason</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

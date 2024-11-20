@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__All</fullName>
+    <columns>NAME</columns>
+    <columns>JBCXM__Active__c</columns>
+    <columns>JBCXM__Attributes__c</columns>
+    <columns>JBCXM__CardConfig__c</columns>
+    <columns>JBCXM__Definition__c</columns>
+    <columns>JBCXM__Description__c</columns>
+    <columns>JBCXM__DisplayOrder__c</columns>
+    <columns>JBCXM__Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

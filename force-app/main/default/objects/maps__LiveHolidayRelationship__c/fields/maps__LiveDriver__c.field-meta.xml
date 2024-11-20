@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__LiveDriver__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Driver associated to this Holiday</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Driver associated to this Holiday</inlineHelpText>
+    <label>Live Driver</label>
+    <referenceTo>maps__LiveDriver__c</referenceTo>
+    <relationshipLabel>Live Holiday Relationships</relationshipLabel>
+    <relationshipName>LiveHolidayRelationships</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

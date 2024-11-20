@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JBCXM__UsageTrackingMeasure__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>This field will be used to decide to show usage tracking or not</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to activate / Uncheck to deactivate</inlineHelpText>
+    <label>Usage Tracking Measure</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

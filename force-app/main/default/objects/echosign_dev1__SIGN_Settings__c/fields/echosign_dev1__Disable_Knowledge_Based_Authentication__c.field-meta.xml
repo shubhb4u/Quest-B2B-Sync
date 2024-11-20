@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Disable_Knowledge_Based_Authentication__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Enable this setting to hide the Knowledge Based Authentication (KBA) option for agreements. Powered by RSA, KBA requires signers to provide and verify personal information to sign the document. Usage of this feature is limited and may incur added costs.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Enable this setting to hide the Knowledge Based Authentication (KBA) option for agreements. Powered by RSA, KBA requires signers to provide and verify personal information to sign the document. Usage of this feature is limited and may incur added costs.</inlineHelpText>
+    <label>Disable Knowledge Based Authentication</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

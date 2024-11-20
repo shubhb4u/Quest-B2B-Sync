@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>rh2__DML_Problem_Field_Names__c</fullName>
+    <deprecated>false</deprecated>
+    <description>If any, the problem fields associated with the failures recorded from a DMLException.</description>
+    <externalId>false</externalId>
+    <label>DML Problem Field Names</label>
+    <length>32768</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

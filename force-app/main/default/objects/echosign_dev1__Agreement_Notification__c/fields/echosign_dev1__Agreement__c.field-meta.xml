@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>echosign_dev1__Agreement__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Agreement</label>
+    <referenceTo>echosign_dev1__SIGN_Agreement__c</referenceTo>
+    <relationshipLabel>AdobeSign_Agreement_Notification</relationshipLabel>
+    <relationshipName>AdobeSign_Agreement_Notification</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

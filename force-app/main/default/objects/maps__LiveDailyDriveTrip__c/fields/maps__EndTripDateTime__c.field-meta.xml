@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>maps__EndTripDateTime__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Time when this trip ended</description>
+    <externalId>false</externalId>
+    <formula>maps__EndTripStop__r.maps__EventStarted__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Time when this trip ended</inlineHelpText>
+    <label>End Trip Date/Time</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

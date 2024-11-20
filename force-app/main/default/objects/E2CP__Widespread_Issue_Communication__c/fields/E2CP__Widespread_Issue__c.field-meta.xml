@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>E2CP__Widespread_Issue__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Widespread Issue number related to this Communication</description>
+    <externalId>false</externalId>
+    <label>Widespread Issue</label>
+    <referenceTo>E2CP__Widespread_Issue__c</referenceTo>
+    <relationshipLabel>Widespread Issue Communications</relationshipLabel>
+    <relationshipName>Widespread_Issue_Communications</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

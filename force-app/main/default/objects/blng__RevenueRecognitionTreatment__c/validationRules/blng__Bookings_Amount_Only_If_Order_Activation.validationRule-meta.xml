@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>blng__Bookings_Amount_Only_If_Order_Activation</fullName>
+    <active>true</active>
+    <description>Revenue Schedule Amount can be Bookings Amount only if Revenue Schedule Creation Action = Order Activation.</description>
+    <errorConditionFormula>AND(
+        (!ISPICKVAL(blng__RevenueScheduleCreationAction__c, &apos;Order Activation&apos;)),
+        (ISPICKVAL(blng__RevenueScheduleAmount__c, &apos;Bookings Amount&apos;))
+        )</errorConditionFormula>
+    <errorMessage>To set the revenue schedule amount to Booking Amount, first set the revenue schedule creation action to Order Product Activation.</errorMessage>
+</ValidationRule>
