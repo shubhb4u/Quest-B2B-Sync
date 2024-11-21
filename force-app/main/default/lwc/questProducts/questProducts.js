@@ -1,5 +1,7 @@
 import { api, LightningElement, track, wire } from 'lwc';
 import getSiteBaseUrl from '@salesforce/apex/SiteInfo.getSiteBaseUrl';
+import heartRed from '@salesforce/resourceUrl/heartRed';
+import heartWhite from '@salesforce/resourceUrl/heartWhite';
 // import communityId from '@salesforce/community/Id';
 import USER_ID from '@salesforce/user/Id';
 import ACCOUNT_ID from '@salesforce/schema/User.AccountId';
@@ -32,6 +34,16 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     categoryURL
     categoryId;
     communityId;
+
+    // Define icon paths
+    heartRedIcon = heartRed+'#heartRed';
+    heartWhiteIcon = heartWhite+'#heartWhite';
+
+    @track isModalOpen = false;
+    @track modalTitle = '';
+    @track modalMessage = '';
+
+
 
     @wire(getSiteBaseUrl)
     wiredSiteBaseUrl({ error, data }) {
@@ -75,46 +87,46 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         const families = [...new Set(this.products.map(product => product.family || 'Unknown'))];
         const units = [...new Set(this.products.map(product => product.unit || 'Unknown'))];
         const pricingMethods = [...new Set(this.products.map(product => product.pricingMethod || 'Unknown'))];
-    
+
         console.log('Families:', families);
         console.log('Quantity Units:', units);
         console.log('Pricing Methods:', pricingMethods);
-    
+
         this.productFamilyOptions = this.generateOptions(families);
         this.quantityUnitOptions = this.generateOptionsUnits(units);
         this.pricingMethodOptions = this.generateOptionsPricing(pricingMethods);
-    
+
         console.log('Generated Product Family Options:', this.productFamilyOptions);
         console.log('Generated Quantity Unit Options:', this.quantityUnitOptions);
         console.log('Generated Pricing Method Options:', this.pricingMethodOptions);
     }
-    
-    
+
+
 
     // Helper to generate options for lightning-combobox
     generateOptions(values) {
-        return [{ label: 'Product Family', value: '' }, ...values.map(value => ({
-            label: value === 'Unknown' ? 'Not Specified' : value, 
+        return [{ label: 'Select Product Family', value: '' }, ...values.map(value => ({
+            label: value === 'Unknown' ? 'Not Specified' : value,
             value
         }))];
     }
 
     // Helper to generate options for lightning-combobox
     generateOptionsUnits(values) {
-        return [{ label: 'Quantity of Measure', value: '' }, ...values.map(value => ({
-            label: value === 'Unknown' ? 'Not Specified' : value, 
+        return [{ label: 'Select Quantity Unit', value: '' }, ...values.map(value => ({
+            label: value === 'Unknown' ? 'Not Specified' : value,
             value
         }))];
     }
 
     // Helper to generate options for lightning-combobox
     generateOptionsPricing(values) {
-        return [{ label: 'Pricing Method', value: '' }, ...values.map(value => ({
-            label: value === 'Unknown' ? 'Not Specified' : value, 
+        return [{ label: 'Select Pricing Method', value: '' }, ...values.map(value => ({
+            label: value === 'Unknown' ? 'Not Specified' : value,
             value
         }))];
     }
-    
+
 
     fetchProducts() {
         getProductRecs()
@@ -123,14 +135,14 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                     ...product,
                     isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
                     formattedUnitPrice: this.formatPrice(product.UnitPrice),
-                    family: product.Product2.Family || 'Unknown', 
-                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown', 
+                    family: product.Product2.Family || 'Unknown',
+                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
                     pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
 
                 }));
-                this.filteredProducts = [...this.products]; 
+                this.filteredProducts = [...this.products];
 
-                console.log('This products -->> '+ JSON.stringify(this.products));
+                console.log('This products -->> ' + JSON.stringify(this.products));
                 // Dynamically generate filter options
                 this.setFilterOptions();
             })
@@ -150,14 +162,14 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                         family: product.Family,
                         unit: product.QuantityUnitOfMeasure,
                         pricingMethod: product.SBQQ__PricingMethod__c,
-                        family: product.Product2.Family || 'Unknown', 
-                        unit: product.Product2.QuantityUnitOfMeasure || 'Unknown', 
+                        family: product.Product2.Family || 'Unknown',
+                        unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
                         pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
                     }));
-    
-                    this.filteredProducts = [...this.products]; 
-                    console.log('This products -->> '+ JSON.stringify(this.products));
-    
+
+                    this.filteredProducts = [...this.products];
+                    console.log('This products -->> ' + JSON.stringify(this.products));
+
                     // Dynamically generate filter options for the products in this category
                     this.setFilterOptions();
                 } else {
@@ -171,18 +183,18 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                 console.error('Error fetching products by category:', error);
             });
     }
-    
+
 
     formatPrice(price) {
         return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
 
-    getWishListColor(isAdded){
+    getWishListColor(isAdded) {
         return isAdded == true;
     }
 
     handleBuy(event) {
-        
+
         const productId = event.target.dataset.id;
         // let productName = event.target.dataset.name;
 
@@ -202,79 +214,54 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     }
 
 
-    handleAddToWishlist(event) {
-        const productId = event.target.dataset.id;
-        let listname = 'Sample Wishlist';
-        if (!this.accountId || !this.storeId || !productId) {
-            this.showToast('Error', 'Missing account, store, or product information', 'error');
-            return;
-        }
+     // handleAddToWishlist method with modal instead of toast
+     handleAddToWishlist(event) {
+        const button = event.target.closest('button');
+        const productId = button ? button.dataset.id : null;
 
-        // createAndAddToList({
-        //     storeId: this.storeId,
-        //     productId: productId,
-        //     wishlistName: listname,
-        //     effectiveAccountId: this.accountId
-        // })
-        //     .then(() => {
-        //         this.dispatchEvent(
-        //             new ShowToastEvent({
-        //                 title: 'Success',
-        //                 message: '{0} was added to a new list called "{1}"',
-        //                 messageData: [this.displayableProduct.name, listname],
-        //                 variant: 'success',
-        //                 mode: 'dismissable'
-        //             })
-        //         );
-                
-        //     })
-        //     .catch((error) => {
-        //         console.error('Error adding to wishlist:', error);
-        //         this.dispatchEvent(
-        //             new ShowToastEvent({
-        //                 title: 'Error',
-        //                 message:
-        //                     '{0} could not be added to a new list. Please make sure you have fewer than 10 lists or try again later',
-        //                 messageData: [this.displayableProduct.name],
-        //                 variant: 'error',
-        //                 mode: 'dismissable'
-        //             })
-        //         );
-        //     });
+        if (productId) {
+            const productIndex = this.products.findIndex(product => product.Product2Id === productId);
+            if (productIndex === -1) return;
 
-
+            const productName = this.products[productIndex].Product2.Name || 'Unknown Product';
+            const listname = 'Default Wishlist';
+            const isCurrentlyWishlistItem = this.products[productIndex].isWishlistItem;
+            const newWishlistStatus = !isCurrentlyWishlistItem;
 
             addWishListItem({
                 storeId: this.storeId,
                 productId: productId,
-                accountId: this.accountId
+                accountId: this.accountId,
+                isAdded: newWishlistStatus
             })
-                .then(() => {
-                    this.dispatchEvent(
-                        new ShowToastEvent({
-                            title: 'Success',
-                            message: '{0} was added to a new list called "{1}"',
-                            messageData: [this.displayableProduct.name, listname],
-                            variant: 'success',
-                            mode: 'dismissable'
-                        })
-                    );
-                    
-                })
-                .catch((error) => {
-                    console.error('Error adding to wishlist:', error);
-                    this.dispatchEvent(
-                        new ShowToastEvent({
-                            title: 'Error',
-                            message:
-                                '{0} could not be added to a new list. Please make sure you have fewer than 10 lists or try again later',
-                            messageData: [this.displayableProduct.name],
-                            variant: 'error',
-                            mode: 'dismissable'
-                        })
-                    );
-                });
+            .then((response) => {
+                // Update the product's wishlist status
+                this.products[productIndex].isWishlistItem = newWishlistStatus;
+                this.filteredProducts = [...this.products]; // Refresh UI
+
+                // Show a success modal with a different message for adding/removing
+                this.modalTitle = 'Success';
+                this.modalMessage = newWishlistStatus
+                    ? `${productName} was added to the list "${listname}".`
+                    : `${productName} was removed from the list "${listname}".`;
+                this.isModalOpen = true;
+            })
+            .catch((error) => {
+                console.error('Error adding to wishlist:', error);
+
+                // Show error modal
+                this.modalTitle = 'Product already in Wishlist';
+                this.modalMessage = `${productName} is already added to your list.`;
+                this.isModalOpen = true;
+            });
+        }
     }
+
+    // Close the modal
+    handleModalClose() {
+        this.isModalOpen = false;
+    }
+    
 
 
     handleFilterChange(event) {
@@ -286,8 +273,8 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     applyFilters() {
         this.filteredProducts = this.products.filter(product => {
             return (!this.filters.productFamily || product.family === this.filters.productFamily) &&
-                   (!this.filters.quantityUnit || product.unit === this.filters.quantityUnit) &&
-                   (!this.filters.pricingMethod || product.pricingMethod === this.filters.pricingMethod);
+                (!this.filters.quantityUnit || product.unit === this.filters.quantityUnit) &&
+                (!this.filters.pricingMethod || product.pricingMethod === this.filters.pricingMethod);
         });
     }
 

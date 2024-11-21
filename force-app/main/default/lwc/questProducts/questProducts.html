@@ -70,11 +70,34 @@
             </div>
         </div>
 
+        <!-- Modal Popup -->
+        <template if:true={isModalOpen}>
+            <!-- Overlay -->
+            <div class="slds-backdrop slds-backdrop_open"></div>
+            
+            <!-- Modal -->
+            <div class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <lightning-modal-header>
+                        <h2 class="slds-text-heading_medium">{modalTitle}</h2>
+                    </lightning-modal-header>
+
+                    <lightning-modal-body>
+                        <div>{modalMessage}</div>
+                    </lightning-modal-body>
+
+                    <lightning-modal-footer>
+                        <lightning-button variant="brand" label="Close" onclick={handleModalClose}></lightning-button>
+                    </lightning-modal-footer>
+                </div>
+            </div>
+        </template>
+
         <!-- Filtered Results -->
         <div class="results-count">Results: {filteredProducts.length} Products Found</div>
         <div class="products-grid">
             <template for:each={filteredProducts} for:item="product">
-                <div key={product.Product2.Id} class="product-card">
+                <div key={product.Id} class="product-card">
                     <div class="product-header">{product.Product2.Name}</div>
                     <div class="product-description">{product.Product2.Description}</div>
                     <div class="pricing">
@@ -82,40 +105,26 @@
                             <span>Starts at </span>${product.formattedUnitPrice}
                         </div>
                         <button
-                            class="save-button"
+                            class="wishlist-icon"
                             data-id={product.Product2Id}
                             onclick={handleAddToWishlist}>
-                            Save
+                            <template if:true={product.isWishlistItem}>
+                                <lightning-icon src={heartRedIcon}></lightning-icon>
+                            </template>
+                            <template if:false={product.isWishlistItem}>
+                                <lightning-icon src={heartWhiteIcon}></lightning-icon>
+                            </template>
                         </button>
                     </div>
                     <button
-                        class="buy-button" onclick={handleBuy}
-                        data-id={product.Product2.Id} data-name={product.Product2.Name}>
+                        class="buy-button"
+                        data-id={product.Product2.Id}
+                        onclick={handleBuy}>
                         Buy
                     </button>
                 </div>
             </template>
         </div>
 
-        <!-- Load More Section -->
-        <!-- <div class="loadMore">
-            
-            <template if:true={isLoading}>
-                <div class="spinner-container">
-                    <lightning-spinner alternative-text="Loading more products..." size="medium"></lightning-spinner>
-                </div>
-            </template>
-
-            
-            <template if:true={hasMoreProducts}>
-                <div class="load-more-container">
-                    <button
-                        onclick={handleLoadMore}
-                        class="load-more-button">
-                        Load More
-                    </button>
-                </div>
-            </template>
-        </div> -->
     </div>
 </template>
