@@ -43,8 +43,6 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     @track modalTitle = '';
     @track modalMessage = '';
 
-
-
     @wire(getSiteBaseUrl)
     wiredSiteBaseUrl({ error, data }) {
         if (data) {
@@ -65,6 +63,43 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         }
     }
 
+//-------------------------------------------------------------------------------------
+    
+
+    // PAGINATION PROPERTIES
+    pageSize = 4;
+    pageNumber = 1;
+    totalRecords = 0;
+    enablePagination = true;
+
+
+    get hasRecords() {
+        return this.filteredProducts.length > 0;
+    }
+
+    // PAGINATION PROPERTY - CHECK WEATHER PAGINATION NEEDS TO SHOW OR NOT
+    get showPaginator() {
+        return this.enablePagination && this.hasRecords;
+    }
+
+    // WILL AUTOMATICALLY CALLED FROM PAGINATOR ON PAGE NUMBER OR SIZE CHANGE
+    paginationChangeHandler(event) {
+        if (event.detail) {
+            this.pageNumber = event.detail.pageNumber;
+            this.pageSize = event.detail.pageSize;
+        }
+    }
+
+    // PAGINATION PROPERTY - CALCULATE AND RETURN RECORDS TO DISPLAY
+    get recordsToDisplay() {
+        let from = (this.pageNumber - 1) * this.pageSize,
+            to = this.pageSize * this.pageNumber;
+        return this.filteredProducts?.slice(from, to);
+    }
+
+//-----------------------------------------------------------------------------------------------
+
+
     @wire(CurrentPageReference)
     getPageReference(pageReference) {
         if (pageReference?.attributes?.objectApiName === 'ProductCategory') {
@@ -77,9 +112,77 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         }
     }
 
+    fetchProducts() {
+        getProductRecs({ pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+            .then((data) => {
+                this.products = data.map(product => ({
+                    ...product,
+                    isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
+                    formattedUnitPrice: this.formatPrice(product.UnitPrice),
+                    family: product.Product2.Family || 'Unknown',
+                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
+                    pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
+
+                }));
+                
+                this.filteredProducts = [...this.products];
+                this.totalRecords = this.filteredProducts.length;
+
+                // console.log('This products -->> ' + JSON.stringify(this.products));
+                // Dynamically generate filter options
+                this.setFilterOptions();
+
+            })
+            .catch((error) => {
+                console.error('Error fetching products:', error);
+            });
+    }
+
+    fetchProductsByCategory() {
+        getProdId({ catId: this.categoryId,  pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+            .then((data) => {
+                if (data && data.length > 0) {
+                    this.products = data.map((product) => ({
+                        ...product,
+                        isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
+                        formattedUnitPrice: this.formatPrice(product.UnitPrice),
+                        family: product.Family,
+                        unit: product.QuantityUnitOfMeasure,
+                        pricingMethod: product.SBQQ__PricingMethod__c,
+                        family: product.Product2.Family || 'Unknown',
+                        unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
+                        pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
+                    }));
+                    
+                    this.filteredProducts = [...this.products];
+
+                    this.totalRecords = this.filteredProducts.length;
+
+
+                    // console.log('This products -->> ' + JSON.stringify(this.products));
+                    // Dynamically generate filter options
+                    this.setFilterOptions();
+
+                } else {
+                    console.warn('No products returned for the selected category.');
+                    this.products = [];
+                    this.filteredProducts = [];
+                    this.clearFilters(); // Clear filters if no products are available
+                }
+            })
+            .catch((error) => {
+                console.error('Error fetching products by category:', error);
+            });
+    }
+
 
     connectedCallback() {
         this.storeId = WebstoreId;
+        if (this.categoryId) {
+            this.fetchProductsByCategory();
+        } else {
+            this.fetchProducts();
+        }
     }
 
     // Dynamically set filter options based on product data
@@ -88,17 +191,17 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         const units = [...new Set(this.products.map(product => product.unit || 'Unknown'))];
         const pricingMethods = [...new Set(this.products.map(product => product.pricingMethod || 'Unknown'))];
 
-        console.log('Families:', families);
-        console.log('Quantity Units:', units);
-        console.log('Pricing Methods:', pricingMethods);
+        // console.log('Families:', families);
+        // console.log('Quantity Units:', units);
+        // console.log('Pricing Methods:', pricingMethods);
 
         this.productFamilyOptions = this.generateOptions(families);
         this.quantityUnitOptions = this.generateOptionsUnits(units);
         this.pricingMethodOptions = this.generateOptionsPricing(pricingMethods);
 
-        console.log('Generated Product Family Options:', this.productFamilyOptions);
-        console.log('Generated Quantity Unit Options:', this.quantityUnitOptions);
-        console.log('Generated Pricing Method Options:', this.pricingMethodOptions);
+        // console.log('Generated Product Family Options:', this.productFamilyOptions);
+        // console.log('Generated Quantity Unit Options:', this.quantityUnitOptions);
+        // console.log('Generated Pricing Method Options:', this.pricingMethodOptions);
     }
 
 
@@ -128,66 +231,15 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     }
 
 
-    fetchProducts() {
-        getProductRecs()
-            .then((data) => {
-                this.products = data.map(product => ({
-                    ...product,
-                    isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
-                    formattedUnitPrice: this.formatPrice(product.UnitPrice),
-                    family: product.Product2.Family || 'Unknown',
-                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
-                    pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
-
-                }));
-                this.filteredProducts = [...this.products];
-
-                console.log('This products -->> ' + JSON.stringify(this.products));
-                // Dynamically generate filter options
-                this.setFilterOptions();
-            })
-            .catch((error) => {
-                console.error('Error fetching products:', error);
-            });
-    }
-
-    fetchProductsByCategory() {
-        getProdId({ catId: this.categoryId })
-            .then((data) => {
-                if (data && data.length > 0) {
-                    this.products = data.map((product) => ({
-                        ...product,
-                        isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
-                        formattedUnitPrice: this.formatPrice(product.UnitPrice),
-                        family: product.Family,
-                        unit: product.QuantityUnitOfMeasure,
-                        pricingMethod: product.SBQQ__PricingMethod__c,
-                        family: product.Product2.Family || 'Unknown',
-                        unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
-                        pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
-                    }));
-
-                    this.filteredProducts = [...this.products];
-                    console.log('This products -->> ' + JSON.stringify(this.products));
-
-                    // Dynamically generate filter options for the products in this category
-                    this.setFilterOptions();
-                } else {
-                    console.warn('No products returned for the selected category.');
-                    this.products = [];
-                    this.filteredProducts = [];
-                    this.clearFilters(); // Clear filters if no products are available
-                }
-            })
-            .catch((error) => {
-                console.error('Error fetching products by category:', error);
-            });
-    }
-
 
     formatPrice(price) {
         return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
     }
+
+    //-----------------------------------------------------------------------------------------------------------------------
+    
+
+    //----------------------------------------------------------------------------------------------------------------
 
     getWishListColor(isAdded) {
         return isAdded == true;
@@ -196,12 +248,7 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     handleBuy(event) {
 
         const productId = event.target.dataset.id;
-        // let productName = event.target.dataset.name;
-
-        // let baseUrl = this.siteBaseUrl;
-        // baseUrl = baseUrl.replace(/vforcesite/g, '');
-
-        // productName = productName.toLowerCase();
+        
         const url = `/product/${productId}`;
         console.log('Navigating to:', url);
 
