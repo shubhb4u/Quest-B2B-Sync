@@ -43,6 +43,9 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     @track modalTitle = '';
     @track modalMessage = '';
 
+
+
+
     @wire(getSiteBaseUrl)
     wiredSiteBaseUrl({ error, data }) {
         if (data) {
@@ -63,14 +66,16 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         }
     }
 
+    
+
 //-------------------------------------------------------------------------------------
     
 
     // PAGINATION PROPERTIES
-    pageSize = 4;
-    pageNumber = 1;
-    totalRecords = 0;
-    enablePagination = true;
+    // pageSize = 4;
+    // pageNumber = 1;
+    // totalRecords = 0;
+    // enablePagination = true;
 
 
     get hasRecords() {
@@ -100,10 +105,42 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
 //-----------------------------------------------------------------------------------------------
 
 
+
+//===============================================Infinite Loading==============================================
+
+    isLoading = true; // To show spinner while data is loading
+    // records = [];  Stores all the records fetched so far
+    totalRecords = 0;  //Total number of records available in the database
+    pageSize = 4; // Number of records to fetch per API call
+    lastRecordId = ''; // Tracks the last record fetched for pagination
+
+    get hasMoreRecords() {
+        return this.filteredProducts.length < this.totalRecords;
+    }
+
+    handleLoadMore() {
+        // Fetch more records when the Load More button is clicked
+        if (this.categoryId) {
+            this.fetchProductsByCategory();
+        } else {
+            this.fetchProducts();
+        }
+    }
+
+    get isLoadMoreDisabled() {
+        return !this.hasMoreRecords || this.isLoading;
+    }
+
+
+
+//=============================================================================================================================================
+
+
     @wire(CurrentPageReference)
     getPageReference(pageReference) {
         if (pageReference?.attributes?.objectApiName === 'ProductCategory') {
             this.categoryId = pageReference.attributes.recordId;
+            console.log('Called on Page refresh or category navigation from Wire?');
             if (this.categoryId) {
                 this.fetchProductsByCategory();
             } else {
@@ -112,78 +149,118 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
         }
     }
 
-    fetchProducts() {
-        getProductRecs({ pageSize: this.pageSize, lastRecordId: this.lastRecordId })
-            .then((data) => {
-                this.products = data.map(product => ({
-                    ...product,
-                    isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
-                    formattedUnitPrice: this.formatPrice(product.UnitPrice),
-                    family: product.Product2.Family || 'Unknown',
-                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
-                    pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
-
-                }));
-                
-                this.filteredProducts = [...this.products];
-                this.totalRecords = this.filteredProducts.length;
-
-                // console.log('This products -->> ' + JSON.stringify(this.products));
-                // Dynamically generate filter options
-                this.setFilterOptions();
-
-            })
-            .catch((error) => {
-                console.error('Error fetching products:', error);
-            });
-    }
-
-    fetchProductsByCategory() {
-        getProdId({ catId: this.categoryId,  pageSize: this.pageSize, lastRecordId: this.lastRecordId })
-            .then((data) => {
-                if (data && data.length > 0) {
-                    this.products = data.map((product) => ({
-                        ...product,
-                        isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
-                        formattedUnitPrice: this.formatPrice(product.UnitPrice),
-                        family: product.Family,
-                        unit: product.QuantityUnitOfMeasure,
-                        pricingMethod: product.SBQQ__PricingMethod__c,
-                        family: product.Product2.Family || 'Unknown',
-                        unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
-                        pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown'
-                    }));
-                    
-                    this.filteredProducts = [...this.products];
-
-                    this.totalRecords = this.filteredProducts.length;
-
-
-                    // console.log('This products -->> ' + JSON.stringify(this.products));
-                    // Dynamically generate filter options
-                    this.setFilterOptions();
-
-                } else {
-                    console.warn('No products returned for the selected category.');
-                    this.products = [];
-                    this.filteredProducts = [];
-                    this.clearFilters(); // Clear filters if no products are available
-                }
-            })
-            .catch((error) => {
-                console.error('Error fetching products by category:', error);
-            });
-    }
-
-
     connectedCallback() {
         this.storeId = WebstoreId;
+        console.log('Called on Page refresh or category navigation from connected callback?');
         if (this.categoryId) {
             this.fetchProductsByCategory();
         } else {
             this.fetchProducts();
         }
     }
+
+    fetchProducts() {
+        this.isLoading = true;
+    
+        getProductRecs({ pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+            .then((data) => {
+                // The data will now contain both 'products' and 'totalRecords'
+                const products = data.products;
+                this.totalRecords = data.totalRecords;  // Get the total count from the response
+    
+                // Map the fetched products to include custom properties
+                const newProducts = products.map(product => ({
+                    ...product,
+                    isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
+                    formattedUnitPrice: this.formatPrice(product.UnitPrice),
+                    family: product.Product2.Family || 'Unknown',
+                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
+                    pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown',
+                }));
+
+                // Update lastRecordId with the Id of the last product fetched
+                if (newProducts.length > 0) {
+                    this.lastRecordId = newProducts[newProducts.length - 1].Id;
+                }
+    
+                // Filter out duplicates by comparing Product IDs
+                const uniqueProducts = newProducts.filter(
+                    product => !this.filteredProducts.some(p => p.Id === product.Id)
+                );
+    
+                // Append only unique products to the filteredProducts array
+                this.filteredProducts = [...this.filteredProducts, ...uniqueProducts];
+    
+                // Dynamically generate filter options
+                this.setFilterOptions();
+
+                // console.log('filteredProducts called fromload more getProducts --->> '+ JSON.stringify(this.filteredProducts));
+            })
+            .catch((error) => {
+                console.error('Error fetching products:', error);
+            })
+            .finally(() => {
+                this.isLoading = false; // Hide spinner after fetching data
+            });
+    }
+    
+    
+    
+
+    fetchProductsByCategory() {
+        this.isLoading = true;
+        getProdId({ catId: this.categoryId,  pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+            .then((data) => {
+                // The data will now contain both 'products' and 'totalRecords'
+                const products = data.products;
+                this.totalRecords = data.totalRecords;  // Get the total count from the response
+    
+                // Map the fetched products to include custom properties
+                const newProducts = products.map(product => ({
+                    ...product,
+                    isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
+                    formattedUnitPrice: this.formatPrice(product.UnitPrice),
+                    family: product.Product2.Family || 'Unknown',
+                    unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
+                    pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown',
+                }));
+
+                // Update lastRecordId with the Id of the last product fetched
+                if (newProducts.length > 0) {
+                    this.lastRecordId = newProducts[newProducts.length - 1].Id;
+                }
+    
+                // Filter out duplicates by comparing Product IDs
+                const uniqueProducts = newProducts.filter(
+                    product => !this.filteredProducts.some(p => p.Id === product.Id)
+                );
+    
+                // Append only unique products to the filteredProducts array
+                this.filteredProducts = [...this.filteredProducts, ...uniqueProducts];
+    
+                // Dynamically generate filter options
+                this.setFilterOptions();
+
+                // console.log('filteredProducts called fromload more getProductsBy category --->> '+ JSON.stringify(this.filteredProducts));
+            })
+            .catch((error) => {
+                console.error('Error fetching products:', error);
+            })
+            .finally(() => {
+                this.isLoading = false; // Hide spinner after fetching data
+            });
+    }
+
+    
+    formatPrice(price) {
+        return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    }
+
+
+    getWishListColor(isAdded) {
+        return isAdded == true;
+    }
+
 
     // Dynamically set filter options based on product data
     setFilterOptions() {
@@ -232,19 +309,6 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
 
 
 
-    formatPrice(price) {
-        return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    }
-
-    //-----------------------------------------------------------------------------------------------------------------------
-    
-
-    //----------------------------------------------------------------------------------------------------------------
-
-    getWishListColor(isAdded) {
-        return isAdded == true;
-    }
-
     handleBuy(event) {
 
         const productId = event.target.dataset.id;
@@ -264,16 +328,31 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
      // handleAddToWishlist method with modal instead of toast
      handleAddToWishlist(event) {
         const button = event.target.closest('button');
+        if (!button) {
+            console.error('Button element not found in event context');
+            return;
+        }
+
         const productId = button ? button.dataset.id : null;
 
+        console.log('Checking handle add to wishlist ran successfully-->>>>'+ productId);
+
         if (productId) {
-            const productIndex = this.products.findIndex(product => product.Product2Id === productId);
+            const productIndex = this.filteredProducts.findIndex(product => product.Product2Id === productId);
+            // console.log('Checking handle add to wishlist ran successfully-->>>>'+ productIndex);
+
+            // console.log('productId:', productId);
+            // console.log('this.products:', this.products.map(product => product.Product2Id));
+            // console.log('this.filteredProducts:', this.filteredProducts.map(product => product.Product2Id));
+
             if (productIndex === -1) return;
 
-            const productName = this.products[productIndex].Product2.Name || 'Unknown Product';
+        
+            const productName = this.filteredProducts[productIndex].Product2.Name || 'Unknown Product';
             const listname = 'Default Wishlist';
-            const isCurrentlyWishlistItem = this.products[productIndex].isWishlistItem;
+            const isCurrentlyWishlistItem = this.filteredProducts[productIndex].isWishlistItem;
             const newWishlistStatus = !isCurrentlyWishlistItem;
+
 
             addWishListItem({
                 storeId: this.storeId,
@@ -282,9 +361,10 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                 isAdded: newWishlistStatus
             })
             .then((response) => {
+                
+                this.filteredProducts = [...this.filteredProducts]; // Refresh UI
                 // Update the product's wishlist status
-                this.products[productIndex].isWishlistItem = newWishlistStatus;
-                this.filteredProducts = [...this.products]; // Refresh UI
+                this.filteredProducts[productIndex].isWishlistItem = newWishlistStatus;
 
                 // Show a success modal with a different message for adding/removing
                 this.modalTitle = 'Success';
@@ -292,6 +372,8 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                     ? `${productName} was added to the list "${listname}".`
                     : `${productName} was removed from the list "${listname}".`;
                 this.isModalOpen = true;
+
+                console.log('Checking handle add to wishlist ran successfully-->>>>');
             })
             .catch((error) => {
                 console.error('Error adding to wishlist:', error);
