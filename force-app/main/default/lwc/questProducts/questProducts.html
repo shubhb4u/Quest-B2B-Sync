@@ -99,7 +99,7 @@
 
 
         <div class="products-grid">
-            <template for:each={filteredProducts} for:item="product">
+            <template for:each={recordsToDisplay} for:item="product">
                 <div key={product.Id} class="product-card">
                     <div class="product-header">{product.Product2.Name}</div>
                     <div class="product-description">{product.Product2.Description}</div>
@@ -129,35 +129,15 @@
             </template>
         </div>
 
-        <template if:true={isLoading}>
-            <lightning-spinner alternative-text="Loading"></lightning-spinner>
-        </template>
-
-        <template if:true={hasMoreRecords}>
-            <lightning-button 
-                label="Load More" 
-                onclick={handleLoadMore} 
-                class="slds-m-top_medium" 
-                disabled={isLoadMoreDisabled}>
-            </lightning-button>
-        </template>
-
-        <template if:false={hasMoreRecords}>
-            <p>No more records to load.</p>
-        </template>
-
-
-
         <!-- PAGINATION -->
-
-        <!-- <c-paginator lwc:if={showPaginator} page-size={pageSize} total-records={totalRecords}
-        is-client-side-pagination="true" onpaginationchange={paginationChangeHandler}></c-paginator> -->
+        <c-paginator lwc:if={showPaginator} page-size={pageSize} total-records={totalRecords}
+        is-client-side-pagination="true" onpaginationchange={paginationChangeHandler}></c-paginator>
 
             <!-- NO RECORDS FOUND -->
-        <!-- <template if:false={hasRecords}>
+        <template if:false={hasRecords}>
             <div class="slds-align_absolute-center slds-text-heading_medium slds-p-around_small">No records to displays
             </div>
-        </template> -->
+        </template>
 
     </div>
 </template>
