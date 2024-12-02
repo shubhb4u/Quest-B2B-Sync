@@ -43,19 +43,16 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     @track modalTitle = '';
     @track modalMessage = '';
 
+    @track total = 0;
+    @track isLoading = true;
+    _pageNumber = 1;
+    hideShowMore = false;
 
 
-
-    @wire(getSiteBaseUrl)
-    wiredSiteBaseUrl({ error, data }) {
-        if (data) {
-            this.siteBaseUrl = data;
-            console.log('baseUrl URL:-->>>', this.baseUrl);
-
-        } else if (error) {
-            console.error('Error fetching site base URL:', error);
-        }
+    get pageNumber() {
+        return this._pageNumber;
     }
+
 
     @wire(getRecord, { recordId: USER_ID, fields: [ACCOUNT_ID] })
     user({ data, error }) {
@@ -67,74 +64,6 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     }
 
     
-
-//-------------------------------------------------------------------------------------
-    
-
-    // PAGINATION PROPERTIES
-    // pageSize = 4;
-    // pageNumber = 1;
-    // totalRecords = 0;
-    // enablePagination = true;
-
-
-    get hasRecords() {
-        return this.filteredProducts.length > 0;
-    }
-
-    // PAGINATION PROPERTY - CHECK WEATHER PAGINATION NEEDS TO SHOW OR NOT
-    get showPaginator() {
-        return this.enablePagination && this.hasRecords;
-    }
-
-    // WILL AUTOMATICALLY CALLED FROM PAGINATOR ON PAGE NUMBER OR SIZE CHANGE
-    paginationChangeHandler(event) {
-        if (event.detail) {
-            this.pageNumber = event.detail.pageNumber;
-            this.pageSize = event.detail.pageSize;
-        }
-    }
-
-    // PAGINATION PROPERTY - CALCULATE AND RETURN RECORDS TO DISPLAY
-    get recordsToDisplay() {
-        let from = (this.pageNumber - 1) * this.pageSize,
-            to = this.pageSize * this.pageNumber;
-        return this.filteredProducts?.slice(from, to);
-    }
-
-//-----------------------------------------------------------------------------------------------
-
-
-
-//===============================================Infinite Loading==============================================
-
-    isLoading = true; // To show spinner while data is loading
-    // records = [];  Stores all the records fetched so far
-    totalRecords = 0;  //Total number of records available in the database
-    pageSize = 4; // Number of records to fetch per API call
-    lastRecordId = ''; // Tracks the last record fetched for pagination
-
-    get hasMoreRecords() {
-        return this.filteredProducts.length < this.totalRecords;
-    }
-
-    handleLoadMore() {
-        // Fetch more records when the Load More button is clicked
-        if (this.categoryId) {
-            this.fetchProductsByCategory();
-        } else {
-            this.fetchProducts();
-        }
-    }
-
-    get isLoadMoreDisabled() {
-        return !this.hasMoreRecords || this.isLoading;
-    }
-
-
-
-//=============================================================================================================================================
-
 
     @wire(CurrentPageReference)
     getPageReference(pageReference) {
@@ -160,16 +89,9 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     }
 
     fetchProducts() {
-        this.isLoading = true;
-    
-        getProductRecs({ pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+        getProductRecs()
             .then((data) => {
-                // The data will now contain both 'products' and 'totalRecords'
-                const products = data.products;
-                this.totalRecords = data.totalRecords;  // Get the total count from the response
-    
-                // Map the fetched products to include custom properties
-                const newProducts = products.map(product => ({
+                const newProducts = data.map(product => ({
                     ...product,
                     isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
                     formattedUnitPrice: this.formatPrice(product.UnitPrice),
@@ -177,46 +99,22 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                     unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
                     pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown',
                 }));
-
-                // Update lastRecordId with the Id of the last product fetched
-                if (newProducts.length > 0) {
-                    this.lastRecordId = newProducts[newProducts.length - 1].Id;
-                }
     
-                // Filter out duplicates by comparing Product IDs
-                const uniqueProducts = newProducts.filter(
-                    product => !this.filteredProducts.some(p => p.Id === product.Id)
-                );
-    
-                // Append only unique products to the filteredProducts array
-                this.filteredProducts = [...this.filteredProducts, ...uniqueProducts];
-    
-                // Dynamically generate filter options
+                this.products = newProducts; // Store all products fetched
+                this._pageNumber = 1; // Reset page number
+                this.loadMoreData(); // Show the first set of products
+                this.isLoading = false;
                 this.setFilterOptions();
-
-                // console.log('filteredProducts called fromload more getProducts --->> '+ JSON.stringify(this.filteredProducts));
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
-            })
-            .finally(() => {
-                this.isLoading = false; // Hide spinner after fetching data
             });
     }
     
-    
-    
-
     fetchProductsByCategory() {
-        this.isLoading = true;
-        getProdId({ catId: this.categoryId,  pageSize: this.pageSize, lastRecordId: this.lastRecordId })
+        getProdId({ catId: this.categoryId })
             .then((data) => {
-                // The data will now contain both 'products' and 'totalRecords'
-                const products = data.products;
-                this.totalRecords = data.totalRecords;  // Get the total count from the response
-    
-                // Map the fetched products to include custom properties
-                const newProducts = products.map(product => ({
+                const newProducts = data.map(product => ({
                     ...product,
                     isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
                     formattedUnitPrice: this.formatPrice(product.UnitPrice),
@@ -224,32 +122,32 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
                     unit: product.Product2.QuantityUnitOfMeasure || 'Unknown',
                     pricingMethod: product.Product2.SBQQ__PricingMethod__c || 'Unknown',
                 }));
-
-                // Update lastRecordId with the Id of the last product fetched
-                if (newProducts.length > 0) {
-                    this.lastRecordId = newProducts[newProducts.length - 1].Id;
-                }
     
-                // Filter out duplicates by comparing Product IDs
-                const uniqueProducts = newProducts.filter(
-                    product => !this.filteredProducts.some(p => p.Id === product.Id)
-                );
-    
-                // Append only unique products to the filteredProducts array
-                this.filteredProducts = [...this.filteredProducts, ...uniqueProducts];
-    
-                // Dynamically generate filter options
+                this.products = newProducts; // Store all products fetched for this category
+                this._pageNumber = 1; // Reset page number for new category
+                this.loadMoreData(); // Show the first set of products for this category
+                this.isLoading = false;
                 this.setFilterOptions();
-
-                // console.log('filteredProducts called fromload more getProductsBy category --->> '+ JSON.stringify(this.filteredProducts));
             })
             .catch((error) => {
                 console.error('Error fetching products:', error);
-            })
-            .finally(() => {
-                this.isLoading = false; // Hide spinner after fetching data
             });
     }
+    
+    loadMoreData() {
+        const startIndex = (this._pageNumber - 1) * 12;
+        const endIndex = this._pageNumber * 12;
+    
+        this.filteredProducts = this.products.slice(0, endIndex);
+    
+        this.hideShowMore = this.filteredProducts.length >= this.products.length;
+    }
+    
+    seeMoreHandler() {
+        this._pageNumber += 1;
+        this.loadMoreData();
+    }
+    
 
     
     formatPrice(price) {
