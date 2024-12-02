@@ -62,7 +62,6 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
             console.error('Error fetching user data:', error);
         }
     }
-
     
 
     @wire(CurrentPageReference)
