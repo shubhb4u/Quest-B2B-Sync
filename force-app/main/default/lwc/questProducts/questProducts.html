@@ -89,23 +89,20 @@
             </div>
         </template>
 
-        <!-- LOADER -->
-        <template lwc:if={isLoading}>
-            <lightning-spinner variant="brand" size="large"></lightning-spinner>
-        </template>
 
         <!-- Filtered Results -->
         <div class="results-count">Results: {filteredProducts.length} Products Found</div>
 
 
         <div class="products-grid">
-            <template for:each={recordsToDisplay} for:item="product">
+            <template for:each={filteredProducts} for:item="product">
                 <div key={product.Id} class="product-card">
-                    <div class="product-header">{product.Product2.Name}</div>
+                    <a class="product-header" data-id={product.Product2.Id} onclick={handleBuy}>{product.Product2.Name}</a>
                     <div class="product-description">{product.Product2.Description}</div>
                     <div class="pricing">
                         <div class="product-price">
-                            <span>Starts at </span>${product.formattedUnitPrice}
+                            <div class="slds-text-title_caps">Starts At </div>
+                            <div class="slds-m-bottom_small">${product.formattedUnitPrice}</div>
                         </div>
                         <button
                             class="wishlist-icon"
@@ -128,16 +125,20 @@
                 </div>
             </template>
         </div>
+    
 
-        <!-- PAGINATION -->
-        <c-paginator lwc:if={showPaginator} page-size={pageSize} total-records={totalRecords}
-        is-client-side-pagination="true" onpaginationchange={paginationChangeHandler}></c-paginator>
-
-            <!-- NO RECORDS FOUND -->
-        <template if:false={hasRecords}>
-            <div class="slds-align_absolute-center slds-text-heading_medium slds-p-around_small">No records to displays
+        <template if:false={hideShowMore}>
+            <div class="q-load-more">
+                <button onclick={seeMoreHandler} class="q-cta-grey">See More</button>
             </div>
         </template>
-
+        <template if:true={isLoading}>
+            <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; align-items: center; justify-content: center;">
+                <lightning-spinner variant="brand" size="small"> </lightning-spinner>
+            </div>
+        </template>
     </div>
+
+
+    
 </template>

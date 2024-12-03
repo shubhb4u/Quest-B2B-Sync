@@ -1,4 +1,3 @@
-
 import { LightningElement, api } from 'lwc';
 
 export default class Paginator extends LightningElement {

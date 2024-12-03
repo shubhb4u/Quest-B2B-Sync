@@ -65,27 +65,6 @@
 }
 
 
-.wishlist-icon {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-}
-
-.wishlist-icon-white lightning-icon {
-    fill: #ffffff;
-    color: #ffffff;
-}
-
-.wishlist-icon-red lightning-icon {
-    fill: #ff0000;
-    color: #ff0000;
-}
-
-
-.slds-card__header {
-    font-weight: bold;
-}
 
 .slds-container_x-large {
     background-color: #f4f6f9; 
@@ -127,76 +106,81 @@
 
 /* Product Card */
 .product-card {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 0.5rem;
-    background-color: #fff;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 350px; /* Set a fixed height to ensure uniformity */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+    background-color: white;
+    height: 100%; /* Ensures cards are the same height */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Card Header with Background */
 .product-header {
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; /* Limit to 2 lines */
+    -webkit-line-clamp: 4;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: normal;
     background-color: #595959;
     color: white;
-    padding: 0.8rem;
-    font-size: 1.2rem;
+    padding: 0.8rem 0.8rem 0;
     font-weight: bold;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    text-align: center;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    line-height: 1.2; /* Adjust line height for better centering */
+    height: 100px;
+    text-transform: capitalize;
+    line-height: 1.2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: text-decoration-color 0.3s ease, text-decoration-thickness 0.3s ease;
 }
+
+.product-header:hover {
+    background-color: #595959;
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+    text-underline-offset: 4px; 
+}
+
+
 
 /* Product Description */
 .product-description {
-    text-overflow: ellipsis;
     overflow: hidden;
-    white-space: normal; /* Allow wrapping within the set lines */
-    padding: 1rem;
+    white-space: normal;
+    margin: 1rem 0.2rem;
     font-size: 0.9rem;
     color: #666;
-    text-align: center;
-    line-height: 1.5;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3; /* Display up to 3 lines */
+    height: 70px;
 }
 
 .pricing{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
-    padding: 0 0.5rem;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 40px; 
+    margin: 1rem 0.2rem; 
 }
 
 /* Product Price */
 .product-price {
-    flex: 0 0 80%; 
-    font-size: 2.2rem;
+    font-weight: 500;
     color: green;
-    font-weight: 400;
-    text-align: left;
+    font-size: 2rem;
+    text-align: left; /* Align price text to the left */
 }
 
 .product-price span {
@@ -226,36 +210,32 @@
     transform: scale(1.05); 
 }
 
-/* Buy Button */
-.product-card .buy-button {
-    display: block;
-    width: 100%;
-    background-color: #ff5722; /* Match the orange color */
+.buy-button {
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+    background-color: #ff6600;
     color: white;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 10px;
     border: none;
+    padding: 0.8rem 1.5rem;
     border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
-    text-align: center;
-    transition: background-color 0.2s ease;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
 }
 
-.product-card .buy-button:hover {
-    background-color: #e64a19; /* Darker shade of orange for hover */
+.buy-button:hover {
+    background-color: #e55500;
 }
 
-.loadMore{
-    margin: 1.5rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
+.q-load-more{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 1.5rem 0;
 }
 
-.load-more-container .load-more-button{
-    background: linear-gradient(90deg, #3f51b5, #5c6bc0); 
+
+.q-load-more .q-cta-grey{
+    background: linear-gradient(90deg, #8394f3, #a8b3f0); 
     color: white;
     border: none;
     border-radius: 10px;
@@ -267,8 +247,8 @@
     transition: all 0.3s ease-in-out;
 }
 
-.load-more-container .load-more-button:hover {
-    background: linear-gradient(90deg, #303f9f, #536dfe); 
+.q-load-more .q-cta-grey:hover {
+    background: linear-gradient(90deg, #7382d6, #949cce); 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     transform: translateY(-2px); 
 }
