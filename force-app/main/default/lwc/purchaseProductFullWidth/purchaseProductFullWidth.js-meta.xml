@@ -8,10 +8,10 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightningCommunity__Default">
-            <property name="productcode" type="String" label="1st Product Code" />
-            <property name="productcode2" type="String" label="2nd Product Code" />
-            <property name="productcode3" type="String" label="3rd Product Code" />
-            <property name="productcode4" type="String" label="4th Product Code" />
+            <property name="productcode" type="String" label="1st Product SKU" />
+            <property name="productcode2" type="String" label="2nd Product SKU" />
+            <property name="productcode3" type="String" label="3rd Product SKU" />
+            <property name="productcode4" type="String" label="4th Product SKU" />
             <property name="isAwardComponent" type="Boolean" />
         </targetConfig>
     </targetConfigs>

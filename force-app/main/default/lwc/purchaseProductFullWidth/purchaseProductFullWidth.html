@@ -10,10 +10,11 @@
                                     <h1>{product.Name}</h1>
                                     <strong>{product.ProductCode}</strong>
                                     <p class="q-description">{product.Description}</p>
-                                    <div class="q-buynow-cta">
-                                        <lightning-button class="q-cta q-cta-orange" variant="brand" label="Buy Now" data-id={product.Id}
-                                            onclick={redirectToPDP}></lightning-button>
-                                    </div>
+                                    
+                                        <div class="q-buynow-cta">
+                                            <button class="q-cta q-cta-orange" data-id={product.Id}
+                                                onclick={redirectToPDP}>Buy Now</button>
+                                        </div>
                                 </div>
                                 <div class="q-hero-img">
                                     <!-- Render this block only if isAwardComponent is true -->

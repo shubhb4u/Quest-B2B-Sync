@@ -15,9 +15,9 @@ public without sharing class ProductRecordsFromCategory {
 
         List<PricebookEntry> productList = [
                 SELECT Id, Product2Id, Product2.Name, Product2.ProductCode, Product2.Description,
-                    UnitPrice, Pricebook2.Name
+                    UnitPrice, Pricebook2.Name, CurrencyIsoCode,IsActive
                 FROM PricebookEntry
-                WHERE Pricebook2.Name = 'CI_Quest EStore Price Book' and Product2Id in : prodIds
+                WHERE Pricebook2.Name = 'CI_Quest EStore Price Book' and Product2Id in : prodIds AND IsActive = True
             ];
 
         System.debug('ProductList: ' + productList);

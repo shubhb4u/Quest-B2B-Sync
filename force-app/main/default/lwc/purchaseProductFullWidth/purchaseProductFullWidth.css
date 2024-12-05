@@ -215,3 +215,32 @@
     overflow: initial;
   }
 }
+
+/* Buttons Styling */
+.q-cta-orange{
+  width: 303px;
+  height: 51.2px;
+  border: 2px solid #fb4f14;
+ color: #fff;
+ background-color: #fb4f14;
+ font-weight: 700;
+ font-size: 16px;
+ line-height: 20px;
+}
+.q-cta-orange:hover{
+ background-color: #d83a04;
+ border: 2px solid #d83a04;
+}
+.q-buynow-cta{
+ color: #fff;
+}
+
+.q-award-panel{
+ .q-cta-orange{
+   width: 213.2px;
+   text-decoration: underline;
+ }
+ .q-cta-orange:hover{
+   text-decoration: none;
+ }
+}

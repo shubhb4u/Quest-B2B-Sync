@@ -14,6 +14,8 @@ import addWishListItem from '@salesforce/apex/AddWishList.addWishListItem';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { getRecord, getFieldValue } from "lightning/uiRecordApi";
 import WebstoreId from '@salesforce/label/c.WebstoreId';
+import getProfileName from '@salesforce/apex/Product2Controller.getProfileName';
+import userId from '@salesforce/user/Id';
 
 
 export default class QuestProducts extends NavigationMixin(LightningElement) {
@@ -48,6 +50,33 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     _pageNumber = 1;
     hideShowMore = false;
 
+    
+    //Added by Shubham fro Guest user access - ----------------------------------------------------------
+    @track currentUser = {
+        id: userId,
+        profileName: null
+    };
+
+    @track isGuestUser = false;
+
+    @wire(getProfileName)
+    wiredProfileName({ data, error }) {
+        if (data) {
+            this.currentUser.profileName = data;
+            console.log('Profile Name:', data);
+            this.checkIsGuestUser(); 
+        } else if (error) {
+            console.error('Error fetching profile name:', error);
+        }
+    }
+
+    checkIsGuestUser() {
+        this.isGuestUser = this.currentUser.profileName === 'CI_Quest EStore Profile';
+        console.log('Is Guest User:', this.isGuestUser);
+    }
+
+    //---------------------------------------------------------------------------------------
+
 
     get pageNumber() {
         return this._pageNumber;
@@ -78,6 +107,7 @@ export default class QuestProducts extends NavigationMixin(LightningElement) {
     }
 
     connectedCallback() {
+        this.checkIsGuestUser()
         this.storeId = WebstoreId;
         console.log('Called on Page refresh or category navigation from connected callback?');
         if (this.categoryId) {

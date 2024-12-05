@@ -16,27 +16,30 @@ export default class purchaseProductFullWidth extends NavigationMixin(LightningE
 
     parentClass;
     @api isAwardComponent;
+
     connectedCallback() {
+        
         this.parentClass = this.isAwardComponent ? 'q-hero-top q-award-panel' : 'q-hero-top';
         this.sendDataToApex();
     }
+
 
     // Method to send the values to Apex
     sendDataToApex() {
         // Prepare parameters for the Apex method
         const params = {
-            productcode: this.productcode,
-            productcode2: this.productcode2,
-            productcode3: this.productcode3,
-            productcode4: this.productcode4
+            productSKU1: this.productcode,
+            productSKU2: this.productcode2,
+            productSKU3: this.productcode3,
+            productSKU4: this.productcode4
         };
 
         // Wire service to call the Apex method and fetch product details
         getProductsByCode({
-            productcode: params.productcode,
-            productcode2: params.productcode2,
-            productcode3: params.productcode3,
-            productcode4: params.productcode4
+            productSKU1: params.productSKU1,
+            productSKU2: params.productSKU2,
+            productSKU3: params.productSKU3,
+            productSKU4: params.productSKU4
         }).then(data => {
                 console.log('Apex response:', data);
                 this.products = data; // Store product data if the wire call is successful

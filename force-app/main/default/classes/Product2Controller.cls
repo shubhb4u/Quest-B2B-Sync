@@ -2,27 +2,27 @@ public without sharing class Product2Controller {
 
     @AuraEnabled(cacheable=true)
     public static List<Product2> getProductsByCode(
-        String productcode,
-        String  productcode2,
-        String productcode3,
-        String productcode4
+        String productSKU1,
+        String productSKU2,
+        String productSKU3,
+        String productSKU4
     ) {
         try {
 
-            List<String> productCodes = new List<String>{};
-            if (productcode != null) {
-                productCodes.add(productcode);
+            List<String> productSKUs = new List<String>{};
+            if (productSKU1 != null) {
+                productSKUs.add(productSKU1);
             }
-            if (productcode2 != null) {
-                productCodes.add(productcode2);
+            if (productSKU2 != null) {
+                productSKUs.add(productSKU2);
             }
-            if (productcode3 != null) {
-                productCodes.add(productcode3);
+            if (productSKU3 != null) {
+                productSKUs.add(productSKU3);
             }
-            if (productcode4 != null) {
-                productCodes.add(productcode4);
+            if (productSKU4 != null) {
+                productSKUs.add(productSKU4);
             }
-            List<Product2> products = [SELECT Id, Name, ProductCode, Description, Content_Type__c, Award_Image_ID__c FROM Product2 WHERE ProductCode IN :productCodes];
+            List<Product2> products = [SELECT Id, Name, StockKeepingUnit, Description, Content_Type__c, Award_Image_ID__c FROM Product2 WHERE StockKeepingUnit IN :productSKUs];
 
             return products;
         } catch (Exception e) {
@@ -30,5 +30,11 @@ public without sharing class Product2Controller {
             System.debug('Stack trace: ' + e.getStackTraceString());
             throw e;
         }
+    }
+
+
+    @AuraEnabled(cacheable=true)
+    public static String getProfileName() {
+        return [SELECT Profile.Name FROM User WHERE Id = :UserInfo.getUserId()].Profile.Name;
     }
 }

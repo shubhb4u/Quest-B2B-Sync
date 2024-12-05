@@ -8,6 +8,10 @@ import { getRecord, getFieldValue } from "lightning/uiRecordApi";
 import WebstoreId from '@salesforce/label/c.WebstoreId';
 import getSiteBaseUrl from '@salesforce/apex/SiteInfo.getSiteBaseUrl';
 import getProductsFromCategory from '@salesforce/apex/ProductRecordsFromCategory.getProductsFromCategory'; //
+import getProfileName from '@salesforce/apex/Product2Controller.getProfileName';
+import userId from '@salesforce/user/Id';
+
+
 export default class ProductCarouselFromCategory extends NavigationMixin(LightningElement) {
     @track products;
     @track displayedProducts = [];
@@ -21,7 +25,37 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     siteBaseUrl;
     accountId
     storeId
+
+
+    //Added by Shubham fro Guest user access - ----------------------------------------------------------
+    @track currentUser = {
+        id: userId,
+        profileName: null
+    };
+
+    @track isGuestUser = false;
+
+    @wire(getProfileName)
+    wiredProfileName({ data, error }) {
+        if (data) {
+            this.currentUser.profileName = data;
+            console.log('Profile Name:', data);
+            this.checkIsGuestUser(); 
+        } else if (error) {
+            console.error('Error fetching profile name:', error);
+        }
+    }
+
+    checkIsGuestUser() {
+        this.isGuestUser = this.currentUser.profileName === 'CI_Quest EStore Profile';
+        console.log('Is Guest User:', this.isGuestUser);
+    }
+
+    //---------------------------------------------------------------------------------------
+
+
     connectedCallback() {
+        this.checkIsGuestUser();
         this.storeId = WebstoreId;
         console.log('store Id ==>'  +this.storeId);
         this.fetchProductsByCategory();
@@ -101,11 +135,23 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         getProductsFromCategory({ catId: this.categoryID }) // Call the getProductsFromCategory method
             .then((data) => {
                 console.log('Fetched Product records again... :', data);
+                const prodCurrency = data[0]?.CurrencyIsoCode|| 'USD';
+                let currencySymbol;
+                if(prodCurrency === 'USD') {
+                    currencySymbol = '$';
+                } else if (prodCurrency === 'INR') {
+                    currencySymbol = 'INR';
+                }
                 this.products = data;
                 this.products = data.map((product) => ({
                     ...product,
                     wishlistClass: this.wishlistClass(false), //setting dummy value for now. TODO: Fetch from DB
-                    formattedUnitPrice: this.formatPrice(product.UnitPrice)
+                  //  formattedUnitPrice: this.formatPrice(product.UnitPrice), 
+                  formattedUnitPrice: Number(product.UnitPrice).toLocaleString('en-US', {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2,
+                }),
+                prodCurrencySymbol: currencySymbol,                  
                 }));
                 this.setupCarousel();
             })
@@ -215,15 +261,8 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
 
     handleBuy(event) {
         const productId = event.target.dataset.id;
-        let productName = event.target.dataset.name;
-
-        let baseUrl = this.siteBaseUrl;
-        baseUrl = baseUrl.replace(/vforcesite/g, '');
-
-        productName = productName.toLowerCase();
-        const url = `${baseUrl}/product/${productId}`;
-        console.log('Navigating to:', url);
-
+        const url = `/product/${productId}`;
+ 
         this[NavigationMixin.Navigate]({
             type: 'standard__webPage',
             attributes: {

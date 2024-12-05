@@ -52,27 +52,29 @@
 }
 
 .q-feature-products .q-product-boxes h3 {
-    height: 96px;
-    padding: 0 15px 0;
-    background-color: #737373;
-    display: flex;
-    align-items: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
-    line-height: 1.25;
+    min-height: 99px;
+    padding: 10px 15px 0;
+    background-color: #737373;
+    line-height: 1.4;
     color: #fff;
     border-radius: 10px 10px 0 0;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 4;
 }
 
 .q-feature-products .q-product-boxes .description {
-    /* Product model for now */
-    min-height: 66px;
+    min-height: 84px;
     padding: 0 15px 0;
     margin: 1rem 0;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
     -webkit-line-clamp: 4;
+    font-size: 14px;
 }
 
 .q-feature-products .q-product-boxes .q-start-at {

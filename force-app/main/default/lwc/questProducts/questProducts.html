@@ -99,23 +99,45 @@
                 <div key={product.Id} class="product-card">
                     <a class="product-header" data-id={product.Product2.Id} onclick={handleBuy}>{product.Product2.Name}</a>
                     <div class="product-description">{product.Product2.Description}</div>
-                    <div class="pricing">
-                        <div class="product-price">
-                            <div class="slds-text-title_caps">Starts At </div>
-                            <div class="slds-m-bottom_small">${product.formattedUnitPrice}</div>
+
+                    <template lwc:if={isGuestUser}>
+                        <div class="pricing">
+                            <div class="product-price">
+                                <div class="slds-text-title_caps"></div>
+                                <div class="slds-m-bottom_small"></div>
+                            </div>
+                            <button
+                                class="wishlist-icon"
+                                data-id={product.Product2Id}
+                                onclick={handleAddToWishlist}>
+                                
+                            </button>
                         </div>
-                        <button
-                            class="wishlist-icon"
-                            data-id={product.Product2Id}
-                            onclick={handleAddToWishlist}>
-                            <template if:true={product.isWishlistItem}>
-                                <lightning-icon src={heartRedIcon}></lightning-icon>
-                            </template>
-                            <template if:false={product.isWishlistItem}>
-                                <lightning-icon src={heartWhiteIcon}></lightning-icon>
-                            </template>
-                        </button>
-                    </div>
+                        
+                    </template>
+                    <template lwc:else>
+                        
+
+
+                        <div class="pricing">
+                            <div class="product-price">
+                                <div class="slds-text-title_caps">Starts At </div>
+                                <div class="slds-m-bottom_small">${product.formattedUnitPrice}</div>
+                            </div>
+                            <button
+                                class="wishlist-icon"
+                                data-id={product.Product2Id}
+                                onclick={handleAddToWishlist}>
+                                <template if:true={product.isWishlistItem}>
+                                    <lightning-icon src={heartRedIcon}></lightning-icon>
+                                </template>
+                                <template if:false={product.isWishlistItem}>
+                                    <lightning-icon src={heartWhiteIcon}></lightning-icon>
+                                </template>
+                            </button>
+                        </div>
+                    </template>
+                    
                     <button
                         class="buy-button"
                         data-id={product.Product2.Id}
