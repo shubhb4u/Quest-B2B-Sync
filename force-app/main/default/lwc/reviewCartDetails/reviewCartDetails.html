@@ -1,0 +1,174 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 12-05-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="q-cart-detail-table">
+        <div class="q-cart-top">
+            <div>
+                <h1>Review Your Data</h1>
+            </div>
+            <div>
+                <div class="q-cart-progress">
+                    <c-progress-step current-step="2"></c-progress-step>
+                </div>
+            </div>
+        </div>
+        <div class="q-table-title q-table-columns">
+            <div class="inner">
+                <label class="col col-1">Product</label>
+                <label class="col col-2">Unit Price</label>
+                <label class="col col-3">Quantity</label>
+                <label class="col col-4">Total</label>
+            </div>
+        </div>
+
+
+        <div class="q-cart-product">
+            <template if:true={cartId}>
+                <template if:true={cartDetails}>
+                    <template for:each={cartDetails.cartItems} for:item="item">
+                        <div key={item.Id} class="q-table-columns">
+                            <div class="q-product-detail col col-1">
+                                <h4><lightning-formatted-text value={item.Name}></lightning-formatted-text></h4>
+
+                                <!--   <span class="tooltip-content" title="Tooltip content goes here">i</span>
+                                <span class="q-save-badge"><span>Save 15%</span></span>-->
+                                <template if:true={item.Product2.Adjustment_Amount__c}>
+                                    <div class="q-save-badge cart-item__adjustment-amount">
+                                        <!-- <span>Save ${item.Product2.Adjustment_Amount__c}</span> -->
+                                        <span>Save 
+                                            <lightning-formatted-number 
+                                                value={item.Product2.Adjustment_Amount__c} 
+                                                format-style="currency" 
+                                                minimum-fraction-digits="2" 
+                                                maximum-fraction-digits="2">
+                                            </lightning-formatted-number>
+                                        </span>
+                                
+                                    </div>
+                                    </template>
+    
+                                <div class="q-cart-features">
+                                    <ul>
+                                        <li><lightning-formatted-text value={item.Product2.Feature_1__c}></lightning-formatted-text></li>
+                                        <li><lightning-formatted-text value={item.Product2.Feature_2__c}></lightning-formatted-text></li>
+                                        <li><lightning-formatted-text value={item.Product2.Feature_3__c}></lightning-formatted-text></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="q-cart-unit-price col col-2">
+                                <div class="q-unit-price">
+                                    <lightning-formatted-number value={item.SalesPrice} format-style="currency"></lightning-formatted-number>
+                                </div>
+                                <template if:true={item.Product2.Final_price__c}>
+                                    <div class="cart-item__total strike-through-price">
+                                        <!-- ${item.Product2.Final_price__c} -->
+                                        <lightning-formatted-number value={item.Product2.Final_price__c} format-style="currency"
+                                            minimum-fraction-digits="2" maximum-fraction-digits="2">
+                                        </lightning-formatted-number>
+                                    </div>
+                                </template>
+                            </div>
+                            <div class="q-cart-qty col col-3">
+                                <input min={item.MinQuantity} max={item.MaxQuantity}
+                                    data-cartitemid={item.Id} value={item.Quantity} type="number" disabled
+                                    onblur={handleQuantityChange} />
+                            </div>
+                            <div class="q-cart-total col col-4">
+                                <span class="q-total-price"><lightning-formatted-number value={item.TotalPrice} format-style="currency"></lightning-formatted-number></span>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+                <template if:true={error}>
+                    <div class="slds-text-color_error slds-text-align_center">
+                        <p>Error: {error.body.message}</p>
+                    </div>
+                </template>
+            </template>
+
+            <!-- Order Summary Section -->
+            <div class="q-review-summary">
+                <div class="q-review-summary-flex">
+                    <h4>Order Summary</h4>
+                    <ul>
+                        <li>
+                            <template for:each={cartDetails.cartItems} for:item="item">
+                                <div key={item.Id} class="each-products">
+                                    <label>
+                                        <lightning-formatted-text value={item.Name}></lightning-formatted-text>
+                                    </label>
+                                    <span>
+                                        <lightning-formatted-number value={item.TotalPrice} format-style="currency"></lightning-formatted-number>
+                                    </span>
+                                </div>
+                            </template>
+                        </li>
+                        <li class="q-summary-total">
+                            <label>Total:</label>
+                            <span><lightning-formatted-number value={cartDetails.billingAddress.TotalAmount}
+                            format-style="currency"></lightning-formatted-number></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="q-review-details">
+            <!-- Billing Address Section -->
+            <div class="slds-m-bottom_medium">
+                <h4>Billing Address</h4>
+                <div>
+                    <p>{cartDetails.billingAddress.BillingStreet}</p>
+                    <p>{cartDetails.billingAddress.BillingCity}, {cartDetails.billingAddress.BillingState}
+                        {cartDetails.billingAddress.BillingPostalCode}</p>
+                    <p>{cartDetails.billingAddress.BillingCountry}</p>
+                </div>
+            </div>
+            <!-- Shipping (Delivery) Address Section -->
+            <!-- <div class="slds-section slds-m-top_medium">
+                <h3><strong>Shipping Address</strong></h3>
+                <div>
+                    <p>{cartDetails.shippingAddress.DeliverToName}</p>
+                    <p>{cartDetails.shippingAddress.DeliverToStreet}</p>
+                    <p>{cartDetails.shippingAddress.DeliverToCity}, {cartDetails.shippingAddress.DeliverToState} {cartDetails.shippingAddress.DeliverToPostalCode}</p>
+                    <p>{cartDetails.shippingAddress.DeliverToCountry}</p>
+                </div>
+            </div> -->
+            <!-- Payment Details Section -->
+            <div class="slds-m-bottom_medium">
+                <h4>Payment Details</h4>
+                <div>
+                    <p>{paymentDetails.cardType}</p> <!-- Added card type -->
+                    <p> **** **** **** {paymentDetails.cardLastFour}</p>
+                    <!-- <p> {paymentDetails.expiryDate}</p> -->
+                </div>
+            </div>
+
+        </div>
+
+        <div class="q-cart-form">
+            <!-- Terms and Conditions Section -->
+            <div class="q-cart-terms">
+                <h3><strong>Terms &amp; Conditions</strong></h3>
+                <div class="slds-grid slds-wrap slds-m-top_small">
+                    <lightning-input type="checkbox"
+                        label="I agree that Provider, or its designated auditing agent, may verify my (and/or my organization’s) deployment of the Products for compliance with the terms and conditions that are govern and are a part of my purchase."
+                        checked={termsAccepted} onchange={handleTermsChange}>
+                    </lightning-input>
+                </div>
+            </div>
+            <div class="q-cart-terms-cta">
+                <!-- Complete Order Button -->
+                <div>
+                    <button class="complete-your-order-btn" onclick={handleCompleteOrder}
+                        disabled={isOrderButtonDisabled}>Complete Your Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

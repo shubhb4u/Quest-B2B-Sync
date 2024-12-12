@@ -1,0 +1,354 @@
+<template>
+    <!-- Render main product only if there are no variations -->
+     <div class="single-product-container">
+    <template if:true={product}>
+        <template if:false={hasVariations}>
+            <div class="single-product-tile" if:true={product}>
+                <div class="product-content">
+                    <!-- Main product details -->
+
+                    <div class="main-product">
+
+                        <template lwc:if={isGuestUser}>
+                            <div class="pricesAndDiscounts">
+                                <!-- Display discounted price or unit price -->
+                                <div class="product-price">
+                                    <template lwc:if={product.discountedPrice}>
+                                        <span class="current-price guest" data-guest={isGuestUser}>Please login to view price</span>
+                                    </template>
+                                    <template lwc:else>
+                                        <span class="current-price guest" data-guest={isGuestUser}>Please login to view price</span>
+                                    </template>
+                                </div>
+
+                                <!-- Display discount details -->
+                                <div class="disPrice">
+                                    <template lwc:if={product.Product2.isDiscounted__c}>
+                                        <div class="product-discount">
+                                            <span class="discountVal"></span>
+                                        </div>
+                                    </template>
+                                    <template lwc:elseif={product.Product2.isDiscountedAmount__c}>
+                                        <div class="product-discount">
+                                            <span class="discountVal"></span>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+
+                            <!-- Display MSRP if discounted -->
+                            <div class="msrpPrice">
+                                <template lwc:if={product.discountedPrice}>
+                                    <span class="msrp"></span>
+                                </template>
+                            </div>
+
+                            <!-- Product Description -->
+                            <div class="product-description">{product.description}</div>
+
+                            <!-- Quantity -->
+                            <div class="quantity-single-prd">
+                                <label for="quantity"><strong>Quantity:</strong></label>
+                                <!-- <input type="number" value={quantity} min="1" data-id={product.Product2Id}
+                                    onchange={handleQuantityChange} /> -->
+                                <input type="number" value={quantity} min="1" data-id={product.Id}
+                                    onchange={handleQuantityChange} />
+                            </div>
+
+                            <!-- Selling Model -->
+                            <template if:true={product.sellingModel}>
+                                <div class="product-selling-model">
+                                    <p><strong></strong> </p>
+                                    <p>
+                                        <strong></strong>
+                                        <lightning-icon icon-name="utility:info" alternative-text="Pricing Unit Info"
+                                            class="tooltip-icon" size="x-small"
+                                            title="This indicates the unit of measurement for the pricing term."></lightning-icon>
+                                    </p>
+                                    <p><strong></strong> </p>
+                                </div>
+                            </template>
+
+                        </template>
+
+                        <template lwc:else>
+                            <div class="pricesAndDiscounts">
+                                <!-- Display discounted price or unit price -->
+                                <div class="product-price">
+                                    <template lwc:if={product.discountedPrice}>
+                                        <span class="current-price registered" data-guest={isGuestUser}>{product.prodCurrencySymbol}{product.discountedPrice}</span>
+                                        <div class="msrpPrice">
+                                            <span>{product.prodCurrencySymbol}{product.UnitPrice}</span>
+                                        </div>
+                                    </template>
+                                    <template lwc:else>
+                                        <span class="current-price registered" data-guest={isGuestUser}>{product.prodCurrencySymbol}{product.formattedUnitPrice}</span>
+                                    </template>
+                                </div>
+
+                                <!-- Display discount details -->
+                                <div class="disPrice">
+                                    <template lwc:if={product.Product2.isDiscounted__c}>
+                                        <div class="product-discount">
+                                            <span class="discountVal">({product.Product2.Adjustment_Percent__c}% OFF)</span>
+                                        </div>
+                                    </template>
+                                    <template lwc:elseif={product.Product2.isDiscountedAmount__c}>
+                                        <div class="product-discount">
+                                            <span class="discountVal">({product.prodCurrencySymbol}{product.Product2.Adjustment_Amount__c} OFF)</span>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+
+                            <!-- Display MSRP if discounted -->
+                            <!-- <div class="msrpPrice">
+                                <template lwc:if={product.discountedPrice}>
+                                    <span class="msrp">MSRP: {product.prodCurrencySymbol}{product.UnitPrice}</span>
+                                </template>
+                            </div> -->
+
+                            <!-- Product Description -->
+                            <div class="product-description">{product.description}</div>
+
+                            <!-- Quantity -->
+                            <div class="quantity-single-prd">
+                                <label for="quantity"><strong>Quantity:</strong></label>
+                                <!-- <input type="number" value={quantity} min="1" data-id={product.Product2Id}
+                                    onchange={handleQuantityChange} /> -->
+                                <input type="number" value={quantity} min="1" data-id={product.Id}
+                                    onchange={handleQuantityChange} />
+                            </div>
+
+                            <!-- Selling Model -->
+                            <template if:true={product.sellingModel}>
+                                <div class="product-selling-model">
+                                    <p><strong>Pricing Term:</strong> {product.sellingModel.pricingTerm}</p>
+                                    <p>
+                                        <strong>Pricing Unit:</strong> {product.sellingModel.pricingTermUnit}
+                                        <lightning-icon icon-name="utility:info" alternative-text="Pricing Unit Info"
+                                            class="tooltip-icon" size="x-small"
+                                            title="This indicates the unit of measurement for the pricing term."></lightning-icon>
+                                    </p>
+                                    <p><strong>Selling Model:</strong> {product.sellingModel.sellingModelType}</p>
+                                </div>
+                            </template>
+
+                        </template>
+
+
+
+                        <!-- Actions -->
+                        <div class="actions">
+                            <template if:true={isGuestUser}>
+                                <button class="addToCart-button-single tooltip-container" disabled data-id={product.Product2.Id} data-quantity={quantity}
+                                    onmouseover={showTooltip} onmouseout={hideTooltip}>
+                                    Add to Cart
+                                </button>
+                                <div class="tooltip" if:true={isTooltipVisible}>
+                                    Please login to add item to cart
+                                </div>
+                            </template>
+                            <template if:false={isGuestUser}>
+                                <button class="addToCart-button-single" data-id={product.Product2.Id} data-quantity={quantity}
+                                    onclick={handleAddToCart}>
+                                    Add to Cart
+                                </button>
+                            </template>
+
+                            <a class="contact-us-link"
+                                href="https://force-innovation-984--b2bsync.sandbox.my.site.com/CIQuestEStore/contact-us"
+                                target="_blank">
+                                Contact Us
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </template>
+    </template>
+</div>
+
+    <!-- Variations (if any) -->
+     <div class="variation-product-container">
+    <template if:true={hasVariations}>
+        <div class="product-tile">
+            <div class="product-content">
+                <div class="product-variations">
+                    <template for:each={variations} for:item="variation">
+                        <div key={variation.id} class="variation">
+                            <!-- Toggle button for the variation -->
+                            <button class="dropdown-toggle" >
+                                <span class="variation-version">{variation.softwareVersion}</span>
+                                <template if:false={variation.isDropdownVisible}>
+
+                                    <template lwc:if={isGuestUser}>
+
+                                    </template>
+                                    <template lwc:else>
+                                        <span class="variation-price-toggle">- {variation.currencySymbol}{variation.price}</span>
+                                        <span class="discounted-price-toggle">
+                                            <template if:true={variation.discountedPrice}>
+                                                {variation.currencySymbol}{variation.discountedPrice}
+                                            </template>
+                                        </span>
+                                    </template>
+
+                                </template>
+                                <lightning-icon icon-name={variation.iconName} alternative-text="Toggle Dropdown"
+                                    size="x-small" class="chevron-icon" onclick={toggleDropdown} data-id={variation.id}></lightning-icon>
+                            </button>
+
+                            <!-- Details for the specific variation -->
+                            <template if:true={variation.isDropdownVisible}>
+                                <div class="variation-details">
+                                    <div class="pricesAndDiscounts">
+                                        <!-- Display discounted price or unit price -->
+                                        <template lwc:if={isGuestUser}>
+                                            <div class="actualPrice">
+                                                <span class="variation-price guest">Please login to view price</span>
+                                                <span class="discounted-price"><template
+                                                        if:true={variation.discountedPrice}></template></span>
+                                            </div>
+
+                                            <!-- Display discount details -->
+                                            <div class="disPrice">
+                                                <template if:true={variation.isDiscounted__c}>
+                                                    <div class="product-discount">
+                                                        <span class="discountVal"></span>
+                                                    </div>
+                                                </template>
+                                                <template if:true={variation.isDiscountedAmount__c}>
+                                                    <div class="product-discount">
+                                                        <span class="discountVal"></span>
+                                                    </div>
+                                                </template>
+                                            </div>
+
+                                        </template>
+                                        <template lwc:else>
+                                            <div class="actualPrice">
+                                                <span class="variation-price">{variation.currencySymbol}{variation.price}</span>
+                                                <span class="discounted-price"><template
+                                                        if:true={variation.discountedPrice}>{variation.currencySymbol}{variation.discountedPrice}</template></span>
+                                            </div>
+
+                                            <!-- Display discount details -->
+                                            <div class="disPrice">
+                                                <template if:true={variation.isDiscounted__c}>
+                                                    <div class="product-discount">
+                                                        <span class="discountVal">{variation.Adjustment_Percent__c}%
+                                                            OFF</span>
+                                                    </div>
+                                                </template>
+                                                <template if:true={variation.isDiscountedAmount__c}>
+                                                    <div class="product-discount">
+                                                        <span class="discountVal">{variation.currencySymbol}{variation.Adjustment_Amount__c}
+                                                            OFF</span>
+                                                    </div>
+                                                </template>
+                                            </div>
+
+                                        </template>
+
+                                    </div>
+
+
+                                    <!-- Display MSRP if discounted
+                                            <div class="msrpPrice">
+                                                <template if:true={variation.discountedPrice}>
+                                                    <div><span class="msrp">MSRP: ${variation.price}</span></div>
+                                                </template>
+                                            </div> -->
+
+                                    <div>{variation.description}</div>
+
+                                    <!-- Quantity -->
+                                    <div class="quantity">
+                                        <div>
+                                            <label for="quantity"><strong>Quantity:</strong></label>
+                                        </div>
+                                        <div class="quantity-input">
+                                            <input type="number" value="1" min="1" onchange={handleQuantityChange}
+                                                data-id={variation.id} />
+                                        </div>
+                                    </div>
+                                    <template lwc:if={isGuestUser}>
+                                    </template>
+                                    <template lwc:else>
+                                        <!-- Selling Model -->
+                                        <template if:true={variation.sellingModel}>
+                                            <div class="variation-selling-model">
+                                                <p><strong>Pricing Term:</strong> {variation.sellingModel.pricingTerm}</p>
+                                                <p>
+                                                    <strong>Pricing Unit:</strong> {variation.sellingModel.pricingTermUnit}
+                                                    <lightning-icon icon-name="utility:info"
+                                                        alternative-text="Pricing Unit Info" class="tooltip-icon"
+                                                        size="x-small"
+                                                        title="This indicates the unit of measurement for the pricing term."></lightning-icon>
+                                                </p>
+                                                <p><strong>Selling Model:</strong> {variation.sellingModel.sellingModelType}
+                                                </p>
+                                            </div>
+                                        </template>
+                                    </template>
+
+
+                                    <!-- Actions -->
+                                    <div class="actions">
+                                        <!-- <button class="addToCart-button" data-id={variation.id}
+                                            data-quantity={variation.quantity} onclick={handleAddToCart}>
+                                            Add to Cart
+                                        </button> -->
+
+                                        <template if:true={isGuestUser}>
+                                            <button class="addToCart-button tooltip-container" disabled data-id={variation.id}
+                                                data-quantity={variation.quantity}
+                                                onmouseover={showTooltip} onmouseout={hideTooltip}>
+                                                Add to Cart
+                                            </button>
+                                            <div class="tooltip" if:true={isTooltipVisible}>
+                                                Please login to add item to cart
+                                            </div>
+                                        </template>
+                                        <template if:false={isGuestUser}>
+                                            <button class="addToCart-button" data-id={variation.id}
+                                                data-quantity={variation.quantity} onclick={handleAddToCart}>
+                                                Add to Cart
+                                            </button>
+                                        </template>
+                                        <a class="contact-us-link"
+                                            href="https://force-innovation-984--b2bsync.sandbox.my.site.com/CIQuestEStore/contact-us"
+                                            target="_blank">
+                                            Contact Us
+                                        </a>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </template>
+</div>
+    <template if:true={isATCModalOpen}>
+        <div class="slds-modal atc-modal slds-fade-in-open" role="dialog" aria-labelledby="Add to cart modal" aria-modal="true">
+            <div class="slds-modal__container" >
+                <div class="slds-modal__header slds-border_none" >
+                    <div class={computedHeaderClasses}><h2 class="slds-modal__title slds-hyphenate slds-p-around_x-small ">{modalTitle}</h2></div>
+                </div>
+                <div class="slds-modal__content slds-p-around_x-small">{modalMessage}</div>
+                <div class="slds-modal__footer slds-p-around_x-small">
+                    <lightning-button
+                        variant="brand"
+                        label="Close"
+                        onclick={handleModalClose}>
+                    </lightning-button>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop_open" onclick={handleModalClose}></div>
+    </template>
+</template>

@@ -1,0 +1,177 @@
+<!-- sldsValidatorIgnore -->
+<!-- sldsValidatorIgnore -->
+
+<template>
+    <div class="container">
+        <div class="center-title">
+            <template lwc:if={hasCategory}>
+                <div class="slds-card__header-title">{categoryName}</div>
+            </template>
+            <template lwc:else>
+                <div class="slds-card__header-title">All Quest Products</div>
+            </template>
+        </div>
+
+        <div class="subtitle">
+            Quest products help solve IT Management challenges. Find what you need by category, alphabetically, or by
+            solution and brand.
+        </div>
+
+        <!-- Filter Bar -->
+        <div class="q-listing-filter slds-grid slds-grid_vertical-align-center slds-wrap slds-m-bottom_medium slds-card slds-p-around_small">
+            <!-- Product Family Filter -->
+            <div class="q-filter q-solutions slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:light_bulb" size="x-small" ></lightning-icon>
+                <lightning-combobox
+                    data-id="productFamily"
+                    placeholder="Select Product Family"
+                    options={productFamilyOptions}
+                    value={filters.productFamily}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                    
+                </lightning-combobox>
+            </div>
+
+            <!-- Quantity Unit Filter -->
+            <div class="q-filter q-platforms slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:program_cohort" size="x-small"></lightning-icon >
+                <lightning-combobox
+                    data-id="quantityUnit"
+                    placeholder="Select Quantity Unit"
+                    options={quantityUnitOptions}
+                    value={filters.quantityUnit}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                </lightning-combobox>
+            </div>
+
+            <!-- Pricing Method Filter -->
+            <div class="q-filter q-products slds-col slds-size_1-of-4 slds-p-around_x-small">
+                <lightning-icon icon-name="utility:apps" size="x-small"></lightning-icon>
+                <lightning-combobox
+                    data-id="pricingMethod"
+                    placeholder="Select Pricing Method"
+                    options={pricingMethodOptions}
+                    value={filters.pricingMethod}
+                    onchange={handleFilterChange}
+                    class="filter-bar-combobox"
+                    variant="label-hidden"
+                    >
+                </lightning-combobox>
+            </div>
+
+            <!-- Clear Filters Button -->
+            <div class="q-filter q-clear slds-col slds-size_1-of-4 slds-text-align_right slds-p-around_x-small">
+                <button class="clear-button" onclick={clearFilters}>Clear All</button>
+            </div>
+        </div>
+
+        <!-- Modal Popup -->
+        <!-- <template if:true={isModalOpen}>
+            
+            <div class="slds-backdrop slds-backdrop_open"></div>
+            
+            
+            <div class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <lightning-modal-header>
+                        <h2 class="slds-text-heading_medium">{modalTitle}</h2>
+                    </lightning-modal-header>
+
+                    <lightning-modal-body>
+                        <div>{modalMessage}</div>
+                    </lightning-modal-body>
+
+                    <lightning-modal-footer>
+                        <lightning-button variant="brand" label="Close" onclick={handleModalClose}></lightning-button>
+                    </lightning-modal-footer>
+                </div>
+            </div>
+        </template> -->
+
+        <c-modal-quest if:true={isModalOpen} modal-title={modalTitle} modal-message={modalMessage} onclose={handleModalClose}>
+            <!-- Footer Slot for Modal -->
+            <lightning-button slot="footer" variant="brand" label="Close" onclick={handleModalClose}>
+            </lightning-button>
+        </c-modal-quest>
+
+
+        <!-- Filtered Results -->
+        <div class="results-count">Results: {filteredProducts.length} Products Found</div>
+
+
+        <div class="products-grid">
+            <template for:each={filteredProducts} for:item="product">
+                <div key={product.Id} class="product-card">
+                    <a class="product-header" data-id={product.Product2.Id} onclick={handleBuy}>{product.Product2.Name}</a>
+                    <div class="product-description">{product.Product2.Description}</div>
+
+                    <template lwc:if={isGuestUser}>
+                        <div class="pricing">
+                            <div class="product-price">
+                                <div class="slds-text-title_caps"></div>
+                                <div class="slds-m-bottom_small"></div>
+                            </div>
+                            <button
+                                class="wishlist-icon"
+                                data-id={product.Product2Id}
+                                onclick={handleAddToWishlist}>
+                                
+                            </button>
+                        </div>
+                        
+                    </template>
+                    <template lwc:else>
+                        
+
+
+                        <div class="pricing">
+                            <div class="product-price">
+                                <div class="slds-text-title_caps">Starts At </div>
+                                <div class="slds-m-bottom_small">{product.currencySymbol}{product.formattedUnitPrice}</div>
+                            </div>
+                            <button
+                                class="wishlist-icon"
+                                data-id={product.Product2Id}
+                                onclick={handleAddToWishlist}>
+                                <template if:true={product.isWishlistItem}>
+                                    <lightning-icon src={heartRedIcon}></lightning-icon>
+                                </template>
+                                <template if:false={product.isWishlistItem}>
+                                    <lightning-icon src={heartWhiteIcon}></lightning-icon>
+                                </template>
+                            </button>
+                        </div>
+                    </template>
+                    
+                    <button
+                        class="buy-button"
+                        data-id={product.Product2.Id}
+                        onclick={handleBuy}>
+                        Buy
+                    </button>
+                </div>
+            </template>
+        </div>
+    
+
+        <template if:false={hideShowMore}>
+            <div class="q-load-more">
+                <button onclick={seeMoreHandler} class="q-cta-grey">See More</button>
+            </div>
+        </template>
+        <template if:true={isLoading}>
+            <div style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; display: flex; align-items: center; justify-content: center;">
+                <lightning-spinner variant="brand" size="small"> </lightning-spinner>
+            </div>
+        </template>
+    </div>
+
+
+    
+</template>

@@ -1,0 +1,152 @@
+<template>
+    <div class="cart-full-content">
+        <template if:true={cartId}>
+            <!-- Cart Header -->
+            <div class="slds-grid slds-wrap cart-header">
+                <div class="slds-col slds-size_1-of-4 cart-header__product"><strong>Product</strong></div>
+                <div class="slds-col slds-size_1-of-8 cart-header__unit-price"><strong>Unit Price</strong></div>
+                <div class="slds-col slds-size_1-of-8 cart-header__quantity"><strong>Quantity</strong></div>
+                <div class="slds-col slds-size_1-of-8 cart-header__total"><strong>Total</strong></div>
+            </div>
+
+            <!-- Cart Items Container -->
+            <div class="cart-items">
+                <template if:true={hasCartItems}>
+                    <template for:each={cartItems} for:item="item">
+                        <div key={item.Id} class="slds-grid slds-wrap cart-item">
+                            <!-- Product Details -->
+                            <div class="slds-col slds-size_1-of-4 cart-item__details">
+                                <strong class="heading-product-name">{item.Name}</strong>
+                                <template if:true={item.Product2.Adjustment_Amount__c}>
+                                    <div class="cart-item__adjustment-amount">
+                                        <!-- <span>Save ${item.Product2.Adjustment_Amount__c}</span> -->
+                                        <span>Save
+                                            <lightning-formatted-number
+                                                value={item.Product2.Adjustment_Amount__c}
+                                                format-style="currency"
+                                                minimum-fraction-digits="2"
+                                                maximum-fraction-digits="2"
+                                                currency-code={item.CurrencyIsoCode}>
+                                            </lightning-formatted-number>
+                                        </span>
+
+                                    </div>
+                                </template>
+
+                                <p class="cart-item__description">{item.Product2.Description}</p>
+                                <template if:true={hasFeatures}>
+                                    <ul class="cart-item__features">
+                                        <template if:true={item.Product2.Feature_1__c}>
+                                            <li class="cart-item__feature">{item.Product2.Feature_1__c}</li>
+                                        </template>
+
+                                        <!-- Renewal Term Section, displayed when SellingModel__c is true -->
+                                        <template if:true={item.Product2.SellingModel__c}>
+                                            <div class="renewal-term__container">
+                                                <div class="renewal-term__header-container">
+                                                    <h3 class="renewal-term__header">Select a Renewal Term:</h3>
+                                                    <a href="javascript:void(0);" class="renewal-term__change-term" onclick={showModalBox}
+                                                       data-id={item.id}>
+                                                        Change Term
+                                                    </a>
+                                                </div>
+
+                                                <div class="d-none change-term-content" >
+                                                    <!-- Close (cross) icon -->
+                                                    <h4 class="popup-heading">Select a Renewal Term:</h4>
+                                                    <lightning-icon icon-name="utility:close" class="cross-icon"
+                                                        size="small" onclick={hideModalBox}></lightning-icon>
+                                                    <template for:each={productSellingModels} for:item="model">
+                                                        <div key={model.id} class="renewal-term__option">
+                                                            <input type="radio" class="renewal-term__radio"
+                                                                name="renewalTerm" id={model.id}
+                                                                value={model.name} />
+                                                            <label for={model.id} class="renewal-term__label">
+                                                                {model.name} ({model.sellingModelType})
+                                                            </label>
+                                                        </div>
+                                                    </template>
+                                                    <div class="submit-button">
+                                                        <a href="javascript:void(0);" class="renewal-term__submit"
+                                                            onclick={handleRenewalSubmit}>
+                                                            Submit
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </template>
+
+                                        <!-- Feature 2 and Feature 3 should always be displayed, independent of SellingModel__c -->
+                                        <template if:true={item.Product2.Feature_2__c}>
+                                            <li class="cart-item__feature">{item.Product2.Feature_2__c}</li>
+                                        </template>
+                                        <template if:true={item.Product2.Feature_3__c}>
+                                            <li class="cart-item__feature">{item.Product2.Feature_3__c}</li>
+                                        </template>
+                                    </ul>
+                                </template>
+                            </div>
+
+                            <!-- Unit Price -->
+                            <div class="unit-price-container slds-col slds-size_1-of-8">
+                                <div class="q-visible-sm"><strong>Unit Price</strong></div>
+                                <div class="cart-item__unit-price">
+                                    {item.SalesPrice}
+                                </div>
+                                <!-- <template if:true={item.Product2.Final_price__c}>
+                                    <div class="strike-through-price">
+                                        {item.Product2.Final_price__c}
+                                    </div>
+                                </template> -->
+                                <template if:true={item.Product2.Final_price__c}>
+                                    <div class="strike-through-price">
+                                        <lightning-formatted-number
+                                            value={item.Product2.Final_price__c}
+                                            format-style="currency"
+                                            minimum-fraction-digits="2"
+                                            maximum-fraction-digits="2">
+                                        </lightning-formatted-number>
+                                    </div>
+                                </template>
+                            </div>
+
+                            <!-- Quantity -->
+                            <div class="slds-col slds-size_1-of-8 cart-item__quantity">
+                                <div class="q-visible-sm"><strong>Quantity</strong></div>
+                                <input class="cart-item__input" min={item.minQuantity} max={item.maxQuantity}
+                                    data-cartitemid={item.Id} value={item.Quantity} type="number" step="1"
+                                    onblur={handleQuantityChange}
+                                    style="appearance: textfield; width: 100%; padding: 0.5rem; height: 2.5rem;" />
+                                <div class="cart-item__actions">
+                                    <a href="javascript:void(0);" class="cart-item__remove" data-id={item.Id}
+                                        onclick={handleDeleteItem}>
+                                        Remove
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Total Price -->
+                            <div class="slds-col slds-size_1-of-8 cart-item__total">
+                                <div class="q-visible-sm"><strong>Total Price</strong></div>
+                                <div>{item.TotalPrice}</div>
+                            </div>
+                        </div>
+                    </template>
+                </template>
+
+                <!-- Empty Cart Message -->
+                <template if:false={hasCartItems}>
+                    <p class="cart-empty">Your cart is empty.</p>
+                </template>
+
+                <!-- No Renewal Terms Available -->
+                <template if:false={productSellingModels}>
+                    <p class="renewal-term__empty">No renewal terms available.</p>
+                </template>
+            </div>
+        </template>
+        <template if:false={cartId}>
+            <p class="cart-empty">Your cart is empty.</p>
+        </template>
+    </div>
+</template>
