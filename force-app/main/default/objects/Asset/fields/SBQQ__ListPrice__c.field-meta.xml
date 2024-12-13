@@ -3,7 +3,6 @@
     <fullName>SBQQ__ListPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>List price for this Asset product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List price for this Asset product.</inlineHelpText>
     <label>List Price</label>
     <precision>14</precision>

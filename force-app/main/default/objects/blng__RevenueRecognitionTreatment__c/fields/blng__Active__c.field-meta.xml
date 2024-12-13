@@ -3,7 +3,6 @@
     <fullName>blng__Active__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>To deactivate the revenue recognition treatment, clear the checkbox. This won’t affect
         existing transactions that reference the book.</inlineHelpText>
     <label>Active</label>

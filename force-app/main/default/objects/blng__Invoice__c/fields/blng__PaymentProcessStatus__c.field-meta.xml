@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PaymentProcessStatus__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>This field will be deprecated in a future release</inlineHelpText>
     <label>Payment Process Status (deprecated)</label>
     <required>false</required>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__IsClosed__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>JBCXM__Stage__r.JBCXM__IncludeInWidget__c = false</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Is Closed</label>

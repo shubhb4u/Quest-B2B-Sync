@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field searched by this filter.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the field to search.</inlineHelpText>
     <label>Target Field</label>
     <required>false</required>

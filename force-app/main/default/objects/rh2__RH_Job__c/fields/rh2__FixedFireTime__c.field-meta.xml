@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If this is unchecked, daily scheduled jobs will run one day after the previous fire time.  If this is checked, daily scheduled jobs will run one day after the initial next fire time.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this is unchecked, daily scheduled jobs will run one day after the previous fire time.  If this is checked, daily scheduled jobs will run one day after the initial next fire time.</inlineHelpText>
     <label>Fixed Fire Time</label>
     <trackTrending>false</trackTrending>

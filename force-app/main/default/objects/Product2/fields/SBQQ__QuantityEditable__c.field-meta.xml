@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that determines whether the quantity is editable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Allow or prevent changing the quantity for this product.</inlineHelpText>
     <label>Quantity Editable</label>
     <trackHistory>false</trackHistory>

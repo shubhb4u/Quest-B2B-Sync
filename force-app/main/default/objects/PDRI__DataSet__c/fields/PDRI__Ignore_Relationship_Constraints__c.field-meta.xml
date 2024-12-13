@@ -3,7 +3,6 @@
     <fullName>PDRI__Ignore_Relationship_Constraints__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Ignore Relationship Constraints</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

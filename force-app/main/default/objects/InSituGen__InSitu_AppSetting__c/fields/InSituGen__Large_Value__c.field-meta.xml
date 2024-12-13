@@ -3,7 +3,6 @@
     <fullName>InSituGen__Large_Value__c</fullName>
     <deprecated>false</deprecated>
     <description>Field used to store the value of settings which are too large to store in the 255 character text field.</description>
-    <externalId>false</externalId>
     <label>Value</label>
     <length>32000</length>
     <trackHistory>false</trackHistory>

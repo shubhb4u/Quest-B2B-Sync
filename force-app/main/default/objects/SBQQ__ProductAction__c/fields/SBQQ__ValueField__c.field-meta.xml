@@ -3,7 +3,6 @@
     <fullName>SBQQ__ValueField__c</fullName>
     <deprecated>false</deprecated>
     <description>This field will be used instead of the Filter Value when compared with the Filter Field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Compares the Filter Field with this field instead of the Filter Value.</inlineHelpText>
     <label>Value Field</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Option to combine quantities of multiple assets for the same product into one line when renewal quote is generated.</inlineHelpText>
     <label>Combine Asset Quantities</label>
     <trackFeedHistory>false</trackFeedHistory>

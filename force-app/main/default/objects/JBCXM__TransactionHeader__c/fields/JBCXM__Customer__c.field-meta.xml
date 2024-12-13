@@ -3,7 +3,6 @@
     <fullName>JBCXM__Customer__c</fullName>
     <deprecated>false</deprecated>
     <description>Reference to CustomerInfo Record</description>
-    <externalId>false</externalId>
     <inlineHelpText>Reference to CustomerInfo Record</inlineHelpText>
     <label>Customer</label>
     <referenceTo>JBCXM__CustomerInfo__c</referenceTo>

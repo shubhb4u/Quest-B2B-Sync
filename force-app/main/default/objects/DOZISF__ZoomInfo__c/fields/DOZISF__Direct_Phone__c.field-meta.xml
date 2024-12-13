@@ -3,7 +3,6 @@
     <fullName>DOZISF__Direct_Phone__c</fullName>
     <deprecated>false</deprecated>
     <description>Person direct business phone number.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Person direct business phone number.</inlineHelpText>
     <label>Direct Phone</label>
     <required>false</required>

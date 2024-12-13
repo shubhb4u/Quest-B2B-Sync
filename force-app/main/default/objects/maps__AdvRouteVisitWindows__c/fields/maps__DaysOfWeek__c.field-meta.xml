@@ -3,7 +3,6 @@
     <fullName>maps__DaysOfWeek__c</fullName>
     <deprecated>false</deprecated>
     <description>These are the days of the week that this window is valid</description>
-    <externalId>false</externalId>
     <label>Day(s) of Week</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

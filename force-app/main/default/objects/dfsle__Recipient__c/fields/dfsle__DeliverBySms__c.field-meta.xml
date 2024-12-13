@@ -3,7 +3,6 @@
     <fullName>dfsle__DeliverBySms__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deliver By Sms</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

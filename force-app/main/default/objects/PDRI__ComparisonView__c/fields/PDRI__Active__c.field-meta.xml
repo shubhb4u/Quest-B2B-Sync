@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates this change template is active.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Is this template active?</inlineHelpText>
     <label>Active</label>
     <trackHistory>false</trackHistory>

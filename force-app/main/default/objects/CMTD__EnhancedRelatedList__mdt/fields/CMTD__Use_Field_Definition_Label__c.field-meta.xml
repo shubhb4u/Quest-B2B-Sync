@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When this is checked, it will use the label as defined in the field definition for Field API Name.</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <inlineHelpText>When this is checked, it will ignore the Label value defined in CMT. It will use the label as defined in the field definition for the Field API Name.</inlineHelpText>
     <label>Use Field Definition Label</label>

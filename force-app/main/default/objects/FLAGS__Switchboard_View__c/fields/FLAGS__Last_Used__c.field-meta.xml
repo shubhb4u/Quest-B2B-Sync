@@ -3,7 +3,6 @@
     <fullName>FLAGS__Last_Used__c</fullName>
     <deprecated>false</deprecated>
     <description>The time this view was last opened.</description>
-    <externalId>false</externalId>
     <label>Last Used</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

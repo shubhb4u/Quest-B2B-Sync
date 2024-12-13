@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Used by &apos;ContactQueueTrigger&apos; to check for this new checkbox to be checked  &apos;Enable Contact Queue Trigger&apos;, and if its checked, else return from the trigger and do not proceed in trigger code</description>
-    <externalId>false</externalId>
     <label>Enable Contact Queue Trigger</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

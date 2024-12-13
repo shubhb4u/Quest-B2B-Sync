@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Relationship Contact</description>
-    <externalId>false</externalId>
     <label>Relationship Contact</label>
     <referenceTo>JBCXM__GSRelationshipContacts__c</referenceTo>
     <relationshipLabel>Survey Participant</relationshipLabel>

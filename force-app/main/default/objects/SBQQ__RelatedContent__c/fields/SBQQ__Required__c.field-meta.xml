@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether this content as required for this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if this content is required for the product. Users must include it when generating a quote document.</inlineHelpText>
     <label>Required</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Price Book associated with this web quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Price Book associated with this web quote.</inlineHelpText>
     <label>Price Book</label>
     <referenceTo>Pricebook2</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>maps__User__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Populated if directly under a user&apos;s personal folder, otherwise blank. If blank and the folder lookup is blank this will appear on the corporate folder. If the folder is filled out it could be a personal or corporate folder.</inlineHelpText>
     <label>User</label>
     <referenceTo>User</referenceTo>

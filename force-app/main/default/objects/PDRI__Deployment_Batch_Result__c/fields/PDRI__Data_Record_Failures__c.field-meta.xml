@@ -3,7 +3,6 @@
     <fullName>PDRI__Data_Record_Failures__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Data Record Failures</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

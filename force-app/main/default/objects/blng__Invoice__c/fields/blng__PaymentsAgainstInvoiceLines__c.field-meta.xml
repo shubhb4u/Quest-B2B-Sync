@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PaymentsAgainstInvoiceLines__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Sum of payment amounts allocated to Invoice Lines in the Invoice.</inlineHelpText>
     <label>Allocations Against Invoice Lines</label>
     <summarizedField>blng__InvoiceLine__c.blng__PaymentsAgainstInvoiceLines__c</summarizedField>

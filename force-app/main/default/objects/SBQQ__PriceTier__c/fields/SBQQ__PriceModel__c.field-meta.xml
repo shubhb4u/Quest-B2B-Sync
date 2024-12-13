@@ -3,7 +3,6 @@
     <fullName>SBQQ__PriceModel__c</fullName>
     <deprecated>false</deprecated>
     <description>The price model that determines how the prices are calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The price model that determines how the prices are calculated.</inlineHelpText>
     <label>Price Model</label>
     <required>false</required>

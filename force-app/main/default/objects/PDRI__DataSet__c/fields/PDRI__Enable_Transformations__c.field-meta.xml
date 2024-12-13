@@ -3,7 +3,6 @@
     <fullName>PDRI__Enable_Transformations__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable Transformations</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

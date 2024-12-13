@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The quote where the order is created from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The quote where the order is created from.</inlineHelpText>
     <label>Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

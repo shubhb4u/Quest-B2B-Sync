@@ -3,7 +3,6 @@
     <fullName>SBQQ__AggregateField__c</fullName>
     <deprecated>false</deprecated>
     <description>Quote Line field that&apos;s acted upon by the aggregate function.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote Line field that&apos;s acted upon by the aggregate function.</inlineHelpText>
     <label>Aggregate Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>maps__ColorsAssignedDynamically__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Colors Assigned Dynamically</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

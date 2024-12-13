@@ -3,7 +3,6 @@
     <fullName>Q9__Picklist_Population_Skip__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Picklist Population Skip</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

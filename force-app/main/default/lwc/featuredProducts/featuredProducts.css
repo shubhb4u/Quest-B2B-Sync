@@ -95,3 +95,10 @@
         width: 100%;
     }
 }
+
+
+@media (max-width: 479px) {
+    .q-feature-products .product-block{
+    width: 332px;
+    }
+    }

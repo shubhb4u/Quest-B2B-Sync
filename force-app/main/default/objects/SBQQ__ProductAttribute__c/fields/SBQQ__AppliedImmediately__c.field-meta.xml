@@ -3,7 +3,6 @@
     <fullName>SBQQ__AppliedImmediately__c</fullName>
     <deprecated>false</deprecated>
     <description>Flag that indicates changes to this configuration attribute should apply immediately.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Apply Immediately</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>rh2__Query_Error_Encountered__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Query Error During Batch</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

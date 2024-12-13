@@ -3,7 +3,6 @@
     <fullName>maps__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the date that the continuous travel should start being used</description>
-    <externalId>false</externalId>
     <label>Start Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

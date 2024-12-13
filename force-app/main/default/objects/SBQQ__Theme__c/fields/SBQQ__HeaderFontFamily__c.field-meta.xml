@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__HeaderFontFamily__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font family of page header</inlineHelpText>
     <label>Header Font Family</label>
     <required>false</required>

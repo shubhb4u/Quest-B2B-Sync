@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates this document was generated for electronic signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field for the document to be signed electronically.</inlineHelpText>
     <label>Electronic Signature</label>
     <trackHistory>false</trackHistory>

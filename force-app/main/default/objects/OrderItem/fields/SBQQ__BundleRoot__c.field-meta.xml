@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The root bundle parent Order Product of components. This component will be deleted if its bundle root is deleted.</description>
-    <externalId>false</externalId>
     <inlineHelpText>An internally used field that points to the root of its bundle parent.</inlineHelpText>
     <label>Bundle Root</label>
     <referenceTo>OrderItem</referenceTo>

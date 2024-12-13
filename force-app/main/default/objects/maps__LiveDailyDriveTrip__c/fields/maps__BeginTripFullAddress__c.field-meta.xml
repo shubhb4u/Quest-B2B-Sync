@@ -3,7 +3,6 @@
     <fullName>maps__BeginTripFullAddress__c</fullName>
     <deprecated>false</deprecated>
     <description>Address where the start of the trip took place</description>
-    <externalId>false</externalId>
     <inlineHelpText>Address where the start of the trip took place</inlineHelpText>
     <label>Begin Trip Full Address</label>
     <length>500</length>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Service cloud widget</description>
-    <externalId>false</externalId>
     <label>In Service Cloud Widget</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

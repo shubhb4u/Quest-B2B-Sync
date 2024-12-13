@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether the invoice scheduler to run on last day of every month</description>
-    <externalId>false</externalId>
     <inlineHelpText>Monthly invoice runs launch on the last day of the month. The scheduler’s start date must also be the last day of the month.</inlineHelpText>
     <label>Run at End of Month</label>
     <trackHistory>false</trackHistory>

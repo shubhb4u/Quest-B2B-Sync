@@ -3,7 +3,6 @@
     <fullName>PDRI__Origin_Connection__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Schema Org</label>
     <referenceTo>PDRI__Connection__c</referenceTo>
     <relationshipName>Data_Sets</relationshipName>

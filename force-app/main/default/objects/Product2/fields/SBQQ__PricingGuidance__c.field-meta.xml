@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Pricing guidance for use with this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Pricing guidance for use with this product.</inlineHelpText>
     <label>Pricing Guidance</label>
     <referenceTo>SBQQ__PricingGuidance__c</referenceTo>

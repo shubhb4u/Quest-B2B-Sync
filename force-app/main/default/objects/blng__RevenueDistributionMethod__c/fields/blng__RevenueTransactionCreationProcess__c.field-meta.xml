@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RevenueTransactionCreationProcess__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select whether revenue transactions are created automatically or manually</inlineHelpText>
     <label>Revenue Transaction Creation Process</label>
     <required>true</required>

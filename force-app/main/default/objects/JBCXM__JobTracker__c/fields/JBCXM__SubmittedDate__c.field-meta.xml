@@ -3,7 +3,6 @@
     <fullName>JBCXM__SubmittedDate__c</fullName>
     <deprecated>false</deprecated>
     <description>denotes on which this job is submitted</description>
-    <externalId>false</externalId>
     <label>SubmittedDate</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

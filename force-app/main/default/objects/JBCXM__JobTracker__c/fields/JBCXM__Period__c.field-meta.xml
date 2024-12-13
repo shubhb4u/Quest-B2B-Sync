@@ -3,7 +3,6 @@
     <fullName>JBCXM__Period__c</fullName>
     <deprecated>false</deprecated>
     <description>Date for which aggregation was run</description>
-    <externalId>false</externalId>
     <label>Period</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Action__c</fullName>
     <deprecated>false</deprecated>
     <description>Action to be taken by this rule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>What action should this rule take?</inlineHelpText>
     <label>Action</label>
     <required>false</required>

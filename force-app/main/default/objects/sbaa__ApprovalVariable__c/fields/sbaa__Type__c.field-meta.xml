@@ -3,7 +3,6 @@
     <fullName>sbaa__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>When Discount is chosen, List Variable and Net Variable must be populated. When Summary is chosen, Aggregate Field and Aggregate Function must be populated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When Discount is chosen, List Variable and Net Variable must be populated. When Summary is chosen, Aggregate Field and Aggregate Function must be populated.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

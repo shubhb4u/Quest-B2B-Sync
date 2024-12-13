@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Transaction line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Transaction line item.</inlineHelpText>
     <label>Transaction Lines</label>
     <referenceTo>JBCXM__TransactionType__c</referenceTo>

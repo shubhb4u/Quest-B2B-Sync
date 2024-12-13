@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Attachment_ID_Order2__c</fullName>
     <deprecated>false</deprecated>
     <description>(Optional) Enter a list of comma separated Attachment IDs in the order to be displayed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>(Optional) Enter a list of comma separated Attachment IDs in the order to be displayed.</inlineHelpText>
     <label>Attachment ID Order</label>
     <length>32768</length>

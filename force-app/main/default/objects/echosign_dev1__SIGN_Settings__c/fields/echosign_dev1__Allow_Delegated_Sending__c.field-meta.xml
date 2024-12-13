@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to allow sending agreements on behalf of other users.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to allow sending agreements on behalf of other users.</inlineHelpText>
     <label>Allow Sending On Behalf of Others</label>
     <trackTrending>false</trackTrending>

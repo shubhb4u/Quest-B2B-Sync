@@ -3,7 +3,6 @@
     <fullName>maps__AMorPMDriveTrip__c</fullName>
     <deprecated>false</deprecated>
     <description>AM/PM is determined based on the Timezone of the device</description>
-    <externalId>false</externalId>
     <inlineHelpText>AM/PM is determined based on the Timezone of the device</inlineHelpText>
     <label>AM or PM Drive Trip</label>
     <required>false</required>

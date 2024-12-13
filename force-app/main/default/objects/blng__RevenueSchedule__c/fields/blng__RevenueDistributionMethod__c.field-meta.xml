@@ -3,7 +3,6 @@
     <fullName>blng__RevenueDistributionMethod__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>As defined in the revenue recognition rule, the method for calculating how revenue will be spread
         across time periods.</inlineHelpText>
     <label>Revenue Distribution Method</label>

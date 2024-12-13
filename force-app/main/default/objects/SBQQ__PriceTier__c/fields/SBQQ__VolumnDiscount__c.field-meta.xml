@@ -3,7 +3,6 @@
     <fullName>SBQQ__VolumnDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>The total volume discount taken for this tier.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The total volume discount taken for this tier.</inlineHelpText>
     <label>Volume Discount</label>
     <precision>18</precision>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Price Book to which block pricing applies.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the Price Book that should receive block pricing when applicable.</inlineHelpText>
     <label>Price Book</label>
     <referenceTo>Pricebook2</referenceTo>

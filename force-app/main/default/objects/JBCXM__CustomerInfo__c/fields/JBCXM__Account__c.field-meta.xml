@@ -3,7 +3,6 @@
     <fullName>JBCXM__Account__c</fullName>
     <deprecated>false</deprecated>
     <description>This relation links Customer to Accounts</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select Account (in CRM) that you want to associate with the Customer record.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>E2CP__From__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores sender selected on the New Comment page in the To field for Widespread Issues.</description>
-    <externalId>false</externalId>
     <label>From</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

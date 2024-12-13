@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Account Lookup Field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account Lookup Field.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

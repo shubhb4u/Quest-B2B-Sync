@@ -3,7 +3,6 @@
     <fullName>maps__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>A short description of the template</description>
-    <externalId>false</externalId>
     <inlineHelpText>A short description of the template
 Max Length: 255</inlineHelpText>
     <label>Description</label>

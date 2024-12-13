@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Designate this contract as the master evergreen contract for the quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Designate this contract as the master evergreen contract for the quote.</inlineHelpText>
     <label>Master Evergreen Contract</label>
     <lookupFilter>

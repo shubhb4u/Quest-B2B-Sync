@@ -3,7 +3,6 @@
     <fullName>dfsle__ShowRemindExpire__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Show remind and expire settings</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

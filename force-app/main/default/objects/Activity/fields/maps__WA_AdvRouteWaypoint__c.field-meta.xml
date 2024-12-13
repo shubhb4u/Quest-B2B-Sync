@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is the default lookup to associate the Advanced Route Waypoint</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Waypoint</label>
     <referenceTo>maps__AdvRouteWaypoint__c</referenceTo>
     <relationshipLabel>Activities</relationshipLabel>

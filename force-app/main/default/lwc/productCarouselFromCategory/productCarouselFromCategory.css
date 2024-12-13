@@ -138,6 +138,11 @@
     background-color: #fb4f14;
 }
 
+.wishlist-icon {
+    border: none;
+    background-color: unset;
+}
+
 @media screen and (max-width: 1024px) {
     .q-feature-products .product-block {
         flex: 0 0 31%;
@@ -161,5 +166,15 @@
 
     .q-feature-products .product-block {
         flex: 1 1 100%;
+    }
+}
+@media (max-width: 479px) {
+    .splide__track {
+        display: flex;
+        justify-content: center;
+    }
+
+    .splide__list {
+        width: 320px;
     }
 }

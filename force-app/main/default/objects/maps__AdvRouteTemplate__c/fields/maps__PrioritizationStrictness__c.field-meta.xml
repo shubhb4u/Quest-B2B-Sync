@@ -4,7 +4,6 @@
     <defaultValue>&apos;4&apos;</defaultValue>
     <deprecated>false</deprecated>
     <description>This tells Maps Advanced Route how strict to account for the priorities during routing.  1 is least strict and 7 is most strict.</description>
-    <externalId>false</externalId>
     <label>Prioritization Strictness</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

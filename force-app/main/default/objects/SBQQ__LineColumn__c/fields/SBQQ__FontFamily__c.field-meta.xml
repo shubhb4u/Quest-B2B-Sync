@@ -3,7 +3,6 @@
     <fullName>SBQQ__FontFamily__c</fullName>
     <deprecated>false</deprecated>
     <description>Font family that should be applied to text in this column.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select font family to apply to this column. Leaving blank inherits form the template.</inlineHelpText>
     <label>Font Family</label>
     <required>false</required>

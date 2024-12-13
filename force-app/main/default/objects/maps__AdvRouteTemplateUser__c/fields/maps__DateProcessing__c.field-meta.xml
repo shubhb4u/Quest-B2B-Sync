@@ -3,7 +3,6 @@
     <fullName>maps__DateProcessing__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the date that is currently being routed</description>
-    <externalId>false</externalId>
     <label>Date Processing</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

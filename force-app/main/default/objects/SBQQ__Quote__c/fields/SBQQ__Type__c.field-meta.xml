@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates the type of quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates the type of quote.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

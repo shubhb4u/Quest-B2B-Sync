@@ -3,7 +3,6 @@
     <fullName>Litmos__User_Module_Result__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>User Module Result</label>
     <referenceTo>Litmos__UserModuleResult__c</referenceTo>
     <relationshipLabel>LitmosObjectIndexs</relationshipLabel>

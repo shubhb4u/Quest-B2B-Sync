@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProcessInput__c</fullName>
     <deprecated>false</deprecated>
     <description>Process input that owns the condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Process input that owns the condition.</inlineHelpText>
     <label>Process Input</label>
     <referenceTo>SBQQ__ProcessInput__c</referenceTo>

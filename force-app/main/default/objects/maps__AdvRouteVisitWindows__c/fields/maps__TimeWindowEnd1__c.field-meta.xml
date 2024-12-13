@@ -3,7 +3,6 @@
     <fullName>maps__TimeWindowEnd1__c</fullName>
     <deprecated>false</deprecated>
     <description>end time of first time window option</description>
-    <externalId>false</externalId>
     <label>Time Window End 1</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

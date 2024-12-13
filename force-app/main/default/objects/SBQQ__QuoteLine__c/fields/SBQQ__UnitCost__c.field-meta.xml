@@ -3,7 +3,6 @@
     <fullName>SBQQ__UnitCost__c</fullName>
     <deprecated>false</deprecated>
     <description>Cost for one unit of product quoted on this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Cost for one unit of product quoted on this line item.</inlineHelpText>
     <label>Unit Cost</label>
     <precision>16</precision>

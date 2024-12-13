@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that marks the line covered by this price as non-discountable. Overrides Non Discountable flag on the product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to disallow further discounting of this product.</inlineHelpText>
     <label>Non Discountable</label>
     <trackHistory>false</trackHistory>

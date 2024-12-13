@@ -3,7 +3,6 @@
     <fullName>maps__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>End of the holiday off</description>
-    <externalId>false</externalId>
     <inlineHelpText>End of the holiday off</inlineHelpText>
     <label>End Date</label>
     <required>true</required>

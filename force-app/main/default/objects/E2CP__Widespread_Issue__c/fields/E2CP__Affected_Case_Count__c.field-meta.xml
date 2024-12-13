@@ -3,7 +3,6 @@
     <fullName>E2CP__Affected_Case_Count__c</fullName>
     <deprecated>false</deprecated>
     <description>The number of related Widespread Issue Reports</description>
-    <externalId>false</externalId>
     <label>Affected Case Count</label>
     <summaryForeignKey>E2CP__Widespread_Issue_Report__c.E2CP__Widespread_Issue__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

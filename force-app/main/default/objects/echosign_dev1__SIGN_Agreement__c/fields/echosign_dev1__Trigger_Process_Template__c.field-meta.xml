@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Trigger_Process_Template__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Trigger Data Mapping</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

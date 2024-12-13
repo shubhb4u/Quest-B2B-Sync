@@ -4,7 +4,6 @@
     <defaultValue>0.00</defaultValue>
     <deprecated>false</deprecated>
     <description>Annual Subscription Value of the customer.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Annual Subscription Value of the Customer.</inlineHelpText>
     <label>ASV</label>
     <precision>12</precision>

@@ -3,7 +3,6 @@
     <fullName>E2CP__Widespread_Issue__c</fullName>
     <deprecated>false</deprecated>
     <description>The Widespread Issue to associate</description>
-    <externalId>false</externalId>
     <label>Widespread Issue</label>
     <referenceTo>E2CP__Widespread_Issue__c</referenceTo>
     <relationshipLabel>Widespread Issue Reports</relationshipLabel>

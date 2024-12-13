@@ -3,7 +3,6 @@
     <fullName>dfsle__IncrementRoutingOrder__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Increment routing order</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

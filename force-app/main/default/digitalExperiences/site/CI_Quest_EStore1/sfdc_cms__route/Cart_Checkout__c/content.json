@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "Cart Checkout",
+  "contentBody" : {
+    "activeViewId" : "Cart_Checkout",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-cart",
+    "urlPrefix" : "cart"
+  },
+  "urlName" : "cart-checkout"
+}

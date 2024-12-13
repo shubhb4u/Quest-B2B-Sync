@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupObject__c</fullName>
     <deprecated>false</deprecated>
     <description>API Name of the Custom Object that stores the lookup data.</description>
-    <externalId>false</externalId>
     <inlineHelpText>API Name of the Custom Object that stores the lookup data.</inlineHelpText>
     <label>Lookup Object</label>
     <required>false</required>

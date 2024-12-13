@@ -3,7 +3,6 @@
     <fullName>maps__FrequencyStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This will be the date that all frequency calculations should start on</description>
-    <externalId>false</externalId>
     <label>Frequency Start Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Template Content to which this term is applied.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template Content to which this term is applied.</inlineHelpText>
     <label>Template Content</label>
     <lookupFilter>

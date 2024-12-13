@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Include the fields in  widgets.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check if the field wants to include in widgets.</inlineHelpText>
     <label>Include In Widget</label>
     <trackTrending>false</trackTrending>

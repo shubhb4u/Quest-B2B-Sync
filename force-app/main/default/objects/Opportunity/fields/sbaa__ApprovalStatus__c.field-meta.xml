@@ -3,7 +3,6 @@
     <fullName>sbaa__ApprovalStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>Overall Approval Status for this Opportunity</description>
-    <externalId>false</externalId>
     <inlineHelpText>Overall Approval Status for this Opportunity</inlineHelpText>
     <label>Approval Status</label>
     <required>false</required>

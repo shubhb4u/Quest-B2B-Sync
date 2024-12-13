@@ -3,7 +3,6 @@
     <fullName>maps__ObjectSearchLanguage__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the query language Maps will use when searching Salesforce records using the Maps search bar.</description>
-    <externalId>false</externalId>
     <label>Maps Object Search Language</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

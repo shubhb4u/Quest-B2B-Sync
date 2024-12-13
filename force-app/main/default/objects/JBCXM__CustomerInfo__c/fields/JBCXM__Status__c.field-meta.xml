@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This field describes if the customer is Active or Inactive</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the Customer Status, which is defaulted to Active. When the customer churns, the status is set to Churn. Select the status as inactive when the customer is not using the product, but has not officially churned.</inlineHelpText>
     <label>Status</label>
     <lookupFilter>

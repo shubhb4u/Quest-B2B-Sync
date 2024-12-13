@@ -3,7 +3,6 @@
     <fullName>JBCXM__MetricType__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>MetricType</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>Scorecard Metrics</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Validation__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Validation</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Account</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

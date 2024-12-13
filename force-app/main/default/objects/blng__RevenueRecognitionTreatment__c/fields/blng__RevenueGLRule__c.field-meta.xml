@@ -3,7 +3,6 @@
     <fullName>blng__RevenueGLRule__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the general ledger rule</inlineHelpText>
     <label>Revenue GL Rule</label>
     <referenceTo>blng__GLRule__c</referenceTo>

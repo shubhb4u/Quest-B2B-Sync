@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfiguratorEvaluationEvent__c</fullName>
     <deprecated>false</deprecated>
     <description>Event that specifies when Price Rules should be fired.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When None or Save is selected, the Configurator scoped price rules will fire on save.  When Edit is selected, the Configurator scoped price rules will fire on edit and save.</inlineHelpText>
     <label>Configurator Evaluation Event</label>
     <required>false</required>

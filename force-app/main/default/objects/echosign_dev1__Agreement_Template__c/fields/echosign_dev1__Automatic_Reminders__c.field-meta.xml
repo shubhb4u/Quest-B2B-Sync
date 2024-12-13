@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Automatic_Reminders__c</fullName>
     <deprecated>false</deprecated>
     <description>Send automatic reminders to signers.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Send automatic reminders to signers.</inlineHelpText>
     <label>Automatic Reminders</label>
     <required>false</required>

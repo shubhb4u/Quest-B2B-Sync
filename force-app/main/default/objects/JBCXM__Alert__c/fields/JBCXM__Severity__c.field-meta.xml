@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Alert Severity (or &quot;Alert Probability&quot;) indicates the probability of occurence of the Alert event. The list is customizable, if needed, by adding records to picklist object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Alert Severity (or &quot;Alert Probability&quot;) indicates the probability of occurence of the Alert event.</inlineHelpText>
     <label>Severity</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>

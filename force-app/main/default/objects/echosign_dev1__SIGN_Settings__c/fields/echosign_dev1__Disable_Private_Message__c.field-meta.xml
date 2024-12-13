@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to prevent users from setting a private message for recipients.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to prevent users from setting a private message for recipients.</inlineHelpText>
     <label>Disable Private Message</label>
     <trackTrending>false</trackTrending>

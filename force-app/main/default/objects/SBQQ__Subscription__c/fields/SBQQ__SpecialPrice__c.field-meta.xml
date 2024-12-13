@@ -3,7 +3,6 @@
     <fullName>SBQQ__SpecialPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Special Price for this Subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Special Price for this Subscription.</inlineHelpText>
     <label>Special Price</label>
     <precision>14</precision>

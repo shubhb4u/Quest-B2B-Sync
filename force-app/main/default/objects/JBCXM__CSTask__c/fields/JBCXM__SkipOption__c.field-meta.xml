@@ -3,7 +3,6 @@
     <fullName>JBCXM__SkipOption__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Skip Option</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>CSTask Due Date Skip Option</relationshipLabel>

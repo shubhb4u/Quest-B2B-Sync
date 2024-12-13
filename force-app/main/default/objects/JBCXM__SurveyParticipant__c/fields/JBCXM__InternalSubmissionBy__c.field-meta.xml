@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Internal submission user</description>
-    <externalId>false</externalId>
     <label>Internally submitted by</label>
     <referenceTo>User</referenceTo>
     <relationshipLabel>Survey internal submission user</relationshipLabel>

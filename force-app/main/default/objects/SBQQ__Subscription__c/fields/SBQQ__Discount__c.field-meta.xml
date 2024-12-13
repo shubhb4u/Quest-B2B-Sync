@@ -3,7 +3,6 @@
     <fullName>SBQQ__Discount__c</fullName>
     <deprecated>false</deprecated>
     <description>Additional Discount for this Subscription, if expressed as a percentage</description>
-    <externalId>false</externalId>
     <inlineHelpText>Additional Discount for this Subscription, if expressed as a percentage</inlineHelpText>
     <label>Additional Disc. (%)</label>
     <precision>11</precision>

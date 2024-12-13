@@ -3,7 +3,6 @@
     <fullName>JBCXM__Customer__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Customer Info</label>
     <referenceTo>JBCXM__CustomerInfo__c</referenceTo>
     <relationshipLabel>GSCustomer</relationshipLabel>

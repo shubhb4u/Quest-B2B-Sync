@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PeriodTreatmentForBTDO__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Applies only when an order product has a Bill Through Date Override (BTDO) value during a billing cycle. Combine a partial billing period with the previous full period when creating an invoice line, or leave the partial period as a separate invoice line.</inlineHelpText>
     <label>Period Treatment for BTDO</label>
     <required>false</required>

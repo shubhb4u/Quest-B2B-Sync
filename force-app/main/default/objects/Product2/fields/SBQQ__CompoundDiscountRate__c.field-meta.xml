@@ -3,7 +3,6 @@
     <fullName>SBQQ__CompoundDiscountRate__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount rate compounded by quantity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount rate compounded by quantity.</inlineHelpText>
     <label>Compound Discount (%)</label>
     <precision>8</precision>

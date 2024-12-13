@@ -3,7 +3,6 @@
     <fullName>dfsle__AddSourceRecipients__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Add Salesforce source recipients</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

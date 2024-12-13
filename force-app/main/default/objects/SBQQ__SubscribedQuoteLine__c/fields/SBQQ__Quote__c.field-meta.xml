@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Identifies the quote for the quoteLines.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Identifies the quote for the quoteLines.</inlineHelpText>
     <label>Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

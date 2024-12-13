@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConstraintField__c</fullName>
     <deprecated>false</deprecated>
     <description>For cross-order schedules, if you want to limit which subscriptions and assets are used to calculate your volume discounts, select the field that you want to match against the same field on the quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the field that you want to match against the same field on the quote.</inlineHelpText>
     <label>Constraint Field</label>
     <required>false</required>

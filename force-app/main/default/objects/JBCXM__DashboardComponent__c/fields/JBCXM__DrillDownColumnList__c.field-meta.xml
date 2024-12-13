@@ -3,7 +3,6 @@
     <fullName>JBCXM__DrillDownColumnList__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to store the list of columns to show on drill down.</description>
-    <externalId>false</externalId>
     <label>Drill Down Column List</label>
     <length>10000</length>
     <trackTrending>false</trackTrending>

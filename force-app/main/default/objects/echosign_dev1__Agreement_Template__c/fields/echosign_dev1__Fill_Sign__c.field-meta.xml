@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When enabled, the agreement or document is presented only to the sender to fill and sign. Post Send page can be used to forward the signed document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When enabled, the agreement or document is presented only to the sender to fill and sign. Post Send page can be used to forward the signed document.</inlineHelpText>
     <label>Fill &amp; Sign</label>
     <trackTrending>false</trackTrending>

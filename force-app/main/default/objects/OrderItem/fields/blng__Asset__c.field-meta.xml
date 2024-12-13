@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Parent asset for the order product, used with the CALM service</description>
-    <externalId>false</externalId>
     <label>Lifecycle-Managed Asset</label>
     <referenceTo>Asset</referenceTo>
     <relationshipLabel>Order Products</relationshipLabel>

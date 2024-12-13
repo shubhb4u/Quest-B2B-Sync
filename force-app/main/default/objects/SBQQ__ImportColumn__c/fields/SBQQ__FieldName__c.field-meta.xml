@@ -3,7 +3,6 @@
     <fullName>SBQQ__FieldName__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the API Name.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the API Name.</inlineHelpText>
     <label>Field Name</label>
     <required>false</required>

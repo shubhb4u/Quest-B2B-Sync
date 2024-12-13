@@ -3,7 +3,6 @@
     <fullName>Litmos__ProgramID__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Course</label>
     <referenceTo>Litmos__Program__c</referenceTo>
     <relationshipLabel>Course Modules</relationshipLabel>

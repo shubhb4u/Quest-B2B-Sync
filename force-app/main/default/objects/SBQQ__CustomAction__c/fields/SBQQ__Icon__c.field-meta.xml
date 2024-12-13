@@ -3,7 +3,6 @@
     <fullName>SBQQ__Icon__c</fullName>
     <deprecated>false</deprecated>
     <description>Icon for this custom action</description>
-    <externalId>false</externalId>
     <inlineHelpText>Icon for this custom action</inlineHelpText>
     <label>Icon</label>
     <required>false</required>

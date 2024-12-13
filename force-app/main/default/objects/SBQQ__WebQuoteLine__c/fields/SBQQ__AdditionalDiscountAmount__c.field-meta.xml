@@ -3,7 +3,6 @@
     <fullName>SBQQ__AdditionalDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Additional customer discount extended on this line item in terms of absolute amount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Additional customer discount extended on this line item in the form of an absolute amount.</inlineHelpText>
     <label>Additional Disc. (Amt)</label>
     <precision>14</precision>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__VirtualAsset__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Virtual Asset</label>
     <referenceTo>Asset</referenceTo>
     <relationshipLabel>Assets (Virtual Asset)</relationshipLabel>

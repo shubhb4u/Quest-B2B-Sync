@@ -3,7 +3,6 @@
     <fullName>PDRI__Do_Not_Allow_Destination__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Do Not Allow As Destination</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

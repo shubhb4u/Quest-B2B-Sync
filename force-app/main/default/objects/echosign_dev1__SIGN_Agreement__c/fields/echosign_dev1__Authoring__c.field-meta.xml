@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Preview the document or drag and drop form fields or signature fields on to the document before it is sent for signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Preview the document or drag and drop form fields or signature fields on to the document before it is sent for signature.</inlineHelpText>
     <label>Preview or Position Signature Fields</label>
     <trackFeedHistory>false</trackFeedHistory>

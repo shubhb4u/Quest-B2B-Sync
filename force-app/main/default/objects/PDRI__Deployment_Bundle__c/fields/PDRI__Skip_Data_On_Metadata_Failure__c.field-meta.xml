@@ -3,7 +3,6 @@
     <fullName>PDRI__Skip_Data_On_Metadata_Failure__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Skip Data On Metadata Failure</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

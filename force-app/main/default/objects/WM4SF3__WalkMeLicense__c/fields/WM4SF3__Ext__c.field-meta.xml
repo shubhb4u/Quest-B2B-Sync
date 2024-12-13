@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Should be true if the customer has an extension of WalkMe along with the installed package</description>
-    <externalId>false</externalId>
     <label>Ext</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

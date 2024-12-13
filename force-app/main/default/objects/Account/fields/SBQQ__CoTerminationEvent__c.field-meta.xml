@@ -3,7 +3,6 @@
     <fullName>SBQQ__CoTerminationEvent__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines when contracts are co-terminated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines when contracts are co-terminated.</inlineHelpText>
     <label>Co-Termination Event</label>
     <required>false</required>

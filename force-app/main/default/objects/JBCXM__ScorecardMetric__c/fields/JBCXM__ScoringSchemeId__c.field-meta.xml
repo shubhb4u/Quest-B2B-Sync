@@ -3,7 +3,6 @@
     <fullName>JBCXM__ScoringSchemeId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Scorecard Scoring Scheme</label>
     <referenceTo>JBCXM__ScoringScheme__c</referenceTo>
     <relationshipLabel>Scorecard Metrics</relationshipLabel>

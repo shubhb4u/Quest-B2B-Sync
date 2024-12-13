@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Hides value in this column if line item is a Product Option.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Hides value in this column if line item is a Product Option.</inlineHelpText>
     <label>Hide On Product Options</label>
     <trackTrending>false</trackTrending>

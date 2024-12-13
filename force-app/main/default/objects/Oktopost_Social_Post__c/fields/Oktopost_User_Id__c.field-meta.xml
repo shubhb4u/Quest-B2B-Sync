@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Oktopost_User_Id__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
-    <externalId>false</externalId>
     <label>Oktopost User</label>
     <referenceTo>Oktopost_User__c</referenceTo>
     <relationshipLabel>Oktopost Social Posts</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__CompanyPhone__c</fullName>
     <deprecated>false</deprecated>
     <description>Company phone displayed on quote documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Company phone displayed on quote documents.</inlineHelpText>
     <label>Company Phone</label>
     <required>false</required>

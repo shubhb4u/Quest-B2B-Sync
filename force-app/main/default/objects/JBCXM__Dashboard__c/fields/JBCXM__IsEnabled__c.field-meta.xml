@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsEnabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>IsEnabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

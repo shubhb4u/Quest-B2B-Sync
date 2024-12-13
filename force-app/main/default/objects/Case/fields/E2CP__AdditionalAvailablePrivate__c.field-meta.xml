@@ -3,7 +3,6 @@
     <fullName>E2CP__AdditionalAvailablePrivate__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores additional private email addresses on the New Comment page Available Case Recipients section.</description>
-    <externalId>false</externalId>
     <label>Additional Available (Private)</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>

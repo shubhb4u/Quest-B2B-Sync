@@ -3,7 +3,6 @@
     <fullName>SBQQ__Price__c</fullName>
     <deprecated>false</deprecated>
     <description>The actual price of this discount tier. This field will be populated when a new set of discount schedules are created for a new Order record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The actual price of this discount tier. This field will be populated when a new set of discount schedules are created for a new Order record.</inlineHelpText>
     <label>Price</label>
     <precision>18</precision>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Price__c</fullName>
     <deprecated>false</deprecated>
     <description>Price for the parent product in specified quantity range.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price for the parent product in specified quantity range.</inlineHelpText>
     <label>Price</label>
     <precision>18</precision>

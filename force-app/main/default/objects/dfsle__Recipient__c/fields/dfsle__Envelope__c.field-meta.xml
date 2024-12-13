@@ -3,7 +3,6 @@
     <fullName>dfsle__Envelope__c</fullName>
     <deprecated>false</deprecated>
     <description>DocuSign Envelope</description>
-    <externalId>false</externalId>
     <inlineHelpText>DocuSign Envelope</inlineHelpText>
     <label>DocuSign Envelope</label>
     <referenceTo>dfsle__Envelope__c</referenceTo>

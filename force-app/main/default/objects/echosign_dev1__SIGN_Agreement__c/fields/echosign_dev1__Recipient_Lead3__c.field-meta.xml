@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Recipient_Lead3__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Additional Recipient 2 (Lead)</label>
     <referenceTo>Lead</referenceTo>
     <relationshipLabel>Related Agreements (2)</relationshipLabel>

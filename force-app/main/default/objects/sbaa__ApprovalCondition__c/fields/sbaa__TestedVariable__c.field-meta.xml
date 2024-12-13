@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Approval Variable tested when evaluating the Condition</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approval Variable tested when evaluating the Condition</inlineHelpText>
     <label>Tested Variable</label>
     <referenceTo>sbaa__ApprovalVariable__c</referenceTo>

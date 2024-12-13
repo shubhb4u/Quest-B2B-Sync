@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__BillingPhone__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Phone Number of Card&apos;s billing address</inlineHelpText>
     <label>Phone Number</label>
     <required>false</required>

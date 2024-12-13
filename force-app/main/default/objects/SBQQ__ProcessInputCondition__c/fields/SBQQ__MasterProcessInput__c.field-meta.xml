@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Values of this process input will determine the visibility of the current input.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Values of this process input will determine the visibility of the current input.</inlineHelpText>
     <label>Master Process Input</label>
     <lookupFilter>

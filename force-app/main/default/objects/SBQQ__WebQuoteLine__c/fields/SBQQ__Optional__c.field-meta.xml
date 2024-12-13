@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks this line as optional. Optional line items don&apos;t contribute to quote totals and are not transferred to the Opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to make this line optional. Optional line items don&apos;t contribute to quote totals and are not transferred to the Opportunity.</inlineHelpText>
     <label>Optional</label>
     <trackTrending>false</trackTrending>

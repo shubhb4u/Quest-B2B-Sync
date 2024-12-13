@@ -3,7 +3,6 @@
     <fullName>FLAGS__Case_Owner_Change_Notifications__c</fullName>
     <deprecated>false</deprecated>
     <description>Controls whether or not the new Case owner will be notified when re-assigning Cases using this Switchboard View.</description>
-    <externalId>false</externalId>
     <label>Case Owner Change Notifications</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

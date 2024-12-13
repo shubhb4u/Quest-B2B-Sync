@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable a private comment to be added to the Case if a trigger is unable update the Case Flag field due to error.</description>
-    <externalId>false</externalId>
     <label>Insert Trigger Error Comments</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

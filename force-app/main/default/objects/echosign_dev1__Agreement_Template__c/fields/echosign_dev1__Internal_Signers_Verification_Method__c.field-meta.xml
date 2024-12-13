@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Internal_Signers_Verification_Method__c</fullName>
     <deprecated>false</deprecated>
     <description>Ensure that before internal signers can view or sign the document, they have to verify their identity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Ensure that before internal signers can view or sign the document, they have to verify their identity.</inlineHelpText>
     <label>Internal Signers Verification Method</label>
     <required>false</required>

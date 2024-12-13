@@ -3,7 +3,6 @@
     <fullName>maps__ObjectFieldValues__c</fullName>
     <deprecated>false</deprecated>
     <description>The entire sObject in JSON format, if available.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The entire sObject in JSON format, if available.</inlineHelpText>
     <label>Object Field Values</label>
     <length>32768</length>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Explanation__c</fullName>
     <deprecated>false</deprecated>
     <description>An explanation of this pricing guidance and recommendations for discounts to provide. Sales reps can view this explanation with the pricing guidance in the quote line editor.</description>
-    <externalId>false</externalId>
     <inlineHelpText>An explanation of this pricing guidance and recommendations for discounts to provide. Sales reps can view this explanation with the pricing guidance in the quote line editor.</inlineHelpText>
     <label>Explanation</label>
     <length>131072</length>

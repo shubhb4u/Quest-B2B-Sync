@@ -3,7 +3,6 @@
     <fullName>JBCXM__ResponseDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Date on which the response was provided</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date on which the response was provided</inlineHelpText>
     <label>Response Date</label>
     <required>true</required>

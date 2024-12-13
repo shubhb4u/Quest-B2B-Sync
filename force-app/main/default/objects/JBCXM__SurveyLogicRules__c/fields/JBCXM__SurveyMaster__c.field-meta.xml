@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyMaster__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to survey id.</description>
-    <externalId>false</externalId>
     <label>SurveyMaster</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipLabel>SurveyLogicRules</relationshipLabel>

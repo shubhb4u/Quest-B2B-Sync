@@ -71,16 +71,42 @@ export default class ProductDetailTile extends LightningElement {
         console.log(' Add to cart Message published:', message);
     }
 
+    // @wire(CurrentPageReference)
+    // getPageReference(pageReference) {
+    //     if (pageReference) {
+    //         const urlPath = pageReference.attributes.recordId; // Fetch product ID from URL
+    //         if (urlPath) {
+    //             this.fetchProductDetails(urlPath);
+    //             this.fetchProductVariations(urlPath);
+    //         }
+    //     }
+    // }
+
     @wire(CurrentPageReference)
     getPageReference(pageReference) {
         if (pageReference) {
             const urlPath = pageReference.attributes.recordId; // Fetch product ID from URL
-            if (urlPath) {
+        
+        if (urlPath) {
+            this.currentProductId = urlPath; // Store product ID for future use
+
+            // Fetch product details and variations only if the productDiscountList is available
+            if (this.productDiscountList && this.productDiscountList.length > 0) {
                 this.fetchProductDetails(urlPath);
                 this.fetchProductVariations(urlPath);
+            } else {
+                // Retry fetching product details and variations if discount list is not available yet
+                const retryInterval = setInterval(() => {
+                    if (this.productDiscountList && this.productDiscountList.length > 0) {
+                        this.fetchProductDetails(urlPath);
+                        this.fetchProductVariations(urlPath);
+                        clearInterval(retryInterval); // Stop retrying once data is fetched
+                    }
+                }, 100); // Retry every 100ms
             }
         }
     }
+}
 
     @wire(getProductDiscountList)
     wiredProductDiscountList({ error, data }) {

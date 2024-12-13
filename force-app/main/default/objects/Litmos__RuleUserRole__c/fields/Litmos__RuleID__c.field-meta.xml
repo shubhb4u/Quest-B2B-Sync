@@ -3,7 +3,6 @@
     <fullName>Litmos__RuleID__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Rule</label>
     <referenceTo>Litmos__Rule__c</referenceTo>
     <relationshipLabel>Rule User Roles</relationshipLabel>

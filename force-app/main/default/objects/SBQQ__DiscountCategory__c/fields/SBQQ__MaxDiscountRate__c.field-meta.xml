@@ -3,7 +3,6 @@
     <fullName>SBQQ__MaxDiscountRate__c</fullName>
     <deprecated>false</deprecated>
     <description>Maximum allowable discount for this product category.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the maximum allowable discount for this product category.</inlineHelpText>
     <label>Max Discount (%)</label>
     <precision>6</precision>

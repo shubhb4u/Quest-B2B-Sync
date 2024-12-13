@@ -3,7 +3,6 @@
     <fullName>blng__Active__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>To deactivate this legal entity, clear the checkbox. This won&apos;t affect past or existing
         transactions or assignments.</inlineHelpText>
     <label>Active</label>

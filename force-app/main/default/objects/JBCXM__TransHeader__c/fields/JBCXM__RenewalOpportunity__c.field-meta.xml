@@ -3,7 +3,6 @@
     <fullName>JBCXM__RenewalOpportunity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Renewal Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Transaction Header (Renewal Opportunity)</relationshipLabel>

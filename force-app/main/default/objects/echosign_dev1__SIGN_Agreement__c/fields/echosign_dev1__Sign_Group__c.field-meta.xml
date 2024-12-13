@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Sign_Group__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sign Group</label>
     <referenceTo>echosign_dev1__Sign_Group__c</referenceTo>
     <relationshipLabel>Agreements</relationshipLabel>

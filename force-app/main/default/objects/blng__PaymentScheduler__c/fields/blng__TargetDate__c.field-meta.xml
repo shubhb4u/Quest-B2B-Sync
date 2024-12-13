@@ -4,7 +4,6 @@
     <defaultValue>TODAY()</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines which invoices to pay based on the target date defined in billing configuration settings. Target date can be on or after the invoice date or invoice due date.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines which invoices to pay based on the target date defined in billing configuration settings. Target date can be on or after the invoice date or invoice due date.</inlineHelpText>
     <label>Target Date</label>
     <required>true</required>

@@ -3,7 +3,6 @@
     <fullName>blng__Default__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Default</label>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>

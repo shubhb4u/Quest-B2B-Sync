@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PeriodType__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select whether to base the finance book on revenue transactions or accounting transactions.</inlineHelpText>
     <label>Period Type</label>
     <required>true</required>

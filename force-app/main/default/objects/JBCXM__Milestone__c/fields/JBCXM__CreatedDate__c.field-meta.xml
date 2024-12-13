@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__CreatedDate__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>DATEVALUE(JBCXM__Date__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Milestone Created Date</label>

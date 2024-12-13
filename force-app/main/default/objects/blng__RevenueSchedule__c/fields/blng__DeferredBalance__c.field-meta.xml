@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__DeferredBalance__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Total unrecognized revenue through the current period</inlineHelpText>
     <label>Deferred Balance (deprecated)</label>
     <summarizedField>blng__RevenueTransaction__c.blng__DeferredBalance__c</summarizedField>

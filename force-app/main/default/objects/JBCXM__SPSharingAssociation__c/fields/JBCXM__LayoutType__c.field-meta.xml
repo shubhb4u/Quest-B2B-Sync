@@ -3,7 +3,6 @@
     <fullName>JBCXM__LayoutType__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sharing Layout Type</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipName>SPSharingAssociations</relationshipName>

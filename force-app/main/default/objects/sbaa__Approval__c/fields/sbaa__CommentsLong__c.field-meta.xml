@@ -3,7 +3,6 @@
     <fullName>sbaa__CommentsLong__c</fullName>
     <deprecated>false</deprecated>
     <description>Approver&apos;s Comments</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approver&apos;s Comments</inlineHelpText>
     <label>Comments</label>
     <length>4000</length>

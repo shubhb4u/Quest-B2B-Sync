@@ -3,7 +3,6 @@
     <fullName>SBQQ__UnitCost__c</fullName>
     <deprecated>false</deprecated>
     <description>This field indicates the unit cost.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the unit cost.</inlineHelpText>
     <label>Unit Cost</label>
     <precision>18</precision>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RefundsAgainstInvoiceLines__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Cancellations of previous allocations to the Invoice Lines</inlineHelpText>
     <label>Unallocations Against Invoice Lines</label>
     <summarizedField>blng__InvoiceLine__c.blng__RefundsAgainstInvoiceLines__c</summarizedField>

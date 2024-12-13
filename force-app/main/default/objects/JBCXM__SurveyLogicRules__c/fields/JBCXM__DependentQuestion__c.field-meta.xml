@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This used to store the question which should be asked or skipped.</description>
-    <externalId>false</externalId>
     <label>DependentQuestion</label>
     <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
     <relationshipLabel>SurveyLogicRules (DependentQuestion)</relationshipLabel>

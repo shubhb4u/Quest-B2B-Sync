@@ -3,7 +3,6 @@
     <fullName>maps__DefaultMapTile__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the default map tile to be used when the map is loaded</description>
-    <externalId>false</externalId>
     <label>Default Map Tile</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

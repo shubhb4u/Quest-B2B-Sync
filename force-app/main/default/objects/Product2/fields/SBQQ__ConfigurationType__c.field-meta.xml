@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfigurationType__c</fullName>
     <deprecated>false</deprecated>
     <description>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Configuration type of this product: Choose Allowed if the user is allowed to configure the product/bundle, but not required to, Disabled when your bundle automatically selects options, or Required if the product/bundle must be configured.</inlineHelpText>
     <label>Configuration Type</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Subscription created from this order product</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription created from this order product</inlineHelpText>
     <label>Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

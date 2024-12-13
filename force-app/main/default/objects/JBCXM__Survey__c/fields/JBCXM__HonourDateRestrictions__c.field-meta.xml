@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether to honour start date and end date</description>
-    <externalId>false</externalId>
     <label>Honour Date Restrictions</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

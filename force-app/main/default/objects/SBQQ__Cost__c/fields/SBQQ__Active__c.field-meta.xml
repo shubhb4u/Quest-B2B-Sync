@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag to indicate whether the cost is active.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to activate the cost.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Owner of the Case at the time the history record was created unless assigned to a Queue.</description>
-    <externalId>false</externalId>
     <label>Owner</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Case_Flags_History</relationshipName>

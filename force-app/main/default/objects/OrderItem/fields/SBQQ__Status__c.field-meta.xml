@@ -3,7 +3,6 @@
     <fullName>SBQQ__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>The current state of the order product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates the current state of the order product. It is defaulted to Draft when an order is created.</inlineHelpText>
     <label>Activation Status</label>
     <required>false</required>

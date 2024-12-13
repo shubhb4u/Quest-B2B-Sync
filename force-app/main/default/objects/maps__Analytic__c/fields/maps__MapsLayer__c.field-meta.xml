@@ -3,7 +3,6 @@
     <fullName>maps__MapsLayer__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Layer</label>
     <referenceTo>maps__Layer__c</referenceTo>
     <relationshipLabel>Maps Analytics</relationshipLabel>

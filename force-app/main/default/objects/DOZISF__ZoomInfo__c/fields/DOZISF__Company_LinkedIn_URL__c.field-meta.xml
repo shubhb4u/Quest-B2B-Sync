@@ -3,7 +3,6 @@
     <fullName>DOZISF__Company_LinkedIn_URL__c</fullName>
     <deprecated>false</deprecated>
     <description>URL of the company profile within LinkedIn.</description>
-    <externalId>false</externalId>
     <inlineHelpText>URL of the company profile within LinkedIn.</inlineHelpText>
     <label>Company LinkedIn URL</label>
     <length>1000</length>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__TermDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Term discount in total applied to this price schedule.  The value is available only for Tiered price type.  For Volume price type, the term discount is available for each price tier.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Term discount in total applied to this price schedule.  The value is available only for Tiered price type.  For Volume price type, the term discount is available for each price tier.</inlineHelpText>
     <label>Term Discount</label>
     <precision>18</precision>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The DocuSign user used for sending the envelope.</description>
-    <externalId>false</externalId>
     <label>Sender</label>
     <referenceTo>User</referenceTo>
     <relationshipName>DocuSign_Envelopes</relationshipName>

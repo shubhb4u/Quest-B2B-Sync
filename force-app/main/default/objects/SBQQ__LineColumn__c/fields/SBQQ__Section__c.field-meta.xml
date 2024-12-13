@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Section to which this line column applies. No section means the column applies to all sections.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Section to which this line column applies. No section means the column applies to all sections.</inlineHelpText>
     <label>Section</label>
     <lookupFilter>

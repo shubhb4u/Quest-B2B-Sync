@@ -3,7 +3,6 @@
     <fullName>maps__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Start of the holiday off</description>
-    <externalId>false</externalId>
     <inlineHelpText>Start of the holiday off</inlineHelpText>
     <label>Start Date</label>
     <required>true</required>

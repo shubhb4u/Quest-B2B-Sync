@@ -3,7 +3,6 @@
     <fullName>PDRI__Deployment_Bundle__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deployment Bundle</label>
     <referenceTo>PDRI__Deployment_Bundle__c</referenceTo>
     <relationshipLabel>Change Types</relationshipLabel>

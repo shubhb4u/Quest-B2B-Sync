@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__ParticipantSet__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>ParticipantSet</label>
     <referenceTo>echosign_dev1__ParticipantSet__c</referenceTo>
     <relationshipLabel>Recipients</relationshipLabel>

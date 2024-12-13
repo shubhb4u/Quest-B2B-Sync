@@ -3,7 +3,6 @@
     <fullName>JBCXM__NextRenewalDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Next Renewal Date determined based on the Original Transaction.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Next Renewal Date</inlineHelpText>
     <label>Next Renewal Date</label>
     <required>false</required>

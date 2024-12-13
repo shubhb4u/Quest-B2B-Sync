@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for this Discount Schedule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description for this Discount Schedule.</inlineHelpText>
     <label>Description</label>
     <length>5000</length>

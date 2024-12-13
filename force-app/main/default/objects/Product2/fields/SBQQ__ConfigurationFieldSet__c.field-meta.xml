@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfigurationFieldSet__c</fullName>
     <deprecated>false</deprecated>
     <description>The API name of the field set that will be used for this product during configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The API name of the field set that will be used for this product during configuration.</inlineHelpText>
     <label>Configuration Field Set</label>
     <required>false</required>

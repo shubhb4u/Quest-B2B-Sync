@@ -3,7 +3,6 @@
     <fullName>JBCXM__ParentSection__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>ParentSection</label>
     <referenceTo>JBCXM__ReportSection__c</referenceTo>
     <relationshipLabel>ParentSection</relationshipLabel>

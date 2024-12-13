@@ -3,7 +3,6 @@
     <fullName>maps__LastPositionRaw__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the raw response for the last position request</description>
-    <externalId>false</externalId>
     <label>Last Position Raw</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>

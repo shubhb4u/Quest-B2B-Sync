@@ -3,7 +3,6 @@
     <fullName>DNBConnect__BypassTrigger__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>When true, D&amp;B asynchronous linkage trigger will be disabled.</inlineHelpText>
     <label>DNB Bypass Family Tree Linkage Trigger</label>
     <trackTrending>false</trackTrending>

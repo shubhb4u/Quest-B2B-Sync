@@ -3,7 +3,6 @@
     <fullName>SBQQ__EffectiveEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Effective end date for this subscription.</description>
-    <externalId>false</externalId>
     <formula>IF(ISBLANK(SBQQ__EndDate__c),
   SBQQ__Quote__r.SBQQ__EndDate__c,
   SBQQ__EndDate__c

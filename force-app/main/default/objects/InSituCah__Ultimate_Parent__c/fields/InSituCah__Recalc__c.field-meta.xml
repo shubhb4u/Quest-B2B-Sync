@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Checked = need to recalculate the Ultimate Parent value for all Accounts in the hierarchy due to a bulk insert, update, delete or undelete Action.</description>
-    <externalId>false</externalId>
     <label>Recalc</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Stop_After_A_Batch_Failure__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>When selected, Prodly AppOps stops executing the deployment plan whenever a deployment batch fails.</inlineHelpText>
     <label>Stop After A Batch Failure</label>
     <trackTrending>false</trackTrending>

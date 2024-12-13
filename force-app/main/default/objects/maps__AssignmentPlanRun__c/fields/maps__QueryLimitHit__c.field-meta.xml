@@ -3,7 +3,6 @@
     <fullName>maps__QueryLimitHit__c</fullName>
     <deprecated>false</deprecated>
     <description>Query Limit Hit</description>
-    <externalId>false</externalId>
     <formula>maps__QueryLimit__c - maps__RecordsTotal__c == 0</formula>
     <inlineHelpText>Query Limit Reached</inlineHelpText>
     <label>Query Limit Hit</label>

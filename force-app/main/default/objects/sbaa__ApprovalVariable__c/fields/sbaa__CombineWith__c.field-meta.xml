@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Another approval variable to compose with this approval variable if your condition is based on both results.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Another approval variable to compose with this approval variable if your condition is based on both results.</inlineHelpText>
     <label>Combine With</label>
     <referenceTo>sbaa__ApprovalVariable__c</referenceTo>

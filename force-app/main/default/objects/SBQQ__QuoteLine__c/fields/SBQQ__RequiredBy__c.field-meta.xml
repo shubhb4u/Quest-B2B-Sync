@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Links this line to another line in the same quote whose product requires this line&apos;s product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates which other product on this quote requires it.</inlineHelpText>
     <label>Required By</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>

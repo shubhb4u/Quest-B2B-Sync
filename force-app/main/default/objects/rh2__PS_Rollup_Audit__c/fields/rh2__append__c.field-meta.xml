@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls whether TXT rollups will append text while overwrite is turned off.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether TXT rollups will append text while overwrite is turned off.</inlineHelpText>
     <label>Append to target field</label>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,7 +3,6 @@
     <fullName>rh2__Describe__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Describe</label>
     <referenceTo>rh2__PS_Describe__c</referenceTo>
     <relationshipLabel>Accounts</relationshipLabel>

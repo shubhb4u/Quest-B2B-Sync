@@ -3,7 +3,6 @@
     <fullName>SBQQ__GenerateContractedPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Will generate a contracted price based on the adjusted quote line if flagged.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Will generate a contracted price based on the adjusted quote line if flagged.</inlineHelpText>
     <label>Generate Contracted Price</label>
     <required>false</required>

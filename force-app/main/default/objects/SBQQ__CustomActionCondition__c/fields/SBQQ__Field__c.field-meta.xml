@@ -3,7 +3,6 @@
     <fullName>SBQQ__Field__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Quote Line or Product Option object that is evaluated by this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose a field on the target object.</inlineHelpText>
     <label>Field</label>
     <required>false</required>

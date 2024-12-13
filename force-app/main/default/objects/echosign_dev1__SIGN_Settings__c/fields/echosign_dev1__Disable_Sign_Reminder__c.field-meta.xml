@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the sign reminder option for draft agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the sign reminder option for draft agreements.</inlineHelpText>
     <label>Hide Sign Reminder</label>
     <trackTrending>false</trackTrending>

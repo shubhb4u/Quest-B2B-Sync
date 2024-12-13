@@ -3,7 +3,6 @@
     <fullName>SBQQ__DynamicProductFilterFieldSet__c</fullName>
     <deprecated>false</deprecated>
     <description>The API name of the field set that will be used when filtering dynamic options for this feature during configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The API name of the field set that will be used when filtering dynamic options for this feature during configuration.</inlineHelpText>
     <label>Dynamic Option Filter Field Set</label>
     <required>false</required>

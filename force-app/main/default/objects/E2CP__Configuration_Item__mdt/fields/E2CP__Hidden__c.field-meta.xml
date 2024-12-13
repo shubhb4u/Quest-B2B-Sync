@@ -3,7 +3,6 @@
     <fullName>E2CP__Hidden__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Hidden</label>
     <type>Checkbox</type>

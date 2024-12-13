@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>UI element that this custom action is rendered as.</description>
-    <externalId>false</externalId>
     <inlineHelpText>UI element that this custom action is rendered as.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

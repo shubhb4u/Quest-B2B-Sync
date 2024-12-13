@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>A placeholder is used for controlling display on the setup page but will not create a custom setting record</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Placeholder</label>
     <type>Checkbox</type>

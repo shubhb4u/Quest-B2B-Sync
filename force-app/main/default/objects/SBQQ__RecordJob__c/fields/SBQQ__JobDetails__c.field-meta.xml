@@ -3,7 +3,6 @@
     <fullName>SBQQ__JobDetails__c</fullName>
     <deprecated>false</deprecated>
     <description>The details of the background job performed if no job id was specified.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The details of the background job performed if no job id was specified.</inlineHelpText>
     <label>Job Details</label>
     <length>4000</length>

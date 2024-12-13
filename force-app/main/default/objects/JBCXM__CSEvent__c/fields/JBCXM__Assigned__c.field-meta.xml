@@ -3,7 +3,6 @@
     <fullName>JBCXM__Assigned__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Assigned</label>
     <referenceTo>User</referenceTo>
     <relationshipName>CS_Event</relationshipName>

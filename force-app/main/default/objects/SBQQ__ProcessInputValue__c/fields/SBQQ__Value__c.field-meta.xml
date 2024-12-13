@@ -3,7 +3,6 @@
     <fullName>SBQQ__Value__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the answer to the input process value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This is the answer to the input process value.</inlineHelpText>
     <label>Value</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>rh2__Encountered_Error_During_Batch__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Encountered Error During Batch</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

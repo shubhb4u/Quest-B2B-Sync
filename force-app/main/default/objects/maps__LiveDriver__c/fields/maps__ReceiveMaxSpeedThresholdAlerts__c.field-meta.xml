@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicate if driver should receive Max Speed Threshold Alerts</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicate if driver should receive Max Speed Threshold Alerts</inlineHelpText>
     <label>Receive Max Speed Threshold Alerts</label>
     <trackHistory>false</trackHistory>

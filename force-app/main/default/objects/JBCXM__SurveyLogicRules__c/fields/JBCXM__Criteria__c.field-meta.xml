@@ -3,7 +3,6 @@
     <fullName>JBCXM__Criteria__c</fullName>
     <deprecated>false</deprecated>
     <description>Criteria JSON</description>
-    <externalId>false</externalId>
     <label>Criteria</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>For use with Product Selection Rules, represents the Product to which the Product Action applies.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For use with Product Selection Rules, represents the Product to which the Product Action applies.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

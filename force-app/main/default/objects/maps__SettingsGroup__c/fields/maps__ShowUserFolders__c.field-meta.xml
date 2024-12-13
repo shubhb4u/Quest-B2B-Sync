@@ -3,7 +3,6 @@
     <fullName>maps__ShowUserFolders__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Show User Folders</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

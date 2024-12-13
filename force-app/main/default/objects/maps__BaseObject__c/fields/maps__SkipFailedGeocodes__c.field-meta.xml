@@ -3,7 +3,6 @@
     <fullName>maps__SkipFailedGeocodes__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Skip Failed Geocodes</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Litmos__Sync_Frequency__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sync Frequency</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

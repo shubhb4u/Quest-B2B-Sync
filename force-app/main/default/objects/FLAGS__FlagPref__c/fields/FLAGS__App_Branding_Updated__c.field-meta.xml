@@ -3,7 +3,6 @@
     <fullName>FLAGS__App_Branding_Updated__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>App Branding Updated</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

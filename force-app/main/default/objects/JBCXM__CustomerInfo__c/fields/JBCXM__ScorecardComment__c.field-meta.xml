@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__ScorecardComment__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Scorecard Comment</label>
     <length>5000</length>
     <trackTrending>false</trackTrending>

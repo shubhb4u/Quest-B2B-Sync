@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the the adoption measure being tracked. This is the action that is being tracked.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Adoption Measure.</inlineHelpText>
     <label>Adoption Measure</label>
     <lookupFilter>

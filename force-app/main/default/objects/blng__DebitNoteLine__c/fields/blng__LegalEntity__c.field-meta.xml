@@ -3,7 +3,6 @@
     <fullName>blng__LegalEntity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to Legal Entity for this line</inlineHelpText>
     <label>Legal Entity</label>
     <referenceTo>blng__LegalEntity__c</referenceTo>

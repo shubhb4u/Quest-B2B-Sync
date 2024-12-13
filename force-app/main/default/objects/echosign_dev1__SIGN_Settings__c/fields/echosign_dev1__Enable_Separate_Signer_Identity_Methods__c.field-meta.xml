@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to allow different verification methods (KBA, Acrobat Sign) to be selected for signers internal or external to your Adobe Acrobat Sign account.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to allow different verification methods (KBA, Acrobat Sign) to be selected for signers internal or external to your Adobe Acrobat Sign account.</inlineHelpText>
     <label>Enable Separate Signer Identity Methods</label>
     <trackTrending>false</trackTrending>

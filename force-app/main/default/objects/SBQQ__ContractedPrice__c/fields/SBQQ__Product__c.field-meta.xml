@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product for which this price was negotiated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select a product from any price book that you want to apply to this discount.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

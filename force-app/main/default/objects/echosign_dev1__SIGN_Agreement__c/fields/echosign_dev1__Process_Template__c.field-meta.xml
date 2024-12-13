@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Process_Template__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Data Mapping</label>
     <referenceTo>echosign_dev1__SIGN_Data_Mapping__c</referenceTo>
     <relationshipLabel>Agreements</relationshipLabel>

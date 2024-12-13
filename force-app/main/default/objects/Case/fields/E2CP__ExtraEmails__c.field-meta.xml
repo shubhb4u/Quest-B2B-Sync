@@ -3,7 +3,6 @@
     <fullName>E2CP__ExtraEmails__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores all email addresses on inbound emails. This data is used by Auto Create Contacts, Auto Add Case Team Members and Auto Add Contact Roles.</description>
-    <externalId>false</externalId>
     <label>ExtraEmails</label>
     <length>4000</length>
     <trackFeedHistory>false</trackFeedHistory>

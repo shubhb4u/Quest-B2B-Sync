@@ -3,7 +3,6 @@
     <fullName>maps__PromoAvailableFor__c</fullName>
     <deprecated>false</deprecated>
     <description>This associates the promo window with the Routable objects it is available for</description>
-    <externalId>false</externalId>
     <label>Promo Available For</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__FontFamily__c</fullName>
     <deprecated>false</deprecated>
     <description>Family of the font that should be applied to text in this template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Family of the font that should be applied to text in this template.</inlineHelpText>
     <label>Font Family</label>
     <required>false</required>

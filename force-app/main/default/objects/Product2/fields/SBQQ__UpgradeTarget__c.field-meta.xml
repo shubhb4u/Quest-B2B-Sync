@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product being upgraded to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the upgraded product. Only applicable if this product is an upgrade as indicated by Upgrade Source field being populated or having related Upgrade Source records.</inlineHelpText>
     <label>Upgrade Target</label>
     <referenceTo>Product2</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__RevRecEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Revenue Recognition End Date - yet to be implemented.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Revenue Recognition End Date.</inlineHelpText>
     <label>Revenue Recognition End Date</label>
     <required>false</required>

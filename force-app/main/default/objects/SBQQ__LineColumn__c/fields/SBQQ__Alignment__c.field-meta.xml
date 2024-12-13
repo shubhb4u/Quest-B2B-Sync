@@ -3,7 +3,6 @@
     <fullName>SBQQ__Alignment__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how the column label and values are aligned.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how the column label and values are aligned.</inlineHelpText>
     <label>Alignment</label>
     <required>false</required>

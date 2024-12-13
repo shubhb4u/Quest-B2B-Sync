@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Recurring will be used to determine a CTA supports recurring. True and False are the possible values</description>
-    <externalId>false</externalId>
     <label>Recurring</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Post Chatter update when recipient email bounces and is not delivered.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post Chatter update when recipient email bounces and is not delivered.</inlineHelpText>
     <label>Post when Recipient Email Bounces</label>
     <trackTrending>false</trackTrending>

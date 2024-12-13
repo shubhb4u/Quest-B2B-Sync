@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Contract being renewed by this renewal opportunity. In case opportunity rolls up several contracts this points at the master contract.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Contract being renewed by this renewal opportunity. If the several contracts roll up to this opportunity, this points at the master contract.</inlineHelpText>
     <label>Renewed Contract</label>
     <referenceTo>Contract</referenceTo>

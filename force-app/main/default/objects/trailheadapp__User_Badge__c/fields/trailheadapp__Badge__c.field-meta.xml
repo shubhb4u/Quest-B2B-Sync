@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>trailheadapp__Badge__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Badge</label>
     <referenceTo>trailheadapp__Badge__c</referenceTo>
     <relationshipLabel>User Badge</relationshipLabel>

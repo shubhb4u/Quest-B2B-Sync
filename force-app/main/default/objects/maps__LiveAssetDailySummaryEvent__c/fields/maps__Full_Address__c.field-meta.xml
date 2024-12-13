@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>maps__Full_Address__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>This is the full address of where the event occurred</inlineHelpText>
     <label>Full Address</label>
     <length>500</length>

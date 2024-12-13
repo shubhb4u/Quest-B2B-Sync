@@ -3,7 +3,6 @@
     <fullName>SBQQ__FilterField__c</fullName>
     <deprecated>false</deprecated>
     <description>Items that are filtered for inclusion in this summary variable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the field to use when filtering items for inclusion in this summary variable.</inlineHelpText>
     <label>Filter Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubtotalField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field to sum and display as group/quote subtotal.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select a Field to sum and display as group/quote subtotal.</inlineHelpText>
     <label>Subtotal Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>FLAGS__Enable_History__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable History</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

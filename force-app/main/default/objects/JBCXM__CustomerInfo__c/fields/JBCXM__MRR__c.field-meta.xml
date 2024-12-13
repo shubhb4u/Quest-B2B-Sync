@@ -4,7 +4,6 @@
     <defaultValue>0.00</defaultValue>
     <deprecated>false</deprecated>
     <description>Current Monthly Recurring Revenue (MRR) of the Customer, net of all transactions to-date.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Current Monthly Recurring Revenue (MRR) of the Customer, net of all transactions to-date.</inlineHelpText>
     <label>MRR</label>
     <precision>12</precision>

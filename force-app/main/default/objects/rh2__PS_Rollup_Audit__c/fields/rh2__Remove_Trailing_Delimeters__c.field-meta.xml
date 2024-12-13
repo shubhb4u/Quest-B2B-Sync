@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls whether Rollup Helper will trim any delimiters that would be placed at the end of the rolled-up text value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether Rollup Helper will trim any delimiters that would be placed at the end of the rolled-up text value.</inlineHelpText>
     <label>Remove Trailing Delimeters</label>
     <trackFeedHistory>false</trackFeedHistory>

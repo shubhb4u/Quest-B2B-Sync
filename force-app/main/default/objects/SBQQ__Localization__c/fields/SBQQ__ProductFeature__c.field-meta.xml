@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The product feature related to this content.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The product feature related to this content.</inlineHelpText>
     <label>Product Feature</label>
     <referenceTo>SBQQ__ProductFeature__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>dfsle__Filter__c</fullName>
     <deprecated>false</deprecated>
     <description>Recipient filter</description>
-    <externalId>false</externalId>
     <label>Recipient filter</label>
     <length>2000</length>
     <trackTrending>false</trackTrending>

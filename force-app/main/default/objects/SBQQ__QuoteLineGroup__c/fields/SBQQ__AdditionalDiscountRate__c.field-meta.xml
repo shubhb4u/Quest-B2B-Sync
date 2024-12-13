@@ -3,7 +3,6 @@
     <fullName>SBQQ__AdditionalDiscountRate__c</fullName>
     <deprecated>false</deprecated>
     <description>Default additional discount rate applied to line items in this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Default additional discount rate applied to line items in this group.</inlineHelpText>
     <label>Additional  Disc. (%)</label>
     <precision>5</precision>

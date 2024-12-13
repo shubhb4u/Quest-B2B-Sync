@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionSelectionMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up predefined options. &quot;Dynamic&quot; renders a button which brings up all active products.</inlineHelpText>
     <label>Option Selection Method</label>
     <required>false</required>

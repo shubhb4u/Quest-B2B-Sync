@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__TaxErrors__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Tax Errors</label>
     <summarizedField>blng__InvoiceLine__c.blng__TaxError__c</summarizedField>
     <summaryForeignKey>blng__InvoiceLine__c.blng__Invoice__c</summaryForeignKey>

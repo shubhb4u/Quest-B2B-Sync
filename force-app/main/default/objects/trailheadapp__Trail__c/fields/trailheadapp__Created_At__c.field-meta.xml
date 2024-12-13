@@ -3,7 +3,6 @@
     <fullName>trailheadapp__Created_At__c</fullName>
     <deprecated>false</deprecated>
     <description>The date/time that the Trail was created.</description>
-    <externalId>false</externalId>
     <label>Created At</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

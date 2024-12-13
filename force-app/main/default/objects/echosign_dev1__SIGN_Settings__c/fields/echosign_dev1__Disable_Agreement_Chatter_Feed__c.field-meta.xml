@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to turn off the Chatter feed on the Agreement object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to turn off the Chatter feed on the Agreement object.</inlineHelpText>
     <label>Disable Agreement Chatter Feed</label>
     <trackTrending>false</trackTrending>

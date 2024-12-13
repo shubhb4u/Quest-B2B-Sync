@@ -3,7 +3,6 @@
     <fullName>JBCXM__GroupHeaderType__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to see the type of grouping done at header label either by text or icon</description>
-    <externalId>false</externalId>
     <label>GroupHeaderType</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

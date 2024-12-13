@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Access_Token__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Access Token</label>
     <length>175</length>
     <maskChar>asterisk</maskChar>

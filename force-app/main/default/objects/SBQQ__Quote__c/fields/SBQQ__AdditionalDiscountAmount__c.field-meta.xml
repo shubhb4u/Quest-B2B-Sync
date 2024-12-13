@@ -3,7 +3,6 @@
     <fullName>SBQQ__AdditionalDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Amount of additional discount on this quote.</description>
-    <externalId>false</externalId>
     <formula>SBQQ__RegularAmount__c - SBQQ__CustomerAmount__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Enter the amount additionally discounted on this quote.</inlineHelpText>

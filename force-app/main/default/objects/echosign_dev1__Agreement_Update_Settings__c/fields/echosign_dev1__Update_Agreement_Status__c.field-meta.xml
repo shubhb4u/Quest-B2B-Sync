@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to update the status of an agreement. Disabling this setting will disable certain updates on the agreement record</inlineHelpText>
     <label>Update Agreement Status</label>
     <trackTrending>false</trackTrending>

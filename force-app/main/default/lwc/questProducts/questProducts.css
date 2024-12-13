@@ -399,3 +399,35 @@
         opacity: 1;
     }
 }
+
+
+
+@media (max-width: 992px){
+    
+    .products-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media (max-width: 479px) {
+    
+    .slds-card__header-title{
+        font-size: 2.8rem;
+    }
+    .q-listing-filter{
+        width: 100%;
+    }
+    .products-grid{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .container{
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .products-grid{
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        width: 230px;
+    }
+    }

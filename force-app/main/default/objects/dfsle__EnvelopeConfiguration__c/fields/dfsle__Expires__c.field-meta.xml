@@ -3,7 +3,6 @@
     <fullName>dfsle__Expires__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Expire/void envelope</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

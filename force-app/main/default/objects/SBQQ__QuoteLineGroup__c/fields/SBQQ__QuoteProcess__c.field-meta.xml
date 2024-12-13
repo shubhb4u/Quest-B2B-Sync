@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Quote process used with this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote process used with this group. Overrides the quote level field.</inlineHelpText>
     <label>Quote Process</label>
     <referenceTo>SBQQ__QuoteProcess__c</referenceTo>

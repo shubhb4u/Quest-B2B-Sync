@@ -3,7 +3,6 @@
     <fullName>JBCXM__Report__c</fullName>
     <deprecated>false</deprecated>
     <description>This relation links ReportSection to Report</description>
-    <externalId>false</externalId>
     <label>Report</label>
     <referenceTo>JBCXM__Report__c</referenceTo>
     <relationshipLabel>Report</relationshipLabel>

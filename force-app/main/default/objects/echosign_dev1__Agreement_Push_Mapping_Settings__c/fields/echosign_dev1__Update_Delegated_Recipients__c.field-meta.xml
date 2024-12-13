@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to mark the recipients as &apos;Delegated&apos; in case they are delegated by Signer/Sender. These recipients will be hidden from Agreement View Page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to mark the recipients as &apos;Delegated&apos; in case they are delegated by Signer/Sender. These recipients will be hidden from Agreement View Page.</inlineHelpText>
     <label>Update Delegated Recipients</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Post Chatter update when agreement expires.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post Chatter update when agreement expires.</inlineHelpText>
     <label>Post when Agreement Expires</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>Q9__LastModifiedDateLog__c</fullName>
     <deprecated>false</deprecated>
     <description>Last modified date on ObjectName__c related Object</description>
-    <externalId>false</externalId>
     <label>Last Modified Date Log</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

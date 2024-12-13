@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enables Smart Approvals for this approval Condition. If approval snapshot does not change, condition will not be fired.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enables Smart Approvals for this approval Condition. If approval snapshot does not change, condition will not be fired.</inlineHelpText>
     <label>Enable Smart Approval</label>
     <trackTrending>false</trackTrending>

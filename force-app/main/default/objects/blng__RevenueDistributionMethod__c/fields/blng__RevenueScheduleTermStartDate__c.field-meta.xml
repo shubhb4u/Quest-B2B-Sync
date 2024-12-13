@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RevenueScheduleTermStartDate__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Start date can be based on the object&apos;s start date or entered manually. For full recognition,
         set it to None.</inlineHelpText>
     <label>Revenue Schedule Term Start Date</label>

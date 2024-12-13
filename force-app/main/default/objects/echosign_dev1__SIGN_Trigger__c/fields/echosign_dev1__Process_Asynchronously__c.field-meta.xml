@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Process_Asynchronously__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Process Asynchronously</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

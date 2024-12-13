@@ -3,7 +3,6 @@
     <fullName>JBCXM__SFTaskAssociated__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>SFTask Associated</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

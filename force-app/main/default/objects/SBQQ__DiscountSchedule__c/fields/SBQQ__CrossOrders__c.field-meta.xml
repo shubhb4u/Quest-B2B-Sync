@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Specifies whether volume discount should be applied on combined quantities across prior orders.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if you want to extend volume discounts on total volume owned by customer (i.e. quantity quoted plus prior purchases).</inlineHelpText>
     <label>Cross Orders</label>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Scope__c</fullName>
     <deprecated>false</deprecated>
     <description>The scope of your summary variable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the scope of your summary variable.</inlineHelpText>
     <label>Scope</label>
     <required>false</required>

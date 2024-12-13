@@ -3,7 +3,6 @@
     <fullName>JBCXM__Comment__c</fullName>
     <deprecated>false</deprecated>
     <description>Enter optional commentary on the Transaction</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter optional commentary on the Transaction</inlineHelpText>
     <label>Comment</label>
     <length>4096</length>

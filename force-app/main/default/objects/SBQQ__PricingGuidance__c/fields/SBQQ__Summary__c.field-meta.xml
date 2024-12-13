@@ -3,7 +3,6 @@
     <fullName>SBQQ__Summary__c</fullName>
     <deprecated>false</deprecated>
     <description>The parameters provided to create this pricing guidance.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The parameters provided to create this pricing guidance.</inlineHelpText>
     <label>Summary</label>
     <length>32768</length>

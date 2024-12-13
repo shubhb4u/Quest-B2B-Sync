@@ -3,7 +3,6 @@
     <fullName>SBQQ__SummaryLevel__c</fullName>
     <deprecated>false</deprecated>
     <description>Level this column should be summarized at.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set the level on which this column should be summarized.</inlineHelpText>
     <label>Summary Level</label>
     <required>false</required>

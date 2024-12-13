@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that forces a separate contract for this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to generate a separate contract for subscriptions in this group.</inlineHelpText>
     <label>Separate Contract</label>
     <trackHistory>false</trackHistory>

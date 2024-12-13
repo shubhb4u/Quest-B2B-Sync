@@ -3,7 +3,6 @@
     <fullName>maps__CompletedVisitsQuery__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the query to determine an object has been visited</description>
-    <externalId>false</externalId>
     <label>Completed Visits Query</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

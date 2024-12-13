@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Type of this option.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use &quot;Component&quot; if this option, including quantity, is dependent on parent. Use&quot; Accessory&quot; if this option is dependent on parent but quantity is independent. Use &quot;Related Product&quot; for related but fully independent products.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

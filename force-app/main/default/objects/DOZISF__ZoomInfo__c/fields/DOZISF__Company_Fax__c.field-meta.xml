@@ -3,7 +3,6 @@
     <fullName>DOZISF__Company_Fax__c</fullName>
     <deprecated>false</deprecated>
     <description>Primary fax number for the company.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Primary fax number for the company.</inlineHelpText>
     <label>Company Fax</label>
     <required>false</required>

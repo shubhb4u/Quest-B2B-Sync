@@ -3,7 +3,6 @@
     <fullName>SBQQ__Subscription__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Subscribed Product</label>
     <referenceTo>Product2</referenceTo>
     <relationshipLabel>Assets</relationshipLabel>

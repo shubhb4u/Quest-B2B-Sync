@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RecognizedRevenueLastClosedPeriod__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Sum of all revenue that has been recognized through the current period</inlineHelpText>
     <label>Recognized</label>
     <summarizedField>blng__RevenueTransaction__c.blng__RevenueAmount__c</summarizedField>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This is used to delete previous advanced route generated output when reoptimizing</description>
-    <externalId>false</externalId>
     <label>Delete Previous Route Data</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The quote containing the quote line related to this pricing guidance.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The quote containing the quote line related to this pricing guidance.</inlineHelpText>
     <label>Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

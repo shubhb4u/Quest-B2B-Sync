@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Quote Line that originated this Contracted Price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Quote Line that originated this Contracted Price.</inlineHelpText>
     <label>Original Quote Line</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>

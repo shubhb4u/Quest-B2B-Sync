@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Signature_Flow__c</fullName>
     <deprecated>false</deprecated>
     <description>Set the recipient order for signing documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set the recipient order for signing documents.</inlineHelpText>
     <label>Signature Flow</label>
     <required>false</required>

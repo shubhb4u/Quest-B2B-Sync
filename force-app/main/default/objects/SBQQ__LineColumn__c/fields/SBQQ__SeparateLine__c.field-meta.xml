@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that determines whether this field is printed on its own separate line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox in order for this field to be printed on its own line. Use for long text fields such as product description.</inlineHelpText>
     <label>Separate Line</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>rh2__Enhanced_Validation__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Runs rollups in additional trigger contexts on the specified object type when checked. Used to catch validation rules in delete contexts.</inlineHelpText>
     <label>Enhanced Validation</label>
     <trackTrending>false</trackTrending>

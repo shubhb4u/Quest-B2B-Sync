@@ -3,7 +3,6 @@
     <fullName>DOZISF__Website__c</fullName>
     <deprecated>false</deprecated>
     <description>URL to the company website in http://www.example.com format.</description>
-    <externalId>false</externalId>
     <inlineHelpText>URL to the company website in http://www.example.com format.</inlineHelpText>
     <label>Website</label>
     <required>false</required>

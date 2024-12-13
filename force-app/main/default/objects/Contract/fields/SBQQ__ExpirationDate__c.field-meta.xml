@@ -3,7 +3,6 @@
     <fullName>SBQQ__ExpirationDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Contract end date for use in time-based workflows.</description>
-    <externalId>false</externalId>
     <formula>EndDate</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Contract end date for use in time-based workflows.</inlineHelpText>

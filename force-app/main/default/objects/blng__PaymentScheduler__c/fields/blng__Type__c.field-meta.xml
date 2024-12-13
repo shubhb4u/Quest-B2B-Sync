@@ -5,7 +5,6 @@
     <description>Type of Schedule.
 Once - Payment Scheduler will be done only one time.
 Daily - Payment Scheduler will be repeated continuously daily and so on</description>
-    <externalId>false</externalId>
     <inlineHelpText>Type of Schedule.
 Once - Payment Scheduler will be done only one time.
 Daily - Payment Scheduler will be repeated continuously daily and so on</inlineHelpText>

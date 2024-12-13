@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If this is unchecked, scheduled jobs will only run at the top of the hour (HH:00).  If this is checked, scheduled jobs can be run at 5 minute intervals (HH:00, HH:05, HH:10, etc.).</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this is unchecked, scheduled jobs will only run at the top of the hour (HH:00).  If this is checked, scheduled jobs can be run at 5 minute intervals (HH:00, HH:05, HH:10, etc.).</inlineHelpText>
     <label>Granular Scheduled Jobs</label>
     <trackTrending>false</trackTrending>

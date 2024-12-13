@@ -3,7 +3,6 @@
     <fullName>SBQQ__FilterSourceField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field that sources value for use in filtering.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field that sources value for use in filtering.</inlineHelpText>
     <label>Filter Source Field</label>
     <required>false</required>

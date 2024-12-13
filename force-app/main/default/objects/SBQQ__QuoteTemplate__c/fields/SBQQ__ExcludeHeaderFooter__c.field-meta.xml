@@ -3,7 +3,6 @@
     <fullName>SBQQ__ExcludeHeaderFooter__c</fullName>
     <deprecated>false</deprecated>
     <description>Excludes template header and footer for First Page, Last Page, or both the First and Last Page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Excludes template header and footer for First Page, Last Page, or both the First and Last Page.</inlineHelpText>
     <label>Exclude Header &amp; Footer</label>
     <required>false</required>

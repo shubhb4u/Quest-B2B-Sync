@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quest_Product_Type2__c</fullName>
+    <label>Product Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONSULTING</fullName>
+                <default>false</default>
+                <label>CONSULTING</label>
+            </value>
+            <value>
+                <fullName>DOCUMENTATION</fullName>
+                <default>false</default>
+                <label>DOCUMENTATION</label>
+            </value>
+            <value>
+                <fullName>HARDWARE</fullName>
+                <default>false</default>
+                <label>HARDWARE</label>
+            </value>
+            <value>
+                <fullName>LICENSE ONLY</fullName>
+                <default>false</default>
+                <label>LICENSE ONLY</label>
+            </value>
+            <value>
+                <fullName>LICENSE/MAINTENANCE</fullName>
+                <default>false</default>
+                <label>LICENSE/MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>LICENSE/PPM</fullName>
+                <default>false</default>
+                <label>LICENSE/PPM</label>
+            </value>
+            <value>
+                <fullName>LICENSE SUB</fullName>
+                <default>false</default>
+                <label>LICENSE SUB</label>
+            </value>
+            <value>
+                <fullName>MAINTENANCE ONLY</fullName>
+                <default>false</default>
+                <label>MAINTENANCE ONLY</label>
+            </value>
+            <value>
+                <fullName>MAINTENANCE RENEWAL</fullName>
+                <default>false</default>
+                <label>MAINTENANCE RENEWAL</label>
+            </value>
+            <value>
+                <fullName>OTHER</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>PREPAID CONSULTING</fullName>
+                <default>false</default>
+                <label>PREPAID CONSULTING</label>
+            </value>
+            <value>
+                <fullName>PREPAID INSTALLATION</fullName>
+                <default>false</default>
+                <label>PREPAID INSTALLATION</label>
+            </value>
+            <value>
+                <fullName>PREPAID PROJECT MGMT</fullName>
+                <default>false</default>
+                <label>PREPAID PROJECT MGMT</label>
+            </value>
+            <value>
+                <fullName>PREPAID TRAINING</fullName>
+                <default>false</default>
+                <label>PREPAID TRAINING</label>
+            </value>
+            <value>
+                <fullName>PROJECT MANAGEMENT</fullName>
+                <default>false</default>
+                <label>PROJECT MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>SAAS</fullName>
+                <default>false</default>
+                <label>SAAS</label>
+            </value>
+            <value>
+                <fullName>TERM LICENSE/MAINTENANCE</fullName>
+                <default>false</default>
+                <label>TERM LICENSE/MAINTENANCE</label>
+            </value>
+            <value>
+                <fullName>TRAINING</fullName>
+                <default>false</default>
+                <label>TRAINING</label>
+            </value>
+            <value>
+                <fullName>SAAS/PROF SERVICES</fullName>
+                <default>false</default>
+                <label>SAAS/PROF SERVICES</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

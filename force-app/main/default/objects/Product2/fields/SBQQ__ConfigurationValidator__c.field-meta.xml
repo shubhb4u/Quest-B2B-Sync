@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfigurationValidator__c</fullName>
     <deprecated>false</deprecated>
     <description>JavaScript function used to validate configuration of this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>JavaScript function used to validate configuration of this product.</inlineHelpText>
     <label>Configuration Validator</label>
     <length>32000</length>

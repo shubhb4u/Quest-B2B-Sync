@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>trailheadapp__First_Attempted_At__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>First Attempted</label>
     <required>false</required>
     <trackHistory>true</trackHistory>

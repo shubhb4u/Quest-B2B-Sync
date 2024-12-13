@@ -3,7 +3,6 @@
     <fullName>blng__BillingFinanceBook__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Billing Finance Book</label>
     <referenceTo>blng__FinanceBook__c</referenceTo>
     <relationshipLabel>Credit Note Lines</relationshipLabel>

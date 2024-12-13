@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Checking this box will disable the functionality which recalculates currency rollups after changing the CurrencyIsoCode of a child record</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check this box if you do not want to recalculate currency rollups after a change in a child record&apos;s CurrencyIsoCode field</inlineHelpText>
     <label>Disable Currency Update Recalculation</label>
     <trackTrending>false</trackTrending>

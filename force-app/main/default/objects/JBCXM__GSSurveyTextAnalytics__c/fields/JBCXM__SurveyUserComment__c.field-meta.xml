@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyUserComment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Survey User Comment</label>
     <referenceTo>JBCXM__SurveyUserAnswer__c</referenceTo>
     <relationshipLabel>Survey Text Analytics Comment</relationshipLabel>

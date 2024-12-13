@@ -3,7 +3,6 @@
     <fullName>maps__Message__c</fullName>
     <deprecated>false</deprecated>
     <description>The value of the message received.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The value of the message received.</inlineHelpText>
     <label>Message</label>
     <required>false</required>

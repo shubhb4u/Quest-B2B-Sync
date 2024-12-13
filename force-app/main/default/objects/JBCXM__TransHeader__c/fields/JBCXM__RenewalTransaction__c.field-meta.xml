@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>If this transaction is Renewable and Renewed (Even Renewal with upsell/Downsell), The Renewal transaction look. This is a self relation object</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this transaction is Renewable and Renewed (Even Renewal with upsell/Downsell), The Renewal transaction look. This is a self relation object</inlineHelpText>
     <label>Renewal Transaction</label>
     <referenceTo>JBCXM__TransHeader__c</referenceTo>

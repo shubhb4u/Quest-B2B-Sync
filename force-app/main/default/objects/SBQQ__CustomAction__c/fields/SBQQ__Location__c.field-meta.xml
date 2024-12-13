@@ -3,7 +3,6 @@
     <fullName>SBQQ__Location__c</fullName>
     <deprecated>false</deprecated>
     <description>Location of this action on the page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Location of this action on the page.</inlineHelpText>
     <label>Location</label>
     <required>false</required>

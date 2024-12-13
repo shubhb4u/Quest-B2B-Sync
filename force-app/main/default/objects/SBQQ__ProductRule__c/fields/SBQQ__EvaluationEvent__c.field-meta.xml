@@ -3,7 +3,6 @@
     <fullName>SBQQ__EvaluationEvent__c</fullName>
     <deprecated>false</deprecated>
     <description>Event that causes this rule to be evaluated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify when this rule should be evaluated.</inlineHelpText>
     <label>Evaluation Event</label>
     <required>false</required>

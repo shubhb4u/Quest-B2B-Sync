@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that marks this filter as hidden. Hidden filters do not display in the UI but contribute to search queries.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to mark this filter as hidden. Hidden filters do not display in the UI but contribute to search queries.</inlineHelpText>
     <label>Hidden</label>
     <trackTrending>false</trackTrending>

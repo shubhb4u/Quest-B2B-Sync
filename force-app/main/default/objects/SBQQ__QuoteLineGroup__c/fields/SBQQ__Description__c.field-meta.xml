@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description for this group.</inlineHelpText>
     <label>Description</label>
     <length>32000</length>

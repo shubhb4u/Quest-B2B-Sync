@@ -3,7 +3,6 @@
     <fullName>SBQQ__ApplyToProductOptions__c</fullName>
     <deprecated>false</deprecated>
     <description>Apply configuration attribute selection to product options.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Apply To Product Options</label>
     <required>false</required>

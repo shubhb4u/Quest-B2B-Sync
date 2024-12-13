@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Recipients marked as acceptors accept the document. They may be required to enter data into fields.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Recipients marked as acceptors accept the document. They may be required to enter data into fields.</inlineHelpText>
     <label>Enable Acceptor Role</label>
     <trackTrending>false</trackTrending>

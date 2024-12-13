@@ -3,7 +3,6 @@
     <fullName>SBQQ__DynamicPricingConstraint__c</fullName>
     <deprecated>false</deprecated>
     <description>Specifies constraints on dynamically calculated pricing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use to place constraints on dynamically calculated prices.</inlineHelpText>
     <label>Percent Of Total Constraint</label>
     <required>false</required>

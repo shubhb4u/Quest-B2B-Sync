@@ -3,7 +3,6 @@
     <fullName>JBCXM__FcstMRR__c</fullName>
     <deprecated>false</deprecated>
     <description>Forecast MRR</description>
-    <externalId>false</externalId>
     <inlineHelpText>Forecast MRR</inlineHelpText>
     <label>Fcst MRR</label>
     <precision>12</precision>

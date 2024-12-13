@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__TargetDayOfWeek__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Determines what gets billed based on the next billing date&apos;s day of the week.</inlineHelpText>
     <label>Target Day Of Week</label>
     <required>false</required>

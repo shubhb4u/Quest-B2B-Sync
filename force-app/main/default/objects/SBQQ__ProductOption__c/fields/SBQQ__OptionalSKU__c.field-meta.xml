@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product SKU added if this option is selected.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter or lookup the product SKU that should be added when this product is selected.</inlineHelpText>
     <label>Optional SKU</label>
     <referenceTo>Product2</referenceTo>

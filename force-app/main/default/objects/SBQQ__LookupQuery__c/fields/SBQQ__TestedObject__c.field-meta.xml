@@ -3,7 +3,6 @@
     <fullName>SBQQ__TestedObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object against which the query is evaluated. Required if Match Type = Field Value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Object against which the query is evaluated. Required if Match Type = Field Value.</inlineHelpText>
     <label>Tested Object</label>
     <required>false</required>

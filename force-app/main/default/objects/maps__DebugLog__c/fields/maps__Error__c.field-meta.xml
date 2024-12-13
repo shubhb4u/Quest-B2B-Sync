@@ -3,7 +3,6 @@
     <fullName>maps__Error__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the main error mesage</description>
-    <externalId>false</externalId>
     <label>Error</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

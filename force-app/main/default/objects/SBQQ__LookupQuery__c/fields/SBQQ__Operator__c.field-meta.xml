@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator that is applied when comparing the Field with the Value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The operator that is applied when comparing the Field with the Value.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

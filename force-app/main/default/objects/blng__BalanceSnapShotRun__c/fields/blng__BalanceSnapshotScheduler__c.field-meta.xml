@@ -3,7 +3,6 @@
     <fullName>blng__BalanceSnapshotScheduler__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Balance Snapshot Scheduler</label>
     <referenceTo>blng__BalanceSnapShotScheduler__c</referenceTo>
     <relationshipLabel>Balance SnapShot Runs</relationshipLabel>

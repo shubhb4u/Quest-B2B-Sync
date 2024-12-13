@@ -3,7 +3,6 @@
     <fullName>maps__ExitDateTime__c</fullName>
     <deprecated>false</deprecated>
     <description>Date &amp; Time of Exit</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date &amp; Time of Exit</inlineHelpText>
     <label>Exit Date Time</label>
     <required>false</required>

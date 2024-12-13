@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Credit product quoted when upgrading this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use to specify credit when quoting upgrades to this product.</inlineHelpText>
     <label>Upgrade Credit</label>
     <referenceTo>Product2</referenceTo>

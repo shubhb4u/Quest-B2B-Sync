@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to show 2 options for recipient signing: serial (ordered entered) or parallel (in any order)</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to show 2 options for recipient signing: serial (ordered entered) or parallel (in any order)</inlineHelpText>
     <label>Show Recipient Signing Order Options</label>
     <trackTrending>false</trackTrending>

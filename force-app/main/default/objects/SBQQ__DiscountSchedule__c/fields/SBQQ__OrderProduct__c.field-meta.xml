@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Order product that this discount schedule applies to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Order product that this discount schedule applies to.</inlineHelpText>
     <label>Order Product</label>
     <lookupFilter>

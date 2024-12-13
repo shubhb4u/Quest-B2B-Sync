@@ -3,7 +3,6 @@
     <fullName>sbaa__TestedField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field tested when evaluating the Condition</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field tested when evaluating the Condition</inlineHelpText>
     <label>Tested Field</label>
     <required>false</required>

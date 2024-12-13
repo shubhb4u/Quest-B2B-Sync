@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupField__c</fullName>
     <deprecated>false</deprecated>
     <description>API Name of the custom field used in the query.</description>
-    <externalId>false</externalId>
     <inlineHelpText>API Name of the custom field used in the query.</inlineHelpText>
     <label>Lookup Field</label>
     <required>false</required>

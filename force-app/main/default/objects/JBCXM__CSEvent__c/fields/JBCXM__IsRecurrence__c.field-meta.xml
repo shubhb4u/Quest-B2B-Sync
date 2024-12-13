@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsRecurrence__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>IsRecurrence</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

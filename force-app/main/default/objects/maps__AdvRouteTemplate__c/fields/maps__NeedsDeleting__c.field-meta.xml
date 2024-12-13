@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This checkbox is used to flag a template for deletion</description>
-    <externalId>false</externalId>
     <label>Needs Deleting</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

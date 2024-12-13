@@ -3,7 +3,6 @@
     <fullName>sbaa__AssignedToMe__c</fullName>
     <deprecated>false</deprecated>
     <description>True if the current User is also the Assigned To User</description>
-    <externalId>false</externalId>
     <formula>sbaa__AssignedTo__r.Id = $User.Id</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>True if the current User is also the Assigned To User</inlineHelpText>

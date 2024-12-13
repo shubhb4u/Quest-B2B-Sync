@@ -3,7 +3,6 @@
     <fullName>SBQQ__GroupFields__c</fullName>
     <deprecated>false</deprecated>
     <description>Fields on the QuoteLineGroup__c object referenced by this plugin</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the API names of any Quote Line Group fields referenced by this plugin, one per line.</inlineHelpText>
     <label>Quote Line Group Fields</label>
     <length>131072</length>

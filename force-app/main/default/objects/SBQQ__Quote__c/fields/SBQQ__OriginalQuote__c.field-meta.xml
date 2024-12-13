@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>If the Quote is an Amend: Re-Quote, this field points to the original quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this Quote record represents an Amend: Re-Quote, use this field to link back to the original quote.</inlineHelpText>
     <label>Original Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

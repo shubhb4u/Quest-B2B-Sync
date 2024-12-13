@@ -3,7 +3,6 @@
     <fullName>JBCXM__Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Date against which Adoption Data is loaded.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date against which Adoption Data is loaded.</inlineHelpText>
     <label>Date</label>
     <required>true</required>

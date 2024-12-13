@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Assign a fixed price to a product based on quantity and quantity range. This overrides the automatic calculation of quantity * unit price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Assign a fixed price to a product based on quantity and quantity range. This overrides the automatic calculation of quantity * unit price.</inlineHelpText>
     <label>Block Price</label>
     <referenceTo>SBQQ__BlockPrice__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>E2CP__Fields_Updated_1__c</fullName>
     <deprecated>false</deprecated>
     <description>Fields that were updated in the New Comment page. List of field, oldValue, and newValue.</description>
-    <externalId>false</externalId>
     <label>Fields Updated</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>E2CP__Case__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Case</label>
     <referenceTo>Case</referenceTo>
     <relationshipLabel>Case Comment Drafts</relationshipLabel>

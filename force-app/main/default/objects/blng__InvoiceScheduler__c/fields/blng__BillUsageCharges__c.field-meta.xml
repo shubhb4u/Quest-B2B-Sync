@@ -3,7 +3,6 @@
     <fullName>blng__BillUsageCharges__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select if your order product’s charge type is Usage.</inlineHelpText>
     <label>Bill Usage Charges</label>
     <trackHistory>false</trackHistory>

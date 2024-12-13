@@ -3,7 +3,6 @@
     <fullName>SBQQ__FilterType__c</fullName>
     <deprecated>false</deprecated>
     <description>Type of filtering used in this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose Variable to evaluate this condition against a Summary Variable; otherwise, choose Value.</inlineHelpText>
     <label>Filter Type</label>
     <required>false</required>

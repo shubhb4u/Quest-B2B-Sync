@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Is Sender</description>
-    <externalId>false</externalId>
     <label>Is Sender</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

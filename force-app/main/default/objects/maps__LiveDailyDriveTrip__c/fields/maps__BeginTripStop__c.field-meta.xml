@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the Event Record, which is the start of this trip</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the Event Record, which is the start of this trip</inlineHelpText>
     <label>Begin Trip Stop</label>
     <referenceTo>maps__LiveAssetDailySummaryEvent__c</referenceTo>

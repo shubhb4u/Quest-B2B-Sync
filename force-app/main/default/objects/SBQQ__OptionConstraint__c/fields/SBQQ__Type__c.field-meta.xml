@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines behavior of this constraint.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the behavior of this constraint: dependency means inclusion is required while exclusion means the option constraint is not selected when the constraining option is or vice versa.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The discount schedule that this price schedule is originated from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The discount schedule that this price schedule is originated from.</inlineHelpText>
     <label>Original Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

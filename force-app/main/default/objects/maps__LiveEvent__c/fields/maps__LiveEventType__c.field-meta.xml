@@ -3,7 +3,6 @@
     <fullName>maps__LiveEventType__c</fullName>
     <deprecated>false</deprecated>
     <description>Record Type of Event Created</description>
-    <externalId>false</externalId>
     <inlineHelpText>Record Type of Event Created</inlineHelpText>
     <label>Live Event Type</label>
     <required>false</required>

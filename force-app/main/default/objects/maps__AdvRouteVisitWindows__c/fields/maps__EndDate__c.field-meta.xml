@@ -3,7 +3,6 @@
     <fullName>maps__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The end date that this window is valid for</description>
-    <externalId>false</externalId>
     <inlineHelpText>(optional) If the Start Date is populated, then the End Date is required</inlineHelpText>
     <label>End Date</label>
     <required>false</required>

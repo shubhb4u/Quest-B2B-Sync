@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Sales rep responsible for this quote if different from the user who owns the quote record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sales rep responsible for this quote if different from the user who owns the quote record.</inlineHelpText>
     <label>Sales Rep</label>
     <referenceTo>User</referenceTo>

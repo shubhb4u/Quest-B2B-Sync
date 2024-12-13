@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a lookup to the last user that was oauthed</description>
-    <externalId>false</externalId>
     <label>OAuth User</label>
     <referenceTo>User</referenceTo>
     <relationshipName>AdvRouteSettings</relationshipName>

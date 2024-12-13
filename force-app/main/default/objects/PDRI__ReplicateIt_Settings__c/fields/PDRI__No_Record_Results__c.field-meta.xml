@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to stop storing individual record results in the source org overall deployment result tracking. Helps improve used data space, especially for large deployment sets.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to stop storing individual record results in the source org overall deployment result tracking. Helps improve used data space, especially for large deployment sets.</inlineHelpText>
     <label>No Record Results</label>
     <trackTrending>false</trackTrending>

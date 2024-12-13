@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Total for this group&apos;s line items before any partner discounts are applied.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Total for this group&apos;s line items before any partner discounts are applied.</inlineHelpText>
     <label>Customer Total</label>
     <precision>14</precision>

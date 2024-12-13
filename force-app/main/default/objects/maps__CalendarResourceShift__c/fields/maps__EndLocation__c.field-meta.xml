@@ -3,7 +3,6 @@
     <fullName>maps__EndLocation__c</fullName>
     <deprecated>false</deprecated>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <label>End Location</label>
     <required>false</required>
     <scale>15</scale>

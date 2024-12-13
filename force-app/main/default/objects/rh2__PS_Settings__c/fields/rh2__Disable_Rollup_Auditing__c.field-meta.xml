@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Checking this box will disable rollup auditing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check this box to disable rollup auditing.</inlineHelpText>
     <label>Disable Rollup Auditing</label>
     <trackTrending>false</trackTrending>

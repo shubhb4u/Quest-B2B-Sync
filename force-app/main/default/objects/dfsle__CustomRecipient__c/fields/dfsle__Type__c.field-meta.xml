@@ -3,7 +3,6 @@
     <fullName>dfsle__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Type</description>
-    <externalId>false</externalId>
     <inlineHelpText>Type</inlineHelpText>
     <label>Type</label>
     <required>false</required>

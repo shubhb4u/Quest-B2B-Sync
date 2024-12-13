@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The discount tier where this price tier is originated from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The discount tier where this price tier is originated from.</inlineHelpText>
     <label>Original Discount Tier</label>
     <referenceTo>SBQQ__DiscountTier__c</referenceTo>

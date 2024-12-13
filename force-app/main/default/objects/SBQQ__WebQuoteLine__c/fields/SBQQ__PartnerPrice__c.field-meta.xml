@@ -3,7 +3,6 @@
     <fullName>SBQQ__PartnerPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Partner unit price. Price after partner discount but before distributor discount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Partner unit price. Price after partner discount but before distributor discount.</inlineHelpText>
     <label>Partner Unit Price</label>
     <precision>14</precision>

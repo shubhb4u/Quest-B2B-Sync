@@ -3,7 +3,6 @@
     <fullName>PDRI__Deployment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deployment</label>
     <referenceTo>PDRI__Deployment__c</referenceTo>
     <relationshipLabel>Deployment Results</relationshipLabel>

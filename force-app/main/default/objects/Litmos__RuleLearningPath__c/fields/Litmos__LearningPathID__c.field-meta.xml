@@ -3,7 +3,6 @@
     <fullName>Litmos__LearningPathID__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Learning Path</label>
     <referenceTo>Litmos__LearningPath__c</referenceTo>
     <relationshipLabel>RuleLearningPaths</relationshipLabel>

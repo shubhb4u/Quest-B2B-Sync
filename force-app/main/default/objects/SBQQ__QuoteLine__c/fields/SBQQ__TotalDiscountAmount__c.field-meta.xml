@@ -3,7 +3,6 @@
     <fullName>SBQQ__TotalDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Total discount amount for this line item including volume discount, contracted discount, and additional discount.</description>
-    <externalId>false</externalId>
     <formula>IF(SBQQ__Bundled__c, 0,
 IF(ISPICKVAL(SBQQ__DiscountScheduleType__c, &apos;Slab&apos;) &amp;&amp; NOT(SBQQ__Existing__c), (SBQQ__ProratedListPrice__c * SBQQ__Quantity__c - SBQQ__CustomerPrice__c),
 IF(ISPICKVAL(SBQQ__DiscountScheduleType__c, &apos;Slab&apos;) &amp;&amp; SBQQ__Existing__c, (SBQQ__ProratedListPrice__c * (SBQQ__Quantity__c-SBQQ__PriorQuantity__c) - SBQQ__CustomerPrice__c),

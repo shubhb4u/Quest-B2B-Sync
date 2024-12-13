@@ -4,7 +4,12 @@
 <template>
     <div class="container">
         <div class="center-title">
-            <div class="slds-card__header-title">All Quest Products</div>
+            <template lwc:if={hasCategory}>
+                <div class="slds-card__header-title">{categoryName}</div>
+            </template>
+            <template lwc:else>
+                <div class="slds-card__header-title">All Quest Products</div>
+            </template>
         </div>
 
         <div class="subtitle">
@@ -67,11 +72,11 @@
         </div>
 
         <!-- Modal Popup -->
-        <template if:true={isModalOpen}>
-            <!-- Overlay -->
+        <!-- <template if:true={isModalOpen}>
+            
             <div class="slds-backdrop slds-backdrop_open"></div>
             
-            <!-- Modal -->
+            
             <div class="slds-modal slds-fade-in-open">
                 <div class="slds-modal__container">
                     <lightning-modal-header>
@@ -87,7 +92,13 @@
                     </lightning-modal-footer>
                 </div>
             </div>
-        </template>
+        </template> -->
+
+        <c-modal-quest if:true={isModalOpen} modal-title={modalTitle} modal-message={modalMessage} onclose={handleModalClose}>
+            <!-- Footer Slot for Modal -->
+            <lightning-button slot="footer" variant="brand" label="Close" onclick={handleModalClose}>
+            </lightning-button>
+        </c-modal-quest>
 
 
         <!-- Filtered Results -->
@@ -122,7 +133,7 @@
                         <div class="pricing">
                             <div class="product-price">
                                 <div class="slds-text-title_caps">Starts At </div>
-                                <div class="slds-m-bottom_small">${product.formattedUnitPrice}</div>
+                                <div class="slds-m-bottom_small">{product.currencySymbol}{product.formattedUnitPrice}</div>
                             </div>
                             <button
                                 class="wishlist-icon"

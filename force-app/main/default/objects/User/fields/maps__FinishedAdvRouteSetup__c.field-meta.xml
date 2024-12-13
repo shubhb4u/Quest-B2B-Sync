@@ -3,7 +3,6 @@
     <fullName>maps__FinishedAdvRouteSetup__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Finished Maps Advanced Route Setup</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

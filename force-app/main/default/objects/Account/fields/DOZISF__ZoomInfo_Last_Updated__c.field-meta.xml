@@ -3,7 +3,6 @@
     <fullName>DOZISF__ZoomInfo_Last_Updated__c</fullName>
     <deprecated>false</deprecated>
     <description>Date and time when the record was last created or updated by ZoomInfo</description>
-    <externalId>false</externalId>
     <label>ZoomInfo Last Updated</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

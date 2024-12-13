@@ -3,7 +3,6 @@
     <fullName>JBCXM__Type__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Type</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>Playbook Task Type</relationshipLabel>

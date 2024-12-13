@@ -3,7 +3,6 @@
     <fullName>SBQQ__SourceLookupField__c</fullName>
     <deprecated>false</deprecated>
     <description>API Name of the field to return from the row matching the condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>API Name of the field to return from the row matching the condition.</inlineHelpText>
     <label>Source Lookup Field</label>
     <required>false</required>

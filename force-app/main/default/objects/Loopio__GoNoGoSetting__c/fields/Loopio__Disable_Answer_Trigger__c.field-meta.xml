@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This field is created from a developer point of view while importing large amounts of data.</description>
-    <externalId>false</externalId>
     <label>Disable Answer Trigger</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

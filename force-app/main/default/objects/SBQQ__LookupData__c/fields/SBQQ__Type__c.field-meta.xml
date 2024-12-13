@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>For use with Product Selection Rules, specifies the type of action to be performed on the Product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For use with Product Selection Rules, specifies the type of action to be performed on the Product.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

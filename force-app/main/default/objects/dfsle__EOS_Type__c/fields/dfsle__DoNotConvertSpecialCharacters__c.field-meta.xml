@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Setting to block converting special symbols to underscore in clm folder path</description>
-    <externalId>false</externalId>
     <label>DoNotConvertSpecialCharacters</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

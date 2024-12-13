@@ -3,7 +3,6 @@
     <fullName>LID__No_longer_at_Company__c</fullName>
     <businessStatus>Active</businessStatus>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Field automatically updated by LinkedIn Sales Navigator Data Validation. “Not at Company” means Contact is not with associated Account based on LinkedIn profile. No value indicates LinkedIn has no feedback to share.</inlineHelpText>
     <label>Not at Company Flag</label>
     <required>false</required>

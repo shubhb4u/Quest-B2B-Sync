@@ -3,7 +3,6 @@
     <fullName>maps__Position__c</fullName>
     <deprecated>false</deprecated>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <inlineHelpText>Asset location at start of event</inlineHelpText>
     <label>Position</label>
     <required>false</required>

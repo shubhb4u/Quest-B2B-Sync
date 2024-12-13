@@ -3,7 +3,6 @@
     <fullName>PDRI__Fixed_Value__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Fixed Value</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__SystemDefined__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Boolean value to indicate whether the record is system defined.</inlineHelpText>
     <label>System Defined</label>
     <trackTrending>false</trackTrending>

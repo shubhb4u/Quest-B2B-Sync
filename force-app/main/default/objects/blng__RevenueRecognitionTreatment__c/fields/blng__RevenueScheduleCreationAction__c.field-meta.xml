@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RevenueScheduleCreationAction__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Type of event that triggers creation of the revenue schedule.</inlineHelpText>
     <label>Revenue Schedule Creation Action</label>
     <required>true</required>

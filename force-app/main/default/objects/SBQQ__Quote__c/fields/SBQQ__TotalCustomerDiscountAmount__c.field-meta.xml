@@ -3,7 +3,6 @@
     <fullName>SBQQ__TotalCustomerDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Total amount of customer discount. This includes any contracted, volume, compound rate and additional discounts.</description>
-    <externalId>false</externalId>
     <formula>SBQQ__ListAmount__c - SBQQ__CustomerAmount__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total amount of customer discount. This includes any contracted, volume, compound rate and additional discounts.</inlineHelpText>

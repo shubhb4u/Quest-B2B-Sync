@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>To show churn calculation based on the renewal information or not.</description>
-    <externalId>false</externalId>
     <label>Show Renewal based churn</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -5,7 +5,6 @@
     <deprecated>false</deprecated>
     <description>It determines whether the Transaction has created Payment.
 This is only for charged transactions.</description>
-    <externalId>false</externalId>
     <inlineHelpText>It determines whether the Transaction has created Payment.
 This is only for charged transactions.</inlineHelpText>
     <label>Payment Created</label>

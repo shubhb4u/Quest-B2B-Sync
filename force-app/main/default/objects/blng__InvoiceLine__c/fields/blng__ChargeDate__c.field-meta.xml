@@ -3,7 +3,6 @@
     <fullName>blng__ChargeDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the date on which Invoice Line is Created</description>
-    <externalId>false</externalId>
     <label>Charge Date</label>
     <required>false</required>
     <trackHistory>true</trackHistory>

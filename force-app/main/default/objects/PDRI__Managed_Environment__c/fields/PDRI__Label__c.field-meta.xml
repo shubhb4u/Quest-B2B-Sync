@@ -3,7 +3,6 @@
     <fullName>PDRI__Label__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Managed Environment Label</label>
     <referenceTo>PDRI__Managed_Environment_Label__c</referenceTo>
     <relationshipLabel>Managed Environments</relationshipLabel>

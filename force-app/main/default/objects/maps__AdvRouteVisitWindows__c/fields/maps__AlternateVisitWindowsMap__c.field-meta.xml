@@ -3,7 +3,6 @@
     <fullName>maps__AlternateVisitWindowsMap__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a JSON map for the non default visit windows</description>
-    <externalId>false</externalId>
     <label>Alternate Visit Windows Map</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

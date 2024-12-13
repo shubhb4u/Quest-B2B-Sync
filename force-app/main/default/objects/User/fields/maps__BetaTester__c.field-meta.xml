@@ -3,7 +3,6 @@
     <fullName>maps__BetaTester__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Beta Tester</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable large bundle configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Should be enabled if you experience performance errors during bundle configuration. Bundle will be processed asynchronously.</inlineHelpText>
     <label>Enable Large Configuration</label>
     <trackHistory>false</trackHistory>

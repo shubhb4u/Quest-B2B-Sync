@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Contract that governs this subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Contract that governs this subscription.</inlineHelpText>
     <label>Contract</label>
     <referenceTo>Contract</referenceTo>

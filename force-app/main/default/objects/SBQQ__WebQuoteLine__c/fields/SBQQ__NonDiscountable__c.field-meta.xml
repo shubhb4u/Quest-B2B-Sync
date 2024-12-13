@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether this line item is non-discountable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to indicate if discounts are allowed on this line item.</inlineHelpText>
     <label>Non Discountable</label>
     <trackTrending>false</trackTrending>

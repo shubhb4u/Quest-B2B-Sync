@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuoteProcess__c</fullName>
     <deprecated>false</deprecated>
     <description>Quote process that owns the input.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote process that owns the input.</inlineHelpText>
     <label>Quote Process</label>
     <referenceTo>SBQQ__QuoteProcess__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__Features__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Features</label>
     <referenceTo>JBCXM__Features__c</referenceTo>
     <relationshipLabel>Customer Features</relationshipLabel>

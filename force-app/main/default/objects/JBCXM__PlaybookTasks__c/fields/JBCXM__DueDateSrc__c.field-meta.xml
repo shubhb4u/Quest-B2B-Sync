@@ -3,7 +3,6 @@
     <fullName>JBCXM__DueDateSrc__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Due date source</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>Due Date Source Option</relationshipLabel>

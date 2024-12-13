@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Price the end user paid for this subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price paid for this subscription.</inlineHelpText>
     <label>Customer Price</label>
     <precision>14</precision>

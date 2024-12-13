@@ -6,7 +6,6 @@
 
 Sample
 &quot;{&quot;ids&quot;:&quot;[\&quot;012111111111111111\&quot;, \&quot;012111111111111112\&quot;]&quot;}&quot;</description>
-    <externalId>false</externalId>
     <label>Case Record Types</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

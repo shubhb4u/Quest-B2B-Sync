@@ -3,7 +3,6 @@
     <fullName>DOZISF__Company_ZoomInfo_URL__c</fullName>
     <deprecated>false</deprecated>
     <description>URL to the company profile in ZoomInfo.</description>
-    <externalId>false</externalId>
     <inlineHelpText>URL to the company profile in ZoomInfo.</inlineHelpText>
     <label>Company ZoomInfo URL</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>DOZISF__Marketing_Department_Budget__c</fullName>
     <deprecated>false</deprecated>
     <description>Approximate budget of the company&apos;s marketing department.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approximate budget of the company&apos;s marketing department.</inlineHelpText>
     <label>Marketing Department Budget</label>
     <precision>18</precision>

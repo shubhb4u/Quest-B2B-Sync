@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Is Rollup Group Automatic</description>
-    <externalId>false</externalId>
     <label>Is Rollup Group Automatic</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

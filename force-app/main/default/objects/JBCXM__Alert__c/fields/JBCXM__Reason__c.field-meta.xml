@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Select the reason that resulted in this Alert. The list of reasons is customizable for your organization.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the reason that resulted in this Alert. The list of reasons is customizable for your organization.</inlineHelpText>
     <label>Reason</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The product that is automatically selected on the quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the product to be automatically selected on the quote. Note: The product rule Type must be set to &quot;Selection&quot;.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

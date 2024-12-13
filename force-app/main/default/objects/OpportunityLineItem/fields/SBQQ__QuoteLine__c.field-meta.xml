@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Quote line that generated this Opportunity Product.</description>
-    <externalId>false</externalId>
     <label>Quote Line</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>
     <relationshipLabel>Opportunity Product</relationshipLabel>

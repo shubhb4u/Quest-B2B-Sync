@@ -3,7 +3,6 @@
     <fullName>E2CP__AdditionalCC__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores email addresses entered on the New Comment page Additional CC section.</description>
-    <externalId>false</externalId>
     <label>Additional CC</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>

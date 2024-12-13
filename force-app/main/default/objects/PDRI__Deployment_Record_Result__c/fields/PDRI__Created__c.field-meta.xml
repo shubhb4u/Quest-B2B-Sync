@@ -3,7 +3,6 @@
     <fullName>PDRI__Created__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Created</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

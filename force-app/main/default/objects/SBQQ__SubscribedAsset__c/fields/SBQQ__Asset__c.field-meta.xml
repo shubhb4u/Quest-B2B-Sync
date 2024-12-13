@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Asset being covered by a subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Asset being covered by a subscription.</inlineHelpText>
     <label>Asset</label>
     <referenceTo>Asset</referenceTo>

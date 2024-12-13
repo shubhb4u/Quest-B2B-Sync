@@ -3,7 +3,6 @@
     <fullName>PDRI__Create_Missing__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Create Missing</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

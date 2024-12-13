@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, the Quantities of Bundled Product Options will be included in the Aggregation Scope</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, the Quantities of Bundled Product Options will be included in the Aggregation Scope</inlineHelpText>
     <label>Include Bundled Quantities</label>
     <trackHistory>false</trackHistory>

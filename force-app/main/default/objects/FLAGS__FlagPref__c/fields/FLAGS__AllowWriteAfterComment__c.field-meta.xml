@@ -6,7 +6,6 @@
     <description>Enable the Case Flag to automatically be set on immediately after a comment has been added to Case.
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow write after comment</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

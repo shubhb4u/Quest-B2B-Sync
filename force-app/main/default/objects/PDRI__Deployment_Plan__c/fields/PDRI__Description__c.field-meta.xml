@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Description__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Specifies an optional description of the deployment plan for easier reference.</inlineHelpText>
     <label>Description</label>
     <length>32768</length>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to add an URL link for signed PDF to the Agreement record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to add an URL link for signed PDF to the Agreement record.</inlineHelpText>
     <label>Add Signed PDF Url</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to make the &quot;Allow signers X days to sign this document.&quot; a read-only agreement field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to make the &quot;Allow signers X days to sign this document.&quot; a read-only agreement field.</inlineHelpText>
     <label>Read Only Sign Expiration</label>
     <trackTrending>false</trackTrending>

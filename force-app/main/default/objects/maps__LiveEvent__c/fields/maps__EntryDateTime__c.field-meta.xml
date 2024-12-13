@@ -3,7 +3,6 @@
     <fullName>maps__EntryDateTime__c</fullName>
     <deprecated>false</deprecated>
     <description>Date &amp; Time of Entry</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date &amp; Time of Entry</inlineHelpText>
     <label>Entry Date Time</label>
     <required>false</required>

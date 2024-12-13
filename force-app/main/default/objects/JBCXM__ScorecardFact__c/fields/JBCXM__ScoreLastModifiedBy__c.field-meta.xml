@@ -3,7 +3,6 @@
     <fullName>JBCXM__ScoreLastModifiedBy__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Score Last Modified By</label>
     <referenceTo>User</referenceTo>
     <relationshipName>ScoreLastModifiedUser</relationshipName>

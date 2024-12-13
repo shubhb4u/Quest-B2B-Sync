@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The User that is assigned to the associated Device at the time that the Summary was created</description>
-    <externalId>false</externalId>
     <inlineHelpText>The User that is assigned to the associated Device at the time that the Summary was created</inlineHelpText>
     <label>User</label>
     <referenceTo>User</referenceTo>

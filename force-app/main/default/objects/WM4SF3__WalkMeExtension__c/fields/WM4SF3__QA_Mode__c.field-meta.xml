@@ -3,7 +3,6 @@
     <fullName>WM4SF3__QA_Mode__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>QA Mode</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

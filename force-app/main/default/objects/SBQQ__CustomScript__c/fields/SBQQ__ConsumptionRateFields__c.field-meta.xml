@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConsumptionRateFields__c</fullName>
     <deprecated>false</deprecated>
     <description>Fields on the ConsumptionRate object referenced by this plugin</description>
-    <externalId>false</externalId>
     <inlineHelpText>API names of consumption rate fields referenced by this plugin. Enter as many as 10 fields, one field on each line..</inlineHelpText>
     <label>Consumption Rate Fields</label>
     <length>131072</length>

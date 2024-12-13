@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Ideal low-range discount based on past sales. If sales reps accept this pricing guidance, Salesforce CPQ applies a discount to reach this price.</inlineHelpText>
     <label>Target Discount (%)</label>
     <precision>14</precision>

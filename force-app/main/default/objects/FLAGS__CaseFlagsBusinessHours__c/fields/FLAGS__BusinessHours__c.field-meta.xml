@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The standard Business Hour record being referenced.</description>
-    <externalId>false</externalId>
     <label>Business Hours</label>
     <referenceTo>BusinessHours</referenceTo>
     <relationshipLabel>Case Flags Business Hours</relationshipLabel>

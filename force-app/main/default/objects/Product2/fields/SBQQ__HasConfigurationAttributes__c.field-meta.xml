@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Checks to see if Product has Configuration Attributes</description>
-    <externalId>false</externalId>
     <label>Has Configuration Attributes</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

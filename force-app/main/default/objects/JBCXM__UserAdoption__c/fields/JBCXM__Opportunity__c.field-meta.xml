@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a look up to opportunity.Used this field to populate adoption by opportunity</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select opportunity</inlineHelpText>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>

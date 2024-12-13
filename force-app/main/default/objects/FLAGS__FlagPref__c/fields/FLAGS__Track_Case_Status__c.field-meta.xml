@@ -3,7 +3,6 @@
     <fullName>FLAGS__Track_Case_Status__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Track Case Status</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

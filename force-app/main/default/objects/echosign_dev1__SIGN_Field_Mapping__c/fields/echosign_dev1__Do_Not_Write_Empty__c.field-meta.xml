@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Do_Not_Write_Empty__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Do Not Write Empty</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

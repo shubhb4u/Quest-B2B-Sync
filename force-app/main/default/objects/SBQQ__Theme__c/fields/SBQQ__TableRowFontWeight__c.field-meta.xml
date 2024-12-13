@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__TableRowFontWeight__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font weight of rows in a table (Click the icon for additional information)</inlineHelpText>
     <label>Table Row Font Weight</label>
     <required>false</required>

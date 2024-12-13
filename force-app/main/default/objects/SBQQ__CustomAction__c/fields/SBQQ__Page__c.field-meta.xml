@@ -3,7 +3,6 @@
     <fullName>SBQQ__Page__c</fullName>
     <deprecated>false</deprecated>
     <description>The page of which to add the custom action.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The page of which to add the custom action.</inlineHelpText>
     <label>Page</label>
     <required>false</required>

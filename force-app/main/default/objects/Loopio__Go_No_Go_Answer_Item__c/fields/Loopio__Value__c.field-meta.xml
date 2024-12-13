@@ -3,7 +3,6 @@
     <fullName>Loopio__Value__c</fullName>
     <deprecated>false</deprecated>
     <description>To store answer given by the user.</description>
-    <externalId>false</externalId>
     <label>Value</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If true, the readMetadata() callout for this Profile exceeded the 120s (2min) max.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If true, the readMetadata() callout for this Profile exceeded the 120s (2min) max.</inlineHelpText>
     <label>Is Too Large To Process</label>
     <trackTrending>false</trackTrending>

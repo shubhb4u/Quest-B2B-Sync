@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProductRule__c</fullName>
     <deprecated>false</deprecated>
     <description>The actual rule that defines logic used to validate product configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the product rule that contains the logic to validate your product configurations.</inlineHelpText>
     <label>Product Rule</label>
     <lookupFilter>

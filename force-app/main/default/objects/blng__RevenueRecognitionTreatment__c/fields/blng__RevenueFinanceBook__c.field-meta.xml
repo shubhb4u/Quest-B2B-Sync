@@ -3,7 +3,6 @@
     <fullName>blng__RevenueFinanceBook__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the finance book</inlineHelpText>
     <label>Revenue Finance Book</label>
     <lookupFilter>

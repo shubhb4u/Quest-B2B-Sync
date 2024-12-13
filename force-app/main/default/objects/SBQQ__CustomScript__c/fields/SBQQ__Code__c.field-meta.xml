@@ -3,7 +3,6 @@
     <fullName>SBQQ__Code__c</fullName>
     <deprecated>false</deprecated>
     <description>Script code</description>
-    <externalId>false</externalId>
     <inlineHelpText>Code that can be executed by an outside resource.</inlineHelpText>
     <label>Code</label>
     <length>131072</length>

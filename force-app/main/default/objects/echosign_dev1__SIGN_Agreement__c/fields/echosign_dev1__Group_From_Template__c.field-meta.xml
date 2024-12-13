@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether the group value comes from an agreement template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field indicates if the agreement&apos;s group value comes from an agreement template from which it was generated.</inlineHelpText>
     <label>Group From Agreement Template</label>
     <trackFeedHistory>false</trackFeedHistory>

@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>Exception Message
 When a Transaction is created and Payment is not created against Invoice</description>
-    <externalId>false</externalId>
     <inlineHelpText>Exception Message
 When a Transaction is created and Payment is not created against Invoice</inlineHelpText>
     <label>Exception Message</label>

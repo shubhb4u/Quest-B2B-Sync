@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Identifies the user for which the user specific view applies. Must be set when Scope Indicator = 5 and null when Scope Indicator = 1 or 3.</description>
-    <externalId>false</externalId>
     <label>User</label>
     <referenceTo>User</referenceTo>
     <relationshipName>InSitu_AppSetting_Views</relationshipName>

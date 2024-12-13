@@ -3,7 +3,6 @@
     <fullName>DOZISF__Products_and_Services__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a lookup to a third party database we work with to find what other products or services that company many have, not listed in ZoomInfo.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This is a lookup to a third party database we work with to find what other products or services that company many have, not listed in ZoomInfo.</inlineHelpText>
     <label>Products and Services</label>
     <length>130000</length>

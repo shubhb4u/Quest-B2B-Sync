@@ -3,7 +3,6 @@
     <fullName>SBQQ__ListTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Total for this group&apos;s line items before any discounts are applied.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Total for this group&apos;s line items before any discounts are applied.</inlineHelpText>
     <label>List Total</label>
     <precision>14</precision>

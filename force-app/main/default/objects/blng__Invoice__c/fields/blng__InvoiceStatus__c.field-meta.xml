@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>Warning: Invoice Status is an internal field. Changing it could cause basic functionality to fail or become unstable.</description>
-    <externalId>false</externalId>
     <label>Status</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

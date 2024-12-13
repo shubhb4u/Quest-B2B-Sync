@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator being used in the filter.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the operator to use in your filter.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

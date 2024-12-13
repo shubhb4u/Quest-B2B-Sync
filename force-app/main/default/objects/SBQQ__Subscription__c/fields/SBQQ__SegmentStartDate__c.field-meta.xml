@@ -3,7 +3,6 @@
     <fullName>SBQQ__SegmentStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>For MDQ products, the Start Date from the original segment&apos;s Quote Line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For MDQ products, the Start Date from the original segment&apos;s Quote Line.</inlineHelpText>
     <label>Segment Start Date</label>
     <required>false</required>

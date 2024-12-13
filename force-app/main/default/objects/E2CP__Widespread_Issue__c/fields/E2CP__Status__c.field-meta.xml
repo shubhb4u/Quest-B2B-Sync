@@ -3,7 +3,6 @@
     <fullName>E2CP__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Used to track which status a Widespread Issue is in</description>
-    <externalId>false</externalId>
     <label>Status</label>
     <required>false</required>
     <trackFeedHistory>true</trackFeedHistory>

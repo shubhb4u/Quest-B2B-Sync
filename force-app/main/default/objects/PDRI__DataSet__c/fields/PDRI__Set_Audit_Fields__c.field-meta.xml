@@ -3,7 +3,6 @@
     <fullName>PDRI__Set_Audit_Fields__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Set Audit Fields</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>rh2__Rollup_Inactive_Upon_Creation__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>If this setting is checked, new rollups will not be automatically activated upon creation.</inlineHelpText>
     <label>Rollup Inactive Upon Creation</label>
     <trackTrending>false</trackTrending>

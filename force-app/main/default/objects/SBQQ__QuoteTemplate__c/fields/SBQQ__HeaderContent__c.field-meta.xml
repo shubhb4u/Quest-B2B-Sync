@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>References template content that should be rendered in the header.</description>
-    <externalId>false</externalId>
     <inlineHelpText>References template content that should be rendered in the header.</inlineHelpText>
     <label>Header Content</label>
     <referenceTo>SBQQ__TemplateContent__c</referenceTo>

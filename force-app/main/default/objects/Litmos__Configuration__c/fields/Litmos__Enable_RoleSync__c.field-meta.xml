@@ -3,7 +3,6 @@
     <fullName>Litmos__Enable_RoleSync__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable_RoleSync</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

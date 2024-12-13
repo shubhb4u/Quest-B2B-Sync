@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that indicates whether quote totals should be printed on the quote document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to hide quote totals on the quote document.</inlineHelpText>
     <label>Hide Totals</label>
     <trackHistory>false</trackHistory>

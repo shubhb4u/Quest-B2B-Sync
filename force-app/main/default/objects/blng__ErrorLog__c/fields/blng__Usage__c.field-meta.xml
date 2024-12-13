@@ -3,7 +3,6 @@
     <fullName>blng__Usage__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Usage</label>
     <referenceTo>blng__Usage__c</referenceTo>
     <relationshipName>UsageErrorLogs</relationshipName>

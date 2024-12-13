@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Sales Representative</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sales Representative (optional field)</inlineHelpText>
     <label>SalesRep</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>

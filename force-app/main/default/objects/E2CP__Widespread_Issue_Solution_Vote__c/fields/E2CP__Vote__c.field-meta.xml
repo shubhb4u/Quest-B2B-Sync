@@ -3,7 +3,6 @@
     <fullName>E2CP__Vote__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates whether a vote was an Upvote or Downvote</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether a vote was an Upvote or Downvote</inlineHelpText>
     <label>Vote</label>
     <required>false</required>

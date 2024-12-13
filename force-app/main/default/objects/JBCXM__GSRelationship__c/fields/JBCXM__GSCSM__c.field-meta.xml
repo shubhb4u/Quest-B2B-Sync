@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>To associate a relationship to a CSM.</description>
-    <externalId>false</externalId>
     <label>CSM</label>
     <referenceTo>User</referenceTo>
     <relationshipName>CSMGSRelationship</relationshipName>

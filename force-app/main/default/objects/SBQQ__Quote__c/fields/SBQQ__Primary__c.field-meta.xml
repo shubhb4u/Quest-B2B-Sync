@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Checkbox which if checked designates the quote as the Primary Quote</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select this checkbox to designate this quote as the primary one on the opportunity and sync quote line items with opportunity line items.</inlineHelpText>
     <label>Primary</label>
     <trackHistory>true</trackHistory>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>User requesting approval for the Opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>User requesting approval for the Opportunity.</inlineHelpText>
     <label>Submitted User</label>
     <referenceTo>User</referenceTo>

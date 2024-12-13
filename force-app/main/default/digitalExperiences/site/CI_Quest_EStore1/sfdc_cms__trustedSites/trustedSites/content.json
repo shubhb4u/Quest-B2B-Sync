@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://www.jsdelivr.com/",
+      "sourceName" : "Styles"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

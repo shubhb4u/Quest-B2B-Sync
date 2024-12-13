@@ -3,7 +3,6 @@
     <fullName>SBQQ__Rule__c</fullName>
     <deprecated>false</deprecated>
     <description>Price rule running this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price rule running this condition.</inlineHelpText>
     <label>Price Rule</label>
     <referenceTo>SBQQ__PriceRule__c</referenceTo>

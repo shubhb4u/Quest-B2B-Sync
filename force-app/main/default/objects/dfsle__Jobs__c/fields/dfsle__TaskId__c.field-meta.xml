@@ -3,7 +3,6 @@
     <fullName>dfsle__TaskId__c</fullName>
     <deprecated>false</deprecated>
     <description>List of task Ids associated with the job</description>
-    <externalId>false</externalId>
     <label>Task Ids</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>

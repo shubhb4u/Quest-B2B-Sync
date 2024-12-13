@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__TableRowFontFamily__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font familiy of rows in a table</inlineHelpText>
     <label>Table Row Font Family</label>
     <required>false</required>

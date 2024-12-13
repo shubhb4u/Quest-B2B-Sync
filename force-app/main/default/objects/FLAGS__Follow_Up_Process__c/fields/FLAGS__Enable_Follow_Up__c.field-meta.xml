@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines if this flag will use the follow up process.</description>
-    <externalId>false</externalId>
     <label>Enable follow up process</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

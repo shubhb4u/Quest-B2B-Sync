@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that indicates this product&apos;s description is locked (not editable on the quote).</description>
-    <externalId>false</externalId>
     <inlineHelpText>Flag that indicates this product&apos;s description is locked (not editable on the quote).</inlineHelpText>
     <label>Lock Description</label>
     <trackHistory>false</trackHistory>

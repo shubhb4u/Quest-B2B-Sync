@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>A certificate can be marked as default only if it is active</description>
-    <externalId>false</externalId>
     <inlineHelpText>A certificate can be marked as default only if it is active</inlineHelpText>
     <label>Default</label>
     <trackTrending>false</trackTrending>

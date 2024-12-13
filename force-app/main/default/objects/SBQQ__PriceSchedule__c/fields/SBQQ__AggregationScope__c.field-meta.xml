@@ -3,7 +3,6 @@
     <fullName>SBQQ__AggregationScope__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates whether quote lines referencing this schedule should be aggregated within quote, group or not at all for the purposes of volume discount calculation.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify how to aggregate quantities of quote lines for products using this schedule. By default quantity of each line (even for the same product) is considered independently.</inlineHelpText>
     <label>Aggregation Scope</label>
     <required>false</required>

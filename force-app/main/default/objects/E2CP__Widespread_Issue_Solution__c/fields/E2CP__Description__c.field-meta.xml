@@ -3,7 +3,6 @@
     <fullName>E2CP__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description of the Solution</description>
-    <externalId>false</externalId>
     <label>Description</label>
     <length>131072</length>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,7 +3,6 @@
     <fullName>SBES__Quote_Document__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Quote Document</label>
     <referenceTo>SBQQ__QuoteDocument__c</referenceTo>
     <relationshipLabel>Agreements</relationshipLabel>

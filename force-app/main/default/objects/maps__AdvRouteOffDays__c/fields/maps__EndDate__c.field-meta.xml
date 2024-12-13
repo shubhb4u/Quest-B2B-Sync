@@ -3,7 +3,6 @@
     <fullName>maps__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the end date for a off days exception</description>
-    <externalId>false</externalId>
     <label>End Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

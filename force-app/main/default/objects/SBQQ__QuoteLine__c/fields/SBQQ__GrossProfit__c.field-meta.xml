@@ -3,7 +3,6 @@
     <fullName>SBQQ__GrossProfit__c</fullName>
     <deprecated>false</deprecated>
     <description>Gross profit amount on this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Gross profit amount on this line item.</inlineHelpText>
     <label>Gross Profit</label>
     <precision>16</precision>

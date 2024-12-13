@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Contracted price if the product has negotiated pricing for the opportunity&apos;s account.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Contracted price if the product has negotiated pricing for the opportunity&apos;s account.</inlineHelpText>
     <label>Contracted Price</label>
     <referenceTo>SBQQ__ContractedPrice__c</referenceTo>

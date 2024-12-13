@@ -3,7 +3,6 @@
     <fullName>FLAGS__Enable_Case_Flags__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable Case Flags</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

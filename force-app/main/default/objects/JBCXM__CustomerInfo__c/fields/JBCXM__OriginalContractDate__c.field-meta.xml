@@ -3,7 +3,6 @@
     <fullName>JBCXM__OriginalContractDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Original Contract Date of the customer</description>
-    <externalId>false</externalId>
     <inlineHelpText>Customer acquisition date based on the first transaction (New Business).</inlineHelpText>
     <label>OCD</label>
     <required>false</required>

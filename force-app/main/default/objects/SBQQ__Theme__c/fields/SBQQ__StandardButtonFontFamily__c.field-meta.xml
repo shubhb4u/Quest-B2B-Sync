@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__StandardButtonFontFamily__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font family for standard buttons</inlineHelpText>
     <label>Standard Button Font Family</label>
     <required>false</required>

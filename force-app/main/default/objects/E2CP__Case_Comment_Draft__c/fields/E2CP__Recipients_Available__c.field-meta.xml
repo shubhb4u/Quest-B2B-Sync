@@ -3,7 +3,6 @@
     <fullName>E2CP__Recipients_Available__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores recipients from the New Comment page available field.</description>
-    <externalId>false</externalId>
     <label>Recipients Available</label>
     <length>8192</length>
     <trackTrending>false</trackTrending>

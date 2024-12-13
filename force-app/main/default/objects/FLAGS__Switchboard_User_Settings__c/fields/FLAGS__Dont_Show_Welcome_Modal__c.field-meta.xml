@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, this user no longer wants the welcome modal to appear on the Select View automatically.</description>
-    <externalId>false</externalId>
     <label>Dont Show Welcome Modal</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>blng__Balance__c</fullName>
     <deprecated>false</deprecated>
     <description>Balance:  Current Amount - net payments</description>
-    <externalId>false</externalId>
     <inlineHelpText>Balance:  Current Amount - net payments</inlineHelpText>
     <label>Balance</label>
     <precision>18</precision>

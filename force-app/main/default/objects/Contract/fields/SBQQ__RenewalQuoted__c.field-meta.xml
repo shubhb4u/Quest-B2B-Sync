@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Select this option to automatically generate a renewal quote on renewal opportunities.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select this option to automatically generate a renewal quote on renewal opportunities.</inlineHelpText>
     <label>Renewal Quoted</label>
     <trackFeedHistory>false</trackFeedHistory>

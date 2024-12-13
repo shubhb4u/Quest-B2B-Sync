@@ -3,7 +3,6 @@
     <fullName>SBQQ__Rule__c</fullName>
     <deprecated>false</deprecated>
     <description>Rule that runs this product action.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Rule that runs this product action.</inlineHelpText>
     <label>Rule</label>
     <referenceTo>SBQQ__ProductRule__c</referenceTo>

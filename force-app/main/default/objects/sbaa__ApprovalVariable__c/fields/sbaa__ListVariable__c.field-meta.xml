@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Approval Variable responsible for calculating Total List</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approval Variable responsible for calculating Total List</inlineHelpText>
     <label>List Variable</label>
     <referenceTo>sbaa__ApprovalVariable__c</referenceTo>

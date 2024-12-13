@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionPricing__c</fullName>
     <deprecated>false</deprecated>
     <description>Type of pricing to use for this subscription. &quot;None&quot; means this product is not a subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Type of pricing to use for this subscription. &quot;None&quot; means this product is not a subscription.</inlineHelpText>
     <label>Subscription Pricing</label>
     <required>false</required>

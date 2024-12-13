@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the Live IoT Device object</description>
-    <externalId>false</externalId>
     <label>Live IoT Device</label>
     <referenceTo>maps__LiveIoTDevice__c</referenceTo>
     <relationshipLabel>Maps Live Asset Daily Summaries</relationshipLabel>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Amount__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>blng__RefundedfromPayments__c + blng__RefundedfromCreditNoteLines__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Amount</label>

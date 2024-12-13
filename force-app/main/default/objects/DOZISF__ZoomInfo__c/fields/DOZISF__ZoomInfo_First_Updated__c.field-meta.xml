@@ -3,7 +3,6 @@
     <fullName>DOZISF__ZoomInfo_First_Updated__c</fullName>
     <deprecated>false</deprecated>
     <description>Date and time when the record was first created or updated by ZoomInfo.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date and time when the record was first created or updated by ZoomInfo.</inlineHelpText>
     <label>ZoomInfo First Updated</label>
     <required>false</required>

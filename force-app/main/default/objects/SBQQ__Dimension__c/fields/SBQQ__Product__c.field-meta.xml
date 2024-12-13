@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Product to which this Price Dimension is associated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select a Product to associate this Price Dimension with.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

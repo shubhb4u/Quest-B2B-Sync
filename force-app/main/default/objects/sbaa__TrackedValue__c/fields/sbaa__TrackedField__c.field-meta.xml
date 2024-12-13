@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Tracked Field that generated this Tracked Value</description>
-    <externalId>false</externalId>
     <inlineHelpText>Tracked Field that generated this Tracked Value</inlineHelpText>
     <label>Tracked Field</label>
     <referenceTo>sbaa__TrackedField__c</referenceTo>

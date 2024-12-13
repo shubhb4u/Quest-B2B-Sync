@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Let the user use the test walkme account</description>
-    <externalId>false</externalId>
     <label>Test_Account</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>blng__UsageSummary__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Usage Summary</label>
     <referenceTo>blng__UsageSummary__c</referenceTo>
     <relationshipLabel>Invoice Lines</relationshipLabel>

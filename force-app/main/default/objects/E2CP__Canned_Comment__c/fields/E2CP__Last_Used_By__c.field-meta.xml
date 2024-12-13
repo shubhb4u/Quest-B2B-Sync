@@ -3,7 +3,6 @@
     <fullName>E2CP__Last_Used_By__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The last User to insert this Canned Response into a comment on the New Comment page.</inlineHelpText>
     <label>Last Used By</label>
     <referenceTo>User</referenceTo>

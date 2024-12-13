@@ -3,7 +3,6 @@
     <fullName>blng__TargetDate__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Determines what gets billed.
         Active order products, usage summaries, or billing transactions with a Next Billing Date/Override Next Billing Date before or equal to the Target Date will be invoiced.</inlineHelpText>
     <label>Target Date</label>

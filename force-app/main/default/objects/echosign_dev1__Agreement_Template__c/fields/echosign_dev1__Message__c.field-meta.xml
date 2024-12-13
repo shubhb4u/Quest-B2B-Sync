@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Message__c</fullName>
     <deprecated>false</deprecated>
     <description>Enter a message that will be sent to the recipients.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter a message that will be sent to the recipients.</inlineHelpText>
     <label>Message</label>
     <length>32768</length>

@@ -5,7 +5,6 @@
     <deprecated>false</deprecated>
     <description>This is used to store the list of Revenue Band configuration details. For example the config string look like the bellow String.
 &apos;[{&quot;Name&quot;:&quot;Brand1&quot;, &quot;Min&quot;:0, &quot;Max&quot;:1000},{&quot;Name&quot;:&quot;Brand1&quot;, &quot;Min&quot;:1001, &quot;Max&quot;:3000}]&apos;.</description>
-    <externalId>false</externalId>
     <label>Revenue Band Config</label>
     <length>15000</length>
     <trackTrending>false</trackTrending>

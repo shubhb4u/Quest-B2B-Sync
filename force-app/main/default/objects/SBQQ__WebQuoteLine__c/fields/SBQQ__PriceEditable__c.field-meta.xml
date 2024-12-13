@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag indicating if this line item&apos;s price is editable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to indicate that this line item&apos;s price is editable.</inlineHelpText>
     <label>Price Editable</label>
     <trackTrending>false</trackTrending>

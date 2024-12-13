@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>SurveyId</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipName>NPSSurvey_Master</relationshipName>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Refunds__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Amount that has been refunded from this line</inlineHelpText>
     <label>Payment Unallocations</label>
     <summarizedField>blng__PaymentAllocationDebitNoteLine__c.blng__Amount__c</summarizedField>

@@ -1,0 +1,144 @@
+<!--
+  @description       :
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             :
+  @last modified on  : 12-06-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="slds-grid slds-gutters slds-wrap slds-small-flex_column q-cart-form-wrap">
+        <div class="slds-small-size_1-of-1 slds-large-size_1-of-2 column q-cart-user-info">
+            <lightning-card title="Billing Address" variant="narrow">
+                <div class="slds-p-around_medium">
+                    <lightning-input label="Company Name" placeholder="*Company" name="companyName" value={accountName}
+                        disabled></lightning-input>
+                    <div class="q-form-half">
+                        <lightning-input label="First Name" placeholder="*First Name" name="firstname"
+                            value={billingFirstName} disabled></lightning-input>
+                        <lightning-input label="Last Name" placeholder="*Last Name" name="lastname"
+                            value={billingLastName} disabled></lightning-input>
+                    </div>
+                    <lightning-input label="Street" placeholder="*Address" name="street" value={billingStreet} required
+                        onchange={handleBillingInputChange}></lightning-input>
+                    <div class="q-form-half">
+                        <lightning-input label="City" placeholder="*City" name="city" value={billingCity} required
+                            onchange={handleBillingInputChange}></lightning-input>
+                        <lightning-input label="State" placeholder="*State" name="state" value={billingState} required
+                            onchange={handleBillingInputChange}></lightning-input>
+                    </div>
+                    <lightning-input label="Postal Code" placeholder="Zip Code" name="postalCode"
+                        value={billingPostalCode} required onchange={handleBillingInputChange}></lightning-input>
+                    <div class="q-form-half">
+                        <lightning-input label="Phone" placeholder="Phone" name="phone" value={billingPhone} required
+                            onchange={handleBillingInputChange}></lightning-input>
+                        <lightning-input label="email" placeholder="*Email" name="email" value={billingEmail} required
+                            onchange={handleBillingInputChange}></lightning-input>
+                    </div>
+                </div>
+            </lightning-card>
+        </div>
+        <div class="slds-small-size_1-of-1 slds-large-size_1-of-2  q-cart-payment-info">
+            <lightning-card title="Select a payment method:">
+                <div class="slds-p-around_medium">
+                    <ul class="q-payment-types">
+                        <li class={cardClass} onclick={handlePaymentTypeSelection} data-type="card">
+                            <lightning-icon class="slds-m-bottom_x-small slds-align_absolute-center"
+                                icon-name="utility:card_details" size="large"></lightning-icon>
+                            <span>Credit Card</span>
+                        </li>
+                        <li class={poClass} onclick={handlePaymentTypeSelection} data-type="po">
+                            <lightning-icon class="slds-m-bottom_x-small slds-align_absolute-center"
+                                icon-name="utility:multi_picklist" size="large"></lightning-icon>
+                            <span>Purchase Order</span>
+                        </li>
+                        <li class={wireClass} onclick={handlePaymentTypeSelection} data-type="wire">
+                            <lightning-icon class="slds-m-bottom_x-small slds-align_absolute-center"
+                                icon-name="utility:agent_home" size="large"></lightning-icon>
+                            <span>Wire Transfer</span>
+                        </li>
+                    </ul>
+            
+                    <!-- Credit Card Section -->
+                    <template if:true={isCardSelected}>
+                        <lightning-input label="Card Number" placeholder="*Card Number" type="text" value={cardNumber}
+                            onchange={handlePaymentInputChange} name="cardNumber" required maxlength="16">
+                        </lightning-input>
+                        <div class="q-form-half">
+                            <lightning-input label="Expiration Date (MM/YY)" placeholder="*Expiration Date (MM/YY)"
+                                type="text" value={expiryDate} onchange={handlePaymentInputChange} name="expiryDate"
+                                required maxlength="5" pattern="^(0[1-9]|1[0-2])\/\d{2}$"
+                                message-when-pattern-mismatch="Enter a valid expiration date in MM/YY format.">
+                            </lightning-input>
+                            <lightning-input label="CVV" placeholder="*CVV" type="password" value={cvv}
+                                onchange={handlePaymentInputChange} name="cvv" required maxlength="4">
+                            </lightning-input>
+                        </div>
+                    </template>
+            
+                    <!-- Purchase Order Section -->
+                    <template if:true={isPOSelected}>
+                        <lightning-input lwc:ref="poInput"  name="po-number" label="PO Number" onchange={handlePOChange}
+                            placeholder="PO Number" required>
+                        </lightning-input>
+                    </template>
+                </div>
+            </lightning-card>
+            
+        </div>
+    </div>
+    <!-- <div class="slds-p-top_large slds-p-bottom_small">
+        <lightning-input type="checkbox" label="Separate Delivery Address" checked={separateDeliveryAddress}
+            onchange={toggleDeliveryAddress}></lightning-input>
+    </div> -->
+
+    <template if:true={separateDeliveryAddress}>
+        <c-checkout-shipping-form data-id="childComponent"
+            onshippingchange={handleShippingChange}></c-checkout-shipping-form>
+    </template>
+
+    <!-- The below to be changed to lighting comp after functionality defined -->
+    <form id="termsForm">
+        <div class="q-cart-terms">
+            <h4>Terms &amp; Conditions</h4>
+
+            <!-- First checkbox -->
+            <div class="input-wrapper">
+                <label>
+                    <input type="checkbox" name="terms" required>
+                    &nbsp;
+                    I read, understand, and accept that my purchase and use of the Products are governed by
+                    <span class="terms-links">
+                        <a href="/" target="_blank"> Software Transaction Agreement</a>,
+                        <a href=" /" target="_blank"> Software Transaction Agreement</a>,
+
+                        <a href="/" target="_blank"> SaaS Addendum</a>, and the applicable terms and conditions of the
+                        Product Guide, located at
+                        <a href="/" target="_blank"> https://www.quest.com/docs/product-guide-legal-68056.pdf</a>.
+                    </span>
+                </label>
+
+            </div>
+
+            <!-- Second checkbox -->
+            <div class="input-wrapper">
+                <label>
+                    <input type="checkbox" name="terms2" required>
+                    &nbsp;
+                    I agree that Provider, or its designated auditing agent, may verify my (and/or my organization’s)
+                    deployment of the Products for compliance with the terms and conditions that govern and are a part
+                    of my purchase.
+                </label>
+            </div>
+
+        </div>
+    </form>
+    <template if:true={errors}>
+        <div class="error" style="font-weight: 400; color: #CC0F08;">{errors}</div>
+    </template>
+    <div class="q-cart-terms-cta">
+        <lightning-button label="Review Details" variant="base" onclick={handleReviewDetails}
+            class="q-cta"></lightning-button>
+        <lightning-button disabled="true" label="Complete Your Order" class="q-cta" variant="base">
+        </lightning-button>
+    </div>
+</template>

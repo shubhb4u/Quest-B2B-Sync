@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Optional field that makes this rule specific to the product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose a product to associate to this rule.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

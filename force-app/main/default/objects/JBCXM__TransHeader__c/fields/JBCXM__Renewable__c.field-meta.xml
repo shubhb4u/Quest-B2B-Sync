@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>All transactions that have recurring component are renewable. Transaction that have only a fixed revenue component are not renewable</description>
-    <externalId>false</externalId>
     <inlineHelpText>All transactions that have recurring component are renewable. Transaction that have only a fixed revenue component are not renewable</inlineHelpText>
     <label>Renewable</label>
     <trackTrending>false</trackTrending>

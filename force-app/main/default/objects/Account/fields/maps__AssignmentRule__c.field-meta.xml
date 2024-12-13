@@ -3,7 +3,6 @@
     <fullName>maps__AssignmentRule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Assignment Rule</label>
     <referenceTo>maps__AssignmentRule__c</referenceTo>
     <relationshipLabel>Accounts</relationshipLabel>

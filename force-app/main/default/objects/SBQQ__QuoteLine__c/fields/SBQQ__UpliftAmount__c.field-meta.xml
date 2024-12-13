@@ -3,7 +3,6 @@
     <fullName>SBQQ__UpliftAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Uplift (Amt) is measured as a currency amount. This is a system-calculated field, as Uplift can only be applied to MDQ segments in percent.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Uplift (Amt) is measured as a currency amount. This is a system-calculated field, as Uplift can only be applied to MDQ segments in percent.</inlineHelpText>
     <label>Uplift (Amt)</label>
     <precision>12</precision>

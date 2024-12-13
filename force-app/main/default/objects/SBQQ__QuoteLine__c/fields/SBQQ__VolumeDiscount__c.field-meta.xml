@@ -3,7 +3,6 @@
     <fullName>SBQQ__VolumeDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount schedules allow you to specify volume discounts based on a percentage of the product&apos;s price to be discounted using the quantity purchased or term. You can set the quantity or term ranges in tiers of different discount percentages. You can also apply discount schedules to Subscription Term.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify volume discounts based on a % of the product&apos;s price to be discounted using the quantity purchased or term. You can set the quantity or term ranges in tiers of different discount %. You can also apply discount schedules to Subscription Term.</inlineHelpText>
     <label>Volume Discount</label>
     <precision>14</precision>

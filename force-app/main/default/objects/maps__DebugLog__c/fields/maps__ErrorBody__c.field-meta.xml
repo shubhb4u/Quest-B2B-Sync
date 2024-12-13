@@ -3,7 +3,6 @@
     <fullName>maps__ErrorBody__c</fullName>
     <deprecated>false</deprecated>
     <description>This holds information about the error and hopefully some way of identifying where the error occurred.</description>
-    <externalId>false</externalId>
     <label>Error Body</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

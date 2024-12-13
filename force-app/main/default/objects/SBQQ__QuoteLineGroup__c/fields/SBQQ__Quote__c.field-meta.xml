@@ -3,7 +3,6 @@
     <fullName>SBQQ__Quote__c</fullName>
     <deprecated>false</deprecated>
     <description>Quote to which this group belongs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote to which this group belongs.</inlineHelpText>
     <label>Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

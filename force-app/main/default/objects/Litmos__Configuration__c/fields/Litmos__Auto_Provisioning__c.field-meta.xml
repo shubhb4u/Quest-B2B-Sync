@@ -3,7 +3,6 @@
     <fullName>Litmos__Auto_Provisioning__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Auto Provisioning</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

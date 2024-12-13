@@ -3,7 +3,6 @@
     <fullName>SBQQ__ContractCoTermination__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how service and subscription contracts for this customer are co-terminated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how service and subscription contracts for this customer are co-terminated.</inlineHelpText>
     <label>Contract Co-Termination</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>maps__Active__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Is the Asset currently an active inventory/fleet item?</inlineHelpText>
     <label>Active</label>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>blng__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The ending date for the period of calculation of this charge. Applicable only to Recurring Charges.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The last day of the billing period.</inlineHelpText>
     <label>End Date</label>
     <required>false</required>

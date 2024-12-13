@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>A sales rep has viewed this pricing guidance in the quote line editor.</description>
-    <externalId>false</externalId>
     <label>Viewed</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

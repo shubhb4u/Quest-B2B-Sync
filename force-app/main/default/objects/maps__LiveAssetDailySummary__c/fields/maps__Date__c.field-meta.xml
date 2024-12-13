@@ -3,7 +3,6 @@
     <fullName>maps__Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Date and time report generated</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date that this summary applies to</inlineHelpText>
     <label>Summary Date</label>
     <required>false</required>

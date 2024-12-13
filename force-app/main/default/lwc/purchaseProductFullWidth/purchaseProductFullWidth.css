@@ -1,7 +1,7 @@
 .q-hero-top {
   display: flex;
   margin: 30px 0;
-  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.16);
+  /* box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.16); */
   border-radius: 10px;
 }
 
@@ -233,7 +233,7 @@
 }
 .q-buynow-cta{
  color: #fff;
-}
+ }
 
 .q-award-panel{
  .q-cta-orange{
@@ -243,4 +243,23 @@
  .q-cta-orange:hover{
    text-decoration: none;
  }
+}
+
+
+@media (max-width: 479px){
+  .q-award-panel{
+    .q-hero-text{
+      text-align: center;
+    }
+    .q-hero-img{
+      margin: 40px 20px 0;
+    }
+  }
+  .q-product-boxes{
+    margin: 20px 20px 40px 20px;
+  }
+  .q-buynow-cta{
+    justify-content: center;
+    display: flex;
+  }
 }

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Set this field to force the basic Adobe Acrobat Sign agreement and advanced Adobe Acrobat Sign agreement pages to rebuild the related Recipient List using the Lookup fields on the Agreement record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set this field to force the basic Adobe Acrobat Sign agreement and advanced Adobe Acrobat Sign agreement pages to rebuild the related Recipient List using the Lookup fields on the Agreement record.</inlineHelpText>
     <label>Rebuild Recipient List</label>
     <trackFeedHistory>false</trackFeedHistory>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls whether Rollup Helper will deduplicate multipicklist values when rolling them up</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether Rollup Helper will deduplicate multipicklist values when rolling them up</inlineHelpText>
     <label>Dedup Flag</label>
     <trackFeedHistory>false</trackFeedHistory>

@@ -1,0 +1,85 @@
+.order-summary{
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    margin: 0;
+}
+
+.cart-full-content{
+    border-top: 1px solid #f0f0f0;
+    /* padding-left: 40px; */
+    padding-top: 20px;
+    /* width: 340px; */
+}
+
+.cart-item, .cart-total-tax{
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    padding-bottom: 8px;
+    display: flex;   
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-grand-total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: #707070;
+    align-items: center;
+}
+
+.grand-total-amount{
+    font-size: 38px;
+    font-weight: bold;
+    color: #3e831c;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.cart-item__details{
+    display: contents;
+}
+
+.heading-product-name{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+.cart-items{
+    margin-top: 30px;
+}
+
+.cart-item__unit-price {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.cart-coupon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    color: #707070;
+}
+
+.coupon-input{
+    border: 1px solid #aaa;
+    width: 60%;
+    height: 33px;
+}

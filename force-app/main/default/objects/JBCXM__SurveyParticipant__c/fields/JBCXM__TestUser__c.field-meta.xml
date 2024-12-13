@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>To check whether participant is test user or not</description>
-    <externalId>false</externalId>
     <label>Test User</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__GroupFontFamily__c</fullName>
     <deprecated>false</deprecated>
     <description>Family of the font that should be applied to Group title text in this template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Family of the font that should be applied to Group title text in this template.</inlineHelpText>
     <label>Group Font Family</label>
     <required>false</required>

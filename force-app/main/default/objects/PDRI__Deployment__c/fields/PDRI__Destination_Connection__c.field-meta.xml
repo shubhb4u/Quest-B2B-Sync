@@ -3,7 +3,6 @@
     <fullName>PDRI__Destination_Connection__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Destination Connection</label>
     <referenceTo>PDRI__Connection__c</referenceTo>
     <relationshipLabel>Deployments (Destination Connection)</relationshipLabel>

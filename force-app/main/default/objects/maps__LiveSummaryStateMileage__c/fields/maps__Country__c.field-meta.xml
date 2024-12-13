@@ -3,7 +3,6 @@
     <fullName>maps__Country__c</fullName>
     <deprecated>false</deprecated>
     <description>The 3 character country code</description>
-    <externalId>false</externalId>
     <inlineHelpText>The 3 character country code</inlineHelpText>
     <label>Country</label>
     <required>false</required>

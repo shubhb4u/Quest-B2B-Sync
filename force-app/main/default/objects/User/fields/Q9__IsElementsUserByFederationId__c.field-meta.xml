@@ -3,7 +3,6 @@
     <fullName>Q9__IsElementsUserByFederationId__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Elements User By FederationId</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

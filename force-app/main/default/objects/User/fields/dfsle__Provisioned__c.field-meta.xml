@@ -3,7 +3,6 @@
     <fullName>dfsle__Provisioned__c</fullName>
     <deprecated>false</deprecated>
     <description>Date when the user was added to the account</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date provisioned</inlineHelpText>
     <label>DocuSign Provisioned Date</label>
     <required>false</required>

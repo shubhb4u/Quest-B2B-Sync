@@ -3,7 +3,6 @@
     <fullName>JBCXM__C360SectionId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>C360 Sections</label>
     <referenceTo>JBCXM__C360Sections__c</referenceTo>
     <relationshipLabel>User state preservation</relationshipLabel>

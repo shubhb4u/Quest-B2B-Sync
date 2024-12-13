@@ -3,7 +3,6 @@
     <fullName>SBQQ__PricingMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how the price for this line item is set. List means it&apos;s calculated by subtracting discount from list price. Cost means it&apos;s calculated by adding markup to cost.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates how the price for this line item is calculated: List, by subtracting discount from list price or Cost, by adding markup to cost.</inlineHelpText>
     <label>Pricing Method</label>
     <required>false</required>

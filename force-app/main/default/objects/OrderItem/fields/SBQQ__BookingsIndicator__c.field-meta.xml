@@ -3,7 +3,6 @@
     <fullName>SBQQ__BookingsIndicator__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates whether bookings are included.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether bookings are included.</inlineHelpText>
     <label>Bookings Indicator</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Required__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates whether the attributes requires a value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Required</label>
     <required>false</required>

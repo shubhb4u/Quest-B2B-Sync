@@ -3,7 +3,6 @@
     <fullName>JBCXM__InRelationship360__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>InRelationship360</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

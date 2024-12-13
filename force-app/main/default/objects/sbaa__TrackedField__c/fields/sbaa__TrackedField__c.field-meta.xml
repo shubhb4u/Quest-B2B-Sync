@@ -3,7 +3,6 @@
     <fullName>sbaa__TrackedField__c</fullName>
     <deprecated>false</deprecated>
     <description>A Field (on a Tracked Object) that is being tracked</description>
-    <externalId>false</externalId>
     <inlineHelpText>A Field (on a Tracked Object) that is being tracked</inlineHelpText>
     <label>Tracked Field</label>
     <required>false</required>

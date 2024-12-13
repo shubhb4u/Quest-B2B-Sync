@@ -3,7 +3,6 @@
     <fullName>sbaa__ApprovalRule__c</fullName>
     <deprecated>false</deprecated>
     <description>Rule to which this Condition applies.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Rule to which this Condition applies.</inlineHelpText>
     <label>Approval Rule</label>
     <referenceTo>sbaa__ApprovalRule__c</referenceTo>

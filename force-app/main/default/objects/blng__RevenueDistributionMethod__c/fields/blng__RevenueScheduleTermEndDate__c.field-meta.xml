@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RevenueScheduleTermEndDate__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>End date can be based on the object&apos;s end date or entered manually. For full recognition,
         set it to None.</inlineHelpText>
     <label>Revenue Schedule Term End Date</label>

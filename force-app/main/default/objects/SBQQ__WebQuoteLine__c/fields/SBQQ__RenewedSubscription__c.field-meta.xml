@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Subscription being renewed by this quote line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription being renewed by this quote line.</inlineHelpText>
     <label>Renewed Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

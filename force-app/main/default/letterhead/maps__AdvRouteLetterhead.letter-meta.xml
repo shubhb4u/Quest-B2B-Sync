@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Letterhead xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <backgroundColor>#3472d9</backgroundColor>
+    <bodyColor>#FFFFFF</bodyColor>
+    <bottomLine>
+        <color>#3472d9</color>
+        <height>0</height>
+    </bottomLine>
+    <description>This will be the base letterhead template for the Advanced Route product</description>
+    <footer>
+        <backgroundColor>#3472d9</backgroundColor>
+        <height>0</height>
+        <horizontalAlignment>Left</horizontalAlignment>
+        <verticalAlignment>Top</verticalAlignment>
+    </footer>
+    <header>
+        <backgroundColor>#3472d9</backgroundColor>
+        <height>100</height>
+        <horizontalAlignment>Center</horizontalAlignment>
+        <verticalAlignment>Middle</verticalAlignment>
+    </header>
+    <middleLine>
+        <color>#3472d9</color>
+        <height>0</height>
+    </middleLine>
+    <name>Maps Advanced Route Letterhead</name>
+    <topLine>
+        <color>#3472d9</color>
+        <height>5</height>
+    </topLine>
+</Letterhead>

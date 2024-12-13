@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Opportunity from which this Contract was created.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Opportunity from which this Contract was created.</inlineHelpText>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>

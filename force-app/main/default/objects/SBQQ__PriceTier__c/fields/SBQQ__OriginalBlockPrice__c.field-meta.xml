@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The block price where this price tier is originated from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The block price where this price tier is originated from.</inlineHelpText>
     <label>Original Block Price</label>
     <referenceTo>SBQQ__BlockPrice__c</referenceTo>

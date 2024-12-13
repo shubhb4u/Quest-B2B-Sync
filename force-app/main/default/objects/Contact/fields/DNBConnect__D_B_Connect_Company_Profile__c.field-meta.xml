@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Upon a successful match, D&amp;B Connect populates this field that links the Contact record to a specific D-U-N-S Number for display of a custom object with D&amp;B data.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Upon a successful match, D&amp;B Connect populates this field that links the Contact record to a specific D-U-N-S Number for display of a custom object with D&amp;B data.</inlineHelpText>
     <label>D&amp;B Connect Company Profile</label>
     <referenceTo>DNBConnect__D_B_Connect_Company_Profile__c</referenceTo>

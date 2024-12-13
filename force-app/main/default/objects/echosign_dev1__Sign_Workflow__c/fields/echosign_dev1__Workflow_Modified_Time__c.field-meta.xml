@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Workflow_Modified_Time__c</fullName>
     <deprecated>false</deprecated>
     <description>Sign Workflow Modification Time and Date</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sign Workflow Modification Time and Date</inlineHelpText>
     <label>Workflow Modified Time</label>
     <required>false</required>

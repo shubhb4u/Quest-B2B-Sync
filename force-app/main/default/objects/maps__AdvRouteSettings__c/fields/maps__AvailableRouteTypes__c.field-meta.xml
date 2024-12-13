@@ -3,7 +3,6 @@
     <fullName>maps__AvailableRouteTypes__c</fullName>
     <deprecated>false</deprecated>
     <description>These are the selected route types</description>
-    <externalId>false</externalId>
     <label>Available Route Types</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

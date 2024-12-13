@@ -3,7 +3,6 @@
     <fullName>SBQQ__GroupField__c</fullName>
     <deprecated>false</deprecated>
     <description>Contains the values you want to use when grouping and subtotaling line items.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the field that has the values you want to use when grouping and subtotaling line items.</inlineHelpText>
     <label>Group Field</label>
     <required>false</required>

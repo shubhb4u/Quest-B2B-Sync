@@ -3,7 +3,6 @@
     <fullName>SBQQ__FilterSourceObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object that sources value for use in filtering.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Object that sources value for use in filtering.</inlineHelpText>
     <label>Filter Source Object</label>
     <required>false</required>

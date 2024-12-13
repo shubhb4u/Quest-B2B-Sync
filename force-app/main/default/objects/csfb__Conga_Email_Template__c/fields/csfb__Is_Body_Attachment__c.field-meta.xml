@@ -3,7 +3,6 @@
     <fullName>csfb__Is_Body_Attachment__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>When enabled, Conga Composer stores the body of the HTML template as an attachment, rather than in the Rich Text field.</inlineHelpText>
     <label>Use attachment for template body</label>
     <trackTrending>false</trackTrending>

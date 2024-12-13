@@ -3,7 +3,6 @@
     <fullName>JBCXM__RenewalStatus__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Renewal Status</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>GSRenewal Status</relationshipLabel>

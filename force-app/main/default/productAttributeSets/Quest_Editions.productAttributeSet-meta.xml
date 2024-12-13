@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductAttributeSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <developerName>Quest_Editions</developerName>
+    <masterLabel>Quest Editions</masterLabel>
+    <productAttributeSetItems>
+        <field>Quest_Editions__c</field>
+        <sequence>0</sequence>
+    </productAttributeSetItems>
+</ProductAttributeSet>

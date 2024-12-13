@@ -3,7 +3,6 @@
     <fullName>PDRI__Folder__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Specifies an optional folder that contains the data set.</inlineHelpText>
     <label>Folder</label>
     <referenceTo>PDRI__Folder__c</referenceTo>

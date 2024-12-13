@@ -3,7 +3,6 @@
     <fullName>SBQQ__OrderProductBookings__c</fullName>
     <deprecated>false</deprecated>
     <description>Amount of the order product’s total price.</description>
-    <externalId>false</externalId>
     <formula>IF( ISPICKVAL(SBQQ__BookingsIndicator__c  , &apos;Include&apos;) , UnitPrice * Quantity , 0)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Amount of the order product’s total price.</inlineHelpText>

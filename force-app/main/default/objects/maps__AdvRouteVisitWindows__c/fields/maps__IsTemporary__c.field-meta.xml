@@ -3,7 +3,6 @@
     <fullName>maps__IsTemporary__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Is Temporary</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

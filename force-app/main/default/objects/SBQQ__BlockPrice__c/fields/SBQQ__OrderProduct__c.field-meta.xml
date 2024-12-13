@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The order product this Block Price applies to when the order product is created.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The order product this Block Price applies to when the order product is created.</inlineHelpText>
     <label>Order Product</label>
     <referenceTo>OrderItem</referenceTo>

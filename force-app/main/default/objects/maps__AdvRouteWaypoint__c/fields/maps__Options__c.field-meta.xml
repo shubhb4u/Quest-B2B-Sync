@@ -3,7 +3,6 @@
     <fullName>maps__Options__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a json object of options being passed around in Core</description>
-    <externalId>false</externalId>
     <label>Options</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

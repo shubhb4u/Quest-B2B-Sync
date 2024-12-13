@@ -3,7 +3,6 @@
     <fullName>blng__GLTreatment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>GL Treatment</label>
     <referenceTo>blng__GLTreatment__c</referenceTo>
     <relationshipLabel>Refunds</relationshipLabel>

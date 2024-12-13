@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lead Lookup Field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lead Lookup Field.</inlineHelpText>
     <label>Lead</label>
     <referenceTo>Lead</referenceTo>

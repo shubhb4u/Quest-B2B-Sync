@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyQuestion__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the question on which rules are applied</description>
-    <externalId>false</externalId>
     <label>SurveyQuestion</label>
     <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
     <relationshipLabel>SurveyLogicRulesQuestion</relationshipLabel>

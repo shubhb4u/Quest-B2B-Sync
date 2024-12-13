@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Summary variable that filters this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the Summary Variable you want this condition to use as a filter.</inlineHelpText>
     <label>Filter Variable</label>
     <referenceTo>SBQQ__SummaryVariable__c</referenceTo>

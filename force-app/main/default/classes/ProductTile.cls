@@ -40,6 +40,21 @@ public without sharing class ProductTile {
         return productList; 
     }
 
+    @AuraEnabled(cacheable=true)
+    public static String getCategoryName(String catId) {
 
+        if (String.isBlank(catId)) {
+            return null;
+        }
+
+        ProductCategory category = [
+            SELECT Name 
+            FROM ProductCategory 
+            WHERE Id = :catId
+            LIMIT 1
+        ];
+
+        return category != null ? category.Name : null;
+    }
 
 }

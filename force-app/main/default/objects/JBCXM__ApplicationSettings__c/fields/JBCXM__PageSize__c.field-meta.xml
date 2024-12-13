@@ -3,7 +3,6 @@
     <fullName>JBCXM__PageSize__c</fullName>
     <deprecated>false</deprecated>
     <description>To hold the page sizes of grids across the app.</description>
-    <externalId>false</externalId>
     <label>PageSize</label>
     <length>5000</length>
     <trackTrending>false</trackTrending>

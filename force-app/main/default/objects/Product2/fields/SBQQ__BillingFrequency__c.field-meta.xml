@@ -3,7 +3,6 @@
     <fullName>SBQQ__BillingFrequency__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how often this product will be invoiced.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how often this product will be invoiced.</inlineHelpText>
     <label>Billing Frequency</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to show Digital Identity authentication option for verifying recipient identity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to show Digital Identity authentication option for verifying recipient identity.</inlineHelpText>
     <label>Enable Digital Identity Authentication</label>
     <trackTrending>false</trackTrending>

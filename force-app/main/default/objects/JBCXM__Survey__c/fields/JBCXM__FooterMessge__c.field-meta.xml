@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__FooterMessge__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>FooterMessge</label>
     <length>400</length>
     <trackTrending>false</trackTrending>

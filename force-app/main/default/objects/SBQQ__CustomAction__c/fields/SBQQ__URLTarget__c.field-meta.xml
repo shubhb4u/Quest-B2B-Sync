@@ -3,7 +3,6 @@
     <fullName>SBQQ__URLTarget__c</fullName>
     <deprecated>false</deprecated>
     <description>Method of navigating to the URL.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Method of navigating to the URL.</inlineHelpText>
     <label>URL Target</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__RuleDescription__c</fullName>
     <deprecated>false</deprecated>
     <description>Rule description is stored here.</description>
-    <externalId>false</externalId>
     <label>Rule Description</label>
     <length>2500</length>
     <trackTrending>false</trackTrending>

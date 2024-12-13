@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__CreditNoteLineNetAllocations__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>blng__CreditNoteLineAllocations__c -  blng__CreditNoteLineUnallocations__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Credit Note Line Net Allocations</label>

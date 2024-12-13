@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Workflow_Content__c</fullName>
     <deprecated>false</deprecated>
     <description>Sign Workflow Content in JSON String Format</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sign Workflow Content in JSON String Format</inlineHelpText>
     <label>Workflow Content</label>
     <length>131072</length>

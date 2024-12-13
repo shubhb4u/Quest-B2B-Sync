@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks the entire group as optional.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Marks the entire group as optional.</inlineHelpText>
     <label>Optional</label>
     <trackHistory>false</trackHistory>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Recipients marked as form-fillers fill the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Recipients marked as form-fillers fill the document.</inlineHelpText>
     <label>Enable Form Filler Role</label>
     <trackTrending>false</trackTrending>

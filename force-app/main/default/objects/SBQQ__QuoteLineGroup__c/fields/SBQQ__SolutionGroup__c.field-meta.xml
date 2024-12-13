@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Solution group from which this quote group was generated (if any).</description>
-    <externalId>false</externalId>
     <inlineHelpText>Solution group from which this quote group was generated (if any).</inlineHelpText>
     <label>Solution Group</label>
     <referenceTo>SBQQ__SolutionGroup__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>Litmos__Contact_Field__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Contact Field</label>
     <referenceTo>Litmos__Contact_Field__c</referenceTo>
     <relationshipLabel>Contact Fields Map</relationshipLabel>

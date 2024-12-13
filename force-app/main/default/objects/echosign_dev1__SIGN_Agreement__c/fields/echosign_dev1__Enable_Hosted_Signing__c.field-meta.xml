@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Host signing to get in-person signatures from your computer or device.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Host signing to get in-person signatures from your computer or device.</inlineHelpText>
     <label>Host signing for the first signer</label>
     <trackFeedHistory>false</trackFeedHistory>

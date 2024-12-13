@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfigurationFields__c</fullName>
     <deprecated>false</deprecated>
     <description>Additional fields collected during configuration of this product. All of these fields must exist on Product Option and Quote Line objects.</description>
-    <externalId>false</externalId>
     <label>Configuration Fields</label>
     <length>10000</length>
     <trackHistory>false</trackHistory>

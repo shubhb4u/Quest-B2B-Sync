@@ -3,7 +3,6 @@
     <fullName>blng__BalanceSnapshotRunCreatedBy__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Balance Snapshot Run (Created By)</label>
     <referenceTo>blng__BalanceSnapShotRun__c</referenceTo>
     <relationshipLabel>Account Balance Snapshot</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>csfb__Conga_Email_Template__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Conga Email Template</label>
     <referenceTo>csfb__Conga_Email_Template__c</referenceTo>
     <relationshipLabel>Conga Solution Email Templates</relationshipLabel>

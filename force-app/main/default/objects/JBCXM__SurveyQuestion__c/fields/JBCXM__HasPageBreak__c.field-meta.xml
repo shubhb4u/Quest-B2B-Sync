@@ -3,7 +3,6 @@
     <fullName>JBCXM__HasPageBreak__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Has Page Break</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -1,0 +1,169 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "bottom" : "1rem",
+              "left" : "0rem",
+              "right" : "",
+              "top" : ""
+            }
+          }
+        },
+        "id" : "2872a758-f3f8-44f6-87ad-e05096411db9"
+      }, {
+        "id" : "9a73ee5a-5fee-4a90-a291-9c77f9865cc9",
+        "attributes" : {
+          "columnVerticalAlign" : "flex-start",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "2rem",
+              "left" : "1.8rem",
+              "bottom" : "",
+              "right" : ""
+            },
+            "padding" : {
+              "top" : "",
+              "left" : "0px",
+              "bottom" : "",
+              "right" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "a7a1486f-0eeb-4050-a4c4-a32b92163b55",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "20px",
+              "left" : "16px",
+              "right" : "16px",
+              "top" : "16px"
+            },
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "15px",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "baeaf126-4d45-40a4-803c-451f83c9f046",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "20px",
+              "left" : "16px",
+              "right" : "16px",
+              "top" : "16px"
+            },
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "15px",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "90e5b0e8-15e2-42e8-8b3a-c1f8251f5b49",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "bottom" : "20px",
+              "left" : "16px",
+              "right" : "16px",
+              "top" : "16px"
+            },
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "15px",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "71f3dd30-9e74-4707-a0f9-fd4d970f6968",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "2rem"
+            }
+          }
+        }
+      }, {
+        "id" : "8b0cab66-711f-4edc-a117-de67f5006fa6",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "0rem",
+              "right" : "1rem",
+              "bottom" : "0rem",
+              "left" : "1rem"
+            }
+          },
+          "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}"
+        }
+      }, {
+        "id" : "359eff48-9191-4fab-8052-5802b1c92a9f",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "1.5rem",
+              "right" : "2rem",
+              "bottom" : "3rem",
+              "left" : "2rem"
+            }
+          },
+          "textDisplayInfo" : "{\"textStyle\":\"heading-small\",\"headingTag\":\"h4\"}"
+        }
+      }, {
+        "id" : "ea60982f-8818-4c5c-9d54-fada6eefb834",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "e6262dd4-6d81-4e89-b184-c8543f153569",
+        "attributes" : {
+          "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h1\"}"
+        }
+      }, {
+        "id" : "ff28e98a-0632-482d-8db1-757c237cc187",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "30px"
+            }
+          }
+        }
+      }, {
+        "id" : "66c6fe3c-e693-4442-89a0-d819ffeb7fd9",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "30px"
+            }
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "product"
+}

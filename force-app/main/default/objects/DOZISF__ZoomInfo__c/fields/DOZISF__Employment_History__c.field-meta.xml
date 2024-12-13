@@ -3,7 +3,6 @@
     <fullName>DOZISF__Employment_History__c</fullName>
     <deprecated>false</deprecated>
     <description>A person&apos;s history of employment.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A person&apos;s history of employment.</inlineHelpText>
     <label>Employment History</label>
     <length>131072</length>

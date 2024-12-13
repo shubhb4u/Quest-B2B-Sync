@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupProductField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Lookup Object corresponding to Product Action Product Lookup. Field must be a lookup to the Product object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Lookup Object corresponding to Product Action Product Lookup. Field must be a lookup to the Product object.</inlineHelpText>
     <label>Lookup Product Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__AppliedImmediatelyContext__c</fullName>
     <deprecated>false</deprecated>
     <description>&apos;Apply Immediately on Select&apos; applies changes immediately on selection of product, whereas &apos;Apply Immediately on Quantity Change&apos; does that on change of quantity. &apos;Always&apos; applies changes both the times, on selection of product and on change of quantity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>&apos;Apply Immediately on Select&apos; applies changes immediately on selection of product, whereas &apos;Apply Immediately on Quantity Change&apos; does that on change of quantity. &apos;Always&apos; applies changes both the times, on selection of product and on change of quantity.</inlineHelpText>
     <label>Apply Immediately Context</label>
     <required>false</required>

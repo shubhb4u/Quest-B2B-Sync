@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates that related product is bundled with the main product. Bundled options have fixed quantity and zero price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to indicate that the related product is bundled with the main product. Bundled options have fixed quantity and zero price as price is included in the main product. Leave this unchecked if the price should be added to the option.</inlineHelpText>
     <label>Bundled</label>
     <trackTrending>false</trackTrending>

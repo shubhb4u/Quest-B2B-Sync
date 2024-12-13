@@ -3,7 +3,6 @@
     <fullName>DOZISF__Certification_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Last time we either saw email activity or manually confirmed company is in business.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Last time we either saw email activity or manually confirmed company is in business.</inlineHelpText>
     <label>Certification Date</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>sbaa__Approval__c</fullName>
     <deprecated>false</deprecated>
     <description>Related Approval for the stored Snapshot</description>
-    <externalId>false</externalId>
     <inlineHelpText>Related Approval for the stored Snapshot</inlineHelpText>
     <label>Approval</label>
     <referenceTo>sbaa__Approval__c</referenceTo>

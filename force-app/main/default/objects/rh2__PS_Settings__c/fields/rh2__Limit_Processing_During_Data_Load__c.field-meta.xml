@@ -3,7 +3,6 @@
     <fullName>rh2__Limit_Processing_During_Data_Load__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>This field is deprecated.</inlineHelpText>
     <label>zDeprecated</label>
     <trackTrending>false</trackTrending>

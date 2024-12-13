@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description of the Custom Action which will appear when users hover over the button.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the value for what you want to appear when a user hovers over the Custom Action button.</inlineHelpText>
     <label>Description</label>
     <required>false</required>

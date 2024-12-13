@@ -3,7 +3,6 @@
     <fullName>JBCXM__Objective__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Objective</label>
     <referenceTo>JBCXM__CTA__c</referenceTo>
     <relationshipName>SPSharingAssociations</relationshipName>

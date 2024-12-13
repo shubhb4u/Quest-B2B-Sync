@@ -3,7 +3,6 @@
     <fullName>SBQQ__RegularPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Unit price before additional discount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unit price before additional discount.</inlineHelpText>
     <label>Regular Unit Price</label>
     <precision>14</precision>

@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Enable_Participation_Sets__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to create/update Participation Sets (Deprecated)</inlineHelpText>
     <label>Deprecated</label>
     <trackTrending>false</trackTrending>

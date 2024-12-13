@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>For MDQ products, this allows each segment to be priced independently.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For MDQ products, each segment will be priced independently.</inlineHelpText>
     <label>Price Dimension</label>
     <referenceTo>SBQQ__Dimension__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__LastSavedOn__c</fullName>
     <deprecated>false</deprecated>
     <description>The date and time this quote was last saved.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date and time this quote was last saved.</inlineHelpText>
     <label>Last Saved On</label>
     <required>false</required>

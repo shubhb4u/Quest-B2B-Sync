@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>To check whether the feature(module) enabled or not.</description>
-    <externalId>false</externalId>
     <label>Enabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

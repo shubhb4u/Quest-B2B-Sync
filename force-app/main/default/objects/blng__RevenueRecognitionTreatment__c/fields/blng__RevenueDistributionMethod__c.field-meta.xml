@@ -3,7 +3,6 @@
     <fullName>blng__RevenueDistributionMethod__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Revenue distribution method used for assigning review across periods</inlineHelpText>
     <label>Revenue Distribution Method</label>
     <lookupFilter>

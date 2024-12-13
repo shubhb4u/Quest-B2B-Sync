@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>New Comment page email template has a user specified value.</description>
-    <externalId>false</externalId>
     <label>Template Locked</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

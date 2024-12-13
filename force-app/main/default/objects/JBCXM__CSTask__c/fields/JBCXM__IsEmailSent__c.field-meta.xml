@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether email is sent from Cockpit for this task.</description>
-    <externalId>false</externalId>
     <label>Is Email Sent</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

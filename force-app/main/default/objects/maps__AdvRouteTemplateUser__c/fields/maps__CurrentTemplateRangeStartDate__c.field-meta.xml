@@ -3,7 +3,6 @@
     <fullName>maps__CurrentTemplateRangeStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the start date of the current template range for a repeating template</description>
-    <externalId>false</externalId>
     <label>Current Template Range Start Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

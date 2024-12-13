@@ -3,7 +3,6 @@
     <fullName>PDRI__Destination_Schema_Org__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Destination Schema Org</label>
     <referenceTo>PDRI__Connection__c</referenceTo>
     <relationshipLabel>Data Sets (Destination Schema Org)</relationshipLabel>

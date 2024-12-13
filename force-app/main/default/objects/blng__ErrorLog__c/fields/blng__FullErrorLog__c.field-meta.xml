@@ -3,7 +3,6 @@
     <fullName>blng__FullErrorLog__c</fullName>
     <deprecated>false</deprecated>
     <description>Actual message of the exception.</description>
-    <externalId>false</externalId>
     <label>Full Error Log</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

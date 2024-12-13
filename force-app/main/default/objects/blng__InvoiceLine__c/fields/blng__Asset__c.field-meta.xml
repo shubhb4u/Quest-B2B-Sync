@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The item related to the invoice line.</description>
-    <externalId>false</externalId>
     <label>Asset</label>
     <referenceTo>Asset</referenceTo>
     <relationshipLabel>Invoice Lines</relationshipLabel>

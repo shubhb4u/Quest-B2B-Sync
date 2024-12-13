@@ -3,7 +3,6 @@
     <fullName>rh2__Prevent_Merge__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Prevent_Merge</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>Q9__ErrorLog__c</fullName>
     <deprecated>false</deprecated>
     <description>Description</description>
-    <externalId>false</externalId>
     <label>Error Log</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

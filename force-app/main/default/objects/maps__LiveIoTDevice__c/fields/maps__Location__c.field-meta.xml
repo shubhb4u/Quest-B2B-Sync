@@ -3,7 +3,6 @@
     <fullName>maps__Location__c</fullName>
     <deprecated>false</deprecated>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <inlineHelpText>Geo-location of last position received.</inlineHelpText>
     <label>Last Position</label>
     <required>false</required>

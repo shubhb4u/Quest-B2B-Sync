@@ -3,7 +3,6 @@
     <fullName>blng__GatewayReferenceDetails__c</fullName>
     <deprecated>false</deprecated>
     <description>The data that will be used by gateway for subsequent transactions</description>
-    <externalId>false</externalId>
     <inlineHelpText>The data that will be used by gateway for subsequent transactions</inlineHelpText>
     <label>Gateway Reference Details</label>
     <length>32768</length>

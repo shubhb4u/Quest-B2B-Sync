@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__DialogFontFamily__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font family of pop-up modals</inlineHelpText>
     <label>Dialog Font Family</label>
     <required>false</required>

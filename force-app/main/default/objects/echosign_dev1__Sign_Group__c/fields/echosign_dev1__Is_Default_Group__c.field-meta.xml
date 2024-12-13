@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Is the default group for the Sign account</description>
-    <externalId>false</externalId>
     <inlineHelpText>Is the default group for the Sign account</inlineHelpText>
     <label>Default Group</label>
     <trackTrending>false</trackTrending>

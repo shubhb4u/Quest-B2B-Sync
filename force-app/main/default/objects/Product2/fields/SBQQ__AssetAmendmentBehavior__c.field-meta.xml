@@ -3,7 +3,6 @@
     <fullName>SBQQ__AssetAmendmentBehavior__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates how assets representing this product behave on amendments.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select a behavior when amending assets representing this product. By default, asset quantities cannot decrease unless an upgrade is added, and no refund is applied.</inlineHelpText>
     <label>Asset Amendment Behavior</label>
     <required>false</required>

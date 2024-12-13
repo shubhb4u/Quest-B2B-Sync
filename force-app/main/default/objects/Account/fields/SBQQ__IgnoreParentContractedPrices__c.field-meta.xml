@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Select if contracted prices should not be inherited from the parent account.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select if contracted prices should not be inherited from the parent account.</inlineHelpText>
     <label>Ignore Parent Contracted Prices</label>
     <trackFeedHistory>false</trackFeedHistory>

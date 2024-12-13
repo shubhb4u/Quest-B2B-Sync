@@ -3,7 +3,6 @@
     <fullName>JBCXM__AnonymousAccount__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Anonymous Account</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Survey</relationshipLabel>

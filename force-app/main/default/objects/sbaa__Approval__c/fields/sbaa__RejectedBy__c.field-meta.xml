@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>User who rejected this Approval</description>
-    <externalId>false</externalId>
     <inlineHelpText>User who rejected this Approval</inlineHelpText>
     <label>Rejected By</label>
     <referenceTo>User</referenceTo>

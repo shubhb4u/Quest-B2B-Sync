@@ -3,7 +3,6 @@
     <fullName>dfsle__Sent__c</fullName>
     <deprecated>false</deprecated>
     <description>Date and time when envelope was sent</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date and time sent</inlineHelpText>
     <label>Sent</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Set_Empty__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Set Empty</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

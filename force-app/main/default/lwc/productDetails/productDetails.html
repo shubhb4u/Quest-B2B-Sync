@@ -1,5 +1,6 @@
 <template>
     <!-- Render main product only if there are no variations -->
+     <div class="single-product-container">
     <template if:true={product}>
         <template if:false={hasVariations}>
             <div class="single-product-tile" if:true={product}>
@@ -167,8 +168,10 @@
             </div>
         </template>
     </template>
+</div>
 
     <!-- Variations (if any) -->
+     <div class="variation-product-container">
     <template if:true={hasVariations}>
         <div class="product-tile">
             <div class="product-content">
@@ -329,6 +332,7 @@
             </div>
         </div>
     </template>
+</div>
     <template if:true={isATCModalOpen}>
         <div class="slds-modal atc-modal slds-fade-in-open" role="dialog" aria-labelledby="Add to cart modal" aria-modal="true">
             <div class="slds-modal__container" >

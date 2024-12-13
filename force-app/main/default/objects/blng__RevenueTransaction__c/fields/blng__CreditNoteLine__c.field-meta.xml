@@ -3,7 +3,6 @@
     <fullName>blng__CreditNoteLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the credit note associated with this revenue schedule.</inlineHelpText>
     <label>Credit Note Line</label>
     <referenceTo>blng__CreditNoteLine__c</referenceTo>

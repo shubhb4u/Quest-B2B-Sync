@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this option to show API Name for every field and relationship of the salesforce objects while setting data mapping and merge mapping</inlineHelpText>
     <label>Show Fields API Name</label>
     <trackTrending>false</trackTrending>

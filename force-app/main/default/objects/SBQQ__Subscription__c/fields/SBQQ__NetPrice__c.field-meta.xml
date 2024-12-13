@@ -3,7 +3,6 @@
     <fullName>SBQQ__NetPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Net price for this subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Net price for this subscription.</inlineHelpText>
     <label>Net Price</label>
     <precision>14</precision>

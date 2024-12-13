@@ -3,7 +3,6 @@
     <fullName>FLAGS__Owners__c</fullName>
     <deprecated>false</deprecated>
     <description>JSON string representing a list of owners used in this switchboard view. Owners for views can be Queues, Users, Profiles or Roles.</description>
-    <externalId>false</externalId>
     <label>Owners</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

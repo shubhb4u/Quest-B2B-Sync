@@ -3,7 +3,6 @@
     <fullName>JBCXM__NPSComment__c</fullName>
     <deprecated>false</deprecated>
     <description>NPS Comment provided by the user.</description>
-    <externalId>false</externalId>
     <inlineHelpText>NPS Comment provided by the user.</inlineHelpText>
     <label>NPS Comment</label>
     <length>4096</length>

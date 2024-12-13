@@ -3,7 +3,6 @@
     <fullName>SBQQ__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Status indicating where quote is in its lifecycle.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Status indicating where quote is in its lifecycle.</inlineHelpText>
     <label>Status</label>
     <required>false</required>

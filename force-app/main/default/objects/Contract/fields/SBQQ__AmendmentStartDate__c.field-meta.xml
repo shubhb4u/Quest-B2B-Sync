@@ -3,7 +3,6 @@
     <fullName>SBQQ__AmendmentStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Start Date of your Amendment. If blank, Amendment will start on today&apos;s date.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Start Date of your Amendment. If blank, Amendment will start on today&apos;s date.</inlineHelpText>
     <label>Amendment Start Date</label>
     <required>false</required>

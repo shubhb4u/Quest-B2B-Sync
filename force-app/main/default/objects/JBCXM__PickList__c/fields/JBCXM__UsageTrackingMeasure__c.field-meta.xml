@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This field will be used to decide to show usage tracking or not</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check to activate / Uncheck to deactivate</inlineHelpText>
     <label>Usage Tracking Measure</label>
     <trackTrending>false</trackTrending>

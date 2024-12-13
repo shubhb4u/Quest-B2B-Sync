@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Roll up summary of the Customer Amount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Roll up summary of the Customer Amount.</inlineHelpText>
     <label>Customer Amount</label>
     <summarizedField>SBQQ__WebQuoteLine__c.SBQQ__CustomerTotal__c</summarizedField>

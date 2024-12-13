@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates this product should be excluded from transfer to the Opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates this product should not be transferred to the opportunity.</inlineHelpText>
     <label>Exclude From Opportunity</label>
     <trackHistory>false</trackHistory>

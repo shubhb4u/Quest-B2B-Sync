@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Quote line that generated this subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote line that generated this subscription.</inlineHelpText>
     <label>Quote Line</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to prevent users from being auto-provisioned with an Adobe user account when they send or manage agreements. This setting does not prevent auto-provisioning of users that occurs when Update Agreement is clicked from the Agreement list.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to prevent users from being auto-provisioned with an Adobe user account when they send or manage agreements. This setting does not prevent auto-provisioning of users that occurs when Update Agreement is clicked from the Agreement list.</inlineHelpText>
     <label>Disable User Provisioning</label>
     <trackTrending>false</trackTrending>

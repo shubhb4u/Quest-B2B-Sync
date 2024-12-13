@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Fixes additional discount for this component to the parent package discount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Fixes additional discount for this component to the parent package discount.</inlineHelpText>
     <label>Component Discounted By Package</label>
     <trackHistory>false</trackHistory>

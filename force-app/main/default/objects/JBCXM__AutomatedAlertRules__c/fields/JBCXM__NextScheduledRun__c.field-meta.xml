@@ -3,7 +3,6 @@
     <fullName>JBCXM__NextScheduledRun__c</fullName>
     <deprecated>false</deprecated>
     <description>The next scheduled run date-time of the rule.</description>
-    <externalId>false</externalId>
     <label>NextScheduledRun</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

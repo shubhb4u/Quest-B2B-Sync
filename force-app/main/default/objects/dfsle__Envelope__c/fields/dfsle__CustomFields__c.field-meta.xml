@@ -3,7 +3,6 @@
     <fullName>dfsle__CustomFields__c</fullName>
     <deprecated>false</deprecated>
     <description>Use envelope custom fields to classify, record, and track your sent envelopes.</description>
-    <externalId>false</externalId>
     <label>Custom Fields</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

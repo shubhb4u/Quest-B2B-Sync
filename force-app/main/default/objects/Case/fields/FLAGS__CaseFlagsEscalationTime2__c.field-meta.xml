@@ -3,7 +3,6 @@
     <fullName>FLAGS__CaseFlagsEscalationTime2__c</fullName>
     <deprecated>false</deprecated>
     <description>A timestamp to indicate when the total business hours on the case will exceed Age 2 Hours. This can be used as the basis for workflow email alerts or other automation.</description>
-    <externalId>false</externalId>
     <label>Case Flags Escalation Time 2</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

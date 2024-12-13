@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Extra field for feature use.</description>
-    <externalId>false</externalId>
     <label>Attribute4</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>maps__TerritoryNode__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Territory Node</label>
     <referenceTo>maps__TerritoryNode__c</referenceTo>
     <relationshipLabel>Maps Territory Aggregations</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__NonDiscountable__c</fullName>
     <deprecated>false</deprecated>
     <description>Marks this dimension as not discountable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Marks this dimension as not discountable.</inlineHelpText>
     <label>Non Discountable</label>
     <required>false</required>

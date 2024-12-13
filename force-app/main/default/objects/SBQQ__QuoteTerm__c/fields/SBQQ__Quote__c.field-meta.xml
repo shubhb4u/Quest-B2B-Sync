@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Quote to which this term applies.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote to which this term applies. Left blank if this is a standard term.</inlineHelpText>
     <label>Quote</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

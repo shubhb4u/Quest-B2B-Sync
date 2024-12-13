@@ -3,7 +3,6 @@
     <fullName>dfsle__LastModified__c</fullName>
     <deprecated>false</deprecated>
     <description>Source Last Modified</description>
-    <externalId>false</externalId>
     <inlineHelpText>Source Last Modified</inlineHelpText>
     <label>Source Last Modified</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a Roll-Up Summary field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This is a Roll-Up Summary field.</inlineHelpText>
     <label>Customer Amount</label>
     <summarizedField>SBQQ__QuoteLine__c.SBQQ__CustomerTotal__c</summarizedField>

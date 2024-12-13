@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This will look up to the Maps Routes and Schedule Config setting used for outputs and future visits</description>
-    <externalId>false</externalId>
     <label>Routes and Schedule Config</label>
     <referenceTo>maps__CalEventBaseObj__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Templates</relationshipLabel>

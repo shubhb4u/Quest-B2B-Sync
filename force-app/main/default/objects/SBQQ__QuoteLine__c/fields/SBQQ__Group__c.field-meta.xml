@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Group to which this line belongs, if any.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Group to which this line belongs, if any.</inlineHelpText>
     <label>Group</label>
     <referenceTo>SBQQ__QuoteLineGroup__c</referenceTo>

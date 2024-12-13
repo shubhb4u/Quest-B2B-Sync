@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Target Object to be imported.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Target Object to be imported.</inlineHelpText>
     <label>Target Object</label>
     <required>false</required>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__RelationshipType__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Relationship Type</label>
     <referenceTo>JBCXM__GSRelationshipType__c</referenceTo>
     <relationshipLabel>RelationshipAssociation</relationshipLabel>

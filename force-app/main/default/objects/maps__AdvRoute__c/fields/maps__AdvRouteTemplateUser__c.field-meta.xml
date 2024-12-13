@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The is the Advanced Route template user associated to this route</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Template User</label>
     <referenceTo>maps__AdvRouteTemplateUser__c</referenceTo>
     <relationshipLabel>Maps Advanced Routes</relationshipLabel>

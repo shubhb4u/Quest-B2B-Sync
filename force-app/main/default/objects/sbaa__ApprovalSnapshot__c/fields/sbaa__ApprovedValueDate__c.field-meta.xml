@@ -3,7 +3,6 @@
     <fullName>sbaa__ApprovedValueDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Date that is captured</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date that is captured</inlineHelpText>
     <label>Approved Value (Date)</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Prevent the modification of a Case&apos;s flag if an outbound email is from a non-standard user.</description>
-    <externalId>false</externalId>
     <label>Ignore Community User Emails</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

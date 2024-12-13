@@ -3,7 +3,6 @@
     <fullName>DOZISF__HR_Department_Budget__c</fullName>
     <deprecated>false</deprecated>
     <description>Approximate budget of the company&apos;s HR department.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approximate budget of the company&apos;s HR department.</inlineHelpText>
     <label>HR Department Budget</label>
     <precision>18</precision>

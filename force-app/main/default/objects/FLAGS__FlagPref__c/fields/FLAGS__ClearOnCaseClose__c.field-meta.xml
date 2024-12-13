@@ -6,7 +6,6 @@
     <description>Enable the clearing of the Case Flag after the Case closes. 
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Clear On Case Close</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

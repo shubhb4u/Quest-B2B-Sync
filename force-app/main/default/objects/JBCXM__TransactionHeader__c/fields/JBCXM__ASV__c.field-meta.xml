@@ -4,7 +4,6 @@
     <defaultValue>0.00</defaultValue>
     <deprecated>false</deprecated>
     <description>Annual Subscription Value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Annual Subscription Value calculated based on the Booking and Term.</inlineHelpText>
     <label>ASV</label>
     <precision>12</precision>

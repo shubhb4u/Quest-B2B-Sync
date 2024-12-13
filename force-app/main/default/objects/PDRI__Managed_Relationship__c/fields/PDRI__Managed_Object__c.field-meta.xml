@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Managed_Object__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Parent Managed Object</label>
     <referenceTo>PDRI__Managed_Object__c</referenceTo>
     <relationshipLabel>Managed Relationships</relationshipLabel>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Select the type of Alert being issued. 3 alert types are supported - Customer Concern, Downsell and Churn.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the type of Alert being issued. 3 alert types are supported - Customer Concern, Downsell and Churn.</inlineHelpText>
     <label>Type</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>

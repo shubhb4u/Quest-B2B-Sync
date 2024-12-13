@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Used to determine if advanced currency management should be disabled.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If Advanced Currency Management is disabled in your organization select this check box.</inlineHelpText>
     <label>Disable Advanced Currency</label>
     <trackTrending>false</trackTrending>

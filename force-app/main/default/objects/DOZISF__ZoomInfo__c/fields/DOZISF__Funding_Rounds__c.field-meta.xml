@@ -3,7 +3,6 @@
     <fullName>DOZISF__Funding_Rounds__c</fullName>
     <deprecated>false</deprecated>
     <description>List of funding rounds including date, type and amount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List of funding rounds including date, type and amount.</inlineHelpText>
     <label>Funding Rounds</label>
     <length>130000</length>

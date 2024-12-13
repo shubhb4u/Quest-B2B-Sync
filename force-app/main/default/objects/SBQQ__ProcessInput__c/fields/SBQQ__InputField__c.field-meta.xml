@@ -3,7 +3,6 @@
     <fullName>SBQQ__InputField__c</fullName>
     <deprecated>false</deprecated>
     <description>The API name for the field that accepts the user entry.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the API name for the field that accepts the user entry.</inlineHelpText>
     <label>Input Field</label>
     <required>false</required>

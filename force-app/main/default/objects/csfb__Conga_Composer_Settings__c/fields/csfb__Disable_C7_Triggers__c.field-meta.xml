@@ -3,7 +3,6 @@
     <fullName>csfb__Disable_C7_Triggers__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Disable C7 Triggers</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

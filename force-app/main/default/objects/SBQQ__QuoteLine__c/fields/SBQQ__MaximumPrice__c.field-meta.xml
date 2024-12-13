@@ -3,7 +3,6 @@
     <fullName>SBQQ__MaximumPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Maximum list unit price for this product. Used to enforce list price ceiling for products with dynamically calculated list prices.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Maximum list unit price for this product. Used to enforce list price ceiling for products with dynamically calculated list prices.</inlineHelpText>
     <label>Maximum List Unit Price</label>
     <precision>16</precision>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The selected summary variable this rule evaluates.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the summary variable you want this rule to evaluate.</inlineHelpText>
     <label>Filter Variable</label>
     <referenceTo>SBQQ__SummaryVariable__c</referenceTo>

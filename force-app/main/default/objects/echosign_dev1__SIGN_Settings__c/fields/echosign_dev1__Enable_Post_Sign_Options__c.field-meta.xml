@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this option to take your singers to a landing page of your choice. This makes the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options available for Agreements. Signers of an agreement are redirected to the specified URL after they sign.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this option to take your singers to a landing page of your choice. This makes the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options available for Agreements. Signers of an agreement are redirected to the specified URL after they sign.</inlineHelpText>
     <label>Enable Post Sign Options</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to make the Additional Fields section read-only on an agreement.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to make the Additional Fields section read-only on an agreement.</inlineHelpText>
     <label>Read Only Field Set</label>
     <trackTrending>false</trackTrending>

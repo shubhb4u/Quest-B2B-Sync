@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Survey Code</description>
-    <externalId>false</externalId>
     <inlineHelpText>Survey Code</inlineHelpText>
     <label>Survey Code</label>
     <referenceTo>JBCXM__SurveyMaster__c</referenceTo>

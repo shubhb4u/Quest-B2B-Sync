@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__GuidanceUsed__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>IF(SBQQ__QuoteLine__r.SBQQ__Discount__c == SBQQ__QuoteLine__r.SBQQ__Guidance__c, true, false)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>A sales rep has accepted the target discount from this pricing guidance in the quote line editor.</inlineHelpText>

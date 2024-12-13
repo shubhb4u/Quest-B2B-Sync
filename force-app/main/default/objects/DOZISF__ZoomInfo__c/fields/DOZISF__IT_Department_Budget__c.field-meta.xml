@@ -3,7 +3,6 @@
     <fullName>DOZISF__IT_Department_Budget__c</fullName>
     <deprecated>false</deprecated>
     <description>Approximate budget of the company&apos;s IT department.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approximate budget of the company&apos;s IT department.</inlineHelpText>
     <label>IT Department Budget</label>
     <precision>18</precision>

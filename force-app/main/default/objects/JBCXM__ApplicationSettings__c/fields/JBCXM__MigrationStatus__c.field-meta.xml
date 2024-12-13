@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__MigrationStatus__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Migration Status</label>
     <length>5000</length>
     <trackTrending>false</trackTrending>

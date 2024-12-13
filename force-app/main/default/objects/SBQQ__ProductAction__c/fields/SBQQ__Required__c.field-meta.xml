@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines whether the product in the Product Lookup field will be selected on the quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select if you want the product in the Product Lookup field to be selected on the quote.</inlineHelpText>
     <label>Required</label>
     <trackTrending>false</trackTrending>

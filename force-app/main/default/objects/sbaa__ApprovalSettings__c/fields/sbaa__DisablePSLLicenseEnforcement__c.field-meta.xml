@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Disable PSL License Enforcement</description>
-    <externalId>false</externalId>
     <inlineHelpText>Disable PSL License Enforcement</inlineHelpText>
     <label>Disable PSL License Enforcement</label>
     <trackTrending>false</trackTrending>

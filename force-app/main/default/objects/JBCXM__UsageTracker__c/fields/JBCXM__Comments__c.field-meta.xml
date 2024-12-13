@@ -3,7 +3,6 @@
     <fullName>JBCXM__Comments__c</fullName>
     <deprecated>false</deprecated>
     <description>General comments on the usage action</description>
-    <externalId>false</externalId>
     <inlineHelpText>Comments.</inlineHelpText>
     <label>Comments</label>
     <length>4096</length>

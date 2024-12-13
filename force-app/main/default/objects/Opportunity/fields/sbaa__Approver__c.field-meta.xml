@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Used with Native Approvers; indicates which Approver is responsible for approving the Opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Used with Native Approvers; indicates which Approver is responsible for approving the Opportunity.</inlineHelpText>
     <label>Approver</label>
     <referenceTo>User</referenceTo>

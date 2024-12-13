@@ -3,7 +3,6 @@
     <fullName>maps__MarkerLayer__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Marker Layer</label>
     <referenceTo>maps__MarkerLayer__c</referenceTo>
     <relationshipLabel>Waypoints</relationshipLabel>

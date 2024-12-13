@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates this opportunity is a renewal opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates this opportunity is a renewal opportunity.</inlineHelpText>
     <label>Renewal</label>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,7 +3,6 @@
     <fullName>dfsle__EnvelopeConfiguration__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The configuration used to generate this envelope.</inlineHelpText>
     <label>Envelope Configuration</label>
     <referenceTo>dfsle__EnvelopeConfiguration__c</referenceTo>

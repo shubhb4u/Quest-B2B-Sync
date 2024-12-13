@@ -3,7 +3,6 @@
     <fullName>SBQQ__UpliftAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>This is measured as a currency amount. This is a system-calculated field and Uplift can only be applied in %.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This is measured as a currency amount.</inlineHelpText>
     <label>Uplift (Amt)</label>
     <precision>12</precision>

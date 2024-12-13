@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Post Chatter updates for Adobe Acrobat Sign agreements on the related Contract record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post Chatter updates for Adobe Acrobat Sign agreements on the related Contract record.</inlineHelpText>
     <label>Post on Contract Record</label>
     <trackTrending>false</trackTrending>

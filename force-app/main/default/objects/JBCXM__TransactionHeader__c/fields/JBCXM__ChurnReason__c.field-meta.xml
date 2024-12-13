@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Select Churn Reason (applicable for Churn Transactions only). Churn reasons are customizable by adding records into PickList object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select Churn Reason (applicable for Churn Transactions only).</inlineHelpText>
     <label>Churn Reason</label>
     <lookupFilter>

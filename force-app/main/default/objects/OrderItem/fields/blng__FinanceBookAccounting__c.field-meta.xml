@@ -3,7 +3,6 @@
     <fullName>blng__FinanceBookAccounting__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the Finance Book object used to record the Accounting for this Order Product.</inlineHelpText>
     <label>Finance Book (Accounting)</label>
     <lookupFilter>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates that this line item is non-discountable for partners.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to make this line item non-discountable for partners.</inlineHelpText>
     <label>Non Partner Discountable</label>
     <trackTrending>false</trackTrending>

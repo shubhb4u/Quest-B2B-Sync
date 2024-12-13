@@ -3,7 +3,6 @@
     <fullName>sbaa__ApproverField__c</fullName>
     <deprecated>false</deprecated>
     <description>Used with Dynamic Approvers, to capture the field name containing the Approver value</description>
-    <externalId>false</externalId>
     <inlineHelpText>Used with Dynamic Approvers, to capture the field name containing the Approver value</inlineHelpText>
     <label>Approver Field</label>
     <required>false</required>

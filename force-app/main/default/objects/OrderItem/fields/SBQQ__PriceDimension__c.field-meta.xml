@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>References the price dimension applied to this order product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>References the price dimension applied to this order product.</inlineHelpText>
     <label>Price Dimension</label>
     <referenceTo>SBQQ__Dimension__c</referenceTo>

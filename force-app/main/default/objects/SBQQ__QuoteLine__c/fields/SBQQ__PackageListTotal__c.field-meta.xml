@@ -3,7 +3,6 @@
     <fullName>SBQQ__PackageListTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Total list price of this package including its components.</description>
-    <externalId>false</externalId>
     <formula>SBQQ__ComponentListTotal__c +  SBQQ__ListTotal__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total list price of this package including its components.</inlineHelpText>

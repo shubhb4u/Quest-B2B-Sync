@@ -6,7 +6,6 @@
     <description>Enable the clearing of the Case Flag after an email has been sent from the Case. 
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow clear after email</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

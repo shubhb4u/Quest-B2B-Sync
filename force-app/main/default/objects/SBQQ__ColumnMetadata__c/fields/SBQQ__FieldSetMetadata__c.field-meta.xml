@@ -3,7 +3,6 @@
     <fullName>SBQQ__FieldSetMetadata__c</fullName>
     <deprecated>false</deprecated>
     <description>Master detail to FieldSet Metadata.</description>
-    <externalId>false</externalId>
     <inlineHelpText>FieldSet Metadata relationship.</inlineHelpText>
     <label>FieldSet Metadata</label>
     <referenceTo>SBQQ__FieldSetMetadata__c</referenceTo>

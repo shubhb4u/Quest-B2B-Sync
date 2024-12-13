@@ -3,7 +3,6 @@
     <fullName>SBQQ__PricingMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Pricing method that should be applied to this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Pricing method that should be applied to this product.</inlineHelpText>
     <label>Pricing Method</label>
     <required>false</required>

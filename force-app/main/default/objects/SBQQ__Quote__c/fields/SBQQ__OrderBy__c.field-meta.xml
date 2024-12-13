@@ -3,7 +3,6 @@
     <fullName>SBQQ__OrderBy__c</fullName>
     <deprecated>false</deprecated>
     <description>The Quote Line field used to determine order grouping.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Quote Line field used to determine order grouping.</inlineHelpText>
     <label>Order By</label>
     <required>false</required>

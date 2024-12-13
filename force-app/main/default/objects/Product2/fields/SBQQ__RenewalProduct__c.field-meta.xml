@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product that replaces this product on renewal.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Product that replaces this product on renewal. Use this to quote a different SKU when renewing.</inlineHelpText>
     <label>Renewal Product</label>
     <referenceTo>Product2</referenceTo>

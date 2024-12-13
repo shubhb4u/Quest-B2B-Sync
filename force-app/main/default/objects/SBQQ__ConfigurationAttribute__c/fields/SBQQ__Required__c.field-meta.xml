@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether the attributes requires a value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify whether this attribute requires a value.</inlineHelpText>
     <label>Required</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__DynamicProductLookupFieldSet__c</fullName>
     <deprecated>false</deprecated>
     <description>The API name of the field set that will be used when viewing dynamic options for this feature during configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The API name of the field set that will be used when viewing dynamic options for this feature during configuration.</inlineHelpText>
     <label>Dynamic Option Lookup Field Set</label>
     <required>false</required>

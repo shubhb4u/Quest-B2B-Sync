@@ -3,7 +3,6 @@
     <fullName>JBCXM__MetaData__c</fullName>
     <deprecated>false</deprecated>
     <description>Meta Data</description>
-    <externalId>false</externalId>
     <label>MetaData</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

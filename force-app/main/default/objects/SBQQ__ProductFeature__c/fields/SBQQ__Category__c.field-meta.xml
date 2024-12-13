@@ -3,7 +3,6 @@
     <fullName>SBQQ__Category__c</fullName>
     <deprecated>false</deprecated>
     <description>Category of options in this feature. Allows for another level of grouping.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Assign this feature to a category such that multiple features with related options are grouped together.</inlineHelpText>
     <label>Category</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ComponentTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Sum total amount of components in this configuration. This field is only populated if this line item references a configurable product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sum total amount of components in this configuration. This field is only populated if this line item references a configurable product.</inlineHelpText>
     <label>Component Net Total</label>
     <precision>16</precision>

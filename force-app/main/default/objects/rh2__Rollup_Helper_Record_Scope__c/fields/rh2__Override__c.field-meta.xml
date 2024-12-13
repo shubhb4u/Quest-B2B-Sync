@@ -3,7 +3,6 @@
     <fullName>rh2__Override__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Override</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

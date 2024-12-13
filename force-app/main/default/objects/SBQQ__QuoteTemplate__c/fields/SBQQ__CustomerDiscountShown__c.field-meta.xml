@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines if quote-level customer discount is displayed in the quote totals.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if you want quote-level customer discount displayed in the quote totals.</inlineHelpText>
     <label>Show Customer Discount</label>
     <trackHistory>false</trackHistory>

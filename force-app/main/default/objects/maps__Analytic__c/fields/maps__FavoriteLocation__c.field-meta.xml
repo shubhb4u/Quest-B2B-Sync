@@ -3,7 +3,6 @@
     <fullName>maps__FavoriteLocation__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Favorite Location</label>
     <referenceTo>maps__Location__c</referenceTo>
     <relationshipLabel>Maps Analytics</relationshipLabel>

@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>If Delegated Approvals is enabled, lookup to the delegated Approver</description>
-    <externalId>false</externalId>
     <inlineHelpText>If Delegated Approvals is enabled, lookup to the delegated Approver</inlineHelpText>
     <label>Delegated Approver</label>
     <referenceTo>sbaa__Approver__c</referenceTo>

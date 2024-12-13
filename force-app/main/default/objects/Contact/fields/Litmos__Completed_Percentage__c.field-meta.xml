@@ -3,7 +3,6 @@
     <fullName>Litmos__Completed_Percentage__c</fullName>
     <defaultValue>0</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Total number of courses completed divided by the total number of courses assigned</inlineHelpText>
     <label>Overall Course Completion Percentage</label>
     <precision>10</precision>

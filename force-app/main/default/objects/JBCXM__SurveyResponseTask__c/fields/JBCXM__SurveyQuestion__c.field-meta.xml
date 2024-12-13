@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyQuestion__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Survey Question</label>
     <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
     <relationshipName>SurveyResponseTask</relationshipName>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Will be used if Go/No-Go Score is below threshold value and need an approval from higher authority users.</description>
-    <externalId>false</externalId>
     <label>Approval Required</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

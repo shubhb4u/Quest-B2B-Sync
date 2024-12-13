@@ -3,7 +3,6 @@
     <fullName>InSituCah__Ultimate_Parent__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Ultimate Parent</label>
     <referenceTo>InSituCah__Ultimate_Parent__c</referenceTo>
     <relationshipLabel>Ultimate Parent</relationshipLabel>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Template related to this content.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template related to this content.</inlineHelpText>
     <label>Quote Template</label>
     <referenceTo>SBQQ__QuoteTemplate__c</referenceTo>

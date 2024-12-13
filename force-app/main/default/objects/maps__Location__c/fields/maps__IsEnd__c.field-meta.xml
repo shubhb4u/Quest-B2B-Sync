@@ -3,7 +3,6 @@
     <fullName>maps__IsEnd__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Is End</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

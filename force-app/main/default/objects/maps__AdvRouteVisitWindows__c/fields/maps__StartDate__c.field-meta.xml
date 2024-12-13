@@ -3,7 +3,6 @@
     <fullName>maps__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The start date that this window is valid for</description>
-    <externalId>false</externalId>
     <inlineHelpText>(optional)</inlineHelpText>
     <label>Start Date</label>
     <required>false</required>

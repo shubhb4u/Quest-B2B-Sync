@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Summary variable used in testing this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Summary variable used in testing this condition.</inlineHelpText>
     <label>Tested Variable</label>
     <referenceTo>SBQQ__SummaryVariable__c</referenceTo>

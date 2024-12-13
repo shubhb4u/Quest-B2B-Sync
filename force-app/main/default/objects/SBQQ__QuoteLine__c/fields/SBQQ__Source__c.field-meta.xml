@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Source of cloned quote line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Source of cloned quote line.</inlineHelpText>
     <label>Source</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>

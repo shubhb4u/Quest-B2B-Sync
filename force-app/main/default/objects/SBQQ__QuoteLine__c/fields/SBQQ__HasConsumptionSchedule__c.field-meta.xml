@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates if the Quote Line has at least one consumption schedule</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates if this line has at least one consumption schedule</inlineHelpText>
     <label>Has Consumption Schedules</label>
     <trackHistory>false</trackHistory>

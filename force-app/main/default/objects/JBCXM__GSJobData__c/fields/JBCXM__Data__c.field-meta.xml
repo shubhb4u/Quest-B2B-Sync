@@ -3,7 +3,6 @@
     <fullName>JBCXM__Data__c</fullName>
     <deprecated>false</deprecated>
     <description>Data to be processed by scheduler</description>
-    <externalId>false</externalId>
     <label>Data for job</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubGroupField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field used to sub group line items.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field used to sub group line items.</inlineHelpText>
     <label>Sub Group Field</label>
     <required>false</required>

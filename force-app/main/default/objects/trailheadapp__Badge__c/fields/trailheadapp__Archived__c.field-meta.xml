@@ -3,7 +3,6 @@
     <fullName>trailheadapp__Archived__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>This badge has been archived and is no longer available.</inlineHelpText>
     <label>Archived</label>
     <trackHistory>false</trackHistory>

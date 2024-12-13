@@ -3,7 +3,6 @@
     <fullName>blng__IncludeAllCurrencies__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select yes to process all currencies for this invoice.</inlineHelpText>
     <label>Include All Currencies</label>
     <trackHistory>false</trackHistory>

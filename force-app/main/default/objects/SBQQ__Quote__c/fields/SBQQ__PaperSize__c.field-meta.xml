@@ -3,7 +3,6 @@
     <fullName>SBQQ__PaperSize__c</fullName>
     <deprecated>false</deprecated>
     <description>Paper size of this document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the paper size for this document.</inlineHelpText>
     <label>Paper Size</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__TermDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount calculated by applying subscription term against term discount schedule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount calculated by applying subscription term against term discount schedule.</inlineHelpText>
     <label>Term Discount</label>
     <precision>14</precision>

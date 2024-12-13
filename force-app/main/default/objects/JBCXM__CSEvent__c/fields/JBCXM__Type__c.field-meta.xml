@@ -3,7 +3,6 @@
     <fullName>JBCXM__Type__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Type</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>
     <relationshipName>CS_Event</relationshipName>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__RedirectUrl__c</fullName>
     <deprecated>false</deprecated>
     <description>Url to redirect to once the job finishes.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Url to redirect to once the job finishes.</inlineHelpText>
     <label>Redirect URL</label>
     <length>2000</length>

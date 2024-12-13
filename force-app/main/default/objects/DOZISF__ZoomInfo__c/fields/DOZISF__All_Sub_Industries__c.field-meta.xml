@@ -3,7 +3,6 @@
     <fullName>DOZISF__All_Sub_Industries__c</fullName>
     <deprecated>false</deprecated>
     <description>Comma-separated list of all Secondary Level industries that ZoomInfo has on the company.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Comma-separated list of all Secondary Level industries that ZoomInfo has on the company.</inlineHelpText>
     <label>All Sub-Industries</label>
     <length>3000</length>

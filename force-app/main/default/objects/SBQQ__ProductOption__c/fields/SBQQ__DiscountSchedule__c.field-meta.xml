@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup the discount schedule to be applied to the product selected by this option. This discount schedule overrides the discount schedule selected on the product or feature.</inlineHelpText>
     <label>Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

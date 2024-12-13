@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__GroupHeaderFontFamily__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font family of quote line group and feature headers</inlineHelpText>
     <label>Group Header Font Family</label>
     <required>false</required>

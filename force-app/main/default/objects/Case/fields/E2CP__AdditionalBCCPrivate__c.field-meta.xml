@@ -3,7 +3,6 @@
     <fullName>E2CP__AdditionalBCCPrivate__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores private email addresses entered on the New Comment page Additional BCC section.</description>
-    <externalId>false</externalId>
     <label>Additional BCC (Private)</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>

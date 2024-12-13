@@ -3,7 +3,6 @@
     <fullName>maps__AssociatedObjectFieldMapping__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a JSON object that holds the mapping of different Routable objects to the output type</description>
-    <externalId>false</externalId>
     <label>Associated Object Field Mapping</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ShippingStreet__c</fullName>
     <deprecated>false</deprecated>
     <description>Street on the Ship To address for this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Street on the Ship To address for this quote.</inlineHelpText>
     <label>Ship To Street</label>
     <required>false</required>

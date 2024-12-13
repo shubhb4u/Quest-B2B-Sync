@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to make the &quot;Remind recipient to sign&quot; checkbox a read-only agreement field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to make the &quot;Remind recipient to sign&quot; checkbox a read-only agreement field.</inlineHelpText>
     <label>Read Only Sign Reminder</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>maps__DefaultValues__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a JSON object that holds the default values for any fields</description>
-    <externalId>false</externalId>
     <label>Default Values</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

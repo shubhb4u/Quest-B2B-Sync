@@ -3,7 +3,6 @@
     <fullName>SBQQ__Floor__c</fullName>
     <deprecated>false</deprecated>
     <description>High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</description>
-    <externalId>false</externalId>
     <inlineHelpText>High discount for exception pricing based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</inlineHelpText>
     <label>Floor</label>
     <precision>18</precision>

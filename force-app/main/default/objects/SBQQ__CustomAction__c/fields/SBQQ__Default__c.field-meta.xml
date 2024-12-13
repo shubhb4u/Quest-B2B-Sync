@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Sets action to be the default overriding action.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select checkbox to set action as the default overriding action.</inlineHelpText>
     <label>Default</label>
     <trackTrending>false</trackTrending>

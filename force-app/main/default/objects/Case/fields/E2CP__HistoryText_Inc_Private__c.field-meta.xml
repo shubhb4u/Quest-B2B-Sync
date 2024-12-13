@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>E2CP__HistoryText_Inc_Private__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>History Text Inc Private</label>
     <length>32768</length>
     <trackFeedHistory>false</trackFeedHistory>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Exclude_Unmanaged_Schema__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Exclude Unmanaged Schema</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

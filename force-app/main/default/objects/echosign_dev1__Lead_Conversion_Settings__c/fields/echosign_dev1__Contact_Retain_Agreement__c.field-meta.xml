@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When a Lead is converted to an Contact, retain all previous agreements from the Lead with the Contact record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When a Lead is converted to an Contact, retain all previous agreements from the Lead with the Contact record.</inlineHelpText>
     <label>Contact Retain Agreement</label>
     <trackTrending>false</trackTrending>

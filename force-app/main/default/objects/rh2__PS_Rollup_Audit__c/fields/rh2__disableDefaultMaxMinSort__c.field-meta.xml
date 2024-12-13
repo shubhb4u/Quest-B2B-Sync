@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, sort orders from child filters or a custom sort field can be used instead of the default max/min sort. If unchecked, max/min rollup will be sorted by the source field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, sort orders from child filters or a custom sort field can be used instead of the default max/min sort. If unchecked, max/min rollup will be sorted by the source field.</inlineHelpText>
     <label>Disable Default Max/Min Sort</label>
     <trackFeedHistory>false</trackFeedHistory>

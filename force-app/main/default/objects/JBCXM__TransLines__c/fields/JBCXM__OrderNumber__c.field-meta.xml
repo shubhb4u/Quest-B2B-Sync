@@ -3,7 +3,6 @@
     <fullName>JBCXM__OrderNumber__c</fullName>
     <deprecated>false</deprecated>
     <description>Order Number, external reference,</description>
-    <externalId>false</externalId>
     <inlineHelpText>Order Number (may be optionally used as an external reference)</inlineHelpText>
     <label>Order Number</label>
     <referenceTo>JBCXM__TransHeader__c</referenceTo>

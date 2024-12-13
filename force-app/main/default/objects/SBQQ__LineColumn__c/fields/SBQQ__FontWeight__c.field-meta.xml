@@ -3,7 +3,6 @@
     <fullName>SBQQ__FontWeight__c</fullName>
     <deprecated>false</deprecated>
     <description>Weight of font applied to this column.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify font weight for text in this column. Leaving blank defaults to &quot;Normal&quot;.</inlineHelpText>
     <label>Font Weight</label>
     <required>false</required>

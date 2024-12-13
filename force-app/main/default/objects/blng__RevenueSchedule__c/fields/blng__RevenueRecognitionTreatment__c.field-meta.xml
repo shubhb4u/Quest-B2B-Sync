@@ -3,7 +3,6 @@
     <fullName>blng__RevenueRecognitionTreatment__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the revenue recognition treatment used for this revenue schedule</inlineHelpText>
     <label>Revenue Recognition Treatment</label>
     <referenceTo>blng__RevenueRecognitionTreatment__c</referenceTo>

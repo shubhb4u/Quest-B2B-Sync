@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Payment Gateway used for authorization transaction</description>
-    <externalId>false</externalId>
     <inlineHelpText>Payment Gateway used for authorization transaction</inlineHelpText>
     <label>Payment Gateway</label>
     <referenceTo>blng__PaymentGateway__c</referenceTo>

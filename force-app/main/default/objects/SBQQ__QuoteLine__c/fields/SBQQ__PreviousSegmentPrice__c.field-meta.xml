@@ -3,7 +3,6 @@
     <fullName>SBQQ__PreviousSegmentPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>When set, this value takes the place of the previous segment&apos;s regular price when calculating Uplift for this segment.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When set, this value takes the place of the previous segment&apos;s regular price when calculating Uplift for this segment.</inlineHelpText>
     <label>Previous Segment Regular Price</label>
     <precision>14</precision>

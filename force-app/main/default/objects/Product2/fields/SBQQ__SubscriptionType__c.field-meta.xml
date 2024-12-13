@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionType__c</fullName>
     <deprecated>false</deprecated>
     <description>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Renewable Subscriptions will transfer to Renewal Quotes. One-time Subscriptions will not.</inlineHelpText>
     <label>Subscription Type</label>
     <required>false</required>

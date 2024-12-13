@@ -5,7 +5,6 @@
     <description>Type of Schedule.
 Once - Billing will be done only one time.
 Daily - Billing will be repeated continuously daily and so on</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select how often to run invoices.</inlineHelpText>
     <label>Type</label>
     <required>true</required>

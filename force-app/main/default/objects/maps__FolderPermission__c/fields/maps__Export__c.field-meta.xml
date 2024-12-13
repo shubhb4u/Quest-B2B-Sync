@@ -3,7 +3,6 @@
     <fullName>maps__Export__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Export</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

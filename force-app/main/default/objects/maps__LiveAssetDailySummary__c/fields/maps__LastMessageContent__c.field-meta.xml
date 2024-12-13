@@ -3,7 +3,6 @@
     <fullName>maps__LastMessageContent__c</fullName>
     <deprecated>false</deprecated>
     <description>This field represents the full data content of the last point received by aws for the day.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field represents the full data content of the last point received by aws for the day.</inlineHelpText>
     <label>Last Message Content</label>
     <length>32768</length>

@@ -3,7 +3,6 @@
     <fullName>maps__LiveIoTDevice__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Live IoT Device</label>
     <referenceTo>maps__LiveIoTDevice__c</referenceTo>
     <relationshipLabel>Live Driver Assignments</relationshipLabel>

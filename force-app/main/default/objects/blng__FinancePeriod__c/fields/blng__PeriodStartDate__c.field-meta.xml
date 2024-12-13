@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PeriodStartDate__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select the beginning of the finance period.</inlineHelpText>
     <label>Period Start Date</label>
     <required>true</required>

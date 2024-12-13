@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__StandardButtonFontWeight__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font weight of standard buttons (Click the icon for additional information)</inlineHelpText>
     <label>Standard Button Font Weight</label>
     <required>false</required>

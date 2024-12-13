@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProcessInputCondition__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Process Input Condition</label>
     <referenceTo>SBQQ__ProcessInputCondition__c</referenceTo>
     <relationshipLabel>Process Inputs</relationshipLabel>

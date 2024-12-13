@@ -3,7 +3,6 @@
     <fullName>maps__TimeWindowEnd2__c</fullName>
     <deprecated>false</deprecated>
     <description>end time of second time window option</description>
-    <externalId>false</externalId>
     <inlineHelpText>(optional) Time Window 2 cannot overlap Time Window 1</inlineHelpText>
     <label>Time Window End 2</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Success__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Success</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

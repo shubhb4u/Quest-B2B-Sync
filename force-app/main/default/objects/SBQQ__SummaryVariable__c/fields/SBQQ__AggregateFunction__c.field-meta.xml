@@ -3,7 +3,6 @@
     <fullName>SBQQ__AggregateFunction__c</fullName>
     <deprecated>false</deprecated>
     <description>Aggregate function used to calculate this variable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Aggregate function used to calculate this variable.</inlineHelpText>
     <label>Aggregate Function</label>
     <required>false</required>

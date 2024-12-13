@@ -3,7 +3,6 @@
     <fullName>SBQQ__ListTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>List total price for this quote line item.</description>
-    <externalId>false</externalId>
     <formula>IF(OR(SBQQ__Renewal__c, SBQQ__Bundled__c), 0,
   CASE(SBQQ__PricingMethod__c,
     &apos;Block&apos;, IF(ISBLANK(SBQQ__ProratedListPrice__c),SBQQ__ListPrice__c * IF(ISBLANK(SBQQ__ProrateMultiplier__c),1, SBQQ__ProrateMultiplier__c),SBQQ__ProratedListPrice__c),

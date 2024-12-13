@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines if this Variation is using field criteria.</description>
-    <externalId>false</externalId>
     <label>Use Criteria</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

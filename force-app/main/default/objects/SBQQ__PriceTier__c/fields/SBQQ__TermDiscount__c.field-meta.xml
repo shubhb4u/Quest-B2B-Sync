@@ -3,7 +3,6 @@
     <fullName>SBQQ__TermDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>The total term discount taken for this tier.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The total term discount taken for this tier.</inlineHelpText>
     <label>Term Discount</label>
     <precision>18</precision>

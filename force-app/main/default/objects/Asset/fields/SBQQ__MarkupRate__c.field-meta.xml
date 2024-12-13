@@ -3,7 +3,6 @@
     <fullName>SBQQ__MarkupRate__c</fullName>
     <deprecated>false</deprecated>
     <description>Markup for this Asset, if expressed as a percentage</description>
-    <externalId>false</externalId>
     <inlineHelpText>Markup for this Asset, if expressed as a percentage</inlineHelpText>
     <label>Markup (%)</label>
     <precision>8</precision>

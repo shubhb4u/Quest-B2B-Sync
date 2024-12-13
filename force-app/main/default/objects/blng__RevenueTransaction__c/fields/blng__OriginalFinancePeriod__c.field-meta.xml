@@ -3,7 +3,6 @@
     <fullName>blng__OriginalFinancePeriod__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Refers to the original finance period defined in the revenue schedule.</inlineHelpText>
     <label>Original Finance Period</label>
     <referenceTo>blng__FinancePeriod__c</referenceTo>

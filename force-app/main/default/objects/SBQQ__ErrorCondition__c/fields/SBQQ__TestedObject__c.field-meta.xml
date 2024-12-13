@@ -3,7 +3,6 @@
     <fullName>SBQQ__TestedObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object that contains the field being tested by this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the object that contains the tested field.</inlineHelpText>
     <label>Tested Object</label>
     <required>false</required>

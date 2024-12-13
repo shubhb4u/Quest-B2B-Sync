@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Check if this is the default record again which all the survey responses will be saved.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check if this is the default record again which all the survey responses will be saved.</inlineHelpText>
     <label>Default</label>
     <trackTrending>false</trackTrending>

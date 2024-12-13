@@ -3,7 +3,6 @@
     <fullName>JBCXM__DashboardContainerId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>DashboardContainerId</label>
     <referenceTo>JBCXM__DashboardContainer__c</referenceTo>
     <relationshipLabel>StatePreservation</relationshipLabel>

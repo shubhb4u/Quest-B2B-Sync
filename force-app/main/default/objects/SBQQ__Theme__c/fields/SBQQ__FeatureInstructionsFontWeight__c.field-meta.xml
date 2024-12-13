@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__FeatureInstructionsFontWeight__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font weight of additional instructions displayed under feature name (Click the icon for additional information)</inlineHelpText>
     <label>Feature Instructions Font Weight</label>
     <required>false</required>

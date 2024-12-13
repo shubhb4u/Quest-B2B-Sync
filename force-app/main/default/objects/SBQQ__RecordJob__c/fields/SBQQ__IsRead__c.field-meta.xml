@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If true the user has been alerted of the record job&apos;s finished status</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked the user has been alerted of the record job&apos;s finished status.</inlineHelpText>
     <label>Is Read</label>
     <trackTrending>false</trackTrending>

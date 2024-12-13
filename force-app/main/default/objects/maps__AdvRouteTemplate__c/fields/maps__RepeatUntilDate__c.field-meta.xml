@@ -3,7 +3,6 @@
     <fullName>maps__RepeatUntilDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This date is the date  a repeating template will stop being used</description>
-    <externalId>false</externalId>
     <label>Repeat Until Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Refresh_Token__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Refresh Token</label>
     <length>175</length>
     <maskChar>asterisk</maskChar>

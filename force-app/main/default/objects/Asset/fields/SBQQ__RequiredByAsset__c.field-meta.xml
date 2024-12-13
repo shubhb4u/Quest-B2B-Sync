@@ -3,7 +3,6 @@
     <fullName>SBQQ__RequiredByAsset__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The parent Asset. If populated, this Asset is a child in a bundle.</inlineHelpText>
     <label>Required By Asset</label>
     <referenceTo>Asset</referenceTo>

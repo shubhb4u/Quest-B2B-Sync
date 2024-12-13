@@ -3,7 +3,6 @@
     <fullName>PDRI__ParentDataSet__c</fullName>
     <deprecated>false</deprecated>
     <description>Data set for the parent object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter date set for the parent object.</inlineHelpText>
     <label>Parent Data Set</label>
     <referenceTo>PDRI__DataSet__c</referenceTo>

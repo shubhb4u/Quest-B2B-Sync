@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>The type of discount schedule determines how the discount is calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the type of discount that determines how the amount or percentages will be subtracted from price.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

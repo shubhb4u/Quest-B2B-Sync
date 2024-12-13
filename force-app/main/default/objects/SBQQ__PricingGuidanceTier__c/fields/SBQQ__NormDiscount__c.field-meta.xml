@@ -3,7 +3,6 @@
     <fullName>SBQQ__NormDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Middle-range discount based on past sales. If a sales rep wants to use this price, they must discount the quote line manually. This discount may require approvals based on your org&apos;s approval settings.</inlineHelpText>
     <label>Norm Discount (%)</label>
     <precision>14</precision>

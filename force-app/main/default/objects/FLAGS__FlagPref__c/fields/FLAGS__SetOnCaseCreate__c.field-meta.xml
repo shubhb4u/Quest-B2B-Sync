@@ -6,7 +6,6 @@
     <description>Enable the Case Flag to automatically be set on immediately after a Case has been created.
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Set On Case Create</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

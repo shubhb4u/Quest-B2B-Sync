@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This is used to let us know not to create shifts off of this record when the batch runs</description>
-    <externalId>false</externalId>
     <label>Converted To Shift</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines if the quote-level partner discount is displayed in the quote totals.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if you want quote-level partner discount displayed in the quote totals.</inlineHelpText>
     <label>Show Partner Discount</label>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>maps__Modify__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Modify</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

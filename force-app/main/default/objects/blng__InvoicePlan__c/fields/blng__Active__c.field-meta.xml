@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether or not this Invoice Plan Template is active.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, this Invoice Plan Template is active.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

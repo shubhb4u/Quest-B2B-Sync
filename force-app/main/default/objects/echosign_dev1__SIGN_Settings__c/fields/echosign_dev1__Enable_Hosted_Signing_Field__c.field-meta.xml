@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enables the host signing option to obtain in-person signatures</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enables the host signing option to obtain in-person signatures</inlineHelpText>
     <label>Show Hosted Signing Option</label>
     <trackTrending>false</trackTrending>

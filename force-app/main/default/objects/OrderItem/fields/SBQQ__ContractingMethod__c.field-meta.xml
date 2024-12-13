@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>Controls the contracting behavior of an Order Product. &quot;Inherit&quot; uses the behavior of the parent Order. &quot;Contract Separately&quot; generates a separate Contract for
             the Order Product. &quot;No Contract&quot; skips the Order Product altogether during the contracting process.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls the contracting behavior of an Order Product.</inlineHelpText>
     <label>Contracting Method</label>
     <required>false</required>

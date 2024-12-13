@@ -3,7 +3,6 @@
     <fullName>SBQQ__FavoriteProduct__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Favorite Product</label>
     <referenceTo>SBQQ__FavoriteProduct__c</referenceTo>
     <relationshipLabel>Attribute Values</relationshipLabel>

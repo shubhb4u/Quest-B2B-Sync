@@ -3,7 +3,6 @@
     <fullName>PDRI__Type__c</fullName>
     <defaultValue>&apos;Quote&apos;</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Type</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

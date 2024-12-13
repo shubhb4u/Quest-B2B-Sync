@@ -3,7 +3,6 @@
     <fullName>blng__Startdateandtime__c</fullName>
     <defaultValue>Now()</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Start Date and Time</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

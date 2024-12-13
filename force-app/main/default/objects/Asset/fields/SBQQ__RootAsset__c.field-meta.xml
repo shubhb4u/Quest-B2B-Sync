@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Ultimate bundle parent of this Asset</description>
-    <externalId>false</externalId>
     <inlineHelpText>Ultimate bundle parent of this Asset</inlineHelpText>
     <label>Root Asset (CPQ)</label>
     <referenceTo>Asset</referenceTo>

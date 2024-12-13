@@ -3,7 +3,6 @@
     <fullName>JBCXM__CTA_Association_Metadata__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores CTA association metadata</description>
-    <externalId>false</externalId>
     <label>CTA Association Metadata</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

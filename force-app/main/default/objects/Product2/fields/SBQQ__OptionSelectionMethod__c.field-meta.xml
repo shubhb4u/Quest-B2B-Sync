@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionSelectionMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up a dialog box with available options.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how user selects options attached to this product. &quot;Click&quot; method presents options with checkboxes next to them. &quot;Add&quot; renders a button which brings up a dialog box with available options.</inlineHelpText>
     <label>Option Selection Method</label>
     <required>false</required>

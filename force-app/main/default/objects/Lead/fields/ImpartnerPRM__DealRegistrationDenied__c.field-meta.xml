@@ -3,7 +3,6 @@
     <fullName>ImpartnerPRM__DealRegistrationDenied__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deal Registration Denied</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

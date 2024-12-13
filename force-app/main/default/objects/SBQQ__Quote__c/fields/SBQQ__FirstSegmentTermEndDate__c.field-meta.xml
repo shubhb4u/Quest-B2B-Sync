@@ -3,7 +3,6 @@
     <fullName>SBQQ__FirstSegmentTermEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Used with multi-segment Products to prorate first segment.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For multi-segment Products, enter the end date in order to prorate first segment.</inlineHelpText>
     <label>First Segment Term End Date</label>
     <required>false</required>

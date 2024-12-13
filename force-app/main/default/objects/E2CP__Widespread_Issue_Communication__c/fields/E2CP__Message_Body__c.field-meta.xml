@@ -3,7 +3,6 @@
     <fullName>E2CP__Message_Body__c</fullName>
     <deprecated>false</deprecated>
     <description>Comment used in the Widespread Issue communication</description>
-    <externalId>false</externalId>
     <label>Message Body</label>
     <length>131072</length>
     <trackHistory>false</trackHistory>

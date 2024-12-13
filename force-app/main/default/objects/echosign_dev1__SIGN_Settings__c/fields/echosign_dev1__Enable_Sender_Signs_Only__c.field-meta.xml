@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to display and enable the ‘Sender Signs Only’/‘Only I sign&apos; option in the Recipients section of the send agreement page.  When the ‘Sender Signs Only’ option is used, the agreement or document is presented to only to the sender to sign.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to display and enable the ‘Sender Signs Only’/‘Only I sign&apos; option in the Recipients section of the send agreement page.  When the ‘Sender Signs Only’ option is used, the agreement or document is presented to only to the sender to sign</inlineHelpText>
     <label>Enable Sender Signs Only</label>
     <trackTrending>false</trackTrending>

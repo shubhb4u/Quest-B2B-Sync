@@ -3,7 +3,6 @@
     <fullName>JBCXM__CSTask__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>CSTask</label>
     <referenceTo>JBCXM__CSTask__c</referenceTo>
     <relationshipLabel>AssociatedRecords</relationshipLabel>

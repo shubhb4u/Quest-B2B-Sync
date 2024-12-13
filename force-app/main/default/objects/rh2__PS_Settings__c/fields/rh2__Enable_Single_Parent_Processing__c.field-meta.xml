@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When checked will prevent multiple children from attempting to update the same parent at the same time.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This will help to prevent record locks caused by multiple rollups attempting to update the same object at the same time.</inlineHelpText>
     <label>Enable Single Parent Processing</label>
     <trackTrending>false</trackTrending>

@@ -1,0 +1,132 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Product",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "columnVerticalAlign" : "flex-start",
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "left" : "35px",
+              "bottom" : "",
+              "right" : ""
+            }
+          }
+        },
+        "id" : "9a73ee5a-5fee-4a90-a291-9c77f9865cc9"
+      }, {
+        "id" : "e1483290-326d-4c73-9981-830daad885b3",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "2rem",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "e922ddac-4734-477d-b3a2-9bba0e58dbd5",
+        "attributes" : {
+          "sectionVerticalAlign" : "flex-start"
+        }
+      }, {
+        "id" : "71f3dd30-9e74-4707-a0f9-fd4d970f6968",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "ecef417f-cb0d-43a1-aecc-00bec2dc4591",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "1rem",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "ea60982f-8818-4c5c-9d54-fada6eefb834",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "8b0cab66-711f-4edc-a117-de67f5006fa6",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "0rem",
+              "right" : "3rem",
+              "bottom" : "0rem",
+              "left" : "5rem"
+            }
+          },
+          "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+          "textAlign" : "center"
+        }
+      }, {
+        "id" : "359eff48-9191-4fab-8052-5802b1c92a9f",
+        "attributes" : {
+          "textAlign" : "center",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "0rem",
+              "left" : "5rem",
+              "bottom" : "3rem",
+              "right" : "3rem"
+            }
+          }
+        }
+      }, {
+        "id" : "980e752b-4a16-4edc-9879-6efdca25ca54",
+        "attributes" : {
+          "columnGutterWidth" : ""
+        }
+      }, {
+        "id" : "558b49e1-abcb-4ba5-ad38-2f609e3c9178",
+        "attributes" : {
+          "componentSpacerSize" : "0rem"
+        }
+      }, {
+        "id" : "ff28e98a-0632-482d-8db1-757c237cc187",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "35px"
+            }
+          }
+        }
+      }, {
+        "id" : "66c6fe3c-e693-4442-89a0-d819ffeb7fd9",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "35px"
+            }
+          }
+        }
+      } ]
+    }
+  },
+  "urlName" : "product"
+}

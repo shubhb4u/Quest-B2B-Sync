@@ -3,7 +3,6 @@
     <fullName>FLAGS__Initial_Response__c</fullName>
     <deprecated>false</deprecated>
     <description>Timestamp of Initial Response set the first time the Case Flag is cleared.</description>
-    <externalId>false</externalId>
     <label>Initial Response</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

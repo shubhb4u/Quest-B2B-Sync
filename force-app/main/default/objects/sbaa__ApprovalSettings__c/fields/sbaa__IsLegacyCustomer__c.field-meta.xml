@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Set to True when the customer upgrades from a build before 3.7 to a build 3.7 or later.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set to True when the customer upgrades from a build before 3.7 to a build 3.7 or later.</inlineHelpText>
     <label>Is Legacy Licensed Customer</label>
     <trackTrending>false</trackTrending>

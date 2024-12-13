@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>A reference to the Case Flags Business Hours record used to calculate the Case Flag Business Age. This is set automatically and should not be manipulated.</description>
-    <externalId>false</externalId>
     <label>Case Flags Business Hours</label>
     <referenceTo>FLAGS__CaseFlagsBusinessHours__c</referenceTo>
     <relationshipLabel>Case Flags History Tracking</relationshipLabel>

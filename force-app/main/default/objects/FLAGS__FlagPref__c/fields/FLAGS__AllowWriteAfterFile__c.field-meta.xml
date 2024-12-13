@@ -6,7 +6,6 @@
     <description>Enable the Case Flag to automatically be set immediately after a file has been added to a Case by an external user. 
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow write after file</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

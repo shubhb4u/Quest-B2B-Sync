@@ -3,7 +3,6 @@
     <fullName>SBQQ__DescendingActionNesting__c</fullName>
     <deprecated>false</deprecated>
     <description>Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Allow child bundle configurations up to the specified level to be targeted by this rule&apos;s actions when executing in the configurator for selection rules only.</inlineHelpText>
     <label>Child Bundle Action Level</label>
     <required>false</required>

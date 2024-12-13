@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Alert Status is defaulted to &quot;Active&quot;. When no further actions are required on the Alert, change the status to &quot;Closed&quot;.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Alert Status is defaulted to &quot;Active&quot;. When no further actions are required on the Alert, change the status to &quot;Closed&quot;.</inlineHelpText>
     <label>Status</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>

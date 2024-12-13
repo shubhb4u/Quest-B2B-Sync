@@ -3,7 +3,6 @@
     <fullName>PDRI__Deployment_Plan_Step__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deployment Plan Step</label>
     <referenceTo>PDRI__Deployment_Plan_Step__c</referenceTo>
     <relationshipLabel>Deployment Plan Step Results</relationshipLabel>

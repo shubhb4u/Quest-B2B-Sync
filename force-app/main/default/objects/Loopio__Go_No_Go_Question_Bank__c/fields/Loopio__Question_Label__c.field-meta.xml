@@ -3,7 +3,6 @@
     <fullName>Loopio__Question_Label__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores actual question which will be displayed.</description>
-    <externalId>false</externalId>
     <label>Question Label</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

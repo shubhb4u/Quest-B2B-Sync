@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PaymentsAgainstDebitNoteLines__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Allocations Against Debit Note Lines</label>
     <summarizedField>blng__DebitNoteAllocation__c.blng__Payments__c</summarizedField>
     <summaryFilterItems>

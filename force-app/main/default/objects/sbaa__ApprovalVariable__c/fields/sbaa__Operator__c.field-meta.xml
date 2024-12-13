@@ -3,7 +3,6 @@
     <fullName>sbaa__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>Choose the operator to use in your filter.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the operator to use in your filter.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__DiscountScheduleType__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount schedule type. Must be a stored value because it&apos;s used in formula fields that are rolled up.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount schedule type. Copied from Type field in associated discount schedule.</inlineHelpText>
     <label>Discount Schedule Type</label>
     <required>false</required>

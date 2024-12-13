@@ -3,7 +3,6 @@
     <fullName>sbaa__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>Operator used for the evaluation</description>
-    <externalId>false</externalId>
     <inlineHelpText>Operator used for the evaluation</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

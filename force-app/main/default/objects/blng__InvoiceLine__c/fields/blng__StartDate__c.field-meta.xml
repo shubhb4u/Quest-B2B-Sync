@@ -3,7 +3,6 @@
     <fullName>blng__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The starting date for the period of calculation of this charge. Applicable only to Recurring Charges.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The first day of the billing period.</inlineHelpText>
     <label>Start Date</label>
     <required>false</required>

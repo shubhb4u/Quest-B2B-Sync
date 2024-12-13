@@ -3,7 +3,6 @@
     <fullName>sbaa__AggregateField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field that&apos;s acted upon by the aggregate function.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field that&apos;s acted upon by the aggregate function.</inlineHelpText>
     <label>Aggregate Field</label>
     <required>false</required>

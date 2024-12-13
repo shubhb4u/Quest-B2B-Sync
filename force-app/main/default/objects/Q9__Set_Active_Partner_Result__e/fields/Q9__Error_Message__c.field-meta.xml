@@ -3,7 +3,6 @@
     <fullName>Q9__Error_Message__c</fullName>
     <deprecated>false</deprecated>
     <description>Error Message from the Metadata Deployment job if not successful.</description>
-    <externalId>false</externalId>
     <isFilteringDisabled>false</isFilteringDisabled>
     <isNameField>false</isNameField>
     <isSortingDisabled>false</isSortingDisabled>

@@ -1,0 +1,5 @@
+{
+  "apiName" : "Cart_Checkout",
+  "type" : "sfdc_cms__view",
+  "path" : "views"
+}

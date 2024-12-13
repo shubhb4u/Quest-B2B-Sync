@@ -3,7 +3,6 @@
     <fullName>JBCXM__GroupId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Group Id</label>
     <referenceTo>JBCXM__ScorecardMetric__c</referenceTo>
     <relationshipLabel>Scorecard Metrics</relationshipLabel>

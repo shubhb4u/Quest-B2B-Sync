@@ -3,7 +3,6 @@
     <fullName>maps__DaysOfWeekToRouteFor__c</fullName>
     <deprecated>false</deprecated>
     <description>These are the days of the week that the route can calculate for</description>
-    <externalId>false</externalId>
     <label>Day(s) of Week to Route for</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

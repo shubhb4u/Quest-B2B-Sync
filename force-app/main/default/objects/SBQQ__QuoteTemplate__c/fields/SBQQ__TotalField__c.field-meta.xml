@@ -3,7 +3,6 @@
     <fullName>SBQQ__TotalField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field to sum and display as group/quote total.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the Field to sum and display as group/quote total.</inlineHelpText>
     <label>Total Field</label>
     <required>false</required>

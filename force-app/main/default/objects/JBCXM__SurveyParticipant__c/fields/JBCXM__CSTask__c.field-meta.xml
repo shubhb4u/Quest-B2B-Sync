@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The task used to send survey.</description>
-    <externalId>false</externalId>
     <label>CSTask</label>
     <referenceTo>JBCXM__CSTask__c</referenceTo>
     <relationshipLabel>Survey Participants</relationshipLabel>

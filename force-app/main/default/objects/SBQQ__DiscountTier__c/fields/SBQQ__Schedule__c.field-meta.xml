@@ -3,7 +3,6 @@
     <fullName>SBQQ__Schedule__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount Schedule to which this tier belongs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount Schedule to which this tier belongs.</inlineHelpText>
     <label>Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

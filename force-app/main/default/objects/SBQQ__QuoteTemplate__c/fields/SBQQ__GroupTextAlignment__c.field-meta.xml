@@ -3,7 +3,6 @@
     <fullName>SBQQ__GroupTextAlignment__c</fullName>
     <deprecated>false</deprecated>
     <description>Specifies the alignment of Group title and Group Description. Defaults to Left if left blank.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specifies the alignment of Group title and Group Description. Defaults to Left if left blank.</inlineHelpText>
     <label>Group Text Alignment</label>
     <required>false</required>

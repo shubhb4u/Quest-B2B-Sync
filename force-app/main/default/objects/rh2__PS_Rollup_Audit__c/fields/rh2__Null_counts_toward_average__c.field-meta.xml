@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines whether a null counts as a zero when calculating an AVG Rollup.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines whether a null counts as a zero when calculating an AVG Rollup.</inlineHelpText>
     <label>Nulls Count Toward Average</label>
     <trackFeedHistory>false</trackFeedHistory>

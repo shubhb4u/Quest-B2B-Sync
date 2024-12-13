@@ -3,7 +3,6 @@
     <fullName>PDRI__Sync_Picklist_Values__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sync Picklist Values</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

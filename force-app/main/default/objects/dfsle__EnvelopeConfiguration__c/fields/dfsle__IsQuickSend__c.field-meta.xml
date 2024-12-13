@@ -3,7 +3,6 @@
     <fullName>dfsle__IsQuickSend__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Is Quick Send</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

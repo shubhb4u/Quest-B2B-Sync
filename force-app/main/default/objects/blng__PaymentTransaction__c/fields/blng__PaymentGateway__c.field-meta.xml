@@ -3,7 +3,6 @@
     <fullName>blng__PaymentGateway__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Payment Gateway</label>
     <referenceTo>blng__PaymentGateway__c</referenceTo>
     <relationshipLabel>Payment Transactions</relationshipLabel>

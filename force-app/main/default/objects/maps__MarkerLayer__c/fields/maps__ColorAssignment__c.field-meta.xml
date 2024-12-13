@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>maps__ColorAssignment__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Color Assignment</label>
     <length>130000</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Unit__c</fullName>
     <deprecated>false</deprecated>
     <description>Choose the type of discount that this pricing guidance applies to the quote line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the type of discount that this pricing guidance applies to the quote line.</inlineHelpText>
     <label>Unit</label>
     <required>false</required>

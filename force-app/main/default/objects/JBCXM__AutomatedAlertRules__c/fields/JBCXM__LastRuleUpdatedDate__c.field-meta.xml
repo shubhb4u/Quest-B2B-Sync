@@ -3,7 +3,6 @@
     <fullName>JBCXM__LastRuleUpdatedDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This field stores the last time rule is updated from UI</description>
-    <externalId>false</externalId>
     <label>Last Rule Updated Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

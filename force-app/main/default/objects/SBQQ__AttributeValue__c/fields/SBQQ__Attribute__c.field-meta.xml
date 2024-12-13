@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__Attribute__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Attribute</label>
     <referenceTo>SBQQ__ProductAttribute__c</referenceTo>
     <relationshipLabel>Attribute Values</relationshipLabel>

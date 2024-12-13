@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the &apos;Host Signing&apos; button for in-flight agreements.</inlineHelpText>
     <label>Disable In Flight Host Sign</label>
     <trackTrending>false</trackTrending>

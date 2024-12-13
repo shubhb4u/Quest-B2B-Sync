@@ -3,7 +3,6 @@
     <fullName>SBQQ__DefaultField__c</fullName>
     <deprecated>false</deprecated>
     <description>Quote field that sources default value for this input.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote field that sources default value for this input.</inlineHelpText>
     <label>Default Field</label>
     <required>false</required>

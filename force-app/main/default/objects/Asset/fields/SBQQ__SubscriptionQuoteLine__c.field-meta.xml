@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionQuoteLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Subscription Quote Line</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>
     <relationshipLabel>Assets (Quote Line)</relationshipLabel>

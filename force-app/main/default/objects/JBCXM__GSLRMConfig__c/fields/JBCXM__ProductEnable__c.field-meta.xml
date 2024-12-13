@@ -3,7 +3,6 @@
     <fullName>JBCXM__ProductEnable__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Product Enable</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

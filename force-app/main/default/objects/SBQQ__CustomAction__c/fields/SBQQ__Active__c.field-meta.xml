@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that determines whether this action is used.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to make this action available for use.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

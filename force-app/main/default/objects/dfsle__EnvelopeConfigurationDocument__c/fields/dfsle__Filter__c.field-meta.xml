@@ -3,7 +3,6 @@
     <fullName>dfsle__Filter__c</fullName>
     <deprecated>false</deprecated>
     <description>Source file filter</description>
-    <externalId>false</externalId>
     <label>Source file filter</label>
     <length>2000</length>
     <trackTrending>false</trackTrending>

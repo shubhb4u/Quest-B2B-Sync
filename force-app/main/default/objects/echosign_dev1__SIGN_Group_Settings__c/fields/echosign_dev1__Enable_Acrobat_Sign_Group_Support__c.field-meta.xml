@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to support Adobe Acrobat Sign groups</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to support Adobe Acrobat Sign groups</inlineHelpText>
     <label>Enable Acrobat Sign Group Support</label>
     <trackTrending>false</trackTrending>

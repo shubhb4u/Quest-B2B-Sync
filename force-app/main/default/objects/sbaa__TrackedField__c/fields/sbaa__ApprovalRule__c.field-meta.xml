@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Approval Rule that will generate the Tracked Value for this Tracked Field</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approval Rule that will generate the Tracked Value for this Tracked Field</inlineHelpText>
     <label>Approval Rule</label>
     <referenceTo>sbaa__ApprovalRule__c</referenceTo>

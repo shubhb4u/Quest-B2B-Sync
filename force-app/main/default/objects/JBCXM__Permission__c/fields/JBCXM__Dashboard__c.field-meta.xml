@@ -3,7 +3,6 @@
     <fullName>JBCXM__Dashboard__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Dashboard</label>
     <referenceTo>JBCXM__Dashboard__c</referenceTo>
     <relationshipLabel>Permissions</relationshipLabel>

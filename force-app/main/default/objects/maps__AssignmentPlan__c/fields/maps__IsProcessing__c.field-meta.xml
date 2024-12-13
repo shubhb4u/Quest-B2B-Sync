@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates if the assignment plan is currently processing or not.</description>
-    <externalId>false</externalId>
     <label>Is Processing</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

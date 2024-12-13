@@ -3,7 +3,6 @@
     <fullName>SBQQ__AscendingNestedLevel__c</fullName>
     <deprecated>false</deprecated>
     <description>Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Include parent bundle configuration with the specified level when evaluating this rule&apos;s conditions in the configurator for alert, validation and selection rules.</inlineHelpText>
     <label>Parent Bundle Condition Level</label>
     <required>false</required>

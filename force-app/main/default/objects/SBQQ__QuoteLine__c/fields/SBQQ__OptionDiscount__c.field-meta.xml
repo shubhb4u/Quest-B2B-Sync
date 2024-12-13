@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>If this line is for an optional SKU, this field captures any discount given to the package and extended to the option.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this line is for an optional SKU, this field captures any discount given to the package and extended to the option.</inlineHelpText>
     <label>Option Discount (%)</label>
     <precision>5</precision>

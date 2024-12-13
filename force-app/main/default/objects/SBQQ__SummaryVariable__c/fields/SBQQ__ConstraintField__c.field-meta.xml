@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConstraintField__c</fullName>
     <deprecated>false</deprecated>
     <description>The field that will limit records further based on a quote field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If you want to limit records further based on a quote field, select the field that you want to match against the same field on the quote.</inlineHelpText>
     <label>Constraint Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__DiscountUnit__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the Discount Unit for the Price Schedule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the Discount Unit: Amount or Percent.</inlineHelpText>
     <label>Discount Unit</label>
     <required>false</required>

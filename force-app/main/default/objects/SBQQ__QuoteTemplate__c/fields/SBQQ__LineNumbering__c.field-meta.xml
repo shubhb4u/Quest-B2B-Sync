@@ -3,7 +3,6 @@
     <fullName>SBQQ__LineNumbering__c</fullName>
     <deprecated>false</deprecated>
     <description>Specifies how line items are numbered on generated document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify how to number line items on generated documents. &quot;Start at quote&quot; numbers all lines sequentially across groups (if any). &quot;Start at group&quot; resets numbers within each group.</inlineHelpText>
     <label>Line Numbering</label>
     <required>false</required>

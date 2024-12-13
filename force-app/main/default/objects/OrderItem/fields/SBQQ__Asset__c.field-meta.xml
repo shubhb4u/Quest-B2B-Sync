@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Asset created from this order product</description>
-    <externalId>false</externalId>
     <inlineHelpText>Asset created from this order product</inlineHelpText>
     <label>Asset</label>
     <referenceTo>Asset</referenceTo>

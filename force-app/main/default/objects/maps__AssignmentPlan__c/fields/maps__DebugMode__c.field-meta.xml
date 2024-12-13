@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines if the assignment plan will run in debug mode or not.</description>
-    <externalId>false</externalId>
     <label>Debug Mode</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

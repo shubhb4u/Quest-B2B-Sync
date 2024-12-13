@@ -3,7 +3,6 @@
     <fullName>Loopio__Comparison_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores Value or Range (for calculating score)</description>
-    <externalId>false</externalId>
     <label>Comparison Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

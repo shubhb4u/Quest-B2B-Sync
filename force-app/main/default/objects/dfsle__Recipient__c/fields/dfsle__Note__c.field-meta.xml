@@ -3,7 +3,6 @@
     <fullName>dfsle__Note__c</fullName>
     <deprecated>false</deprecated>
     <description>Note</description>
-    <externalId>false</externalId>
     <label>Note</label>
     <length>1000</length>
     <trackTrending>false</trackTrending>

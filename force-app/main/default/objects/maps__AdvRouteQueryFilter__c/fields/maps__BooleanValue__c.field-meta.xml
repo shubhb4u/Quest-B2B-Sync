@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This is value of the checkbox</description>
-    <externalId>false</externalId>
     <label>Boolean Value</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

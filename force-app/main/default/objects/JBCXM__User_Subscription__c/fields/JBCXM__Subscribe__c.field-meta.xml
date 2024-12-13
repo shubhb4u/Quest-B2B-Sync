@@ -3,7 +3,6 @@
     <fullName>JBCXM__Subscribe__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Subscribe</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

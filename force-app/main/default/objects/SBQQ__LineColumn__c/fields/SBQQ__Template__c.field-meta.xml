@@ -3,7 +3,6 @@
     <fullName>SBQQ__Template__c</fullName>
     <deprecated>false</deprecated>
     <description>Template on which this field is to be displayed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template on which this field is to be displayed.</inlineHelpText>
     <label>Template</label>
     <referenceTo>SBQQ__QuoteTemplate__c</referenceTo>

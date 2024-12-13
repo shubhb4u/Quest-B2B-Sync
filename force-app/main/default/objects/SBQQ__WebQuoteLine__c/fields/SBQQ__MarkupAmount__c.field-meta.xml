@@ -3,7 +3,6 @@
     <fullName>SBQQ__MarkupAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Markup on this line item in the form of an absolute amount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Markup on this line item in the form of an absolute amount.</inlineHelpText>
     <label>Markup (Amt)</label>
     <precision>16</precision>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ComponentSubscriptionScope__c</fullName>
     <deprecated>false</deprecated>
     <description>Subscription scope set at the component level. This field overrides the subscription scope copied from the product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription scope set at the component level. This field overrides the subscription scope copied from the product.</inlineHelpText>
     <label>Component Subscription Scope</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>blng__GatewayRequest__c</fullName>
     <deprecated>false</deprecated>
     <description>The request sent to the gateway</description>
-    <externalId>false</externalId>
     <inlineHelpText>The request sent to the gateway</inlineHelpText>
     <label>Gateway Request</label>
     <length>32768</length>

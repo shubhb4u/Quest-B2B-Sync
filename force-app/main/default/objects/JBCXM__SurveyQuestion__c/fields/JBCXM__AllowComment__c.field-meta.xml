@@ -3,7 +3,6 @@
     <fullName>JBCXM__AllowComment__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Allow Comment</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

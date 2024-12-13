@@ -3,7 +3,6 @@
     <fullName>dfsle__ContentVersion_Ids__c</fullName>
     <deprecated>false</deprecated>
     <description>Content version Ids of documents generated as part of the job</description>
-    <externalId>false</externalId>
     <label>ContentVersion Ids</label>
     <length>32768</length>
     <trackHistory>false</trackHistory>

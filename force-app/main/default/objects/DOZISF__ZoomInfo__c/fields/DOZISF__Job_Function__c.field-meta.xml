@@ -3,7 +3,6 @@
     <fullName>DOZISF__Job_Function__c</fullName>
     <deprecated>false</deprecated>
     <description>A person&apos;s organizational job function.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A person&apos;s organizational job function.</inlineHelpText>
     <label>Job Function</label>
     <length>3000</length>

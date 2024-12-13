@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, when no matching child records are found for SUM or AVG rollups, Rollup Helper will roll up the results as null instead of 0.</description>
-    <externalId>false</externalId>
     <label>Roll Up Zero As Null</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

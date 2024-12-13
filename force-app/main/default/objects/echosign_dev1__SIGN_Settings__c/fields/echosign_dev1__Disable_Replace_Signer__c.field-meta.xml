@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the ability to replace the current signer or approver after the agreement has been sent.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the ability to replace the current signer or approver after the agreement has been sent.</inlineHelpText>
     <label>Hide Replace Signer</label>
     <trackTrending>false</trackTrending>

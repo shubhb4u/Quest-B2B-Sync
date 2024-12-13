@@ -3,7 +3,6 @@
     <fullName>SBQQ__AssetConversion__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how this product is converted to asset.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates how this product is converted to asset.</inlineHelpText>
     <label>Asset Conversion</label>
     <required>false</required>

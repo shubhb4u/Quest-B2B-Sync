@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Name of object being summarized.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the object you want to aggregate.</inlineHelpText>
     <label>Target Object</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__UserId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>User Id</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Survey_Participants</relationshipName>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator being used when comparing process input values.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the operator to use when comparing process input values.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

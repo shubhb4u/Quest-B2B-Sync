@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Recipients marked as &quot;Delegator to Acceptor&quot; may review the document but can&apos;t accept the document. They need to forward the document to another user who may accept the document.</inlineHelpText>
     <label>Enable Delegate Acceptor Role</label>
     <trackTrending>false</trackTrending>

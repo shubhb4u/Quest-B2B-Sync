@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>rh2__Test_Numeric__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Test Numeric</label>
     <precision>8</precision>
     <required>false</required>

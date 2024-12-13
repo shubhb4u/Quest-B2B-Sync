@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Renewal opportunity generated to track the renewal of this contract.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Renewal opportunity generated to track the renewal of this contract.</inlineHelpText>
     <label>Renewal Opportunity</label>
     <referenceTo>Opportunity</referenceTo>

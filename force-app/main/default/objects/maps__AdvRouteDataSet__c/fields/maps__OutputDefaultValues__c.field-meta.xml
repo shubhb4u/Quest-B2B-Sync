@@ -3,7 +3,6 @@
     <fullName>maps__OutputDefaultValues__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Output Default Values</label>
     <referenceTo>maps__AdvRouteDefaultValuesGrouping__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Data Sets</relationshipLabel>

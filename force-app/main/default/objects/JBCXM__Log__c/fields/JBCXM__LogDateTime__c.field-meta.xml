@@ -3,7 +3,6 @@
     <fullName>JBCXM__LogDateTime__c</fullName>
     <deprecated>false</deprecated>
     <description>This will store date time when log is created</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date time when the log is created</inlineHelpText>
     <label>Log Date Time</label>
     <required>true</required>

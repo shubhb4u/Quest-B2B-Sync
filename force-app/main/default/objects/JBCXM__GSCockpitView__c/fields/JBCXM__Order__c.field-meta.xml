@@ -3,7 +3,6 @@
     <fullName>JBCXM__Order__c</fullName>
     <deprecated>false</deprecated>
     <description>Order and group related info.</description>
-    <externalId>false</externalId>
     <label>Order</label>
     <length>2500</length>
     <trackTrending>false</trackTrending>

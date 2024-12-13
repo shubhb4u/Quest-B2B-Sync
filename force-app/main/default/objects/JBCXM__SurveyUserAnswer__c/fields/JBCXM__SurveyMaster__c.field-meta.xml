@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyMaster__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Survey Master</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipLabel>SurveyMaster</relationshipLabel>

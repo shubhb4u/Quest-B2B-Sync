@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Identifies whether this schedule was created by an end user or an admin.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Identifies whether this schedule was created by an end user or an admin.</inlineHelpText>
     <label>User Defined</label>
     <trackHistory>false</trackHistory>

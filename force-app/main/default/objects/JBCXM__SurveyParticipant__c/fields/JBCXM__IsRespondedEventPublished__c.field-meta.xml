@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Whether responded event is published to event system.</description>
-    <externalId>false</externalId>
     <label>Is Responded Event Published.</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

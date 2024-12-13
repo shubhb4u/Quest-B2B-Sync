@@ -3,7 +3,6 @@
     <fullName>Q9__RecordType_Usage_Skip__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>RecordType Usage Skip</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

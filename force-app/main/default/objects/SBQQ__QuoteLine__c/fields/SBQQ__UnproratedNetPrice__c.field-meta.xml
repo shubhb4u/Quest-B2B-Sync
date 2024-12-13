@@ -3,7 +3,6 @@
     <fullName>SBQQ__UnproratedNetPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>The full-term Net Price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The full term net price for individual line.</inlineHelpText>
     <label>Unprorated Net Price</label>
     <precision>16</precision>

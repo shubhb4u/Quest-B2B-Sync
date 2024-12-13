@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether the rollup is a grandchild rollup.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether the rollup is a grandchild rollup.</inlineHelpText>
     <label>Is Grandchild Rollup</label>
     <trackFeedHistory>false</trackFeedHistory>

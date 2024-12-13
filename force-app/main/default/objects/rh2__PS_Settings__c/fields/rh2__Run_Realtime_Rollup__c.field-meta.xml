@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, the realtime disable script may be used to temporarily turn off rollups.  For more details, please contact support@passagetech.com.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, the realtime disable script may be used to temporarily turn off rollups.  For more details, please contact support@passagetech.com.</inlineHelpText>
     <label>Allow Disable Realtime By Script</label>
     <trackTrending>false</trackTrending>

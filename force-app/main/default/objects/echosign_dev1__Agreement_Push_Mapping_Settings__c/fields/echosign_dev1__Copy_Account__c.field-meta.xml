@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Copy_Account__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Should Adobe Acrobat Sign copy the first Contact recipient’s Account lookup to the Agreement’s Account lookup?</inlineHelpText>
     <label>Copy Contact Account</label>
     <trackTrending>false</trackTrending>

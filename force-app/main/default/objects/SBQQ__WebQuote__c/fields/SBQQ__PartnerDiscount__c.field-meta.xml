@@ -3,7 +3,6 @@
     <fullName>SBQQ__PartnerDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount extended to partner on this opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount extended to partner on this opportunity.</inlineHelpText>
     <label>Partner Discount</label>
     <precision>5</precision>

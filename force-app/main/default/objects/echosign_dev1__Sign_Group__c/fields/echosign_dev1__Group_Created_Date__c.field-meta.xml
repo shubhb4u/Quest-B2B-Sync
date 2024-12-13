@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Group_Created_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>The date the Sign group was created</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date the Sign group was created</inlineHelpText>
     <label>Group Created Date</label>
     <required>false</required>

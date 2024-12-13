@@ -3,7 +3,6 @@
     <fullName>JBCXM__AnonymousTempUser__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Anonymous Temp User</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

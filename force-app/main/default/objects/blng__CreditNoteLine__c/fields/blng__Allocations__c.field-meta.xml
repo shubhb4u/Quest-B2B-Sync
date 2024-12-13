@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Allocations__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Amount of this line allocated to invoices. Does not include tax.</inlineHelpText>
     <label>Allocations</label>
     <summarizedField>blng__CreditNoteAllocation__c.blng__Amount__c</summarizedField>

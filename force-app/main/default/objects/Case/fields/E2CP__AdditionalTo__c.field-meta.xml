@@ -3,7 +3,6 @@
     <fullName>E2CP__AdditionalTo__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores email addresses entered on the New Comment page Additional To section. The SuppliedEmail (Web Email) value is added automatically on case creation if a valid Contact isn&apos;t associated.</description>
-    <externalId>false</externalId>
     <label>Additional To</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Order that this Price Schedule applies to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Order that this Price Schedule applies to.</inlineHelpText>
     <label>Order</label>
     <referenceTo>Order</referenceTo>

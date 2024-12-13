@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls visibility of the Agreement Template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, the Agreement Template is visible, else it is not.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

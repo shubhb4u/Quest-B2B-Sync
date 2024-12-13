@@ -3,7 +3,6 @@
     <fullName>FLAGS__TodayEndTime__c</fullName>
     <deprecated>false</deprecated>
     <description>The current day&apos;s end time as defined in the standard Business Hour record.</description>
-    <externalId>false</externalId>
     <label>Today End Time</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

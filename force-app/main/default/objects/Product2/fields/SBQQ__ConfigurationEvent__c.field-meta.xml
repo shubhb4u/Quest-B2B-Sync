@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConfigurationEvent__c</fullName>
     <deprecated>false</deprecated>
     <description>Specifies when user is prompted to configure this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use this to control when Configure Products screen shows up for this product. Choose &quot;Add&quot; to limit to initial configuration. Choose &quot;Edit&quot; to subsequent configuration.</inlineHelpText>
     <label>Configuration Event</label>
     <required>false</required>

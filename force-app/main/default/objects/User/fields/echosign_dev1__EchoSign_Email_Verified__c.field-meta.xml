@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This checkbox indicates that the user&apos;s email address has been validated in Adobe Acrobat Sign API.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This checkbox indicates that the user&apos;s email address has been validated in Adobe Acrobat Sign API.</inlineHelpText>
     <label>Adobe Acrobat Sign Email Verified</label>
     <trackFeedHistory>false</trackFeedHistory>

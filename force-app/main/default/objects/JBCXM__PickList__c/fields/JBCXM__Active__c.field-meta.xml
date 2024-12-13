@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This field will be used to decided if the picklist value should be displayed in the LookUp values while creating a object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check to activate / Uncheck to deactivate.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

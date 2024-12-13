@@ -3,7 +3,6 @@
     <fullName>blng__BillingRule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Billing Rule</label>
     <referenceTo>blng__BillingRule__c</referenceTo>
     <relationshipName>BillingRuleDebitNoteAllocationsCNL</relationshipName>

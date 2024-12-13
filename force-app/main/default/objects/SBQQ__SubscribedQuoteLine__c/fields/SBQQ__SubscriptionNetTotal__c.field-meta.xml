@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionNetTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Net total of the Subscription Quote Line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Net total of the Subscription Quote Line.</inlineHelpText>
     <label>Subscription Net Total</label>
     <precision>14</precision>

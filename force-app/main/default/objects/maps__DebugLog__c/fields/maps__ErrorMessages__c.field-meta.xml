@@ -3,7 +3,6 @@
     <fullName>maps__ErrorMessages__c</fullName>
     <deprecated>false</deprecated>
     <description>This will hold messages returned from the routing services</description>
-    <externalId>false</externalId>
     <label>Error Messages</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>&quot;Please review and sign this document.&quot;</defaultValue>
     <deprecated>false</deprecated>
     <description>Specify a message to the recipients.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify a message to the recipients.</inlineHelpText>
     <label>Message</label>
     <length>32000</length>

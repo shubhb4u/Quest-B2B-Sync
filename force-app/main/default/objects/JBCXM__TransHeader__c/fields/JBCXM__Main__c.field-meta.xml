@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>There should be only main transaction at one time. Usually the New Business or the most Resent Renewal transaction available for a Customer.</description>
-    <externalId>false</externalId>
     <inlineHelpText>There should be only main transaction at one time. Usually the New Business or the most Resent Renewal transaction available for a Customer.</inlineHelpText>
     <label>Main</label>
     <trackTrending>false</trackTrending>

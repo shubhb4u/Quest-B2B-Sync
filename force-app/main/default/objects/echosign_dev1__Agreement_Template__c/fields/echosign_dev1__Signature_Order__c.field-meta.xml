@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Signature_Order__c</fullName>
     <deprecated>false</deprecated>
     <description>Enable the sender to also sign the agreement by selecting a signature order.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable the sender to also sign the agreement by selecting a signature order.</inlineHelpText>
     <label>Sender Signature Order</label>
     <required>false</required>

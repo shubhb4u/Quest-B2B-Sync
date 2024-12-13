@@ -3,7 +3,6 @@
     <fullName>JBCXM__ParentTransaction__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Parent Transaction</label>
     <referenceTo>JBCXM__TransHeader__c</referenceTo>
     <relationshipLabel>Transaction Header (Parent Transaction)</relationshipLabel>

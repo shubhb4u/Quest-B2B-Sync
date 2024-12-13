@@ -3,7 +3,6 @@
     <fullName>JBCXM__Playbook__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Playbook</label>
     <referenceTo>JBCXM__Playbook__c</referenceTo>
     <relationshipLabel>Call To Action</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConsumptionSchedule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Consumption Schedule</label>
     <referenceTo>ConsumptionSchedule</referenceTo>
     <relationshipLabel>Order Product Consumption Schedules</relationshipLabel>

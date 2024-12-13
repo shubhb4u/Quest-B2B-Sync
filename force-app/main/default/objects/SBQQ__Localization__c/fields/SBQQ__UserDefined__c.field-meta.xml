@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>To indicate whether this field is user-defined or not.</description>
-    <externalId>false</externalId>
     <inlineHelpText>To indicate whether this field is user-defined or not.</inlineHelpText>
     <label>User Defined</label>
     <trackTrending>false</trackTrending>

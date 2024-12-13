@@ -3,7 +3,6 @@
     <fullName>FLAGS__Clear_On_Agent_Post__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Clear On Agent Post</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

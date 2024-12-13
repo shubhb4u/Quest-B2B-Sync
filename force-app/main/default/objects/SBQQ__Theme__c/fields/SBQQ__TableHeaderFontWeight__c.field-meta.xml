@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__TableHeaderFontWeight__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font weight of table header</inlineHelpText>
     <label>Table Header Font Weight</label>
     <required>false</required>

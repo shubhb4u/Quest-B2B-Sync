@@ -3,7 +3,6 @@
     <fullName>JBCXM__Account__c</fullName>
     <deprecated>false</deprecated>
     <description>Maps to a customer (Account) that the record belongs to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Customer name</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

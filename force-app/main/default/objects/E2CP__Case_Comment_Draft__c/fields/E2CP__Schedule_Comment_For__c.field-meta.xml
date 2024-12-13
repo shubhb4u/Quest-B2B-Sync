@@ -3,7 +3,6 @@
     <fullName>E2CP__Schedule_Comment_For__c</fullName>
     <deprecated>false</deprecated>
     <description>Date and time of when the comment should be sent out.</description>
-    <externalId>false</externalId>
     <label>Schedule Comment For</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

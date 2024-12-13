@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the Driver&apos;s specific working hours</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the Driver&apos;s specific working hours</inlineHelpText>
     <label>Live Working Hours</label>
     <referenceTo>maps__LiveWorkingHours__c</referenceTo>

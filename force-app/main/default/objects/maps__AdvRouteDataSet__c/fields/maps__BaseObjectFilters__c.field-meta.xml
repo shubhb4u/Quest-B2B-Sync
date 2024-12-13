@@ -3,7 +3,6 @@
     <fullName>maps__BaseObjectFilters__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Base Object Filters</label>
     <referenceTo>maps__AdvRouteQueryFilterGrouping__c</referenceTo>
     <relationshipLabel>Maps Adv Route Data Sets (Base Obj Filters)</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>DOZISF__ZoomInfo_URL__c</fullName>
     <deprecated>false</deprecated>
     <description>A link to person profile on the zoominfo website.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A link to person profile on the zoominfo website.</inlineHelpText>
     <label>ZoomInfo URL</label>
     <required>false</required>

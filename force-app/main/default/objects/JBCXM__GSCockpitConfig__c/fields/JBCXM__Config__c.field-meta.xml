@@ -3,7 +3,6 @@
     <fullName>JBCXM__Config__c</fullName>
     <deprecated>false</deprecated>
     <description>To store JSON configuration</description>
-    <externalId>false</externalId>
     <label>Configuration</label>
     <length>50000</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to turn on Chatter updates for Adobe Acrobat Sign agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to turn on Chatter updates for Adobe Acrobat Sign agreements.</inlineHelpText>
     <label>Enable Acrobat Sign Chatter Updates</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Fill_Sign__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Fill &amp; Sign</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Allows you to check on past purchases in the Account.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check if you want to look up prior purchases of Constraining Option within the Account.</inlineHelpText>
     <label>Check Prior Purchases</label>
     <trackTrending>false</trackTrending>

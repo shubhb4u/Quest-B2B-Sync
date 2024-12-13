@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Configured product to be validated by this rule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the configured product you want this rule to validate.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

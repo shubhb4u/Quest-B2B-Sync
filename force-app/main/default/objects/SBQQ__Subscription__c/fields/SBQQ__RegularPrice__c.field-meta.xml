@@ -3,7 +3,6 @@
     <fullName>SBQQ__RegularPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Regular Price for this Subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Regular Price for this Subscription.</inlineHelpText>
     <label>Regular Price</label>
     <precision>14</precision>

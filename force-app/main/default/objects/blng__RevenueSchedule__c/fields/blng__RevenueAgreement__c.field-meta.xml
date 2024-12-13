@@ -3,7 +3,6 @@
     <fullName>blng__RevenueAgreement__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Revenue Agreement</label>
     <referenceTo>blng__RevenueAgreement__c</referenceTo>
     <relationshipLabel>Revenue Schedule</relationshipLabel>

@@ -18,11 +18,9 @@ export default class purchaseProductFullWidth extends NavigationMixin(LightningE
     @api isAwardComponent;
 
     connectedCallback() {
-        
         this.parentClass = this.isAwardComponent ? 'q-hero-top q-award-panel' : 'q-hero-top';
         this.sendDataToApex();
     }
-
 
     // Method to send the values to Apex
     sendDataToApex() {

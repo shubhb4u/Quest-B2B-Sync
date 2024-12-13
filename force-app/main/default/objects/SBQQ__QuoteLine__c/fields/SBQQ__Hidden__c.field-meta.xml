@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Denotes whether this line item is hidden in generated PDF documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Denotes whether this line item is hidden in generated PDF documents.</inlineHelpText>
     <label>Hidden</label>
     <trackHistory>false</trackHistory>

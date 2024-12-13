@@ -4,7 +4,6 @@
     <defaultValue>&quot;{}&quot;</defaultValue>
     <deprecated>false</deprecated>
     <description>To store the account level aggregation data of Promoters, Passives, Detractors by user role.</description>
-    <externalId>false</externalId>
     <label>User Level Aggregation</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

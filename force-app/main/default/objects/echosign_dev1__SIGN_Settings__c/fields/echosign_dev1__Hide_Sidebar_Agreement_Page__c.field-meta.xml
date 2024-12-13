@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the sidebar in the Agreement Editor page. This page can be accessed by clicking on the name of an agreement displayed in the sidebar, in the Agreements Home page, or in the list of agreements for a related object.</inlineHelpText>
     <label>Hide Sidebar for Agreement Editor Page</label>
     <trackTrending>false</trackTrending>

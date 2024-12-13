@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Select to designate this contract as the master contract for this account. Upon renewal, all contracts will be rolled into this one.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select to designate this contract as the master contract for this account. Upon renewal, all contracts will be rolled into this one.</inlineHelpText>
     <label>Master Contract</label>
     <trackFeedHistory>false</trackFeedHistory>

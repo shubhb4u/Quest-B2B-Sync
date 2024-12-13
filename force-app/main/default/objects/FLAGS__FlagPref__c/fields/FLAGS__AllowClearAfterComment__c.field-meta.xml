@@ -6,7 +6,6 @@
     <description>Enable the clearing of the Case Flag after a public comment has been added to Case. 
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow clear after comment</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

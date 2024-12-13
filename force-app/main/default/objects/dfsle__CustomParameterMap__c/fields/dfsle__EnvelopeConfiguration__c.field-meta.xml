@@ -3,7 +3,6 @@
     <fullName>dfsle__EnvelopeConfiguration__c</fullName>
     <deprecated>false</deprecated>
     <description>DocuSign Envelope Configuration</description>
-    <externalId>false</externalId>
     <inlineHelpText>DocuSign Envelope Configuration</inlineHelpText>
     <label>DocuSign Envelope Configuration</label>
     <referenceTo>dfsle__EnvelopeConfiguration__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsImp__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>IsImp</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

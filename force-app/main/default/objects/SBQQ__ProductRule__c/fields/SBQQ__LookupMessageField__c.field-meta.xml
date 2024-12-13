@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupMessageField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Lookup Object corresponding to Product Rule Message. Field must be text.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Lookup Object corresponding to Product Rule Message. Field must be text.</inlineHelpText>
     <label>Lookup Message Field</label>
     <required>false</required>

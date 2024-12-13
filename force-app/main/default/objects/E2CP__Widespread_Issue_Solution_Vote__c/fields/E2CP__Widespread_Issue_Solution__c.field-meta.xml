@@ -3,7 +3,6 @@
     <fullName>E2CP__Widespread_Issue_Solution__c</fullName>
     <deprecated>false</deprecated>
     <description>Solution related to the Vote</description>
-    <externalId>false</externalId>
     <inlineHelpText>Solution related to the Vote</inlineHelpText>
     <label>Widespread Issue Solution</label>
     <referenceTo>E2CP__Widespread_Issue_Solution__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__SuccessPlanType__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Success Plan Type</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>GSMetaInfo Success Plan Type</relationshipLabel>

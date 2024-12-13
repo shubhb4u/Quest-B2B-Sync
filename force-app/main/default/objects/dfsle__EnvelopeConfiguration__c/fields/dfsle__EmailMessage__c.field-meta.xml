@@ -3,7 +3,6 @@
     <fullName>dfsle__EmailMessage__c</fullName>
     <deprecated>false</deprecated>
     <description>Email Message</description>
-    <externalId>false</externalId>
     <label>Email message</label>
     <length>10000</length>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>sbaa__TargetObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object targeted by this approval chain.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Object targeted by this approval chain.</inlineHelpText>
     <label>Target Object</label>
     <required>false</required>

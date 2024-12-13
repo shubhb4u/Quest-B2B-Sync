@@ -3,7 +3,6 @@
     <fullName>E2CP__Target_Audience__c</fullName>
     <deprecated>false</deprecated>
     <description>Used to indicate the audience of a Widespread Issue Communication, encompassing Case Owners, Customers or both</description>
-    <externalId>false</externalId>
     <label>Target Audience</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>DOZISF__Last_Funding_Round_Amount__c</fullName>
     <deprecated>false</deprecated>
     <description>Amount of Last funding round.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Amount of Last funding round.</inlineHelpText>
     <label>Last Funding Round Amount</label>
     <precision>18</precision>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__DistributorDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Distributor discount applied to this line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Distributor discount applied to this line.</inlineHelpText>
     <label>Distributor Discount</label>
     <precision>5</precision>

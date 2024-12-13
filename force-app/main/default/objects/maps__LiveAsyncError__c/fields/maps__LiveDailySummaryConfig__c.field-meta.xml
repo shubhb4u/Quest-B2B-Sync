@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Reference to the summary that had errors</description>
-    <externalId>false</externalId>
     <inlineHelpText>Reference to the summary that had errors</inlineHelpText>
     <label>Live Daily Summary Config</label>
     <referenceTo>maps__LiveDailySummaryConfig__c</referenceTo>

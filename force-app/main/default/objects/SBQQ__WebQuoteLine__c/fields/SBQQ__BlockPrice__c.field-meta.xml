@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Block Price record used to price this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Block Price record used to price this line item.</inlineHelpText>
     <label>Block Price</label>
     <referenceTo>SBQQ__BlockPrice__c</referenceTo>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Account that this Price Schedule applies to. Only used in combination with Price Schedule Override on Quote Line Editor UI.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account that this Price Schedule applies to. Only used in combination with Price Schedule Override on Quote Line Editor UI.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

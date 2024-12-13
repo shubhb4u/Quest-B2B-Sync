@@ -3,7 +3,6 @@
     <fullName>sbaa__RecordField__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the type of record to associate for created tracked fields. If the object is not Opportunity, be sure to create a new lookup field on the Tracked Field object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field (on Tracked Value object) that represents a Lookup to its parent object</inlineHelpText>
     <label>Record Field</label>
     <required>false</required>

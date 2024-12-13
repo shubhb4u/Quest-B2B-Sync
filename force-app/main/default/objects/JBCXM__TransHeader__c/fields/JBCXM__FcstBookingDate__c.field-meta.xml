@@ -3,7 +3,6 @@
     <fullName>JBCXM__FcstBookingDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Forecast Booking Date</description>
-    <externalId>false</externalId>
     <inlineHelpText>Forecast Booking Date</inlineHelpText>
     <label>Fcst Booking Date</label>
     <required>false</required>

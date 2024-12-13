@@ -3,7 +3,6 @@
     <fullName>SBQQ__LineItemCount__c</fullName>
     <deprecated>false</deprecated>
     <description>Number of line items in this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Number of line items in this quote.</inlineHelpText>
     <label>Line Item Count</label>
     <summaryForeignKey>SBQQ__WebQuoteLine__c.SBQQ__Quote__c</summaryForeignKey>

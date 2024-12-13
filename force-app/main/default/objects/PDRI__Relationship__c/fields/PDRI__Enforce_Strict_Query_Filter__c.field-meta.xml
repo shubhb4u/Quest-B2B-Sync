@@ -3,7 +3,6 @@
     <fullName>PDRI__Enforce_Strict_Query_Filter__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enforce Strict Query Filter</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>trailheadapp__Due_Datetime__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The datetime the Trailmix is to be completed.</inlineHelpText>
     <label>Due Datetime</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Denoted driver of this trip</description>
-    <externalId>false</externalId>
     <inlineHelpText>Denoted driver of this trip</inlineHelpText>
     <label>Live Driver</label>
     <referenceTo>maps__LiveDriver__c</referenceTo>

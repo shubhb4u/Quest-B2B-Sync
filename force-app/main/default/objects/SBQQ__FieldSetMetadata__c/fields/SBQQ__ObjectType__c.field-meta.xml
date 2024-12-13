@@ -3,7 +3,6 @@
     <fullName>SBQQ__ObjectType__c</fullName>
     <deprecated>false</deprecated>
     <description>The Object Type being referred to when using column metadata sizing.</description>
-    <externalId>false</externalId>
     <label>Object Type</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This used to specify whether you use the scheme for the customer overall health calculation or not</description>
-    <externalId>false</externalId>
     <label>Customer Scheme</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

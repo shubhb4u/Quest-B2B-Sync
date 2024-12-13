@@ -3,7 +3,6 @@
     <fullName>DOZISF__Education__c</fullName>
     <deprecated>false</deprecated>
     <description>A person&apos;s history of education.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A person&apos;s history of education.</inlineHelpText>
     <label>Education</label>
     <length>131072</length>

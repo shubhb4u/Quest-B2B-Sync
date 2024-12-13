@@ -3,7 +3,6 @@
     <fullName>SBES__AgreementTemplate__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select an Agreement Template to use when sending a quote with EchoSign.</inlineHelpText>
     <label>Agreement Template</label>
     <referenceTo>echosign_dev1__Agreement_Template__c</referenceTo>

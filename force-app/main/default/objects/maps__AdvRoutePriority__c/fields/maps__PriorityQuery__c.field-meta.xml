@@ -3,7 +3,6 @@
     <fullName>maps__PriorityQuery__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the query for the priority</description>
-    <externalId>false</externalId>
     <label>Priority Query</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

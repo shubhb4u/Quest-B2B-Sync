@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProratedPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Prorated price for the product quoted by this line item. This price will only differ from Special Price if the product is a subscription and the line item is being prorated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Prorated price for the product quoted by this line item. This price will only differ from Special Price if the product is a subscription and the line item is being prorated.</inlineHelpText>
     <label>Prorated Unit Price</label>
     <precision>14</precision>

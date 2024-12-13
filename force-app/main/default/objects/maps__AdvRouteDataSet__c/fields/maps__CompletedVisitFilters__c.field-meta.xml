@@ -3,7 +3,6 @@
     <fullName>maps__CompletedVisitFilters__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Completed Visit Filters</label>
     <referenceTo>maps__AdvRouteQueryFilterGrouping__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Data Sets (Completed Visit Filters)</relationshipLabel>

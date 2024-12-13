@@ -3,7 +3,6 @@
     <fullName>SBQQ__Action__c</fullName>
     <deprecated>false</deprecated>
     <description>Action that this custom action performs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Action that this custom action performs.</inlineHelpText>
     <label>Action</label>
     <required>false</required>

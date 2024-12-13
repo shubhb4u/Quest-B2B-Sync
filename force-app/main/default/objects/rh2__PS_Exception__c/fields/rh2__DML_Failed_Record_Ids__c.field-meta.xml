@@ -3,7 +3,6 @@
     <fullName>rh2__DML_Failed_Record_Ids__c</fullName>
     <deprecated>false</deprecated>
     <description>The record IDs, if any, of the failed records recorded from a DMLException.</description>
-    <externalId>false</externalId>
     <label>DML Failed Record Ids</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

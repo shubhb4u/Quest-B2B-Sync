@@ -3,7 +3,6 @@
     <fullName>JBCXM__DefaultPriority__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Default Priority</label>
     <referenceTo>JBCXM__PickList__c</referenceTo>
     <relationshipLabel>Default Priority</relationshipLabel>

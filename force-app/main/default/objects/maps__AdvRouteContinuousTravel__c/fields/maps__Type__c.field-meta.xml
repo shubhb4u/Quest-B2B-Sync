@@ -3,7 +3,6 @@
     <fullName>maps__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the type of continuous travel</description>
-    <externalId>false</externalId>
     <label>Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

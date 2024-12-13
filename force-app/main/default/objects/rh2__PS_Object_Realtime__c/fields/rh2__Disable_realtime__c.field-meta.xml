@@ -3,7 +3,6 @@
     <fullName>rh2__Disable_realtime__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Disables realtime processing on the specified object type when checked.</inlineHelpText>
     <label>Disable Realtime Processing</label>
     <trackTrending>false</trackTrending>

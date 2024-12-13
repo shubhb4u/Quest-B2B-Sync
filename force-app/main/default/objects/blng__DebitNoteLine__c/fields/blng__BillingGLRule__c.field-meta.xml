@@ -3,7 +3,6 @@
     <fullName>blng__BillingGLRule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to Billing GL Rule assigned to this line</inlineHelpText>
     <label>Billing GL Rule</label>
     <referenceTo>blng__GLRule__c</referenceTo>

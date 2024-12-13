@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product feature validated by this rule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the product feature you want this rule to validate.</inlineHelpText>
     <label>Product Feature</label>
     <lookupFilter>

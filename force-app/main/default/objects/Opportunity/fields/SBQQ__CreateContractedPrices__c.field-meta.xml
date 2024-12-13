@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Select this checkbox to create Contracted Prices without creating a Contract.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select this checkbox to create Contracted Prices without creating a Contract.</inlineHelpText>
     <label>Create Contracted Prices</label>
     <trackFeedHistory>false</trackFeedHistory>

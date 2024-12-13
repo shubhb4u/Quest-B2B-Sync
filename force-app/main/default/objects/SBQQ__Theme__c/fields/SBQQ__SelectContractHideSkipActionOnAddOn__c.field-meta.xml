@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, will hide the Skip action button on the contract selector page for add-on workflow</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, will hide the Skip action button on the contract selector page for add-on workflow</inlineHelpText>
     <label>Hide Skip Action (Add-on Workflow)</label>
     <trackTrending>false</trackTrending>

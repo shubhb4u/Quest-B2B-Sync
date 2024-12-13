@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Feature that selects this option.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter or lookup the feature that includes this option. This will be dependent on the Configured SKU.</inlineHelpText>
     <label>Feature</label>
     <lookupFilter>

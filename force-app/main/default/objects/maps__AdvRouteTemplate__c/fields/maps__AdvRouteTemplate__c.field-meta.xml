@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a lookup to the main Advanced Route template when routing multiple base objects on the same template</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Template</label>
     <referenceTo>maps__AdvRouteTemplate__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Templates</relationshipLabel>

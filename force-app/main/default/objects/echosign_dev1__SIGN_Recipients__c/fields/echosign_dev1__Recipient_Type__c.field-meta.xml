@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Recipient_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores the Type of the Recipient</description>
-    <externalId>false</externalId>
     <label>Recipient Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

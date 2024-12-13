@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to have the deployment invocation sent to Prodly support and skip the actual deployment. Allows support to debug errors by reproducing the deployment in a local development environment.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to have the deployment invocation sent to Prodly support and skip the actual deployment. Allows support to debug errors by reproducing the deployment in a local development environment.</inlineHelpText>
     <label>Debug Deployment</label>
     <trackTrending>false</trackTrending>

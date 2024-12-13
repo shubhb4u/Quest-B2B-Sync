@@ -3,7 +3,6 @@
     <fullName>sbaa__SubmittedDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Date when record was submitted for approval</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date when record was submitted for approval</inlineHelpText>
     <label>Submitted Date</label>
     <required>false</required>

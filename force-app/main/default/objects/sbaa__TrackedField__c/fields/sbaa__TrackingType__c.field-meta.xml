@@ -3,7 +3,6 @@
     <fullName>sbaa__TrackingType__c</fullName>
     <deprecated>false</deprecated>
     <description>Choose whether all values are tracked or only changes from the previous tracked value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose whether all values are tracked or only changes from the previous tracked value.</inlineHelpText>
     <label>Tracking Type</label>
     <required>false</required>

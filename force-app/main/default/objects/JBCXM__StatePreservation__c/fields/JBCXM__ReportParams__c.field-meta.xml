@@ -3,7 +3,6 @@
     <fullName>JBCXM__ReportParams__c</fullName>
     <defaultValue>&apos;[]&apos;</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>ReportParams</label>
     <length>30000</length>
     <trackTrending>false</trackTrending>

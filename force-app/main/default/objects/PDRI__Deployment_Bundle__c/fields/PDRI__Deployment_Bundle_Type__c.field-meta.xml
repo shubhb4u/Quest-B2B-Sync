@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Deployment_Bundle_Type__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deployment Bundle Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

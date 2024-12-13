@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this option to set the same index for a template which results in multiple recipients, making them hybrid signers.</inlineHelpText>
     <label>Uniform Index</label>
     <trackTrending>false</trackTrending>

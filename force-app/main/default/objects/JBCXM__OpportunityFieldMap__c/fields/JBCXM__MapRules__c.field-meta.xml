@@ -3,7 +3,6 @@
     <fullName>JBCXM__MapRules__c</fullName>
     <deprecated>false</deprecated>
     <description>This contains the map rules against booking types.</description>
-    <externalId>false</externalId>
     <label>Map Rules</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

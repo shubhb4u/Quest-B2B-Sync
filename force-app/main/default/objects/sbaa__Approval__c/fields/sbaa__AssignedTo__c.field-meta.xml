@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the User to which the Approval is assigned</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the User to which the Approval is assigned</inlineHelpText>
     <label>Assigned To</label>
     <referenceTo>User</referenceTo>

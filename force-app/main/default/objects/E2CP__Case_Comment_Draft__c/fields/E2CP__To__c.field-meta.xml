@@ -3,7 +3,6 @@
     <fullName>E2CP__To__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores recipients entered on the New Comment page in the To field.</description>
-    <externalId>false</externalId>
     <label>To</label>
     <length>8192</length>
     <trackTrending>false</trackTrending>

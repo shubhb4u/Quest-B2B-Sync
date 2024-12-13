@@ -3,7 +3,6 @@
     <fullName>SBQQ__Template__c</fullName>
     <deprecated>false</deprecated>
     <description>Quote template that uses this template section.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote template that uses this template section.</inlineHelpText>
     <label>Template</label>
     <referenceTo>SBQQ__QuoteTemplate__c</referenceTo>

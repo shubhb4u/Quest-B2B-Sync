@@ -3,7 +3,6 @@
     <fullName>maps__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how the off days will be used</description>
-    <externalId>false</externalId>
     <label>Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

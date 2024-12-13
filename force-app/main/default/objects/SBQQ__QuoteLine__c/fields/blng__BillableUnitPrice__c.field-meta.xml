@@ -3,7 +3,6 @@
     <fullName>blng__BillableUnitPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>The unprorated amount that will bill each billing period. Equals ((TotalPrice * BillingFrequency) / (ProrateMultiplier * DefaultSubscriptionTerm)).</description>
-    <externalId>false</externalId>
     <formula>IF(ISPICKVAL(SBQQ__ChargeType__c , &apos;One-Time&apos;),  SBQQ__NetTotal__c,
         (SBQQ__NetTotal__c * (CASE(SBQQ__BillingFrequency__c,
         &quot;Monthly&quot;, 1,

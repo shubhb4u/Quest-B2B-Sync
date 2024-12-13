@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description for this line item.</inlineHelpText>
     <label>Description</label>
     <length>32000</length>

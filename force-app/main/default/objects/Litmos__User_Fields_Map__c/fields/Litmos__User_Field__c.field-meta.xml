@@ -3,7 +3,6 @@
     <fullName>Litmos__User_Field__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>User Field</label>
     <referenceTo>Litmos__User_Field__c</referenceTo>
     <relationshipLabel>User Fields Maps</relationshipLabel>

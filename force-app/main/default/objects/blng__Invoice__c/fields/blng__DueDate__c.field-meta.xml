@@ -3,7 +3,6 @@
     <fullName>blng__DueDate__c</fullName>
     <deprecated>false</deprecated>
     <description>When is the last date of invoice to be paid.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date when payment for the invoice is due.</inlineHelpText>
     <label>Due Date</label>
     <required>false</required>

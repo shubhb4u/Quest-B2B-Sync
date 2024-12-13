@@ -3,7 +3,6 @@
     <fullName>SBQQ__MinimumPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Minimum unit price for this product. Used to enforce price floor for products with dynamically calculated prices.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Minimum unit price for this product. Used to enforce price floor for products with dynamically calculated prices.</inlineHelpText>
     <label>Minimum Unit Price</label>
     <precision>16</precision>

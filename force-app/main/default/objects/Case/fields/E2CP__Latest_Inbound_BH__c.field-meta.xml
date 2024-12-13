@@ -3,7 +3,6 @@
     <fullName>E2CP__Latest_Inbound_BH__c</fullName>
     <deprecated>false</deprecated>
     <description>When the Enable Latest Inbound BH setting is enabled in setup, this field is populated with the current state of Business Hours each time a new inbound email is received through Email to Case Premium. Consider using this field in your rule criteria for Auto-Response rules (or other automation such as Flows) to send appropriate emails based on whether the current time falls inside or outside of Business Hours.</description>
-    <externalId>false</externalId>
     <label>Latest Inbound BH</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

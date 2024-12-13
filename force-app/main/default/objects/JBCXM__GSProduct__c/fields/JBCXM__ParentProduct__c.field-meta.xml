@@ -3,7 +3,6 @@
     <fullName>JBCXM__ParentProduct__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Parent Product</label>
     <referenceTo>JBCXM__GSProduct__c</referenceTo>
     <relationshipLabel>Products</relationshipLabel>

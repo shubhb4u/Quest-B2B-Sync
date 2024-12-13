@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that indicates changes to this option should apply immediately.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to immediately apply changes to this option. Use sparingly to avoid slow user experience.</inlineHelpText>
     <label>Apply Immediately</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>FLAGS__View__c</fullName>
     <deprecated>false</deprecated>
     <description>Id of the Switchboard View record this group is associated with.</description>
-    <externalId>false</externalId>
     <label>View</label>
     <referenceTo>FLAGS__Switchboard_View__c</referenceTo>
     <relationshipLabel>Switchboard Groups</relationshipLabel>

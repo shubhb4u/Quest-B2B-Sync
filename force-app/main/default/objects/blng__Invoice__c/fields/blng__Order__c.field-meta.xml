@@ -3,7 +3,6 @@
     <fullName>blng__Order__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Order</label>
     <referenceTo>Order</referenceTo>
     <relationshipLabel>Invoices</relationshipLabel>

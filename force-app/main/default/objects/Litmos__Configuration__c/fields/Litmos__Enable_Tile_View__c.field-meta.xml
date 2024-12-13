@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Click here to switch Litmos to Tile View Version 2</description>
-    <externalId>false</externalId>
     <inlineHelpText>Click here to switch Litmos to Tile View Version 2</inlineHelpText>
     <label>Enable Tile View</label>
     <trackTrending>false</trackTrending>

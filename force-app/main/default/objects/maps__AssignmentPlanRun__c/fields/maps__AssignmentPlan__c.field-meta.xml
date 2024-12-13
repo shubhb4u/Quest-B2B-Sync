@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a lookup to the Assignment Plan</description>
-    <externalId>false</externalId>
     <label>Assignment Plan</label>
     <referenceTo>maps__AssignmentPlan__c</referenceTo>
     <relationshipLabel>Maps Assignment Plan</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SpecialPriceType__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores the type of special price offered on this line item. Null value indicates there is no special pricing. Under normal circumstances this field should not be modified via UI.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Stores the type of special price offered on this line item. Null value indicates there is no special pricing.</inlineHelpText>
     <label>Special Price Type</label>
     <required>false</required>

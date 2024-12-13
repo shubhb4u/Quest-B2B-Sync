@@ -3,7 +3,6 @@
     <fullName>maps__DataRegion__c</fullName>
     <deprecated>false</deprecated>
     <description>Select where off-platform compute resources reside</description>
-    <externalId>false</externalId>
     <label>Off-Platform Processing Location</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

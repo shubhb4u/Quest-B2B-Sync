@@ -3,7 +3,6 @@
     <fullName>SBQQ__PaymentTerm__c</fullName>
     <deprecated>false</deprecated>
     <description>The payment term for this order.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The payment term for this order.</inlineHelpText>
     <label>Payment Term</label>
     <required>false</required>

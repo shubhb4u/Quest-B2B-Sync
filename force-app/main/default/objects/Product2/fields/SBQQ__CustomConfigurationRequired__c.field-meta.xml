@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomConfigurationRequired__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Custom Configuration Required</label>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

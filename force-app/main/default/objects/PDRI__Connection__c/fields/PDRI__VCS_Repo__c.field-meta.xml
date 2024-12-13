@@ -3,7 +3,6 @@
     <fullName>PDRI__VCS_Repo__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>VCS Repo</label>
     <referenceTo>PDRI__VCS_Repo__c</referenceTo>
     <relationshipName>Connection_Repos</relationshipName>

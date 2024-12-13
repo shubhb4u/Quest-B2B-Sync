@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Subscription that currently covers this asset. This field is only populated if one and only one subscription covers this asset. Renewals will overwrite with new subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription that currently covers this asset. Automatically populated if one and only one subscription covers this asset. Renewals will overwrite with new subscription.</inlineHelpText>
     <label>Current Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

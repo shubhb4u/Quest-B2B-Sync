@@ -3,7 +3,6 @@
     <fullName>dfsle__Replacement__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Replacement document</inlineHelpText>
     <label>Replacement Document</label>
     <referenceTo>dfsle__Document__c</referenceTo>

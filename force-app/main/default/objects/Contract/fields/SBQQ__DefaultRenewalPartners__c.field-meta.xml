@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Select to include the original opportunity partners in renewal opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select to include the original opportunity partners in renewal opportunity.</inlineHelpText>
     <label>Default Renewal Partners</label>
     <trackFeedHistory>false</trackFeedHistory>

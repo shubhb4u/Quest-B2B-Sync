@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Hide the Submit button on the Preview page if the record is Pending or Approved.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Hide the Submit button on the Preview page if the record is Pending or Approved.</inlineHelpText>
     <label>Hide Submit Button on Preview Page</label>
     <trackTrending>false</trackTrending>

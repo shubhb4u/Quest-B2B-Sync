@@ -3,7 +3,6 @@
     <fullName>FLAGS__ViewedFlag__c</fullName>
     <deprecated>false</deprecated>
     <description>The timestamp that the Case Flag was set.</description>
-    <externalId>false</externalId>
     <label>Case Flag Date/Time</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

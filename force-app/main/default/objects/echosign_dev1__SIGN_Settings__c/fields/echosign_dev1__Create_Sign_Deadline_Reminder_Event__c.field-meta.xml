@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to display Salesforce alerts reminding users when the agreements sent are about to expire. Specify the number of days before agreement expiration that the alert is shown in the Days Sign Deadline Reminder Event setting.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to display Salesforce alerts reminding users when the agreements sent are about to expire. Specify the number of days before agreement expiration that the alert is shown in the Days Sign Deadline Reminder Event setting.</inlineHelpText>
     <label>Create Sign Deadline Reminder Event</label>
     <trackTrending>false</trackTrending>

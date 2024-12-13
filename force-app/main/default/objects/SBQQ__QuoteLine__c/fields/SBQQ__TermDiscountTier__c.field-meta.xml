@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Tier within the term discount schedule used to discount this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Tier within the term discount schedule used to discount this line item.</inlineHelpText>
     <label>Term Discount Tier</label>
     <referenceTo>SBQQ__DiscountTier__c</referenceTo>

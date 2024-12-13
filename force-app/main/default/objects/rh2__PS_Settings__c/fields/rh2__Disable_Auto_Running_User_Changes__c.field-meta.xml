@@ -3,7 +3,6 @@
     <fullName>rh2__Disable_Auto_Running_User_Changes__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>When checked, automatic processes will not update the running user for Rollup Helper.</inlineHelpText>
     <label>Disable Auto Changes to Running User</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__SourceData__c</fullName>
     <deprecated>false</deprecated>
     <description>This will store the source data on which log is created</description>
-    <externalId>false</externalId>
     <inlineHelpText>Source data on which log is created</inlineHelpText>
     <label>Source Data</label>
     <length>32768</length>

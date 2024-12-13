@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to display the ‘Post Sign Redirect URL’ and ‘Post Sign Redirect Delay’ options as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Post Sign Options setting.</inlineHelpText>
     <label>Read Only Post Sign Options</label>
     <trackTrending>false</trackTrending>

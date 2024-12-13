@@ -3,7 +3,6 @@
     <fullName>SBQQ__MarkupAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Markup for this Subscription, if expressed as an amount</description>
-    <externalId>false</externalId>
     <inlineHelpText>Markup for this Subscription, if expressed as an amount</inlineHelpText>
     <label>Markup (Amt)</label>
     <precision>14</precision>

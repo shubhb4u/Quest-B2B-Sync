@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether this field should be rolled up into master line. Only applicable if Roll-Up Field is specified on the template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether this field should be rolled up into master line. Only applicable if Roll-Up Field is specified on the template.</inlineHelpText>
     <label>Roll Up</label>
     <trackTrending>false</trackTrending>

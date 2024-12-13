@@ -3,7 +3,6 @@
     <fullName>maps__FirstMessageTimestamp__c</fullName>
     <deprecated>false</deprecated>
     <description>This field represents the date and time of the first point received by aws for the day.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field represents the date and time of the first point received by aws for the day.</inlineHelpText>
     <label>First Message Timestamp</label>
     <required>false</required>

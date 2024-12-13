@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>When checked, will escape special reserved characters in SOQL</description>
-    <externalId>false</externalId>
     <inlineHelpText>When checked, will escape special reserved characters in SOQL</inlineHelpText>
     <label>Escape Special Characters</label>
     <trackFeedHistory>false</trackFeedHistory>

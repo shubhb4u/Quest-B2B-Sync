@@ -3,7 +3,6 @@
     <fullName>sbaa__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Status of this approval.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Status of this approval.</inlineHelpText>
     <label>Status</label>
     <required>false</required>

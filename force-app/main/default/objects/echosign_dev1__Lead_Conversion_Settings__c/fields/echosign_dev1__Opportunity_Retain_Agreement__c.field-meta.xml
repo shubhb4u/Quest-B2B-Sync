@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When a Lead is converted to an Opportunity, retain all previous agreements from the Lead with the Opportunity record.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When a Lead is converted to an Opportunity, retain all previous agreements from the Lead with the Opportunity record.</inlineHelpText>
     <label>Opportunity Retain Agreement</label>
     <trackTrending>false</trackTrending>

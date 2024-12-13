@@ -3,7 +3,6 @@
     <fullName>maps__ShapeLayer__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Shape Layer</label>
     <referenceTo>maps__ShapeLayer__c</referenceTo>
     <relationshipLabel>Shape Layers</relationshipLabel>

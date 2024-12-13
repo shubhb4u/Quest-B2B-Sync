@@ -3,7 +3,6 @@
     <fullName>JBCXM__Processed__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Processed</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

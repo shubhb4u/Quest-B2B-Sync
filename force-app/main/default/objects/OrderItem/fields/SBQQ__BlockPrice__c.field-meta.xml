@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The block price that is applied to this order product at order creation time.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The block price that is applied to this order product at order creation time.</inlineHelpText>
     <label>Block Price</label>
     <referenceTo>SBQQ__BlockPrice__c</referenceTo>

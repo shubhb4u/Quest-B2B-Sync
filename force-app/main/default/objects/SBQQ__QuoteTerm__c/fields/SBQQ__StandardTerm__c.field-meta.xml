@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Specifies the standard term that is being modified.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specifies the standard term that is being modified.</inlineHelpText>
     <label>Standard Term</label>
     <referenceTo>SBQQ__QuoteTerm__c</referenceTo>

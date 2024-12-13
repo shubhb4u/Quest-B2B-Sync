@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Payments__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>blng__PaymentsAgainstDebitNoteLines__c + blng__PaymentsAgainstInvoiceLines__c -  blng__RefundsAgainstDebitNoteLines__c - blng__RefundsAgainstInvoiceLines__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Net payments. All Payments less refunds.</inlineHelpText>

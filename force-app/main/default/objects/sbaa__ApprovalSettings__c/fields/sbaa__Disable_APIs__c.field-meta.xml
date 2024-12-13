@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Disable API exposed through Apex.</description>
-    <externalId>false</externalId>
     <label>Disable Advanced Approval APIs</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

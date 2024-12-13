@@ -3,7 +3,6 @@
     <fullName>JBCXM__ActionTime__c</fullName>
     <deprecated>false</deprecated>
     <description>To Tracks the time when the usage action occurred</description>
-    <externalId>false</externalId>
     <inlineHelpText>Action date and time.</inlineHelpText>
     <label>Action Time</label>
     <required>false</required>

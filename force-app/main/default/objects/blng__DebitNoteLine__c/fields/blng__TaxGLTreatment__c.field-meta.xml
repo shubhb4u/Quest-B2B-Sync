@@ -3,7 +3,6 @@
     <fullName>blng__TaxGLTreatment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to Tax GL Rule for this line</inlineHelpText>
     <label>Tax GL Treatment</label>
     <referenceTo>blng__GLTreatment__c</referenceTo>

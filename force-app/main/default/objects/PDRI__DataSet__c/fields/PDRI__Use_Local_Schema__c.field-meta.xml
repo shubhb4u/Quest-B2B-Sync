@@ -3,7 +3,6 @@
     <fullName>PDRI__Use_Local_Schema__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Use Local Schema</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__PartnerDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>If your organization sells through a channel/VARl, you can give a “partner discount” on quote or the individual product line item on the quote. By default, partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If your organization sells through a channel/VARI, a Partner Discount on a quote or individual product line item can be given. Partner discounts are applied after all automatic and discretionary discounts.</inlineHelpText>
     <label>Partner Discount</label>
     <precision>5</precision>

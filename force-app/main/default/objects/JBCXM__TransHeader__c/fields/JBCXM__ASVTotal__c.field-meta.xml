@@ -3,7 +3,6 @@
     <fullName>JBCXM__ASVTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Total amount entered into the Transaction - usually during renewals.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Total amount entered into the Transaction - usually during renewals.</inlineHelpText>
     <label>ASV</label>
     <precision>12</precision>

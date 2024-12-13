@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the link which allows senders to &quot;Add Form Field Template&quot; on draft documents.</inlineHelpText>
     <label>Hide Ability to Add Field Templates</label>
     <trackTrending>false</trackTrending>

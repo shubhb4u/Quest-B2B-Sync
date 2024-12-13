@@ -3,7 +3,6 @@
     <fullName>SBQQ__CostEditable__c</fullName>
     <deprecated>false</deprecated>
     <description>Controls whether cost for this product may be modified on individual quotes.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether cost for this product may be modified on individual quotes.</inlineHelpText>
     <label>Cost Editable</label>
     <required>false</required>

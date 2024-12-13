@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Automatically clear follow up on case flag set.</description>
-    <externalId>false</externalId>
     <label>Clear Follow Up On Flag Set</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionBase__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines whether dynamic subscriptions are calculated off List or Net product price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines whether Percent of Total is calculated off List or Net product prices.</inlineHelpText>
     <label>Percent Of Total Base</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>Operator used to evaluate Filter Field value against Filter Value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the operate to use when matching the contents of the Filter Field with the Filter Value.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

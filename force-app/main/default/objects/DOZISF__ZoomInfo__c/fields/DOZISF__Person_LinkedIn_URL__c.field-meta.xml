@@ -3,7 +3,6 @@
     <fullName>DOZISF__Person_LinkedIn_URL__c</fullName>
     <deprecated>false</deprecated>
     <description>Url of the person profile within linkedin.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Url of the person profile within linkedin.</inlineHelpText>
     <label>Person LinkedIn URL</label>
     <required>false</required>

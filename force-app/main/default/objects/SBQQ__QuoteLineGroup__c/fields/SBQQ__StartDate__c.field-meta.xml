@@ -3,7 +3,6 @@
     <fullName>SBQQ__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Start date for subscriptions in this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Start date for subscriptions in this group.</inlineHelpText>
     <label>Start Date</label>
     <required>false</required>

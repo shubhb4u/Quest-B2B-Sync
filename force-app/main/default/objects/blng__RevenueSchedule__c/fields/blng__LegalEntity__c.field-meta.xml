@@ -3,7 +3,6 @@
     <fullName>blng__LegalEntity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Refers to the legal entity where this revenue is recorded</inlineHelpText>
     <label>Revenue Legal Entity</label>
     <referenceTo>blng__LegalEntity__c</referenceTo>

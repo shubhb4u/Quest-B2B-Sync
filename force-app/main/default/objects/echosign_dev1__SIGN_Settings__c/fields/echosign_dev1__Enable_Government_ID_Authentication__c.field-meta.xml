@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to show the Government ID authentication option for verifying recipient identity. Usage of this feature is limited and may incur added costs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to show the Government ID authentication option for verifying recipient identity. Usage of this feature is limited and may incur added costs.</inlineHelpText>
     <label>Enable Government ID Authentication</label>
     <trackTrending>false</trackTrending>

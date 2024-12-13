@@ -3,7 +3,6 @@
     <fullName>maps__LiveDriver__c</fullName>
     <deprecated>false</deprecated>
     <description>Driver associated to this Holiday</description>
-    <externalId>false</externalId>
     <inlineHelpText>Driver associated to this Holiday</inlineHelpText>
     <label>Live Driver</label>
     <referenceTo>maps__LiveDriver__c</referenceTo>

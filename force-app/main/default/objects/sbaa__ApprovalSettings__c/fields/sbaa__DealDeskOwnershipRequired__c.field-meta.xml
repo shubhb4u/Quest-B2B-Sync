@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines whether ownership of parent record is required to disposition child records.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check to require parent record ownership to disposition child records.</inlineHelpText>
     <label>Requires Ownership</label>
     <trackTrending>false</trackTrending>

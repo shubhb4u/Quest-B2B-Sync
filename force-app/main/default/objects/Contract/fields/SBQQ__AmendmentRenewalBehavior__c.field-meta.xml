@@ -3,7 +3,6 @@
     <fullName>SBQQ__AmendmentRenewalBehavior__c</fullName>
     <deprecated>false</deprecated>
     <description>The basis for which a Renewal Start Date and Amendment End Date are calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The basis for which a Renewal Start Date and Amendment End Date are calculated.</inlineHelpText>
     <label>Amendment &amp; Renewal Behavior</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ContractAction__c</fullName>
     <deprecated>false</deprecated>
     <description>The contract action where this order product is resulted from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The contract action where this order product is resulted from.</inlineHelpText>
     <label>Contract Action</label>
     <required>false</required>

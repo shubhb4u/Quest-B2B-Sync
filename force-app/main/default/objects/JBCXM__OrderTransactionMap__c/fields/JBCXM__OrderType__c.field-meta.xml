@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Select Booking Type.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select Booking Type.</inlineHelpText>
     <label>Order Type</label>
     <lookupFilter>

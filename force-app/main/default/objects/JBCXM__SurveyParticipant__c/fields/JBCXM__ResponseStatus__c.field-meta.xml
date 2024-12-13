@@ -3,7 +3,6 @@
     <fullName>JBCXM__ResponseStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>Current status of the saved responses for this participant.This field differentiate between response submitted by user,saved by user and auto submission.</description>
-    <externalId>false</externalId>
     <label>Response Status</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

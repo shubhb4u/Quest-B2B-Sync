@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Asset being upgraded by this quote line. Only populated if this quote line represents an upgrade.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Asset upgraded by this quote line. When the quote is contracted this asset&apos;s Usage End Date will be populated to indicate that it&apos;s retired.</inlineHelpText>
     <label>Upgraded Asset</label>
     <referenceTo>Asset</referenceTo>

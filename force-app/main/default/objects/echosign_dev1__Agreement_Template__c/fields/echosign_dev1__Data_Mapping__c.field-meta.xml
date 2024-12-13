@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Select the data mapping to map Adobe Acrobat Sign field inputs from the signed agreement back into Salesforce.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the data mapping to map Adobe Acrobat Sign field inputs from the signed agreement back into Salesforce.</inlineHelpText>
     <label>Data Mapping</label>
     <referenceTo>echosign_dev1__SIGN_Data_Mapping__c</referenceTo>

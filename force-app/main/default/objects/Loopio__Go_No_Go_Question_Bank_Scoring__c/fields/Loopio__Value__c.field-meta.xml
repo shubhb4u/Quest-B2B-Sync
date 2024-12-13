@@ -3,7 +3,6 @@
     <fullName>Loopio__Value__c</fullName>
     <deprecated>false</deprecated>
     <description>Expected value of answer (required when Comparison Type of related Go/No-Go Question Bank is Value)</description>
-    <externalId>false</externalId>
     <label>Value</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

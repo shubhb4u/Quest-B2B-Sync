@@ -3,7 +3,6 @@
     <fullName>maps__Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Used for Visualforce Pages</description>
-    <externalId>false</externalId>
     <label>Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

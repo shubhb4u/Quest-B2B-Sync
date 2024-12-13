@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Read-only indicator to show whether a quote contains overriding consumption rates.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Read-only indicator to show whether a quote contains overriding consumption rates.</inlineHelpText>
     <label>Consumption Rate Override</label>
     <trackHistory>false</trackHistory>

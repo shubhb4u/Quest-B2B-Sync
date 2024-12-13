@@ -3,7 +3,6 @@
     <fullName>SBQQ__Log__c</fullName>
     <deprecated>false</deprecated>
     <description>Log entry</description>
-    <externalId>false</externalId>
     <inlineHelpText>Log entry</inlineHelpText>
     <label>Log</label>
     <length>32768</length>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the opportunity lookup option for draft agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the opportunity lookup option for draft agreements.</inlineHelpText>
     <label>Hide Opportunity Lookup</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>maps__LiveDriver__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Driver</label>
     <referenceTo>maps__LiveDriver__c</referenceTo>
     <relationshipLabel>Maps Live Asset Daily Summaries</relationshipLabel>

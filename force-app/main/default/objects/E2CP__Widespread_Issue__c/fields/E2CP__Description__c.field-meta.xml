@@ -3,7 +3,6 @@
     <fullName>E2CP__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description of the Widespread Issue</description>
-    <externalId>false</externalId>
     <label>Description</label>
     <length>32768</length>
     <trackFeedHistory>true</trackFeedHistory>

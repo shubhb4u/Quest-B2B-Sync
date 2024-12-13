@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates if the line item is taxable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to indicate that the line item is taxable.</inlineHelpText>
     <label>Taxable</label>
     <trackTrending>false</trackTrending>

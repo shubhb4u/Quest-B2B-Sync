@@ -3,7 +3,6 @@
     <fullName>dfsle__AddSourceDocuments__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Add Salesforce source documents</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

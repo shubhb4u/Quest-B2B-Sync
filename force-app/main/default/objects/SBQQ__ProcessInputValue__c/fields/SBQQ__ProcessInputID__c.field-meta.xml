@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is the Process Input that the object belongs to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the Process Input that the object belongs to.</inlineHelpText>
     <label>Process Input ID</label>
     <referenceTo>SBQQ__ProcessInput__c</referenceTo>

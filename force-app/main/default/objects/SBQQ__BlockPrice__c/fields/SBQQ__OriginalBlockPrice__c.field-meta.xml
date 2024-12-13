@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The original product block price where this block price is snapshotted from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The original product block price where this block price is snapshotted from.</inlineHelpText>
     <label>Original Block Price</label>
     <referenceTo>SBQQ__BlockPrice__c</referenceTo>

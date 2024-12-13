@@ -3,7 +3,6 @@
     <fullName>JBCXM__TranslationFor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Parent</label>
     <referenceTo>JBCXM__PageInfo__c</referenceTo>
     <relationshipLabel>Parent</relationshipLabel>

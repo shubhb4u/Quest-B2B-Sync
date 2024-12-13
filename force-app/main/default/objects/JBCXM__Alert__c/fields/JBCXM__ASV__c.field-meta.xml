@@ -3,7 +3,6 @@
     <fullName>JBCXM__ASV__c</fullName>
     <deprecated>false</deprecated>
     <description>Impact on Annual Subscription Value (ASV), if applicable, that is at stake with this alert. For example, if there is a &quot;Downsell alert&quot;, enter the potential reduction in ASV if the alert is not proactively addressed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Impact on Annual Subscription Value (ASV), if applicable, at stake with this alert. Example: for a &quot;Downsell alert&quot;, enter potential reduction in ASV if the alert is not proactively addressed.</inlineHelpText>
     <label>Alert ASV</label>
     <precision>12</precision>

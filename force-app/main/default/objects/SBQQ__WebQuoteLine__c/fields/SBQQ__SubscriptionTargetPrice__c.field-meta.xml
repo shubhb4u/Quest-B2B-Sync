@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionTargetPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Price of the subscription target product on which maintenance should calculate.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price of the subscription target product on which maintenance should calculate.</inlineHelpText>
     <label>Subscription Target Price</label>
     <precision>14</precision>

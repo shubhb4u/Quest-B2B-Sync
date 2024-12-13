@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProratedListPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Prorated list unit price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Prorated list unit price.</inlineHelpText>
     <label>Prorated List Price</label>
     <precision>18</precision>

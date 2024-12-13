@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Excludes this product from appearing on the quote PDF.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Excludes this product from appearing on the quote PDF.</inlineHelpText>
     <label>Hidden</label>
     <trackHistory>false</trackHistory>

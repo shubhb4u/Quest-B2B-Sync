@@ -3,7 +3,6 @@
     <fullName>InSituGen__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description of the application setting.  Displayed to assist the administrator in setting the correct value.</description>
-    <externalId>false</externalId>
     <label>Description</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

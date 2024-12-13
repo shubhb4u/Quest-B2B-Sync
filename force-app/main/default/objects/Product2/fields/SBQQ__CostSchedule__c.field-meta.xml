@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Discount schedule used as a Cost Schedule with this product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount schedule used as a Cost Schedule with this product.</inlineHelpText>
     <label>Cost Schedule</label>
     <lookupFilter>

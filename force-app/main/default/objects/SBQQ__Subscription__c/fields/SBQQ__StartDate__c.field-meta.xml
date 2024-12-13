@@ -3,7 +3,6 @@
     <fullName>SBQQ__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The first date this subscription is in effect.</description>
-    <externalId>false</externalId>
     <formula>if ( ISBLANK (SBQQ__SubscriptionStartDate__c), SBQQ__Contract__r.StartDate, SBQQ__SubscriptionStartDate__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>The first date this subscription is in effect.</inlineHelpText>

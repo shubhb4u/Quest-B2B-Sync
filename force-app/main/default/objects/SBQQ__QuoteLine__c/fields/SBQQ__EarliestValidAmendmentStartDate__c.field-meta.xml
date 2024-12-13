@@ -3,7 +3,6 @@
     <fullName>SBQQ__EarliestValidAmendmentStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The earliest safe date for an amendment quote line to start before it becomes back-dated and therefore forbidden.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The earliest valid start date for this amendment quote line.</inlineHelpText>
     <label>Earliest Valid Amendment Start Date</label>
     <required>false</required>

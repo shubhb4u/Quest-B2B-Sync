@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product Rule associated with this Lookup Query</description>
-    <externalId>false</externalId>
     <inlineHelpText>Product Rule associated with this Lookup Query</inlineHelpText>
     <label>Product Rule</label>
     <referenceTo>SBQQ__ProductRule__c</referenceTo>

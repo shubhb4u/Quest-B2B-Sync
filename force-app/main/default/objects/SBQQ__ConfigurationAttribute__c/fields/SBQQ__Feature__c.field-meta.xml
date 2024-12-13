@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Feature in which this attribute should be rendered.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the feature in which this attribute should be entered.</inlineHelpText>
     <label>Feature</label>
     <lookupFilter>

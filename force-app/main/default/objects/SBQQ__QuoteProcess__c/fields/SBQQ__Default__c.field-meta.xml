@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks this quote process as default.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to default the quote process selector to this process in Line Editor. This only applies when quote process selector is rendered as a picklist.</inlineHelpText>
     <label>Default</label>
     <trackTrending>false</trackTrending>

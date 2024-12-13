@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionTargetPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Price of the subscription target product on which maintenance should calculate.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price of the target product on which percent of total should calculate.</inlineHelpText>
     <label>Percent of Total Target Price</label>
     <precision>14</precision>

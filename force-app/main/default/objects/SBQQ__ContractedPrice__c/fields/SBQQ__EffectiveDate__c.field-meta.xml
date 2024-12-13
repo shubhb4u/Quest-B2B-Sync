@@ -3,7 +3,6 @@
     <fullName>SBQQ__EffectiveDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Effective date for this contracted price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date this contracted price becomes effective.</inlineHelpText>
     <label>Effective Date</label>
     <required>false</required>

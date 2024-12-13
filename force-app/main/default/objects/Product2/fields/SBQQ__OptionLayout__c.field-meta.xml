@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionLayout__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines how options are presented to users.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines how options are presented to users.</inlineHelpText>
     <label>Option Layout</label>
     <required>false</required>

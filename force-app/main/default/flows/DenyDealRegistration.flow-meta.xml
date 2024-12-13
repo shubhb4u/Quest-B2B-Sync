@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>49.0</apiVersion>
+    <assignments>
+        <name>SetDealRegistrationDenied</name>
+        <label>Set Deal Registration Denied</label>
+        <locationX>930</locationX>
+        <locationY>36</locationY>
+        <assignmentItems>
+            <assignToReference>Lead.ImpartnerPRM__DealRegistrationDenied__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>UpdateLead</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>ConfirmDenyDealRegistration</name>
+        <label>Confirm Deny Deal Registration</label>
+        <locationX>937</locationX>
+        <locationY>168</locationY>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>ConfirmDenyDealRegistrationTrue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ConfirmDenyDealRegistrationField</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>SetDealRegistrationDenied</targetReference>
+            </connector>
+            <label>Confirm Deny Deal Registration True</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsDealRegistration</name>
+        <label>Is Deal Registration</label>
+        <locationX>376</locationX>
+        <locationY>313</locationY>
+        <defaultConnector>
+            <targetReference>IsDenied</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>IsDealRegistrationFalse</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Lead.ImpartnerPRM__IsDealRegistration__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>NonDealRegistrationScreen</targetReference>
+            </connector>
+            <label>Is Deal Registration False</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>IsDenied</name>
+        <label>Is Denied</label>
+        <locationX>641</locationX>
+        <locationY>311</locationY>
+        <defaultConnector>
+            <targetReference>ConfirmationScreen</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>[Default Outcome]</defaultConnectorLabel>
+        <rules>
+            <name>IsDeniedTrue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Lead.ImpartnerPRM__DealRegistrationDenied__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>IsDeniedScreen</targetReference>
+            </connector>
+            <label>Is Denied True</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Deny Deal Registration {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Deny Deal Registration</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>LookupLead</name>
+        <label>Lookup Lead</label>
+        <locationX>180</locationX>
+        <locationY>45</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>LookupPartnerAccount</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>LeadId</elementReference>
+            </value>
+        </filters>
+        <object>Lead</object>
+        <outputReference>Lead</outputReference>
+        <queriedFields>Name</queriedFields>
+        <queriedFields>ImpartnerPRM__PartnerAccount__c</queriedFields>
+        <queriedFields>ImpartnerPRM__PartnerContact__c</queriedFields>
+        <queriedFields>ImpartnerPRM__IsDealRegistration__c</queriedFields>
+        <queriedFields>ImpartnerPRM__DealRegistrationDenied__c</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>LookupPartnerAccount</name>
+        <label>Lookup Partner Account</label>
+        <locationX>181</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>LookupPartnerContact</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Lead.ImpartnerPRM__PartnerAccount__c</elementReference>
+            </value>
+        </filters>
+        <object>Account</object>
+        <outputReference>Account</outputReference>
+        <queriedFields>Name</queriedFields>
+    </recordLookups>
+    <recordLookups>
+        <name>LookupPartnerContact</name>
+        <label>Lookup Partner Contact</label>
+        <locationX>184</locationX>
+        <locationY>310</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>IsDealRegistration</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Lead.ImpartnerPRM__PartnerContact__c</elementReference>
+            </value>
+        </filters>
+        <object>Contact</object>
+        <outputReference>Contact</outputReference>
+        <queriedFields>Name</queriedFields>
+    </recordLookups>
+    <recordUpdates>
+        <name>UpdateLead</name>
+        <label>Update Lead</label>
+        <locationX>643</locationX>
+        <locationY>37</locationY>
+        <inputReference>Lead</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>ConfirmationScreen</name>
+        <label>Confirmation Screen</label>
+        <locationX>936</locationX>
+        <locationY>314</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>ConfirmDenyDealRegistration</targetReference>
+        </connector>
+        <fields>
+            <name>LeadName</name>
+            <fieldText>Lead: {!Lead.Name}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>AccountName</name>
+            <fieldText>Account: {!Account.Name}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ContactName</name>
+            <fieldText>Contact: {!Contact.Name}</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>ConfirmDenyDealRegistrationField</name>
+            <dataType>Boolean</dataType>
+            <fieldText>Confirm Deny Deal Registration</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>IsDeniedScreen</name>
+        <label>Is Denied Screen</label>
+        <locationX>636</locationX>
+        <locationY>160</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>IsDeniedScreenText</name>
+            <fieldText>Deal registration was previously denied.</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>NonDealRegistrationScreen</name>
+        <label>Non Deal Registration Screen</label>
+        <locationX>376</locationX>
+        <locationY>153</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>NonDealRegistrationText</name>
+            <fieldText>Lead is not a deal registration</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>LookupLead</startElementReference>
+    <status>Active</status>
+    <variables>
+        <name>Account</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <name>Contact</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Contact</objectType>
+    </variables>
+    <variables>
+        <name>Lead</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Lead</objectType>
+    </variables>
+    <variables>
+        <name>LeadId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

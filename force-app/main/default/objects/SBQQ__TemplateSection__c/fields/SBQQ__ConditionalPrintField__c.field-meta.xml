@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConditionalPrintField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on quote object that controls whether this section prints on generated PDF documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on quote object that controls whether this section prints on generated PDF documents.</inlineHelpText>
     <label>Conditional Print Field</label>
     <required>false</required>

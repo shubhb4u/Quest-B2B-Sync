@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If unchecked, the Amendment Quote End Date will be set according to the Amendment &amp; Renewal Behavior setting. If checked, then no End Date will be set.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If unchecked, the Amendment Quote End Date will be set according to the Amendment &amp; Renewal Behavior setting. If checked, then no End Date will be set.</inlineHelpText>
     <label>Disable Amendment Co-Term</label>
     <trackFeedHistory>false</trackFeedHistory>

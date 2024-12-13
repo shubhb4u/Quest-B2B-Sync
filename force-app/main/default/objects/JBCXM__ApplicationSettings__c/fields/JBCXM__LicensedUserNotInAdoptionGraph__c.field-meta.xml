@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag to not show license user in adoption graph</description>
-    <externalId>false</externalId>
     <label>LicensedUser Not In Adoption Graph</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

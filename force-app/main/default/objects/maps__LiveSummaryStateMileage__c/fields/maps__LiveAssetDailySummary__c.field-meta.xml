@@ -3,7 +3,6 @@
     <fullName>maps__LiveAssetDailySummary__c</fullName>
     <deprecated>false</deprecated>
     <description>Live Asset Daily Summary record to which this mileage relates</description>
-    <externalId>false</externalId>
     <inlineHelpText>Live Asset Daily Summary record to which this mileage relates</inlineHelpText>
     <label>Live Asset Daily Summary</label>
     <referenceTo>maps__LiveAssetDailySummary__c</referenceTo>

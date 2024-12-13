@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Points to primary quote on this opportunity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Salesforce CPQ uses this to point to the primary quote on this opportunity.</inlineHelpText>
     <label>Primary Quote</label>
     <lookupFilter>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>trailheadapp__Trailmix__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Trailmix</label>
     <referenceTo>trailheadapp__Trailmix__c</referenceTo>
     <relationshipLabel>User Trailmixes</relationshipLabel>

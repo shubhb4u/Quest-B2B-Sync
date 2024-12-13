@@ -3,7 +3,6 @@
     <fullName>SBQQ__Discount__c</fullName>
     <deprecated>false</deprecated>
     <description>Additional customer discount extended for this line item expressed in terms of percentage.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Additional customer discount extended to this line item expressed in form of a percentage.</inlineHelpText>
     <label>Additional Disc. (%)</label>
     <precision>11</precision>

@@ -3,7 +3,6 @@
     <fullName>Q9__Last_Modified_Datetime__c</fullName>
     <deprecated>false</deprecated>
     <description>Datetime that the Profile was last modified.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Datetime that the Profile was last modified.</inlineHelpText>
     <label>Last Modified Datetime</label>
     <required>false</required>

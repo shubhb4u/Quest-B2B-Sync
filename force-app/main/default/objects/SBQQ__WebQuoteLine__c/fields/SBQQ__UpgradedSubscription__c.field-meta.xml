@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Subscription being upgraded by this quote line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription upgraded by this quote line. When the quote is contracted this subscription&apos;s Terminated Date field will be populated.</inlineHelpText>
     <label>Upgraded Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

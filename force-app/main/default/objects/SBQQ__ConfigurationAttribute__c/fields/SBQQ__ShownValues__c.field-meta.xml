@@ -3,7 +3,6 @@
     <fullName>SBQQ__ShownValues__c</fullName>
     <deprecated>false</deprecated>
     <description>Values from the backing picklist field that should be shown on this bundle.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter values from the corresponding picklist field on Product Option object that you want to be shown on this bundle.</inlineHelpText>
     <label>Shown Values</label>
     <length>5000</length>

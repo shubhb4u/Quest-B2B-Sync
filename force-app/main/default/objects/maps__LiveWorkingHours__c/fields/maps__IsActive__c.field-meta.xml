@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This field must be selected Active in order to designate Live Working Hours</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field must be selected Active in order to designate Live Working Hours</inlineHelpText>
     <label>Is Active</label>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Created for MD-2942</description>
-    <externalId>false</externalId>
     <label>Referenced Data Set Element</label>
     <referenceTo>PDRI__DataSet__c</referenceTo>
     <relationshipLabel>Field Value Mappings</relationshipLabel>

@@ -5,7 +5,6 @@
     <deprecated>false</deprecated>
     <description>Look up relationship to the Invoice Run.Invoice is child of  Invoice Run.
 This field tells from which Invoice Run the Invoice is generated.</description>
-    <externalId>false</externalId>
     <label>Invoice Run (Created By)</label>
     <referenceTo>blng__InvoiceRun__c</referenceTo>
     <relationshipLabel>Invoices</relationshipLabel>

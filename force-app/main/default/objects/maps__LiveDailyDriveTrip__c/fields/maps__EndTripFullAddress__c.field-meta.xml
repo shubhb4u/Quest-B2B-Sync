@@ -3,7 +3,6 @@
     <fullName>maps__EndTripFullAddress__c</fullName>
     <deprecated>false</deprecated>
     <description>Address where the end of the trip took place</description>
-    <externalId>false</externalId>
     <inlineHelpText>Address where the end of the trip took place</inlineHelpText>
     <label>End Trip Full Address</label>
     <length>500</length>

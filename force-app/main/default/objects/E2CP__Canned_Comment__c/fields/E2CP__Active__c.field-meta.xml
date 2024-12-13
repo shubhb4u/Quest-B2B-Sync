@@ -3,7 +3,6 @@
     <fullName>E2CP__Active__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Determines whether this canned response is available to be selected.</inlineHelpText>
     <label>Active</label>
     <trackHistory>false</trackHistory>

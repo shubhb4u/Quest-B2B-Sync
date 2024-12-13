@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Customer amount on the quote at the time this document was generated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Customer amount on the quote at the time this document was generated.</inlineHelpText>
     <label>Customer Amount</label>
     <precision>18</precision>

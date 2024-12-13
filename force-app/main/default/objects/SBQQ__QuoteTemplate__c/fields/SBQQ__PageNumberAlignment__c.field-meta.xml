@@ -3,7 +3,6 @@
     <fullName>SBQQ__PageNumberAlignment__c</fullName>
     <deprecated>false</deprecated>
     <description>Specifies the page number alignment for the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the page number alignment for the document. Defaults to Center if the field is blank.</inlineHelpText>
     <label>Page Number Alignment</label>
     <required>false</required>

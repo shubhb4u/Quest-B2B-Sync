@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product associated with this cost.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Product associated with this cost.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

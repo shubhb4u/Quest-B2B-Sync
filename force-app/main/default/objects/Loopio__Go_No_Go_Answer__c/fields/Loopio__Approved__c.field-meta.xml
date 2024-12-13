@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This field will be used once we have to allow users to create a Loopio project from Go/No-Go Answer record if Approval Required is true.</description>
-    <externalId>false</externalId>
     <label>Approved</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

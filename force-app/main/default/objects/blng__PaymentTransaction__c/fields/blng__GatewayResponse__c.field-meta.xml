@@ -3,7 +3,6 @@
     <fullName>blng__GatewayResponse__c</fullName>
     <deprecated>false</deprecated>
     <description>The response received from the gateway</description>
-    <externalId>false</externalId>
     <inlineHelpText>The response received from the gateway</inlineHelpText>
     <label>Gateway Response</label>
     <length>32768</length>

@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>maps__Type__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Used to determine what layer type the record represents.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Scope__c</fullName>
     <deprecated>false</deprecated>
     <description>Scopes the rule to the entire quote or specific product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Applies the rule to the entire quote or specific product.</inlineHelpText>
     <label>Scope</label>
     <required>false</required>

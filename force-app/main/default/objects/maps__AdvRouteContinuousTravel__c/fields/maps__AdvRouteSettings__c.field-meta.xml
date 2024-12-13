@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a lookup to the Advanced Route settings</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Settings</label>
     <referenceTo>maps__AdvRouteSettings__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Continuous Travel</relationshipLabel>

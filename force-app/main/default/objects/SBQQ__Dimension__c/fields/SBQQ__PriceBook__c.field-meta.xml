@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Associates this dimension to a particular Price Book</description>
-    <externalId>false</externalId>
     <inlineHelpText>Associates this dimension to a particular Price Book</inlineHelpText>
     <label>Price Book</label>
     <referenceTo>Pricebook2</referenceTo>

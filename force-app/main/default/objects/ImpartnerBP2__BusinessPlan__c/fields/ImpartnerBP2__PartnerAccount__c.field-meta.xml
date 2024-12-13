@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Partner Account to which this Business Plan is linked.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Partner Account to which this Business Plan is linked.</inlineHelpText>
     <label>Partner Account</label>
     <referenceTo>Account</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Signature_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Send for electronic signature or request written signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Send for electronic signature or request written signature.</inlineHelpText>
     <label>Signature Type</label>
     <required>false</required>

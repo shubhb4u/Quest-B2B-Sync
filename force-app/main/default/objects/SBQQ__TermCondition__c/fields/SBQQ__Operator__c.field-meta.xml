@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator for this field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the operator for the field.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

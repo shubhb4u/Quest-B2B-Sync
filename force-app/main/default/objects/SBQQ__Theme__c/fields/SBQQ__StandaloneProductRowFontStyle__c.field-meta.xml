@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__StandaloneProductRowFontStyle__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Font style of standalone product rows in quote line editor (Click the icon for additional information)</inlineHelpText>
     <label>Standalone Product Row Font Style</label>
     <required>false</required>

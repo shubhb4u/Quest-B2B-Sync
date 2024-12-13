@@ -3,7 +3,6 @@
     <fullName>JBCXM__WhereClause__c</fullName>
     <deprecated>false</deprecated>
     <description>Where clause or Filter conditions to filter CTA.</description>
-    <externalId>false</externalId>
     <label>Where clause</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

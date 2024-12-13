@@ -3,7 +3,6 @@
     <fullName>csfb__Consolidated_PDF_Output_File__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Combine PDFs into a single file when scheduling a consolidated Conga Batch routine and delivering to a Content Workspace.</inlineHelpText>
     <label>Consolidated PDF Output File</label>
     <trackTrending>false</trackTrending>

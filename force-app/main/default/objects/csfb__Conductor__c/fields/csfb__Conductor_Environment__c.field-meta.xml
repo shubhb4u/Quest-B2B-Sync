@@ -5,7 +5,6 @@
     <description>ONLY USED BY CONGA SUPPORT
 
 * Recommended to remove from page layout when not in use *</description>
-    <externalId>false</externalId>
     <label>Conga Batch Environment</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

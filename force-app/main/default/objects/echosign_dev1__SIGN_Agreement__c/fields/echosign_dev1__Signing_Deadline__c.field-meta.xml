@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Signing_Deadline__c</fullName>
     <deprecated>false</deprecated>
     <description>Specify the date when the agreement expires and can no longer be signed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the date when the agreement expires and can no longer be signed.</inlineHelpText>
     <label>Signing Deadline</label>
     <required>false</required>

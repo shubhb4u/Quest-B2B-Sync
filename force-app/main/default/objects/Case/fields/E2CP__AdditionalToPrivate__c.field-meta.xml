@@ -3,7 +3,6 @@
     <fullName>E2CP__AdditionalToPrivate__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores private email addresses entered on the New Comment page Additional To section.</description>
-    <externalId>false</externalId>
     <label>Additional To (Private)</label>
     <length>5000</length>
     <trackFeedHistory>false</trackFeedHistory>

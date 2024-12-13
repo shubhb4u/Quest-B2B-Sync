@@ -3,7 +3,6 @@
     <fullName>blng__DueDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The date by which invoice payments are expected to be received.</description>
-    <externalId>false</externalId>
     <formula>blng__Invoice__r.blng__DueDate__c</formula>
     <label>Due Date</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__NetPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>List unit price for the product quoted by this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List unit price for the product quoted by this line item.</inlineHelpText>
     <label>Net Unit Price</label>
     <precision>14</precision>

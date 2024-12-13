@@ -3,7 +3,6 @@
     <fullName>rh2__Disable_Trigger__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Disables default Rollup Helper trigger on the specified object type when checked.</inlineHelpText>
     <label>Disable Trigger</label>
     <trackTrending>false</trackTrending>

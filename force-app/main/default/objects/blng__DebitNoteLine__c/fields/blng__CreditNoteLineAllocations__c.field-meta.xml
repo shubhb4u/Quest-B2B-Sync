@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__CreditNoteLineAllocations__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Credit Note Line Allocations</label>
     <summarizedField>blng__DebitNoteAllocationCreditNoteLine__c.blng__Amount__c</summarizedField>
     <summaryFilterItems>

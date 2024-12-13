@@ -4,7 +4,6 @@
     <defaultValue>&quot;100&quot;</defaultValue>
     <deprecated>false</deprecated>
     <description>The no of records to be picked by OverallCompletionResultUpdationScheduler</description>
-    <externalId>false</externalId>
     <label>BatchLimitForOverallCompletionResult</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

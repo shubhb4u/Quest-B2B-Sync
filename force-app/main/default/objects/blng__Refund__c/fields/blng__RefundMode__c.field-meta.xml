@@ -3,7 +3,6 @@
     <fullName>blng__RefundMode__c</fullName>
     <deprecated>false</deprecated>
     <description>External mode represents a refund that has been made in an external system and electronic represents a refund that is processed by Salesforce</description>
-    <externalId>false</externalId>
     <inlineHelpText>External mode represents a refund that has been made in an external system and electronic represents a refund that is processed by Salesforce</inlineHelpText>
     <label>Refund Mode</label>
     <required>true</required>

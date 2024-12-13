@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Upgrade product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the product to upgrade to.</inlineHelpText>
     <label>Upgrade Product</label>
     <referenceTo>Product2</referenceTo>

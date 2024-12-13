@@ -3,7 +3,6 @@
     <fullName>dfsle__ReadOnly__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Read-only</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

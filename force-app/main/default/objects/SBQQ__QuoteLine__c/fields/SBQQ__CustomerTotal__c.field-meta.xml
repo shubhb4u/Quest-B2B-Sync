@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Customer total price for this quote line item. This is the Net Total excluding any partner discounts.</description>
-    <externalId>false</externalId>
     <formula>IF(AND(SBQQ__Renewal__c, !SBQQ__Existing__c, ISBLANK(SBQQ__PriorQuantity__c)), 0, SBQQ__CustomerPrice__c * SBQQ__EffectiveQuantity__c)</formula>
     <inlineHelpText>Customer total price for this quote line item. This is the Net Total excluding any partner discounts.</inlineHelpText>
     <label>Customer Total</label>

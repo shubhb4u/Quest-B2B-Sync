@@ -1,0 +1,23 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Cart Checkout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "textDisplayInfo" : "{\"textStyle\":\"heading-large\",\"headingTag\":\"h2\"}",
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : ""
+            }
+          }
+        },
+        "id" : "b3f8961e-97ea-401d-bbd7-25feee6c87bc"
+      } ]
+    }
+  },
+  "urlName" : "cart-checkout"
+}

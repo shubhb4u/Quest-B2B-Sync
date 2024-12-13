@@ -3,7 +3,6 @@
     <fullName>blng__BillingGLTreatment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to Billing Treatment assigned to this line</inlineHelpText>
     <label>Billing GL Treatment</label>
     <referenceTo>blng__GLTreatment__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>blng__LegalEntity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Name of legal entity associated with this finance period</inlineHelpText>
     <label>Finance Period Legal Entity</label>
     <lookupFilter>

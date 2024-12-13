@@ -3,7 +3,6 @@
     <fullName>JBCXM__RevRecEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Deferred Revenue Recognition End Date</description>
-    <externalId>false</externalId>
     <inlineHelpText>Deferred Revenue Recognition End Date</inlineHelpText>
     <label>Subscription End Date</label>
     <required>false</required>

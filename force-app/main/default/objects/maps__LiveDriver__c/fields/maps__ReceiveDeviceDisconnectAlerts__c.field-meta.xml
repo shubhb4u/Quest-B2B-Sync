@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicate if driver should receive Device Disconnect Alerts</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicate if driver should receive Device Disconnect Alerts</inlineHelpText>
     <label>Receive Device Disconnect Alerts?</label>
     <trackHistory>false</trackHistory>

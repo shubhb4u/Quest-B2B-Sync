@@ -3,7 +3,6 @@
     <fullName>JBCXM__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The date when the survey ends</description>
-    <externalId>false</externalId>
     <inlineHelpText>End date of the survey.</inlineHelpText>
     <label>End Date</label>
     <required>false</required>

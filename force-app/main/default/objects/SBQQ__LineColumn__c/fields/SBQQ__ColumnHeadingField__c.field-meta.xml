@@ -3,7 +3,6 @@
     <fullName>SBQQ__ColumnHeadingField__c</fullName>
     <deprecated>false</deprecated>
     <description>The API name of the field on quote object that sources value for this column&apos;s heading.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The field that sources the dynamic heading for this column.</inlineHelpText>
     <label>Column Heading Field</label>
     <required>false</required>

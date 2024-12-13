@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Account to which this Quote Line Group references.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account to which this Quote Line Group references.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

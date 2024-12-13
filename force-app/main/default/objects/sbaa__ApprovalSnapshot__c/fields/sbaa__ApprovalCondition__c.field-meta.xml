@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Approval Condition that the value is captured from</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approval Condition that the value is captured from</inlineHelpText>
     <label>Approval Condition</label>
     <referenceTo>sbaa__ApprovalCondition__c</referenceTo>

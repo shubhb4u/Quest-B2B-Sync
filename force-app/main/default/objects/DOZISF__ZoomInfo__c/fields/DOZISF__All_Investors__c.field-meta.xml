@@ -3,7 +3,6 @@
     <fullName>DOZISF__All_Investors__c</fullName>
     <deprecated>false</deprecated>
     <description>List of organizations that invested in the company.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List of organizations that invested in the company.</inlineHelpText>
     <label>All Investors</label>
     <length>15000</length>

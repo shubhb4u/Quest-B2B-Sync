@@ -3,7 +3,6 @@
     <fullName>blng__RevenueFinanceBook__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the Finance Book where this Revenue will be recorded.</inlineHelpText>
     <label>Revenue Finance Book</label>
     <referenceTo>blng__FinanceBook__c</referenceTo>

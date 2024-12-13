@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is populated if the waypoint is associated to an additional base object for a template</description>
-    <externalId>false</externalId>
     <label>Related Advanced Route Template</label>
     <referenceTo>maps__AdvRouteTemplate__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Priorities (Related Template)</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__GroupFontStyle__c</fullName>
     <deprecated>false</deprecated>
     <description>Font style for Group titles. Default is normal if left blank.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Font style for Group titles. Default is normal if left blank.</inlineHelpText>
     <label>Group Font Style</label>
     <required>false</required>

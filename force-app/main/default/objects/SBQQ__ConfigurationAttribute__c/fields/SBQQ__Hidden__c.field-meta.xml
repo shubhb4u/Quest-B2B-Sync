@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page.</inlineHelpText>
     <label>Hidden</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SegmentUpliftAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>For MDQ products, the Uplift Amount from the original segment&apos;s Quote Line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For MDQ products, the Uplift Amount from the original segment&apos;s Quote Line.</inlineHelpText>
     <label>Segment Uplift (Amt)</label>
     <precision>12</precision>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__AutoSelect__c</fullName>
     <deprecated>false</deprecated>
     <description>Set the value of this attribute when adding a product from a Dynamic Feature using the value of the added product&apos;s matching field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Auto-Select</label>
     <required>false</required>

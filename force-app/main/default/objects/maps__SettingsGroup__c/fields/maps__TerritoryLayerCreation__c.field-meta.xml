@@ -3,7 +3,6 @@
     <fullName>maps__TerritoryLayerCreation__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Manage Territory Layer</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

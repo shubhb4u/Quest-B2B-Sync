@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is used to store the sub question of  main questiion in logic rules .This is populate for matrix type question</description>
-    <externalId>false</externalId>
     <label>SubQuestion</label>
     <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
     <relationshipLabel>SurveyLogicRules (SurveySubQuestion)</relationshipLabel>

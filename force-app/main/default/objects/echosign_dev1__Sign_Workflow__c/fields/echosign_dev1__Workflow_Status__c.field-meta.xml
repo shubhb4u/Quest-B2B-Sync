@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Workflow_Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Sign Workflow Status</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sign Workflow Status</inlineHelpText>
     <label>Workflow Status</label>
     <required>false</required>

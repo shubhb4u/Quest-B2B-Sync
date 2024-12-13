@@ -3,7 +3,6 @@
     <fullName>JBCXM__AlertAssociated__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Check if you want to associate Alerts to another object other than Account.</inlineHelpText>
     <label>Alert Associated</label>
     <trackTrending>false</trackTrending>

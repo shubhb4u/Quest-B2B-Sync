@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines whether quote terms rendered by this template are numbered.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if the quote terms rendered by this template should be numbered.</inlineHelpText>
     <label>Number Terms</label>
     <trackHistory>false</trackHistory>

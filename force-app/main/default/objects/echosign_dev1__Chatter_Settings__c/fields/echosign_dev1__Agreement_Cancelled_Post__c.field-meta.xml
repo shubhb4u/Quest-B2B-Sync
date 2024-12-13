@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Post Chatter update when agreement is canceled.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post Chatter update when agreement is canceled.</inlineHelpText>
     <label>Post when Agreement Canceled</label>
     <trackTrending>false</trackTrending>

@@ -5,7 +5,6 @@
     <deprecated>false</deprecated>
     <description>Should a reminder be sent periodically to recipients
 			who have not yet completed the envelope?</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check this box to have an email reminder sent to recipients of the envelope who have not yet completed
 			their task.</inlineHelpText>
     <label>Remind signers via email</label>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Object__c</fullName>
     <deprecated>false</deprecated>
     <description>Object against which the condition is evaluated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Object against which the condition is evaluated.</inlineHelpText>
     <label>Object</label>
     <required>false</required>

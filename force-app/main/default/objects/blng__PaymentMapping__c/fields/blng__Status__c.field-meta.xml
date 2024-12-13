@@ -3,7 +3,6 @@
     <fullName>blng__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Payment Mapping Status</description>
-    <externalId>false</externalId>
     <inlineHelpText>Payment Mapping Status</inlineHelpText>
     <label>Status</label>
     <required>false</required>

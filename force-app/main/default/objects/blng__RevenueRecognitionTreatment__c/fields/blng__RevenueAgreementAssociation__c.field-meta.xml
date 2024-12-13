@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__RevenueAgreementAssociation__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Select an option for associating the revenue schedule to the revenue agreement.</inlineHelpText>
     <label>Revenue Agreement Association</label>
     <required>false</required>

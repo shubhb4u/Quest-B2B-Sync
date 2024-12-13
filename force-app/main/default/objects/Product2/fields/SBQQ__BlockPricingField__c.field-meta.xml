@@ -3,7 +3,6 @@
     <fullName>SBQQ__BlockPricingField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field used to calculate block pricing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field used to calculate block pricing.</inlineHelpText>
     <label>Block Pricing Field</label>
     <required>false</required>

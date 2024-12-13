@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Data set for the child or referenced object</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter data set for the child or referenced object.</inlineHelpText>
     <label>Child Data Set</label>
     <referenceTo>PDRI__DataSet__c</referenceTo>

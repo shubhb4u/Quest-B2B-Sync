@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that marks this quote line as requiring configuration. Can be used by custom code to request this product be re-configured.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Flag that marks this quote line as requiring configuration. Can be used by custom code to request this product be re-configured.</inlineHelpText>
     <label>Configuration Required</label>
     <trackHistory>false</trackHistory>

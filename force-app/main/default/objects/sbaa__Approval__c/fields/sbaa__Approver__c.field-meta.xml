@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to the Approver associated with this Approval.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the Approver associated with this Approval.</inlineHelpText>
     <label>Approver</label>
     <referenceTo>sbaa__Approver__c</referenceTo>

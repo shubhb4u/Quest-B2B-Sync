@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Library Question Lookup</description>
-    <externalId>false</externalId>
     <label>Library Question</label>
     <referenceTo>JBCXM__SurveyQuestion__c</referenceTo>
     <relationshipLabel>Survey Question (Library Question)</relationshipLabel>

@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>Location of Entry Position</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <inlineHelpText>Location of Entry Position</inlineHelpText>
     <label>Entry Position</label>
     <required>false</required>

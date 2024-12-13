@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceScheduler__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Invoice Scheduler</label>
     <referenceTo>blng__InvoiceScheduler__c</referenceTo>
     <relationshipLabel>Invoice Runs</relationshipLabel>

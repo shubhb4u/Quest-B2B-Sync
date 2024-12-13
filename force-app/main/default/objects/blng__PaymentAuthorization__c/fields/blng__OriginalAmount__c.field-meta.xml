@@ -3,7 +3,6 @@
     <fullName>blng__OriginalAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Original Amount that we have a right to collect</description>
-    <externalId>false</externalId>
     <inlineHelpText>Original Amount that we have a right to collect</inlineHelpText>
     <label>Original Amount</label>
     <precision>18</precision>

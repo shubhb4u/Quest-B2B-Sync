@@ -3,7 +3,6 @@
     <fullName>sbaa__TargetObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the object you want to aggregate.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the object you want to aggregate.</inlineHelpText>
     <label>Target Object</label>
     <required>false</required>

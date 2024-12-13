@@ -3,7 +3,6 @@
     <fullName>E2CP__Closed_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Date the widespread issue was resolved</description>
-    <externalId>false</externalId>
     <label>Closed Date</label>
     <required>false</required>
     <trackFeedHistory>true</trackFeedHistory>

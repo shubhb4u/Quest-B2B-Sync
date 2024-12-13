@@ -3,7 +3,6 @@
     <fullName>JBCXM__Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the date on which Alert is issued.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the date on which Alert is issued.</inlineHelpText>
     <label>Date</label>
     <required>true</required>

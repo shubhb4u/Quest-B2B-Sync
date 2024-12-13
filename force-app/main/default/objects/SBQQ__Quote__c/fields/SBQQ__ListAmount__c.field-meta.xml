@@ -3,7 +3,6 @@
     <fullName>SBQQ__ListAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Total List Amount of each non-optional line item in this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Total List Amount of each non-optional line item in this quote.</inlineHelpText>
     <label>List Amount</label>
     <summarizedField>SBQQ__QuoteLine__c.SBQQ__ListTotal__c</summarizedField>

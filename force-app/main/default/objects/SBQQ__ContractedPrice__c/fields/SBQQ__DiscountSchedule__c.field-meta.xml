@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Volume discount schedule to use for this product with this customer.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Volume discount schedule to use for this product with this customer.</inlineHelpText>
     <label>Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

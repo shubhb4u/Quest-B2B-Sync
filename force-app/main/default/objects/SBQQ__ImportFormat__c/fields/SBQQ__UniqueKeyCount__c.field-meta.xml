@@ -3,7 +3,6 @@
     <fullName>SBQQ__UniqueKeyCount__c</fullName>
     <deprecated>false</deprecated>
     <description>A count of the unique Keys within the Import Format.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A count of the unique Keys within the Import Format.</inlineHelpText>
     <label># Unique Key</label>
     <summaryFilterItems>

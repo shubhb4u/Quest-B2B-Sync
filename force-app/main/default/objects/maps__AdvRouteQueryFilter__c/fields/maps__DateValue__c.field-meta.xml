@@ -3,7 +3,6 @@
     <fullName>maps__DateValue__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the date value</description>
-    <externalId>false</externalId>
     <label>Date Value</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls whether the rollup is active.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether the rollup is active.</inlineHelpText>
     <label>Active</label>
     <trackFeedHistory>false</trackFeedHistory>

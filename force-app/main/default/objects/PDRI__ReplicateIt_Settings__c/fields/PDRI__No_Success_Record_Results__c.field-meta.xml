@@ -3,7 +3,6 @@
     <fullName>PDRI__No_Success_Record_Results__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>No Success Record Results</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

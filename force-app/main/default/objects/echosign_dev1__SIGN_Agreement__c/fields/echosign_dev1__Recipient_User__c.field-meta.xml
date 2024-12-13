@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Recipient_User__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Recipient (User)</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Agreements3</relationshipName>

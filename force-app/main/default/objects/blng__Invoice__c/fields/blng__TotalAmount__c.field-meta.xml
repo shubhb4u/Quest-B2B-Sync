@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__TotalAmount__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Invoice total (including tax). Equals SubTotal + Tax.</inlineHelpText>
     <label>Total Amount (With Tax)</label>
     <summarizedField>blng__InvoiceLine__c.blng__TotalAmount__c</summarizedField>

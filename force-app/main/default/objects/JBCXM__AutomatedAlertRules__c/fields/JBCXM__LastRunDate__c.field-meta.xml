@@ -3,7 +3,6 @@
     <fullName>JBCXM__LastRunDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The last run date-time of the rule.</description>
-    <externalId>false</externalId>
     <label>LastRunDate</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

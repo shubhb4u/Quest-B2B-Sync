@@ -3,7 +3,6 @@
     <fullName>Loopio__Question__c</fullName>
     <deprecated>false</deprecated>
     <description>To store the question.</description>
-    <externalId>false</externalId>
     <label>Question</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

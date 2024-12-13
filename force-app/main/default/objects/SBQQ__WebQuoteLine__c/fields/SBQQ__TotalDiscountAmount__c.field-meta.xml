@@ -3,7 +3,6 @@
     <fullName>SBQQ__TotalDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Total discount for this line item including volume discount, contracted discount, and additional discount.</description>
-    <externalId>false</externalId>
     <formula>(SBQQ__ProratedListPrice__c - SBQQ__CustomerPrice__c) * SBQQ__EffectiveQuantity__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total discount for this line item including volume discount, contracted discount, and additional discount.</inlineHelpText>

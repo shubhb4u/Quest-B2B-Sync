@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProductField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Product object used in filtering products that match this input.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Product object used in filtering products that match this input.</inlineHelpText>
     <label>Product Field</label>
     <required>false</required>

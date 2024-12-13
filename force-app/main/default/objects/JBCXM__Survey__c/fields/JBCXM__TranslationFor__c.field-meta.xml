@@ -3,7 +3,6 @@
     <fullName>JBCXM__TranslationFor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Transation for</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipLabel>Translation For</relationshipLabel>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Net_Total_for_Output__c</fullName>
-    <externalId>false</externalId>
     <formula>/** IF(text(CurrencyIsoCode) = &apos;JPY&apos; || text(CurrencyIsoCode) = &apos;KRW&apos;, 
 ROUND(JPY_KRW_Net_Amount__c, 0), SBQQ__NetAmount__c )**/ 
 

@@ -3,7 +3,6 @@
     <fullName>SBQQ__UnitPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Unit price for this option. This will override the value from price book.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unit price for this option. This will override the value from price book.</inlineHelpText>
     <label>Unit Price</label>
     <precision>14</precision>

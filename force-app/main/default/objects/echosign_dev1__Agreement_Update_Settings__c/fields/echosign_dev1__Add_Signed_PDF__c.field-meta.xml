@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to add latest PDF to an agreement record whenever an agreement is signed / approved / accepted / filled / delivered by the participant.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to add latest PDF to an agreement record whenever an agreement is signed / approved / accepted / filled / delivered by the participant.</inlineHelpText>
     <label>Add Signed PDF</label>
     <trackTrending>false</trackTrending>

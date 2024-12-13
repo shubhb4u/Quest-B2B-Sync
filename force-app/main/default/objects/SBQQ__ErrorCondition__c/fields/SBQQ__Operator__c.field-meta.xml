@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator used when evaluating the tested selection.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the operator to use when evaluating your tested selection.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

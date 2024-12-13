@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a lookup to the Advanced Route template the error is related to</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Template</label>
     <referenceTo>maps__AdvRouteTemplate__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Debugs</relationshipLabel>

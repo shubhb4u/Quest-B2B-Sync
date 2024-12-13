@@ -3,7 +3,6 @@
     <fullName>maps__ApprovalSubmissionDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Date Alignment was submitted for approval</description>
-    <externalId>false</externalId>
     <label>ApprovalSubmissionDate</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>

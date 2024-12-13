@@ -3,7 +3,6 @@
     <fullName>JBCXM__CTAGroup__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>CTA Group</label>
     <referenceTo>JBCXM__CTAGroup__c</referenceTo>
     <relationshipLabel>CallToAction</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>PDRI__Metadata_Rollback_On_Failure__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Metadata Rollback On Failure</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>User who voted on the Solution</description>
-    <externalId>false</externalId>
     <inlineHelpText>User who voted on the Solution</inlineHelpText>
     <label>User</label>
     <referenceTo>User</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SpecialPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Special (volume-discounted or contracted) unit price for the product being quoted by this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Special unit price for this line item, such as volume discount or contracted price.</inlineHelpText>
     <label>Special Price</label>
     <precision>14</precision>

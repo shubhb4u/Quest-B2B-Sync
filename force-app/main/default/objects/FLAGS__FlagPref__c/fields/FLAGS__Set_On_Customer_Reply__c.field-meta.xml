@@ -3,7 +3,6 @@
     <fullName>FLAGS__Set_On_Customer_Reply__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Set On Customer Reply</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

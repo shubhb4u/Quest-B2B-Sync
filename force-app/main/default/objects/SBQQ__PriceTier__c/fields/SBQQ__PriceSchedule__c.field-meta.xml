@@ -3,7 +3,6 @@
     <fullName>SBQQ__PriceSchedule__c</fullName>
     <deprecated>false</deprecated>
     <description>Price Schedule to which this tier belongs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price Schedule to which this tier belongs.</inlineHelpText>
     <label>Schedule</label>
     <referenceTo>SBQQ__PriceSchedule__c</referenceTo>

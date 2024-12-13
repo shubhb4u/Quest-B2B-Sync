@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>This is used to store the help text by scoring scheme range.
 For example:{&quot;A&quot;:&apos;Help text for A&quot;, &quot;B&quot;:&apos;Help text for B&quot;, &quot;C&quot;:&apos;Help text for C&quot;}</description>
-    <externalId>false</externalId>
     <label>Help Text</label>
     <length>15000</length>
     <trackTrending>false</trackTrending>

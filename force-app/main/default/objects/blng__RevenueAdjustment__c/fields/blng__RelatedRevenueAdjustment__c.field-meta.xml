@@ -3,7 +3,6 @@
     <fullName>blng__RelatedRevenueAdjustment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Related Revenue Adjustment</label>
     <referenceTo>blng__RevenueAdjustment__c</referenceTo>
     <relationshipName>Revenue_Adjustments</relationshipName>

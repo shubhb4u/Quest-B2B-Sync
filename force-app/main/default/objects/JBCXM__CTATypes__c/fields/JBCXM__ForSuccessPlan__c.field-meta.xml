@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Specifies CTA type for success plan objective</description>
-    <externalId>false</externalId>
     <label>Success plan</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

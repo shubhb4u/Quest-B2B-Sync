@@ -7,10 +7,11 @@ import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 import { getRecord, getFieldValue } from "lightning/uiRecordApi";
 import WebstoreId from '@salesforce/label/c.WebstoreId';
 import getSiteBaseUrl from '@salesforce/apex/SiteInfo.getSiteBaseUrl';
-import getProductsFromCategory from '@salesforce/apex/ProductRecordsFromCategory.getProductsFromCategory'; //
-import getProfileName from '@salesforce/apex/Product2Controller.getProfileName';
+import getProductsFromCategory from '@salesforce/apex/ProductRecordsFromCategory.getProductsFromCategory';
 import userId from '@salesforce/user/Id';
-
+import heartRed from '@salesforce/resourceUrl/heartRed';
+import heartWhite from '@salesforce/resourceUrl/heartWhite';
+import getProfileName from '@salesforce/apex/Product2Controller.getProfileName';
 
 export default class ProductCarouselFromCategory extends NavigationMixin(LightningElement) {
     @track products;
@@ -21,13 +22,18 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     @api categoryID;
     @api categoryName;
     @api pricebookID;
+
+    heartRedIcon = heartRed + '#heartRed';
+    heartWhiteIcon = heartWhite + '#heartWhite';
+    @track isModalOpen = false;
+    @track modalTitle = '';
+    @track modalMessage = '';
+
     categoryURL;
     siteBaseUrl;
-    accountId
-    storeId
+    accountId;
+    storeId;
 
-
-    //Added by Shubham fro Guest user access - ----------------------------------------------------------
     @track currentUser = {
         id: userId,
         profileName: null
@@ -35,12 +41,12 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
 
     @track isGuestUser = false;
 
-    @wire(getProfileName)
+      @wire(getProfileName)
     wiredProfileName({ data, error }) {
         if (data) {
             this.currentUser.profileName = data;
             console.log('Profile Name:', data);
-            this.checkIsGuestUser(); 
+            this.checkIsGuestUser();
         } else if (error) {
             console.error('Error fetching profile name:', error);
         }
@@ -51,13 +57,10 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         console.log('Is Guest User:', this.isGuestUser);
     }
 
-    //---------------------------------------------------------------------------------------
-
-
     connectedCallback() {
         this.checkIsGuestUser();
         this.storeId = WebstoreId;
-        console.log('store Id ==>'  +this.storeId);
+        console.log('store Id ==>', this.storeId);
         this.fetchProductsByCategory();
         this.setItemsPerPage();
         this.handleResize = this.debounce(() => this.reinitializeCarousel(), 200);
@@ -81,11 +84,11 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     }
 
     reinitializeCarousel() {
-        this.setItemsPerPage(); // Update itemsPerPage based on screen size
+        this.setItemsPerPage();
         if (this.products?.length) {
-            this.currentPage = 0; // Reset to the first page
-            this.updateDisplayedProducts(); // Update displayed products
-            this.updateIndicators(); // Update carousel indicators
+            this.currentPage = 0;
+            this.updateDisplayedProducts();
+            this.updateIndicators();
         }
     }
 
@@ -110,6 +113,7 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
             console.error('Error fetching site base URL:', error);
         }
     }
+
     @wire(getRecord, { recordId: USER_ID, fields: [ACCOUNT_ID] })
     user({ data, error }) {
         if (data) {
@@ -120,53 +124,33 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         }
     }
 
-    wishlistClass(isWishlistItem) {
-        var wishlistClassName = 'wishlist-icon ';
-        if (isWishlistItem) {
-            wishlistClassName += 'wishlist-icon-red';
-        } else {
-            wishlistClassName += 'wishlist-icon-white';
-        }
-
-        return wishlistClassName;
-    }
-
     fetchProductsByCategory() {
-        getProductsFromCategory({ catId: this.categoryID }) // Call the getProductsFromCategory method
+        getProductsFromCategory({ catId: this.categoryID })
             .then((data) => {
-                console.log('Fetched Product records again... :', data);
-                const prodCurrency = data[0]?.CurrencyIsoCode|| 'USD';
-                let currencySymbol;
-                if(prodCurrency === 'USD') {
-                    currencySymbol = '$';
-                } else if (prodCurrency === 'INR') {
-                    currencySymbol = 'INR';
-                }
-                this.products = data;
+                console.log('Fetched Product records:', data);
+                const prodCurrency = data[0]?.CurrencyIsoCode || 'USD';
+                let currencySymbol = prodCurrency === 'USD' ? '$' : prodCurrency === 'INR' ? 'INR' : '';
+
                 this.products = data.map((product) => ({
                     ...product,
-                    wishlistClass: this.wishlistClass(false), //setting dummy value for now. TODO: Fetch from DB
-                  //  formattedUnitPrice: this.formatPrice(product.UnitPrice), 
-                  formattedUnitPrice: Number(product.UnitPrice).toLocaleString('en-US', {
-                    minimumFractionDigits: 2,
-                    maximumFractionDigits: 2,
-                }),
-                prodCurrencySymbol: currencySymbol,                  
+                    //isWishlistItem: this.getWishListColor(product.Product2.isWishlistItem_Quest__c),
+                    isWishlistItem: product.Product2.isWishlistItem_Quest__c === true,
+                    formattedUnitPrice: Number(product.UnitPrice).toLocaleString('en-US', {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2,
+                    }),
+                    prodCurrencySymbol: currencySymbol
                 }));
+
                 this.setupCarousel();
             })
             .catch((error) => {
-                console.error('Error fetching ProductCategoryProduct records:', error);
+                console.error('Error fetching products:', error);
             });
     }
 
-
-    formatPrice(price) {
-        return Number(price).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
-    }
-
-    getWishListColor(isAdded){
-        return isAdded == true;
+    getWishListColor(isAdded) {
+        return isAdded === true;
     }
 
     setupCarousel() {
@@ -183,6 +167,70 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         const startIndex = this.currentPage * this.itemsPerPage;
         const endIndex = startIndex + this.itemsPerPage;
         this.displayedProducts = this.products.slice(startIndex, endIndex);
+    }
+
+    handleAddToWishlist(event) {
+        const button = event.target.closest('button');
+        if (!button) {
+            console.error('Button element not found in event context');
+            return;
+        }
+    
+        const productId = button.dataset.id;
+        const listname = 'Default Wishlist';
+    
+        if (!this.accountId || !this.storeId || !productId) {
+            this.showToast('Error', 'Missing account, store, or product information', 'error');
+            return;
+        }
+    
+        const product = this.products.find(product => product.Product2.Id === productId);
+        if (!product) {
+            console.error('Product not found in the list');
+            return;
+        }
+    
+        // Toggle the wishlist state (add/remove logic)
+        const isAdded = !product.isWishlistItem; // If it's already in wishlist, set it to false, else true
+    
+        // Directly modify the wishlist state without needing a separate remove function
+        product.isWishlistItem = isAdded;
+    
+        // Call the Apex method to update the wishlist state on the server
+        addWishListItem({
+            storeId: this.storeId,
+            productId: productId,
+            accountId: this.accountId,
+            isAdded: isAdded
+        })
+        .then((result) => {
+            // Check if the result is a success message
+            if (result.includes('Error')) {
+                this.showToast('Error', result, 'error');
+                return;
+            }
+    
+            // Show a success modal after the item is added or removed from the wishlist
+            const modalMessage = isAdded
+                ? `${product.Product2.Name} was added to the list "${listname}".`
+                : `${product.Product2.Name} was removed from the list "${listname}".`;
+    
+            this.modalTitle = 'Success';
+            this.modalMessage = modalMessage;
+            this.isModalOpen = true;
+    
+            // Optionally, you can update the UI or make other changes here
+            this.updateDisplayedProducts();
+        })
+        .catch((error) => {
+            console.error('Error adding/removing product from wishlist:', error);
+            this.showToast('Error', 'Failed to update wishlist.', 'error');
+        });
+    }
+
+
+    handleModalClose() {
+        this.isModalOpen = false;
     }
 
     handlePrevious() {
@@ -216,53 +264,10 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         });
     }
 
-    handleAddToWishlist(event) {
-        const productId = event.target.dataset.id;
-        let listname = 'Sample Wishlist';
-        if (!this.accountId || !this.storeId || !productId) {
-            this.showToast('Error', 'Missing account, store, or product information', 'error');
-            return;
-        }
-            console.log('this.storeId' +this.storeId);
-            console.log('productId' +productId);
-            console.log('this.accountId' +this.accountId);
-
-            addWishListItem({
-                storeId: this.storeId,
-                productId: productId,
-                accountId: this.accountId
-            })
-                .then(() => {
-                    // this.dispatchEvent(
-                    //     new ShowToastEvent({
-                    //         title: 'Success',
-                    //         message: '{0} was added to a new list called "{1}"',
-                    //         messageData: [this.displayableProduct.name, listname],
-                    //         variant: 'success',
-                    //         mode: 'dismissable'
-                    //     })
-                    // );
-                    
-                })
-                .catch((error) => {
-                    console.error('Error adding to wishlist:', error);
-                    // this.dispatchEvent(
-                    //     new ShowToastEvent({
-                    //         title: 'Error',
-                    //         message:
-                    //             '{0} could not be added to a new list. Please make sure you have fewer than 10 lists or try again later',
-                    //         messageData: [this.displayableProduct.name],
-                    //         variant: 'error',
-                    //         mode: 'dismissable'
-                    //     })
-                    // );
-                });
-    }
-
     handleBuy(event) {
         const productId = event.target.dataset.id;
         const url = `/product/${productId}`;
- 
+
         this[NavigationMixin.Navigate]({
             type: 'standard__webPage',
             attributes: {
@@ -271,7 +276,6 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
         });
     }
 
-    // Utility function: Debounce
     debounce(fn, delay) {
         let timer;
         return (...args) => {

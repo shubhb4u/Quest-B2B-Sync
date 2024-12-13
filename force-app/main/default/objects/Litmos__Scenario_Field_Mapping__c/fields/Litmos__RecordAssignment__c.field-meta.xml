@@ -3,7 +3,6 @@
     <fullName>Litmos__RecordAssignment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Record Assignment</label>
     <referenceTo>Litmos__Record_Assignment__c</referenceTo>
     <relationshipLabel>Scenario Field Mappings</relationshipLabel>

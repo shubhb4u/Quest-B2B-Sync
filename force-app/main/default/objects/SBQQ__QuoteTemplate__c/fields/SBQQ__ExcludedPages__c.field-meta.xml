@@ -3,7 +3,6 @@
     <fullName>SBQQ__ExcludedPages__c</fullName>
     <deprecated>false</deprecated>
     <description>Excludes page numbering for All Pages, First Page, Second Page, and/or both the First and Second Page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Excludes page numbering for All Pages, First Page, Second Page, and/or both the First and Second Page.</inlineHelpText>
     <label>Exclude Page Numbers</label>
     <required>false</required>

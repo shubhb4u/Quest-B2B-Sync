@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this pricing guidance for use on associated product. Inactive pricing guidance won&apos;t appear in the quote line editor.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this pricing guidance for use on associated product.</inlineHelpText>
     <label>Active</label>
     <trackHistory>false</trackHistory>

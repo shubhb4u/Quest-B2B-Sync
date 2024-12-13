@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The product option that generated this line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The product option that generated this line.</inlineHelpText>
     <label>Product Option</label>
     <referenceTo>SBQQ__ProductOption__c</referenceTo>

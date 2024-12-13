@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__BilledTax__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The sum of all taxes on invoices for this order product.</inlineHelpText>
     <label>Billed Tax</label>
     <precision>18</precision>

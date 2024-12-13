@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Check this box to ignore query errors when calculating lookup skew</description>
-    <externalId>false</externalId>
     <label>Ignore Query Error</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is the Advanced Route template that the priority is associated with</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route Template</label>
     <referenceTo>maps__AdvRouteTemplate__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Priorities</relationshipLabel>

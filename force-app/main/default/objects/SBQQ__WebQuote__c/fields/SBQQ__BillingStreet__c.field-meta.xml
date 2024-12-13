@@ -3,7 +3,6 @@
     <fullName>SBQQ__BillingStreet__c</fullName>
     <deprecated>false</deprecated>
     <description>Street portion of the billing address for this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Street portion of the billing address for this quote.</inlineHelpText>
     <label>Bill To Street</label>
     <required>false</required>

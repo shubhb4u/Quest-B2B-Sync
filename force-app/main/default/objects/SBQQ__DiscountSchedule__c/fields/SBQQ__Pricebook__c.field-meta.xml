@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price book that this discount schedule applies to. Only used in combination with Product lookup to assign product/price book specific schedule.</inlineHelpText>
     <label>Price Book</label>
     <referenceTo>Pricebook2</referenceTo>

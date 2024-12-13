@@ -11,7 +11,6 @@
 6 = Relink Opportunity
 7 = Create and Relink Opportunity
 8 = Duplicate Parent</description>
-    <externalId>false</externalId>
     <inlineHelpText>0 = Not Evaluated
 1 = Correctly Linked
 2 = Standalone (Not a Family Tree Member)

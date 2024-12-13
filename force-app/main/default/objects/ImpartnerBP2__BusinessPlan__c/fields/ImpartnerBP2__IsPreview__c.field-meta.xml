@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether the plan is a preview-only plan.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether the plan is a preview-only plan.</inlineHelpText>
     <label>Is Preview</label>
     <trackHistory>false</trackHistory>

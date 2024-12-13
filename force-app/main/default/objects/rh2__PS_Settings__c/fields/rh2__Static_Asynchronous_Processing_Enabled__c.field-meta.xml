@@ -3,7 +3,6 @@
     <fullName>rh2__Static_Asynchronous_Processing_Enabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Static Asynchronous Processing Enabled?</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

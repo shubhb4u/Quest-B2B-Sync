@@ -3,7 +3,6 @@
     <fullName>SBQQ__ColumnOrder__c</fullName>
     <deprecated>false</deprecated>
     <description>Columns are comprised of a picklist (of 1, 2, or 3) for each Configuration Attribute. A maximum of 3 columns is allowed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Columns are comprised of a picklist (of 1, 2, or 3) for each Configuration Attribute. A maximum of 3 columns is allowed.</inlineHelpText>
     <label>Column Order</label>
     <required>false</required>

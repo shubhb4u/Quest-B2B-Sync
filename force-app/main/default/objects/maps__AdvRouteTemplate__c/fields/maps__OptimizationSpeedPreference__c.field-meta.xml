@@ -3,7 +3,6 @@
     <fullName>maps__OptimizationSpeedPreference__c</fullName>
     <deprecated>false</deprecated>
     <description>Allows for faster optimization speeds to maintain in-field productivity.</description>
-    <externalId>false</externalId>
     <label>Optimization Speed Preference</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

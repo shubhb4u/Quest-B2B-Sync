@@ -3,7 +3,6 @@
     <fullName>maps__EndDateTime__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the end time of the stop</description>
-    <externalId>false</externalId>
     <label>End DateTime</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The Id of the Quote that this Process Input Value belongs to.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The Id of the Quote that this Process Input Value belongs to.</inlineHelpText>
     <label>Quote ID</label>
     <referenceTo>SBQQ__Quote__c</referenceTo>

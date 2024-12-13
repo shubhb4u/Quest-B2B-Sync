@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Recipients marked as &quot;Delegator to Form-Filler&quot; may review the document but can&apos;t fill the document. They need to forward the document to another user who may fill the document.</inlineHelpText>
     <label>Enable Delegate Form Filler Role</label>
     <trackTrending>false</trackTrending>

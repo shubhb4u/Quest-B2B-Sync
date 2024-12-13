@@ -3,7 +3,6 @@
     <fullName>SBQQ__DiscountScheduleShown__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines if product discount schedule is displayed under the quote-lines.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose how to display discount schedules on the quote document. Per Quote Line will show the discount schedule and Tiers right-aligned under each Quote Line.</inlineHelpText>
     <label>Show Discount Schedule</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__UnitCost__c</fullName>
     <deprecated>false</deprecated>
     <description>Unit Cost for this Subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unit Cost for this Subscription.</inlineHelpText>
     <label>Unit Cost</label>
     <precision>14</precision>

@@ -4,7 +4,6 @@
     <defaultValue>&quot;Rejected,Reject,Decline,No&quot;</defaultValue>
     <deprecated>false</deprecated>
     <description>Comma-delimited list of keywords used for rejecting via email</description>
-    <externalId>false</externalId>
     <inlineHelpText>Comma-delimited list of keywords used for rejecting via email</inlineHelpText>
     <label>Rejected Keywords</label>
     <required>true</required>

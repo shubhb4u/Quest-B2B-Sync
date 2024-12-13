@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Sender_Signs_Only__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sender Signs Only</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This flag tells us if a template should continue to be used even after the current end date</description>
-    <externalId>false</externalId>
     <label>Repeating</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

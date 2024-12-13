@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Opportunity related to this content.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Opportunity related to this content.</inlineHelpText>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>

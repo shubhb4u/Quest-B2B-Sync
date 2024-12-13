@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>JBCXM__PlaybookId__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Playbook Id</label>
     <referenceTo>JBCXM__Playbook__c</referenceTo>
     <relationshipLabel>Playbook Tasks</relationshipLabel>

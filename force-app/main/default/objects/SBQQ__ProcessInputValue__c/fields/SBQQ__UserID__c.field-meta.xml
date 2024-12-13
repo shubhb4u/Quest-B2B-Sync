@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This Process Input value belongs to the user.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This Process Input value belongs to the user.</inlineHelpText>
     <label>UserID</label>
     <referenceTo>User</referenceTo>

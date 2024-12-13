@@ -3,7 +3,6 @@
     <fullName>InSituCah__Ultimate_Parent_Flag__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Ultimate Parent Flag</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

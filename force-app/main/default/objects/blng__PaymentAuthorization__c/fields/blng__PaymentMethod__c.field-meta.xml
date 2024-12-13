@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Payment Method</description>
-    <externalId>false</externalId>
     <inlineHelpText>Payment Method</inlineHelpText>
     <label>Payment Method</label>
     <referenceTo>blng__PaymentMethod__c</referenceTo>

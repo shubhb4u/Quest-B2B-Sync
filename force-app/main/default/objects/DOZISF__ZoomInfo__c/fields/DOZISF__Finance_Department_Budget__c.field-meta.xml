@@ -3,7 +3,6 @@
     <fullName>DOZISF__Finance_Department_Budget__c</fullName>
     <deprecated>false</deprecated>
     <description>Approximate budget of the company&apos;s finance department.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approximate budget of the company&apos;s finance department.</inlineHelpText>
     <label>Finance Department Budget</label>
     <precision>18</precision>

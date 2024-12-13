@@ -3,7 +3,6 @@
     <fullName>JBCXM__ASV__c</fullName>
     <deprecated>false</deprecated>
     <description>ASV Amount against the Transaction Line, if applicable (based on Transaction Type).</description>
-    <externalId>false</externalId>
     <inlineHelpText>ASV Amount against the Transaction Line, if applicable (based on Transaction Type).</inlineHelpText>
     <label>ASV</label>
     <precision>12</precision>

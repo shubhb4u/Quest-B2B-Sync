@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuantityEditable__c</fullName>
     <deprecated>false</deprecated>
     <description>Flag that determines whether the quantity is editable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Allow or prevent changing the quantity for this dimension.</inlineHelpText>
     <label>Quantity Editable</label>
     <required>false</required>

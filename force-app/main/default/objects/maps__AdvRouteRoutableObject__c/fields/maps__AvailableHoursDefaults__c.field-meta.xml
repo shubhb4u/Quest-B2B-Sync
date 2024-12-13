@@ -3,7 +3,6 @@
     <fullName>maps__AvailableHoursDefaults__c</fullName>
     <deprecated>false</deprecated>
     <description>This holds any defaults needed to determine the available hours of records</description>
-    <externalId>false</externalId>
     <label>Available Hours Defaults</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

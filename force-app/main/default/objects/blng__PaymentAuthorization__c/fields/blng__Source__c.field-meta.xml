@@ -3,7 +3,6 @@
     <fullName>blng__Source__c</fullName>
     <deprecated>false</deprecated>
     <description>Payment Authorization Source</description>
-    <externalId>false</externalId>
     <inlineHelpText>Payment Authorization Source</inlineHelpText>
     <label>Source</label>
     <required>false</required>

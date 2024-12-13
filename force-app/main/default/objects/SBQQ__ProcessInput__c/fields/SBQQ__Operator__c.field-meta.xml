@@ -3,7 +3,6 @@
     <fullName>SBQQ__Operator__c</fullName>
     <deprecated>false</deprecated>
     <description>The operator used when comparing the Input Field entry with the Product Field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the operator to use when comparing the Input Field entry with the Product Field.</inlineHelpText>
     <label>Operator</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>For Product Selection Rules, indicates that the action is required.</description>
-    <externalId>false</externalId>
     <inlineHelpText>For Product Selection Rules, indicates that the action is required.</inlineHelpText>
     <label>Required</label>
     <trackTrending>false</trackTrending>

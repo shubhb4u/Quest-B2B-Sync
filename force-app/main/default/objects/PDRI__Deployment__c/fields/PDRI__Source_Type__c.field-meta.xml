@@ -3,7 +3,6 @@
     <fullName>PDRI__Source_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Source Type of the Deployment.</description>
-    <externalId>false</externalId>
     <label>Source Type</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

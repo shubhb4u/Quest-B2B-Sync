@@ -3,7 +3,6 @@
     <fullName>blng__Payment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Payment</label>
     <referenceTo>blng__Payment__c</referenceTo>
     <relationshipLabel>Error Logs</relationshipLabel>

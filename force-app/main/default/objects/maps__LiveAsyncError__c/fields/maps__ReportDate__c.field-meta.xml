@@ -3,7 +3,6 @@
     <fullName>maps__ReportDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This date represents the specific Summary date MAIO was requested to return, not the date the request was run.</description>
-    <externalId>false</externalId>
     <label>Report Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

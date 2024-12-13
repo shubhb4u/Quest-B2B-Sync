@@ -3,7 +3,6 @@
     <fullName>JBCXM__Relationship__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>GS Relationship</label>
     <referenceTo>JBCXM__GSRelationship__c</referenceTo>
     <relationshipLabel>Milestones</relationshipLabel>

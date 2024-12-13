@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Option that&apos;s constraining another option.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose an additional option if the Constrained Option is constraining another option.</inlineHelpText>
     <label>Constraining Option</label>
     <lookupFilter>

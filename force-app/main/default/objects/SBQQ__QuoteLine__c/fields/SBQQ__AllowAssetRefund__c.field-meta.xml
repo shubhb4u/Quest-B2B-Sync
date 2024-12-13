@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether the underlying asset may have its quantity refunded. Only relevant for Amendments.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether the asset represented by this line may be refunded.</inlineHelpText>
     <label>Allow Asset Refunds</label>
     <trackHistory>false</trackHistory>

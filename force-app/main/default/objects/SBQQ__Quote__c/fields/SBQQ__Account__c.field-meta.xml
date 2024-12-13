@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The customer account for this quote. Defaulted to the account for the opportunity when quote is created.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The customer account for this quote. Defaults to the account for the opportunity when creating a quote.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

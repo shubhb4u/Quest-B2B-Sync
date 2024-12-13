@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to allow sender to add alternate recipients</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to allow sender to add alternate recipients</inlineHelpText>
     <label>Enable Alternate Recipients</label>
     <trackTrending>false</trackTrending>

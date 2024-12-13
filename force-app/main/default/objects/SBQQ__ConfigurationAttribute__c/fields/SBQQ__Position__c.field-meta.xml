@@ -3,7 +3,6 @@
     <fullName>SBQQ__Position__c</fullName>
     <deprecated>false</deprecated>
     <description>Position of the attribute.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify position of this attribute. Top renders above the options. Bottom renders below.</inlineHelpText>
     <label>Position</label>
     <required>false</required>

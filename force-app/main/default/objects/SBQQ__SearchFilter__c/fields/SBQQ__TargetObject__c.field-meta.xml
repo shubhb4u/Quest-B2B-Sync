@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object searched by this filter.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify object to search.</inlineHelpText>
     <label>Target Object</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>FLAGS__OptimizeRoles__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Optimize Roles</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

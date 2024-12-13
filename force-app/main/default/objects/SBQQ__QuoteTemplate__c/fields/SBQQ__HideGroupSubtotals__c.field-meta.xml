@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Hides group subtotals on documents generated from this template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if you want to hide group subtotals on documents generated from this template.</inlineHelpText>
     <label>Hide Group Subtotals</label>
     <trackHistory>false</trackHistory>

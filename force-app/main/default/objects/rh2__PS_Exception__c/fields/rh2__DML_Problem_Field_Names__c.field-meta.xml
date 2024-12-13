@@ -3,7 +3,6 @@
     <fullName>rh2__DML_Problem_Field_Names__c</fullName>
     <deprecated>false</deprecated>
     <description>If any, the problem fields associated with the failures recorded from a DMLException.</description>
-    <externalId>false</externalId>
     <label>DML Problem Field Names</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__RevisedSubscription__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup the Revised Subscription for this field.</inlineHelpText>
     <label>Revised Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

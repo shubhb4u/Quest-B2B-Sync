@@ -3,7 +3,6 @@
     <fullName>SBQQ__PricingGuidance__c</fullName>
     <deprecated>false</deprecated>
     <description>The pricing guidance that contains this tier.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The pricing guidance that contains this tier.</inlineHelpText>
     <label>Pricing Guidance</label>
     <referenceTo>SBQQ__PricingGuidance__c</referenceTo>

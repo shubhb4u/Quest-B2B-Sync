@@ -3,7 +3,6 @@
     <fullName>SBQQ__TestedField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Quote, Quote Line or Product Option object that is evaluated by this query. Required if Match Type = Field Value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Quote, Quote Line or Product Option object that is evaluated by this query. Required if Match Type = Field Value.</inlineHelpText>
     <label>Tested Field</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Status of this quote term.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Status of this quote term.</inlineHelpText>
     <label>Status</label>
     <required>false</required>

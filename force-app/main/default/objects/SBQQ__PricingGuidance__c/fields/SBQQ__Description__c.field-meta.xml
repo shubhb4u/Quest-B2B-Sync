@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for this pricing guidance.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description for this pricing guidance.</inlineHelpText>
     <label>Description</label>
     <required>false</required>

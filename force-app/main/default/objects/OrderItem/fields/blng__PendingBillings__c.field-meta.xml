@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__PendingBillings__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Total remaining to be billed.</inlineHelpText>
     <label>Pending Billing Amount (without tax)</label>
     <precision>18</precision>

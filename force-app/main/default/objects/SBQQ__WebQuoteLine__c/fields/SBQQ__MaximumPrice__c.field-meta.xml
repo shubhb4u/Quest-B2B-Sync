@@ -3,7 +3,6 @@
     <fullName>SBQQ__MaximumPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Maximum unit price for this product. Used to enforce price ceiling for products with dynamically calculated prices.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Maximum unit price for this product. Used to enforce price ceiling for products with dynamically calculated prices.</inlineHelpText>
     <label>Maximum Unit Price</label>
     <precision>16</precision>

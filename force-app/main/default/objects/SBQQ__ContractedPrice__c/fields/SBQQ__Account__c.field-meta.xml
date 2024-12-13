@@ -3,7 +3,6 @@
     <fullName>SBQQ__Account__c</fullName>
     <deprecated>false</deprecated>
     <description>Account for which this price was negotiated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account for which this price was negotiated.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

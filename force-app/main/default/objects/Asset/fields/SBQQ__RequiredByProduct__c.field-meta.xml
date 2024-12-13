@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Parent Product of this Asset.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Parent Product of this Asset.</inlineHelpText>
     <label>Parent Product</label>
     <referenceTo>Product2</referenceTo>

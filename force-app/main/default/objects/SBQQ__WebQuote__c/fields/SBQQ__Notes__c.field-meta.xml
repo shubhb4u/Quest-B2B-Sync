@@ -3,7 +3,6 @@
     <fullName>SBQQ__Notes__c</fullName>
     <deprecated>false</deprecated>
     <description>Notes printed on the generated PDF document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Notes printed on the generated PDF document.</inlineHelpText>
     <label>Notes</label>
     <length>2000</length>

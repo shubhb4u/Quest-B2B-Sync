@@ -3,7 +3,6 @@
     <fullName>SBQQ__DeliveryMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Method used to deliver products in this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Method used to deliver products in this quote.</inlineHelpText>
     <label>Delivery Method</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>maps__MapIt_Proximity_On__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>MapIt Proximity On</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

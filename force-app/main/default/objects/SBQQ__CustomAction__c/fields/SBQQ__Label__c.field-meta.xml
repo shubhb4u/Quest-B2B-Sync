@@ -3,7 +3,6 @@
     <fullName>SBQQ__Label__c</fullName>
     <deprecated>false</deprecated>
     <description>Label displayed for this action in the UI.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Label displayed for this action in the UI.</inlineHelpText>
     <label>Label</label>
     <required>false</required>

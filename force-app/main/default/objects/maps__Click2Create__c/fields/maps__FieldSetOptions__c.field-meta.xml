@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>maps__FieldSetOptions__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Field Set Options</label>
     <length>30000</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>sbaa__TrackedObject__c</fullName>
     <deprecated>false</deprecated>
     <description>Object on which Tracked Field exists</description>
-    <externalId>false</externalId>
     <inlineHelpText>Object on which Tracked Field exists</inlineHelpText>
     <label>Tracked Object</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>Litmos__Case__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Case</label>
     <referenceTo>Case</referenceTo>
     <relationshipLabel>Courses on Cases</relationshipLabel>

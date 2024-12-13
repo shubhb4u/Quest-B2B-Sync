@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsActive__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Check to activate / Uncheck to deactivate.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

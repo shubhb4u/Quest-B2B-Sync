@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Template that should be used with this quote. Salesforce CPQ will use this value to default template selection on &quot;Generate Document&quot; screen.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template that should be used with this quote. Salesforce CPQ automatically selects the template specified here when you click &quot;Generate Document&quot;</inlineHelpText>
     <label>Default Template</label>
     <referenceTo>SBQQ__QuoteTemplate__c</referenceTo>

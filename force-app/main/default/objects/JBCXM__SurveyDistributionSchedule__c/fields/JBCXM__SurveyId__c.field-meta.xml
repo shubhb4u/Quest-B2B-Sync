@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Survey Id</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipLabel>Survey Distribution Schedule</relationshipLabel>

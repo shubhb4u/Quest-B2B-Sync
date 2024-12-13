@@ -3,7 +3,6 @@
     <fullName>JBCXM__AlertCriteria__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to store the parameters to create an alert.</description>
-    <externalId>false</externalId>
     <label>AlertCriteria</label>
     <length>5000</length>
     <trackTrending>false</trackTrending>

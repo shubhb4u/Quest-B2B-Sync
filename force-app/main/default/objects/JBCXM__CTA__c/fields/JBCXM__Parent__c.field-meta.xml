@@ -3,7 +3,6 @@
     <fullName>JBCXM__Parent__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Call To Action ParentId</label>
     <referenceTo>JBCXM__CTA__c</referenceTo>
     <relationshipLabel>Call To Actions</relationshipLabel>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Allows owners and editors to enable link sharing for Territory Planning Alignments.</description>
-    <externalId>false</externalId>
     <label>Sharing Enabled</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

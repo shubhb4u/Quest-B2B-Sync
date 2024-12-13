@@ -3,7 +3,6 @@
     <fullName>JBCXM__AdoptionAggregationColumns__c</fullName>
     <deprecated>false</deprecated>
     <description>It specifies the Adoption Aggregation column type. For example Sum, Avg, Count of same column or other.</description>
-    <externalId>false</externalId>
     <label>Adoption Aggregation Columns</label>
     <length>32000</length>
     <trackTrending>false</trackTrending>

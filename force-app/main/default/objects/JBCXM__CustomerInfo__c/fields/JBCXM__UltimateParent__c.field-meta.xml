@@ -3,7 +3,6 @@
     <fullName>JBCXM__UltimateParent__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Ultimate Parent</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Customers Info (Ultimate Parent)</relationshipLabel>

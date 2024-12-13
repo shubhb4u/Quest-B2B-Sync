@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup field to connect status record with source Lead</description>
-    <externalId>false</externalId>
     <label>Lead</label>
     <referenceTo>Lead</referenceTo>
     <relationshipLabel>DocuSign Status</relationshipLabel>

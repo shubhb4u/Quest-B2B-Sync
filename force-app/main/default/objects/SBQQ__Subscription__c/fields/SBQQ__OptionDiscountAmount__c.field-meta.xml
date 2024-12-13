@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionDiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount extended on this product because it&apos;s part of a package.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount extended on this product because it&apos;s part of a package.</inlineHelpText>
     <label>Option Discount (Amt)</label>
     <precision>12</precision>

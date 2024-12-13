@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the option to add Salesforce Documents to draft agreements.</inlineHelpText>
     <label>Hide Salesforce Documents Attachments</label>
     <trackTrending>false</trackTrending>

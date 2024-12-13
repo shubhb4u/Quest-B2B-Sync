@@ -3,7 +3,6 @@
     <fullName>JBCXM__FcstASV__c</fullName>
     <deprecated>false</deprecated>
     <description>Forecast ASV.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Forecast ASV.</inlineHelpText>
     <label>Fcst ASV</label>
     <precision>12</precision>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The contract of the subscription that is created from this order product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The contract of the subscription that is created from this order product.</inlineHelpText>
     <label>Contract</label>
     <referenceTo>Contract</referenceTo>

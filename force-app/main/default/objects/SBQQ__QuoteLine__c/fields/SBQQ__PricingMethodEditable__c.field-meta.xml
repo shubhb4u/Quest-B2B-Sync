@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Specifies whether pricing method can be edited on this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Flag indicating if this line item&apos;s price is editable.</inlineHelpText>
     <label>Pricing Method Editable</label>
     <trackHistory>false</trackHistory>

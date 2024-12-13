@@ -3,7 +3,6 @@
     <fullName>JBCXM__PartialResponse__c</fullName>
     <deprecated>false</deprecated>
     <description>To store partially saved response.</description>
-    <externalId>false</externalId>
     <label>Partially Saved Response</label>
     <length>131072</length>
     <trackTrending>false</trackTrending>

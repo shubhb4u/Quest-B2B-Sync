@@ -3,7 +3,6 @@
     <fullName>JBCXM__LastResponseRecordTime__c</fullName>
     <deprecated>false</deprecated>
     <description>Time when last response was recorded.</description>
-    <externalId>false</externalId>
     <label>Last Response Record Time</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

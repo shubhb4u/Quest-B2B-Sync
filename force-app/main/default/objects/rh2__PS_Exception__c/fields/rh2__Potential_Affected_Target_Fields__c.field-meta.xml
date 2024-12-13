@@ -3,7 +3,6 @@
     <fullName>rh2__Potential_Affected_Target_Fields__c</fullName>
     <deprecated>false</deprecated>
     <description>If any, the field(s) being processed when the error was encountered.</description>
-    <externalId>false</externalId>
     <label>Potentially Affected Target Fields</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

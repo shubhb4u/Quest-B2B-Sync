@@ -3,7 +3,6 @@
     <fullName>maps__GeocodeSuccessful__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Geocode Successful</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Do_No_Overwrite_Existing__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Do Not Overwrite Existing</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Upon a successful Contact match, D&amp;B Connect populates this field that links the Lead record to a specific Contact ID for display of a custom object with D&amp;B data.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Upon a successful Contact match, D&amp;B Connect populates this field that links the Lead record to a specific Contact ID for display of a custom object with D&amp;B data.</inlineHelpText>
     <label>D&amp;B Connect Contact Profile</label>
     <referenceTo>DNBConnect__D_B_Connect_Contact_Profile__c</referenceTo>

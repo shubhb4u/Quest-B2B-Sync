@@ -3,7 +3,6 @@
     <fullName>SBQQ__NonPartnerDiscountable__c</fullName>
     <deprecated>false</deprecated>
     <description>Marks this dimension as non-discountable for partners.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Marks this dimension as non-discountable for partners.</inlineHelpText>
     <label>Non Partner Discountable</label>
     <required>false</required>

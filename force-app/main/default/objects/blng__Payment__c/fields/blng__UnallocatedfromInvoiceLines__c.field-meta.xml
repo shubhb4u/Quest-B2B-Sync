@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__UnallocatedfromInvoiceLines__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Unallocated from Invoice Lines</label>
     <summarizedField>blng__PaymentAllocationInvoiceLine__c.blng__Amount__c</summarizedField>
     <summaryFilterItems>

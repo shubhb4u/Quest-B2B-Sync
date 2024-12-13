@@ -3,7 +3,6 @@
     <fullName>SBQQ__DistributorDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount to be taken on top of the Partner Discount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount to be taken on top of the Partner Discount.</inlineHelpText>
     <label>Distributor Discount</label>
     <precision>5</precision>

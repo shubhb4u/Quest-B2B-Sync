@@ -3,7 +3,6 @@
     <fullName>rh2__Test_Account__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Test Account</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Filters</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>trailheadapp__Due_At__c</fullName>
     <deprecated>false</deprecated>
     <description>This field has been superseded by Due_Datetime__c and is no longer used.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date the Trailmix is to be completed.</inlineHelpText>
     <label>Due Date</label>
     <required>false</required>

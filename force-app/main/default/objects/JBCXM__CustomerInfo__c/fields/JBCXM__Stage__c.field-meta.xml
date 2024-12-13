@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This field describes the stage of the customer</description>
-    <externalId>false</externalId>
     <inlineHelpText>Customer Stage is a configurable attribute that provides additional information on the customer journey / status.</inlineHelpText>
     <label>Stage</label>
     <lookupFilter>

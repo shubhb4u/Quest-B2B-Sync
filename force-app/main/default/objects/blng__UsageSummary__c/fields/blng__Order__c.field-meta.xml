@@ -3,7 +3,6 @@
     <fullName>blng__Order__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Order</label>
     <referenceTo>Order</referenceTo>
     <relationshipName>OrderUsageMediations</relationshipName>

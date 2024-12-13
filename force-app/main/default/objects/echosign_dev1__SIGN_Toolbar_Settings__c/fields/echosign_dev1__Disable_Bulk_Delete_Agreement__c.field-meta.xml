@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Disable_Bulk_Delete_Agreement__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Disable Bulk Delete Agreement</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

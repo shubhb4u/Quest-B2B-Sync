@@ -3,7 +3,6 @@
     <fullName>JBCXM__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>The type of the mapping field that specifies if the mapping is related to JBara TransHeader of the JBara TransLines Objects. There are also be Opportunity Fields that are required but are not mapped to JBara objects. In this case provide a Default value</description>
-    <externalId>false</externalId>
     <inlineHelpText>The type of the mapping field that specifies if the mapping is related to JBara TransHeader of the JBara TransLines Objects. There are also be Opportunity Fields that are required but are not mapped to JBara objects. In this case provide a Default value</inlineHelpText>
     <label>Type</label>
     <required>false</required>

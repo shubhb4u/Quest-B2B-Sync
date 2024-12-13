@@ -3,7 +3,6 @@
     <fullName>Litmos__Litmos_Activated__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Once this field is updated by Litmos, it means that this person is synced to Litmos.</inlineHelpText>
     <label>Litmos Activated</label>
     <trackFeedHistory>false</trackFeedHistory>

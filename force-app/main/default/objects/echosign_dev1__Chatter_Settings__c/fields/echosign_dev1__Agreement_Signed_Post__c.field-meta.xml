@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Post Chatter update when agreement is signed/approved/accepted/form-filled/delivered.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post Chatter update when agreement is signed/approved/accepted/form-filled/delivered.</inlineHelpText>
     <label>Post when Agreement transaction done</label>
     <trackTrending>false</trackTrending>

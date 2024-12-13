@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Template Section related to this content.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template Section related to this content.</inlineHelpText>
     <label>Template Section</label>
     <referenceTo>SBQQ__TemplateSection__c</referenceTo>

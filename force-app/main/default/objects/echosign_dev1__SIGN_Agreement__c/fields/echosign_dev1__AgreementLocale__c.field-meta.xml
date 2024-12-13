@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__AgreementLocale__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the language of the recipients.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the language of the recipients.</inlineHelpText>
     <label>Language</label>
     <required>false</required>

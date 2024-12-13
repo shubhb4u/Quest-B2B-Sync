@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This is used to specify whether the Grade/Score/Color is editable or not if already assigned.</description>
-    <externalId>false</externalId>
     <label>Allow Override</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>blng__RevenueRecognitionRule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Revenue Recognition Rule</label>
     <referenceTo>blng__RevenueRecognitionRule__c</referenceTo>
     <relationshipLabel>Revenue Recognition Rule</relationshipLabel>

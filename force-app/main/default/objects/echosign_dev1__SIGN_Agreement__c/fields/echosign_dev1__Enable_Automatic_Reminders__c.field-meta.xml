@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Send an automatic weekly or daily reminder to recipients.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Send an automatic weekly or daily reminder to recipients.</inlineHelpText>
     <label>Enable Automatic Reminders</label>
     <trackFeedHistory>false</trackFeedHistory>

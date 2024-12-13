@@ -3,7 +3,6 @@
     <fullName>JBCXM__SurveyOpened__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Survey Opened</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

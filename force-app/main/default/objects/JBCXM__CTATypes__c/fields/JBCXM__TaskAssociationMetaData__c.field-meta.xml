@@ -3,7 +3,6 @@
     <fullName>JBCXM__TaskAssociationMetaData__c</fullName>
     <deprecated>false</deprecated>
     <description>To Store task configuration associated meta data</description>
-    <externalId>false</externalId>
     <label>Task Association MetaData</label>
     <length>50000</length>
     <trackTrending>false</trackTrending>

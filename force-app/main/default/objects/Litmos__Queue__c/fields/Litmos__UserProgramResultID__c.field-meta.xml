@@ -3,7 +3,6 @@
     <fullName>Litmos__UserProgramResultID__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>User Program Result</label>
     <referenceTo>Litmos__UserProgramResult__c</referenceTo>
     <relationshipLabel>Queues</relationshipLabel>

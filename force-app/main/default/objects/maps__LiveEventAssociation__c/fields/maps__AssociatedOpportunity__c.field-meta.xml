@@ -3,7 +3,6 @@
     <fullName>maps__AssociatedOpportunity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Associated Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Live Event Associations</relationshipLabel>

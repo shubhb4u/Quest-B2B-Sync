@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable signers to preview and position fields on the document before agreement is sent for signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable signers to preview and position fields on the document before agreement is sent for signature.</inlineHelpText>
     <label>Enable Preview and Position Fields</label>
     <trackTrending>false</trackTrending>

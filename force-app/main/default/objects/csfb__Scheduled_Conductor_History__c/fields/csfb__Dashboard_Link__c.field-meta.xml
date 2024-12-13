@@ -3,7 +3,6 @@
     <fullName>csfb__Dashboard_Link__c</fullName>
     <deprecated>false</deprecated>
     <description>A link to the Conga Batch Dashboard for this schedule.</description>
-    <externalId>false</externalId>
     <label>Dashboard Link</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

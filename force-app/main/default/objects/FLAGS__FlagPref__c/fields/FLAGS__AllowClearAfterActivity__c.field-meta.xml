@@ -6,7 +6,6 @@
     <description>Enable the clearing of the Case Flag when a closed activity is added.
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow clear after activity</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>blng__PaymentScheduler__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Payment Scheduler</label>
     <referenceTo>blng__PaymentScheduler__c</referenceTo>
     <relationshipLabel>Payment Runs</relationshipLabel>

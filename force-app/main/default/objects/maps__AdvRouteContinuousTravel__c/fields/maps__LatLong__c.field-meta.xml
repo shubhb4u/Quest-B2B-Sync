@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>This holds the latitude and longitude of the continuous travel</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <label>Lat/Long</label>
     <required>false</required>
     <scale>15</scale>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__OneTimeRevenue__c</fullName>
     <deprecated>false</deprecated>
     <description>One-time revenue</description>
-    <externalId>false</externalId>
     <inlineHelpText>One-time revenue</inlineHelpText>
     <label>OneTime</label>
     <precision>12</precision>

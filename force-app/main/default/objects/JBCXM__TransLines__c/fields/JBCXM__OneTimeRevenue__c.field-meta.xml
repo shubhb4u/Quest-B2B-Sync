@@ -4,7 +4,6 @@
     <defaultValue>0</defaultValue>
     <deprecated>false</deprecated>
     <description>One-time Revenue</description>
-    <externalId>false</externalId>
     <inlineHelpText>One-time Revenue</inlineHelpText>
     <label>OneTime Revenue</label>
     <precision>12</precision>

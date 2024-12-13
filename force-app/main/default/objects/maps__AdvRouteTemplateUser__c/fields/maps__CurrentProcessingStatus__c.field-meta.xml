@@ -3,7 +3,6 @@
     <fullName>maps__CurrentProcessingStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to determine where we are in the process and rather or not we need to kick off the next step.</description>
-    <externalId>false</externalId>
     <label>Current Processing Status</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

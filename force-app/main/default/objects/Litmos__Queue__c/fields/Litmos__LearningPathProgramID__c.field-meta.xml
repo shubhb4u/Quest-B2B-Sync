@@ -3,7 +3,6 @@
     <fullName>Litmos__LearningPathProgramID__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>LearningPathProgram</label>
     <referenceTo>Litmos__LearningPathProgram__c</referenceTo>
     <relationshipLabel>Queues</relationshipLabel>

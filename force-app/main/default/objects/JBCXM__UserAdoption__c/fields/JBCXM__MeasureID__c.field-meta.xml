@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Adoption Measure against which the data is loaded. Adoption measures can be added to the PickList object and/or existing measures renamed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Adoption Measure against which the data is loaded.</inlineHelpText>
     <label>Measure Id</label>
     <lookupFilter>

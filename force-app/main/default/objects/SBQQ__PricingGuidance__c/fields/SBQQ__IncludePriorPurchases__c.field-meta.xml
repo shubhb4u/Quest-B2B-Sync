@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>When setting the pricing guidance tier for a quote line, include product quantities that were sold earlier</description>
-    <externalId>false</externalId>
     <inlineHelpText>When setting the pricing guidance tier for a quote line, include product quantities that were sold earlier</inlineHelpText>
     <label>Include Prior Purchases</label>
     <trackHistory>false</trackHistory>

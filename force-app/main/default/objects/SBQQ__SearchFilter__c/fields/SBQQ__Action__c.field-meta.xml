@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Action to which this filter applies. Blank value means the filter is global.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Action to which this filter applies. Blank value means the filter is global.</inlineHelpText>
     <label>Action</label>
     <referenceTo>SBQQ__CustomAction__c</referenceTo>

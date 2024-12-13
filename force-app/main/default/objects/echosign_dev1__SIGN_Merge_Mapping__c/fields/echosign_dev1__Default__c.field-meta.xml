@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Check this box if you want this merge mapping to run by default for all agreements sent. You can override the default if you specify a different merge mapping to use with a specific agreement or agreement template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check this box if you want this merge mapping to run by default for all agreements sent. You can override the default if you specify a different merge mapping to use with a specific agreement or agreement template.</inlineHelpText>
     <label>Default Merge Mapping?</label>
     <trackTrending>false</trackTrending>

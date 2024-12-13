@@ -3,7 +3,6 @@
     <fullName>blng__BillingTransaction__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Billing Transaction</label>
     <referenceTo>blng__BillingTransaction__c</referenceTo>
     <relationshipLabel>Invoice Lines</relationshipLabel>

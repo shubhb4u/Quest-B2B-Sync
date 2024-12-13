@@ -3,7 +3,6 @@
     <fullName>maps__LastOptimizationRunAt__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the last time that a route optimization was run</description>
-    <externalId>false</externalId>
     <label>Last Optimization Run At</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

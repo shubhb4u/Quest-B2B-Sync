@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Balance__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>blng__TotalAmount__c - blng__Payments__c - blng__Credits__c + blng__Debits__c + blng__NegativeLineConversion__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total Amount (with tax) - Payments - Credits + Debits + Negative Line Conversion</inlineHelpText>

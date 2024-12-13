@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable hosted in-person signing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable hosted in-person signing.</inlineHelpText>
     <label>Enable Hosted Signing</label>
     <trackTrending>false</trackTrending>

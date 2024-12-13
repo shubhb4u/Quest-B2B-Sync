@@ -3,7 +3,6 @@
     <fullName>blng__RefundLineCreationStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>A Fail status means that the refund line could not be created.  Please verify system configuration.</description>
-    <externalId>false</externalId>
     <inlineHelpText>A Fail status means that the refund line could not be created.  Please verify system configuration.</inlineHelpText>
     <label>Refund Line Creation Status</label>
     <required>false</required>

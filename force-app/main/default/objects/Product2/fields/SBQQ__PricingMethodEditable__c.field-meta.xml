@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Specifies whether Pricing Method may be changed when this product is added to quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select if Pricing Method can be changed when this product is added to quote.</inlineHelpText>
     <label>Pricing Method Editable</label>
     <trackHistory>false</trackHistory>

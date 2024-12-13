@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Price Rule associated with this Lookup Query. Replaces the legacy master-detail field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price Rule associated with this Lookup Query. Replaces the legacy master-detail field.</inlineHelpText>
     <label>Price Rule</label>
     <referenceTo>SBQQ__PriceRule__c</referenceTo>

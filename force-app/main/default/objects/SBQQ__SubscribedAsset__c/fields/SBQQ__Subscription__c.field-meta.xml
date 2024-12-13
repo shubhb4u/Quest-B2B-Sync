@@ -3,7 +3,6 @@
     <fullName>SBQQ__Subscription__c</fullName>
     <deprecated>false</deprecated>
     <description>Subscription that covers the asset.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription that covers the asset.</inlineHelpText>
     <label>Subscription</label>
     <referenceTo>SBQQ__Subscription__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConstrainedOption__c</fullName>
     <deprecated>false</deprecated>
     <description>Option that&apos;s being constrained.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the option in the bundle that you want applied to this constraint.</inlineHelpText>
     <label>Constrained Option</label>
     <lookupFilter>

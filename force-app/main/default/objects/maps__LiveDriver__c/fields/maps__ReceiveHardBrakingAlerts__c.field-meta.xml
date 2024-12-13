@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicate if driver should receive Hard Braking Alerts</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicate if driver should receive Hard Braking Alerts</inlineHelpText>
     <label>Receive Hard Braking Alerts?</label>
     <trackHistory>false</trackHistory>

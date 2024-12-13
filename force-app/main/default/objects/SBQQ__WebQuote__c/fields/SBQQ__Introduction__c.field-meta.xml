@@ -3,7 +3,6 @@
     <fullName>SBQQ__Introduction__c</fullName>
     <deprecated>false</deprecated>
     <description>Introduction that can be printed on the generated PDF document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Introduction that can be printed on the generated PDF document.</inlineHelpText>
     <label>Introduction</label>
     <length>2000</length>

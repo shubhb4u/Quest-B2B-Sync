@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>this field will determine if the saved record is a default</description>
-    <externalId>false</externalId>
     <label>Default</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

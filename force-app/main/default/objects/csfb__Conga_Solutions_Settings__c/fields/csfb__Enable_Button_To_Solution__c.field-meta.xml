@@ -3,7 +3,6 @@
     <fullName>csfb__Enable_Button_To_Solution__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enable Button To Solution Converter</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

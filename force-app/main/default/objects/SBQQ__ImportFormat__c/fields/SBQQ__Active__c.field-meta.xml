@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When activated, the input format becomes available for use.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to make the input format available for use.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

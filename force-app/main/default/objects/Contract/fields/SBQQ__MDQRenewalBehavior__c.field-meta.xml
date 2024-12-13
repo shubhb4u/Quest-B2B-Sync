@@ -3,7 +3,6 @@
     <fullName>SBQQ__MDQRenewalBehavior__c</fullName>
     <deprecated>false</deprecated>
     <description>Defines how segmented subscription products will appear on renewal quotes. De-Segmented will renew as a standard quote line with the last segment’s data.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Defines how segmented subscription products will appear on renewal quotes. De-Segmented will renew as a standard quote line with the last segment&apos;s data.</inlineHelpText>
     <label>MDQ Renewal Behavior</label>
     <required>false</required>

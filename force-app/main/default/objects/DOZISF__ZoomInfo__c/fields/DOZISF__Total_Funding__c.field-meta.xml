@@ -3,7 +3,6 @@
     <fullName>DOZISF__Total_Funding__c</fullName>
     <deprecated>false</deprecated>
     <description>Sum of all rounds of funding, found in the Funding History of the company&apos;s profile.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sum of all rounds of funding, found in the Funding History of the company&apos;s profile.</inlineHelpText>
     <label>Total Funding</label>
     <precision>18</precision>

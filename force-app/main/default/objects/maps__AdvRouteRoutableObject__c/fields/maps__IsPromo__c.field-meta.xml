@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This determines if the Routable object is to be used as a promo window or not</description>
-    <externalId>false</externalId>
     <label>Promo</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

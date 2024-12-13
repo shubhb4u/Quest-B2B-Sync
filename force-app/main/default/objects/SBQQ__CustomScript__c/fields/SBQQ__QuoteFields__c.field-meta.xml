@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuoteFields__c</fullName>
     <deprecated>false</deprecated>
     <description>Fields on the Quote__c object referenced by this plugin</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the API names of any Quote fields referenced by this plugin, one per line.</inlineHelpText>
     <label>Quote Fields</label>
     <length>131072</length>

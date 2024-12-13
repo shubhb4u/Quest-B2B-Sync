@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Account that owns this subscription. This relationship is used for volume discount calculations.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account that owns this subscription. This relationship is used for volume discount calculations.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

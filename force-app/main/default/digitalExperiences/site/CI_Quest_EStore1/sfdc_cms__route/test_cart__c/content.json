@@ -1,0 +1,12 @@
+{
+  "type" : "sfdc_cms__route",
+  "title" : "test cart",
+  "contentBody" : {
+    "activeViewId" : "test_cart",
+    "configurationTags" : [ ],
+    "pageAccess" : "UseParent",
+    "routeType" : "custom-test-cart",
+    "urlPrefix" : "test-cart"
+  },
+  "urlName" : "test-cart"
+}

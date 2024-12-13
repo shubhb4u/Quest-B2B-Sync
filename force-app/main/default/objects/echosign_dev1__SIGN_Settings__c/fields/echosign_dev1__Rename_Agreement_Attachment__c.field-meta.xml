@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Rename the agreement using the name of the added document or the attached file</description>
-    <externalId>false</externalId>
     <inlineHelpText>Rename the agreement using the name of the added document or the attached file</inlineHelpText>
     <label>Rename Agreement with Document Name</label>
     <trackTrending>false</trackTrending>

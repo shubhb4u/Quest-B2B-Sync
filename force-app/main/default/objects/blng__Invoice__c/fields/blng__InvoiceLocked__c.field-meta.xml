@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceLocked__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Payment is in progress and the invoice is locked. Before unlocking it, check whether a payment has already been created against this invoice.</inlineHelpText>
     <label>Invoice Locked</label>
     <trackHistory>true</trackHistory>

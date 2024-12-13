@@ -3,7 +3,6 @@
     <fullName>SBQQ__DocumentStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates the status of your Document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates the status of your Document: Pending, Sent, Failed.</inlineHelpText>
     <label>Document Status</label>
     <required>false</required>

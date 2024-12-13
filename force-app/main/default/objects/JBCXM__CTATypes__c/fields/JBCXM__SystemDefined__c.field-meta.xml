@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Identifies prep-packed types</description>
-    <externalId>false</externalId>
     <label>System defined</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

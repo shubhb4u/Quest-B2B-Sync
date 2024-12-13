@@ -3,7 +3,6 @@
     <fullName>SBQQ__Price__c</fullName>
     <deprecated>false</deprecated>
     <description>Actual price that was negotiated. This value will override any other price such as the one from a price book or a volume-discounted price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter the price that has been negotiated with the customer. This value will override any other price such as the one from a price book or a volume-discounted price.</inlineHelpText>
     <label>Price</label>
     <precision>12</precision>

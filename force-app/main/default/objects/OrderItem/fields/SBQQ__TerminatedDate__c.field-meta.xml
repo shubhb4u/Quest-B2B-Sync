@@ -3,7 +3,6 @@
     <fullName>SBQQ__TerminatedDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Date that this order product&apos;s related subscription was terminated</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date that this order product&apos;s related subscription was terminated</inlineHelpText>
     <label>Terminated Date</label>
     <required>false</required>

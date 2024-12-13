@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to hide the &apos;Send email copies to:&apos; field for draft agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to hide the &apos;Send email copies to:&apos; field for draft agreements.</inlineHelpText>
     <label>Hide Send Email Copies</label>
     <trackTrending>false</trackTrending>

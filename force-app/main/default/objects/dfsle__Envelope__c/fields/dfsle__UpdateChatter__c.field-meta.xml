@@ -3,7 +3,6 @@
     <fullName>dfsle__UpdateChatter__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Check to show chatter during DocuSign signature workflow.</inlineHelpText>
     <label>Enable Chatter status updates</label>
     <trackTrending>false</trackTrending>

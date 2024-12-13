@@ -3,7 +3,6 @@
     <fullName>blng__DebitNoteLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the debit note associated with this revenue schedule.</inlineHelpText>
     <label>Debit Note Line</label>
     <referenceTo>blng__DebitNoteLine__c</referenceTo>

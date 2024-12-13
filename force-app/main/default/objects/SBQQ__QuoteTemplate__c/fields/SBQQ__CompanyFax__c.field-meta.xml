@@ -3,7 +3,6 @@
     <fullName>SBQQ__CompanyFax__c</fullName>
     <deprecated>false</deprecated>
     <description>Company FAX displayed on quote documents.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Company FAX displayed on quote documents.</inlineHelpText>
     <label>Company Fax</label>
     <required>false</required>

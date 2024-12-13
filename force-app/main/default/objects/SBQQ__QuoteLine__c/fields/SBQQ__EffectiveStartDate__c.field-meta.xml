@@ -3,7 +3,6 @@
     <fullName>SBQQ__EffectiveStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Effective start date for this subscription.</description>
-    <externalId>false</externalId>
     <formula>IF(ISBLANK(SBQQ__StartDate__c),
   IF(ISBLANK(SBQQ__Group__r.SBQQ__StartDate__c),SBQQ__Quote__r.SBQQ__StartDate__c,SBQQ__Group__r.SBQQ__StartDate__c),
   SBQQ__StartDate__c

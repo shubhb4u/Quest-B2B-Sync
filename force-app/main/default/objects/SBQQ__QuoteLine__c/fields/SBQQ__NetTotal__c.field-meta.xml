@@ -3,7 +3,6 @@
     <fullName>SBQQ__NetTotal__c</fullName>
     <deprecated>false</deprecated>
     <description>Net total price for this quote line item.</description>
-    <externalId>false</externalId>
     <formula>IF(AND(SBQQ__Renewal__c, !SBQQ__Existing__c, ISBLANK(SBQQ__PriorQuantity__c)), 0, SBQQ__NetPrice__c * SBQQ__EffectiveQuantity__c)</formula>
     <inlineHelpText>Net total price for this quote line item.</inlineHelpText>
     <label>Net Total</label>

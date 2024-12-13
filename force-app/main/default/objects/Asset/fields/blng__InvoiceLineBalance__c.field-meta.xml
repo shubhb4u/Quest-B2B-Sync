@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceLineBalance__c</fullName>
     <deprecated>false</deprecated>
     <description>The sum of all posted invoice line balances for this asset.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The sum of all posted invoice line balances for this asset.</inlineHelpText>
     <label>Invoice Line Balance</label>
     <precision>18</precision>

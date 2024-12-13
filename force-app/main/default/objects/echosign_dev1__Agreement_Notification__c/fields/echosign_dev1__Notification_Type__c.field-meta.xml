@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Notification_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>This value will classify the notification type that whether it is inserted from push agreement callback or normal sign notification.</description>
-    <externalId>false</externalId>
     <label>Notification Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

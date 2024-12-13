@@ -3,7 +3,6 @@
     <fullName>Loopio__Opportunity__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipName>Go_No_Go_Answers</relationshipName>

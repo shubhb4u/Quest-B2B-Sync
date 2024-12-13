@@ -3,7 +3,6 @@
     <fullName>SBQQ__RenewalPricingMethod__c</fullName>
     <deprecated>false</deprecated>
     <description>Method for pricing products on renewal.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use &quot;Same&quot; to keep the same price paid last time. Use &quot;List&quot; to use current list price. Use &quot;Uplift&quot; to use the price paid last time plus some uplift.</inlineHelpText>
     <label>Renewal Pricing Method</label>
     <required>false</required>

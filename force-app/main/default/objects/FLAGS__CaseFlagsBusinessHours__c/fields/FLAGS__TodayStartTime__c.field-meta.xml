@@ -3,7 +3,6 @@
     <fullName>FLAGS__TodayStartTime__c</fullName>
     <deprecated>false</deprecated>
     <description>The current day&apos;s start time as defined in the standard Business Hour record.</description>
-    <externalId>false</externalId>
     <label>Today Start Time</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

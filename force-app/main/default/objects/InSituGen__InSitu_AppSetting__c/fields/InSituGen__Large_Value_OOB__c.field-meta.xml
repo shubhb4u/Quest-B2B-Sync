@@ -3,7 +3,6 @@
     <fullName>InSituGen__Large_Value_OOB__c</fullName>
     <deprecated>false</deprecated>
     <description>Out of the Box value for a setting whose value can be larger than 255 characters.</description>
-    <externalId>false</externalId>
     <label>Large Value OOB</label>
     <length>32000</length>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>blng__Debits__c</fullName>
     <deprecated>false</deprecated>
     <description>Summation of net debit note allocations for this credit note</description>
-    <externalId>false</externalId>
     <inlineHelpText>Summation of net debit note allocations for this credit note</inlineHelpText>
     <label>Debits</label>
     <summarizedField>blng__CreditNoteLine__c.blng__Debits__c</summarizedField>

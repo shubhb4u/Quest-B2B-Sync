@@ -3,7 +3,6 @@
     <fullName>sbaa__FilterType__c</fullName>
     <deprecated>false</deprecated>
     <description>Type of filter used during Tested Field/Variable evaluation</description>
-    <externalId>false</externalId>
     <inlineHelpText>Type of filter used during Tested Field/Variable evaluation</inlineHelpText>
     <label>Filter Type</label>
     <required>false</required>

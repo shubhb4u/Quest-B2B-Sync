@@ -3,7 +3,6 @@
     <fullName>SBQQ__SummaryFunction__c</fullName>
     <deprecated>false</deprecated>
     <description>Function used to summarize values in this column.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Function used to summarize values in this column.</inlineHelpText>
     <label>Summary Function</label>
     <required>false</required>

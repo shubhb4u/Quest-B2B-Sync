@@ -3,7 +3,6 @@
     <fullName>SBQQ__LastCalculatedOn__c</fullName>
     <deprecated>false</deprecated>
     <description>The date and time this quote was last calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The date and time this quote was last calculated.</inlineHelpText>
     <label>Last Calculated On</label>
     <required>false</required>

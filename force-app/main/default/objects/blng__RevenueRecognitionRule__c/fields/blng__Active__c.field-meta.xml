@@ -3,7 +3,6 @@
     <fullName>blng__Active__c</fullName>
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>To deactivate the Revenue Recognition Rule, clear the checkbox. This won’t affect pending or past
         transactions that reference the rule.</inlineHelpText>
     <label>Active</label>

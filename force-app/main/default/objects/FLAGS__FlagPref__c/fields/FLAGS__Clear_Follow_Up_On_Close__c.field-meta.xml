@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Automatically clear follow up and next steps on case close.</description>
-    <externalId>false</externalId>
     <label>clear Follow Up On Close</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

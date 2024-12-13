@@ -3,7 +3,6 @@
     <fullName>SBQQ__RichTextArea__c</fullName>
     <deprecated>false</deprecated>
     <description>This field stores translations for Rich Text fields.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field stores translations for Rich Text fields.</inlineHelpText>
     <label>Rich Text Area</label>
     <length>32768</length>

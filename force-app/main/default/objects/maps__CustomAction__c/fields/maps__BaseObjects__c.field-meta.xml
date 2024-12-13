@@ -3,7 +3,6 @@
     <fullName>maps__BaseObjects__c</fullName>
     <deprecated>false</deprecated>
     <description>The Base Objects that will be used to display the Custom Action</description>
-    <externalId>false</externalId>
     <label>BaseObjects</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

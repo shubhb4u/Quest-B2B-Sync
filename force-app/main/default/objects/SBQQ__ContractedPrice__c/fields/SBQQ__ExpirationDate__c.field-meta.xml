@@ -3,7 +3,6 @@
     <fullName>SBQQ__ExpirationDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Expiration date for this contracted price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Date this contracted price expires.</inlineHelpText>
     <label>Expiration Date</label>
     <required>false</required>

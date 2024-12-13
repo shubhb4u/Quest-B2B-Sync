@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Summary variable that sources value for this action.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Summary variable that sources value for this action.</inlineHelpText>
     <label>Source Variable</label>
     <referenceTo>SBQQ__SummaryVariable__c</referenceTo>

@@ -10,7 +10,6 @@ Values are as follows:
 2 - Level 2 and Higher Flagged Cases
 1 - Level 3 and Higher Flagged Cases
 0 - Level 4 Flagged Cases</description>
-    <externalId>false</externalId>
     <label>Flag Slider Starting Position</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>dfsle__SignNow__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sign now</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

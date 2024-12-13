@@ -3,7 +3,6 @@
     <fullName>maps__Alignment__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Alignment</label>
     <referenceTo>maps__TPAlignment__c</referenceTo>
     <relationshipLabel>History Records</relationshipLabel>

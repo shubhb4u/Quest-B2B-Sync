@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuoteTerm__c</fullName>
     <deprecated>false</deprecated>
     <description>Parent term for this term.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Parent term for this term.</inlineHelpText>
     <label>Quote Term</label>
     <referenceTo>SBQQ__QuoteTerm__c</referenceTo>

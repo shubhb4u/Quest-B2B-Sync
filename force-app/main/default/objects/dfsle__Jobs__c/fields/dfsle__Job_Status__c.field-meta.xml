@@ -3,7 +3,6 @@
     <fullName>dfsle__Job_Status__c</fullName>
     <deprecated>false</deprecated>
     <description>Status of the jobs. Descriptions: Open - Job is queued and waiting to be picked up.  In Progress - Job is being processed. Failed - Job failed to complete please check Docusign Logs for more information</description>
-    <externalId>false</externalId>
     <label>Job Status</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>SKU which configuration is being constrained.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Product SKU being constrained.</inlineHelpText>
     <label>Configured SKU</label>
     <referenceTo>Product2</referenceTo>

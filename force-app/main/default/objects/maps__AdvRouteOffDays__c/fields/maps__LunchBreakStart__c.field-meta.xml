@@ -3,7 +3,6 @@
     <fullName>maps__LunchBreakStart__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the start of the lunch break</description>
-    <externalId>false</externalId>
     <label>Lunch Break Start</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>E2CP__Selected_Files__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores IDs of the selected files on the New Comment page.</description>
-    <externalId>false</externalId>
     <label>Selected Files</label>
     <length>2048</length>
     <trackTrending>false</trackTrending>

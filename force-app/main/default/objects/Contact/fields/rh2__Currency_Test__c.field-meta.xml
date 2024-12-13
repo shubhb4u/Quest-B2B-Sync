@@ -3,7 +3,6 @@
     <fullName>rh2__Currency_Test__c</fullName>
     <deprecated>false</deprecated>
     <description>Test Description</description>
-    <externalId>false</externalId>
     <inlineHelpText>Test Description</inlineHelpText>
     <label>Currency Test</label>
     <precision>18</precision>

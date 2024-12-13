@@ -3,7 +3,6 @@
     <fullName>maps__TerritoryAggregationSetting__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Maps Territory Aggregation Setting</label>
     <referenceTo>maps__TerritoryAggregationSetting__c</referenceTo>
     <relationshipLabel>Maps Territory Aggregations</relationshipLabel>

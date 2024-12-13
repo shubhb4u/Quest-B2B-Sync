@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>Location of Exit Position</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <inlineHelpText>Location of Exit Position</inlineHelpText>
     <label>Exit Position</label>
     <required>false</required>

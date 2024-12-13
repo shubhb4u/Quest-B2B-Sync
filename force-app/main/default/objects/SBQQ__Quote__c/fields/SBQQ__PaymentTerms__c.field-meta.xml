@@ -3,7 +3,6 @@
     <fullName>SBQQ__PaymentTerms__c</fullName>
     <deprecated>false</deprecated>
     <description>Terms that govern payment of the items in this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Terms that govern payment of the items in this quote.</inlineHelpText>
     <label>Payment Terms</label>
     <required>false</required>

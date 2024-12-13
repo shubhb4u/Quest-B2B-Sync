@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that indicates whether this rule is active or inactive.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Flag that indicates whether this rule is active or inactive.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

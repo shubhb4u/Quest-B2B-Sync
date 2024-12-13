@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupRequiredField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Lookup Object corresponding to Product Action Required checkbox. Field must be checkbox.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Lookup Object corresponding to Product Action Required checkbox. Field must be checkbox.</inlineHelpText>
     <label>Lookup Required Field</label>
     <required>false</required>

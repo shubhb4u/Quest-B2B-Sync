@@ -3,7 +3,6 @@
     <fullName>Loopio__Data_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Data type of the answer.</description>
-    <externalId>false</externalId>
     <label>Data Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

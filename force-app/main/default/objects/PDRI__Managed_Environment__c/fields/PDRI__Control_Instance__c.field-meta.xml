@@ -3,7 +3,6 @@
     <fullName>PDRI__Control_Instance__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Control Instance</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

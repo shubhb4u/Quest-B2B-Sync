@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>DEPRECATED</description>
-    <externalId>false</externalId>
     <label>Send Completion Email</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

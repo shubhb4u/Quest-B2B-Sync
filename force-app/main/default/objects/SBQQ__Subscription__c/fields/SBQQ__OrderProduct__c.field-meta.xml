@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The order product where this subscription is originated from.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The order product where this subscription is generated from.</inlineHelpText>
     <label>Order Product</label>
     <referenceTo>OrderItem</referenceTo>

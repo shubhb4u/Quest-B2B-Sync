@@ -3,7 +3,6 @@
     <fullName>blng__TaxTreatment__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Tax Treatment</label>
     <referenceTo>blng__TaxTreatment__c</referenceTo>
     <relationshipLabel>Credit Note Lines</relationshipLabel>

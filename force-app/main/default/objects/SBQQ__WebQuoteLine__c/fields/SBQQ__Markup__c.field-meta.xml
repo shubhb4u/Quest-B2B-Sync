@@ -3,7 +3,6 @@
     <fullName>SBQQ__Markup__c</fullName>
     <deprecated>false</deprecated>
     <description>Markup amount on this item. This value is automatically calculated by applying markup rate or absolute amount, whichever is specified.</description>
-    <externalId>false</externalId>
     <formula>IF(NOT(ISBLANK(SBQQ__MarkupRate__c)), SBQQ__UnitCost__c * SBQQ__MarkupRate__c, SBQQ__UnitCost__c + SBQQ__MarkupAmount__c)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Markup amount on this item. This value is automatically calculated by applying markup rate or absolute amount, whichever is specified.</inlineHelpText>

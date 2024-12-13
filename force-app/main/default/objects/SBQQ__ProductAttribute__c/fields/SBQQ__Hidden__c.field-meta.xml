@@ -3,7 +3,6 @@
     <fullName>SBQQ__Hidden__c</fullName>
     <deprecated>false</deprecated>
     <description>If flagged as hidden, the Configuration Attribute will not appear on the Product Configurator Page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Hidden</label>
     <required>false</required>

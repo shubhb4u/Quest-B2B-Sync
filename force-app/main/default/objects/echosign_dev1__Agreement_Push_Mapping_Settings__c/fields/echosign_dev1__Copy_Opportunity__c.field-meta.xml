@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Copy_Opportunity__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Should Adobe Acrobat Sign copy the first Contact recipient’s Opportunity lookup to the Agreement’s Opportunity lookup?</inlineHelpText>
     <label>Copy Contact Opportunity</label>
     <trackTrending>false</trackTrending>

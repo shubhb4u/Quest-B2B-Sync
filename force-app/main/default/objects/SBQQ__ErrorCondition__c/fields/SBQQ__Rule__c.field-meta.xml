@@ -3,7 +3,6 @@
     <fullName>SBQQ__Rule__c</fullName>
     <deprecated>false</deprecated>
     <description>Parent rule for this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Parent rule for this condition (that runs this condition).</inlineHelpText>
     <label>Rule</label>
     <referenceTo>SBQQ__ProductRule__c</referenceTo>

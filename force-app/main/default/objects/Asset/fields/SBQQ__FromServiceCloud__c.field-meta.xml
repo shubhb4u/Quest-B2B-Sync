@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Determines whether Service Cloud was enabled when this Asset was created.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Determines whether Service Cloud was enabled when this Asset was created.</inlineHelpText>
     <label>From Service Cloud</label>
     <trackHistory>false</trackHistory>

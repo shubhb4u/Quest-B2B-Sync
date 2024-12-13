@@ -3,7 +3,6 @@
     <fullName>SBQQ__OutputFormat__c</fullName>
     <deprecated>false</deprecated>
     <description>Output format of this document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Choose the output format for this document.</inlineHelpText>
     <label>Output Format</label>
     <required>false</required>

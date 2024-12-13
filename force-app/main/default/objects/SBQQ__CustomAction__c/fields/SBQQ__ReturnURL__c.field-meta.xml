@@ -3,7 +3,6 @@
     <fullName>SBQQ__ReturnURL__c</fullName>
     <deprecated>false</deprecated>
     <description>URL to return to after successful execution. Not applicable to all actions.</description>
-    <externalId>false</externalId>
     <inlineHelpText>URL to return to after successful execution. Not applicable to all actions.</inlineHelpText>
     <label>Return URL</label>
     <length>2000</length>

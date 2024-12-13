@@ -3,7 +3,6 @@
     <fullName>JBCXM__Account__c</fullName>
     <deprecated>false</deprecated>
     <description>Account / Customer</description>
-    <externalId>false</externalId>
     <inlineHelpText>Account / Customer</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

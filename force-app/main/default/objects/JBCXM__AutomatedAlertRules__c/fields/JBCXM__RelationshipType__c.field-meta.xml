@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This field stores the relationship type if rule is for Relationship</description>
-    <externalId>false</externalId>
     <label>Relationship Type</label>
     <referenceTo>JBCXM__GSRelationshipType__c</referenceTo>
     <relationshipLabel>GS Relationship Rules</relationshipLabel>

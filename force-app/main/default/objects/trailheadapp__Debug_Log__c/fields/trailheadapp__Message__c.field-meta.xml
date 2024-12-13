@@ -3,7 +3,6 @@
     <fullName>trailheadapp__Message__c</fullName>
     <deprecated>false</deprecated>
     <description>The details or message for debug log.</description>
-    <externalId>false</externalId>
     <label>Message</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

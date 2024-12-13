@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This is a schedule for discounts based on Subscription Term. Values entered into these fields will override the values entered at the Product level.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This is a schedule for discounts based on Subscription Term. Values entered into these fields will override the values entered at the Product level.</inlineHelpText>
     <label>Term Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

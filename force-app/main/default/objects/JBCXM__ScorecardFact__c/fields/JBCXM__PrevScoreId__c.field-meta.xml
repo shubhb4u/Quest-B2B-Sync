@@ -3,7 +3,6 @@
     <fullName>JBCXM__PrevScoreId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Previous Score Id</label>
     <referenceTo>JBCXM__ScoringSchemeDefinition__c</referenceTo>
     <relationshipLabel>Scorecard Fact (Previous Score Id)</relationshipLabel>

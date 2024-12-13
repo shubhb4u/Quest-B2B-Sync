@@ -3,7 +3,6 @@
     <fullName>JBCXM__AdoptionMeasureColMap__c</fullName>
     <deprecated>false</deprecated>
     <description>It stores the map between the adoption measure and column.</description>
-    <externalId>false</externalId>
     <label>Adoption Measure Column Map</label>
     <length>32000</length>
     <trackTrending>false</trackTrending>

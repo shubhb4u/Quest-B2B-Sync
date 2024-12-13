@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Range: The guidance discounts using only the pricing guidance tier that applies to the quote line quantity.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Range: The guidance discounts using only the pricing guidance tier that applies to the quote line quantity.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

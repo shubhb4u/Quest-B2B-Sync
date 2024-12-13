@@ -3,7 +3,6 @@
     <fullName>JBCXM__OpportunityCloseDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used for Opportunity validation.</description>
-    <externalId>false</externalId>
     <label>Opportunity Close Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__TermsConditions__c</fullName>
     <deprecated>false</deprecated>
     <description>Terms &amp; Conditions printed on every document generated with this template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Terms &amp; Conditions printed on every document generated with this template.</inlineHelpText>
     <label>Terms &amp; Conditions</label>
     <length>32000</length>

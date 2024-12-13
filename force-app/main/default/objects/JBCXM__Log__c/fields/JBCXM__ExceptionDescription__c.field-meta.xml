@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>This will system exception and business exception code like &quot;DML Exception &quot;
 ,&quot;Account Not Found&quot; with detail messages</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter system exception and business exception code like &quot;DML Exception &quot;
 ,&quot;Account Not Found&quot; with detail messages</inlineHelpText>
     <label>Exception Description</label>

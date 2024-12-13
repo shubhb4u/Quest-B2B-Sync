@@ -3,7 +3,6 @@
     <fullName>SBQQ__ShownValues__c</fullName>
     <deprecated>false</deprecated>
     <description>Values from the backing picklist field that should be shown on this bundle.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unsupported Field</inlineHelpText>
     <label>Shown Values</label>
     <length>5000</length>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionPercent__c</fullName>
     <deprecated>false</deprecated>
     <description>Percent of non-subscription total to be used as the price of this subscription.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Percent of non-subscription total to be used as the price of this subscription.</inlineHelpText>
     <label>Percent Of Total (%)</label>
     <precision>7</precision>

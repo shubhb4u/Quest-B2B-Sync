@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks this constraint as active or inactive.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Marks this constraint as active or inactive.</inlineHelpText>
     <label>Active</label>
     <trackTrending>false</trackTrending>

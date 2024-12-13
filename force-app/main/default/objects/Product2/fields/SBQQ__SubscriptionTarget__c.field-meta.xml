@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Effective product on which maintenance should calculate.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Use this field to override a product that is included in a percent of total calculation. Point this lookup to a product with a list price you would like to use for the current product’s Percent of Total calculations.</inlineHelpText>
     <label>Percent Of Total Target</label>
     <referenceTo>Product2</referenceTo>

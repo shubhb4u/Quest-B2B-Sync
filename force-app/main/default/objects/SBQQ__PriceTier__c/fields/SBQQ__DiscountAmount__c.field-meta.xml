@@ -3,7 +3,6 @@
     <fullName>SBQQ__DiscountAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount amount applied when quantity falls in this tier.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount amount applied when quantity falls in this tier.</inlineHelpText>
     <label>Discount ({0})</label>
     <precision>14</precision>

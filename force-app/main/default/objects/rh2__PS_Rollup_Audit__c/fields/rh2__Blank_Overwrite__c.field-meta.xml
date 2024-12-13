@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls whether Rollup Helper will overwrite populated fields with a blank value.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls whether Rollup Helper will overwrite populated fields with a blank value.</inlineHelpText>
     <label>Blank Overwrite fields</label>
     <trackFeedHistory>false</trackFeedHistory>

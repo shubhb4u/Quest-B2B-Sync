@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product being configured.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify product on which you are creating the attribute.</inlineHelpText>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>

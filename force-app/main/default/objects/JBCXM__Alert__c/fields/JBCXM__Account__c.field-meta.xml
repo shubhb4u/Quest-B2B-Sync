@@ -3,7 +3,6 @@
     <fullName>JBCXM__Account__c</fullName>
     <deprecated>false</deprecated>
     <description>Select the customer against whom the Alert is issued. Master-Detail Relationship on Account Object.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the customer against whom the Alert is issued.</inlineHelpText>
     <label>Account</label>
     <referenceTo>Account</referenceTo>

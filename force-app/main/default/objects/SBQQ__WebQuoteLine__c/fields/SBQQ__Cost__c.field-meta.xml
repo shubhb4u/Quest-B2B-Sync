@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Cost record used to cost this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Cost record used to cost this line item.</inlineHelpText>
     <label>Cost</label>
     <referenceTo>SBQQ__Cost__c</referenceTo>

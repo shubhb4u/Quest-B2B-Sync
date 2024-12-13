@@ -1,0 +1,283 @@
+{
+  "type" : "sfdc_cms__themeLayout",
+  "title" : "Commerce Layout",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "attributes" : {
+          "columnVerticalAlign" : "flex-start",
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "left" : "30px",
+              "bottom" : "",
+              "right" : ""
+            }
+          },
+          "columnGutterWidth" : ""
+        },
+        "id" : "05787d2f-e966-4efc-a66f-c03b0516817b"
+      }, {
+        "id" : "8e8ba5a7-3687-443a-81a6-f9bb02c1f7d7",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            },
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : "0px"
+            }
+          },
+          "alignment" : "center",
+          "logoWidth" : "250"
+        }
+      }, {
+        "id" : "52d151cb-691d-4754-83ac-88b5c3740258",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            },
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : "0rem"
+            }
+          }
+        }
+      }, {
+        "id" : "ed2ed0ed-7dd5-4dd7-91d0-6bb2358caa48",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            },
+            "margin" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "",
+              "right" : "0rem"
+            }
+          }
+        }
+      }, {
+        "id" : "ba700eb2-66ca-474f-bf1b-2fd65c6422b9",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "2.5rem",
+              "left" : ""
+            },
+            "margin" : {
+              "top" : "10px",
+              "left" : "",
+              "bottom" : "",
+              "right" : "0px"
+            }
+          },
+          "alignment" : "center"
+        }
+      }, {
+        "id" : "96d2f734-2784-4319-8fc9-25c8f21d75cf",
+        "attributes" : {
+          "textDisplayInfo" : "{\"textStyle\":\"body-regular\",\"headingTag\":\"p\"}"
+        }
+      }, {
+        "id" : "751a018a-003b-490f-90a1-8e00d84f605c",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "12px"
+            }
+          }
+        }
+      }, {
+        "id" : "7231c1bd-ec59-4b0b-a47c-6de06f6860e6",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "12px"
+            }
+          }
+        }
+      }, {
+        "id" : "66911293-2afd-46f0-8a5f-11b0933d38f6",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "12px"
+            }
+          }
+        }
+      }, {
+        "id" : "1c010add-7fd6-4a11-a442-6eb130858a5c",
+        "attributes" : {
+          "columnVerticalAlign" : "flex-start"
+        }
+      }, {
+        "id" : "9407d462-829d-4627-b6b5-aaf65cd29d67",
+        "attributes" : {
+          "alignment" : "center"
+        }
+      }, {
+        "id" : "27f177de-b8c9-44df-805f-cd1b82f6af41",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "15rem"
+            }
+          }
+        }
+      }, {
+        "id" : "dd0a7eda-1f8b-4cac-b261-f4e248268698",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "17rem"
+            }
+          }
+        }
+      }, {
+        "id" : "765fa85c-38e4-4a5b-95b0-1f2668b3434c",
+        "attributes" : {
+          "alignment" : "center",
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "left" : "",
+              "bottom" : "30px",
+              "right" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "ce117b6f-ead9-4d05-b1cd-b35ce47a25cd",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "7ebd67fe-4d6b-433b-b54d-889e08c5c756",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "a4e739cb-0f1c-4874-9bc0-b596ac893756",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "7d88f79d-7f6d-4c6a-9085-57a6448cabd1",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "9fe2bb0f-2828-4dd5-8573-1ef10ab7750f",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "f6b882b9-0d47-4764-b3c1-a5789edf6b8e",
+        "attributes" : {
+          "dxpStyle" : {
+            "margin" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : "20px"
+            }
+          }
+        }
+      }, {
+        "id" : "f73e4364-f1d9-495b-a091-ff878727b15a",
+        "attributes" : {
+          "dxpStyle" : {
+            "isVisible" : false
+          }
+        }
+      }, {
+        "id" : "bc68c678-56b7-4fee-ae38-b3f2ae9de49a",
+        "attributes" : {
+          "dxpStyle" : {
+            "padding" : {
+              "top" : "",
+              "right" : "",
+              "bottom" : "",
+              "left" : ""
+            }
+          }
+        }
+      }, {
+        "id" : "3b3361fb-66a1-4b20-a1cf-1304a7648f19",
+        "attributes" : {
+          "columnVerticalAlign" : "flex-start"
+        }
+      } ]
+    }
+  },
+  "urlName" : "commerce-layout"
+}

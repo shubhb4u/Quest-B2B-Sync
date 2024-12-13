@@ -3,7 +3,6 @@
     <fullName>JBCXM__PublishDate__c</fullName>
     <deprecated>false</deprecated>
     <description>It represents when the survey was published.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Published date of the Survey.</inlineHelpText>
     <label>Publish Date</label>
     <required>true</required>

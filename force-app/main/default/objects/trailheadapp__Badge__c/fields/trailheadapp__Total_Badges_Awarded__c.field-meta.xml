@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>trailheadapp__Total_Badges_Awarded__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Total Badges Awarded</label>
     <summaryFilterItems>
         <field>trailheadapp__User_Badge__c.trailheadapp__Finished_Date__c</field>

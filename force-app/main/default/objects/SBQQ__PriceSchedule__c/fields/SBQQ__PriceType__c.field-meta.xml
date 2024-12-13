@@ -3,7 +3,6 @@
     <fullName>SBQQ__PriceType__c</fullName>
     <deprecated>false</deprecated>
     <description>The price type that determines how the prices or discounts are calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The price type that determines how the prices or discounts are calculated.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This the route that the Advanced Route waypoint is associated to</description>
-    <externalId>false</externalId>
     <label>Maps Advanced Route</label>
     <referenceTo>maps__AdvRoute__c</referenceTo>
     <relationshipName>AdvRouteWaypoints</relationshipName>

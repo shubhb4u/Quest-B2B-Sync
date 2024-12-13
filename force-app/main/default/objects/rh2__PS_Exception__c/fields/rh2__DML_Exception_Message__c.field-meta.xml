@@ -3,7 +3,6 @@
     <fullName>rh2__DML_Exception_Message__c</fullName>
     <deprecated>false</deprecated>
     <description>The message reported from a DMLException, if any.</description>
-    <externalId>false</externalId>
     <label>DML Exception Message</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__OptionType__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates the Option Type, which is copied from related Product Option. Determines how quantity is calculated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates the Option Type, which is copied from related Product Option. Determines how quantity is calculated.</inlineHelpText>
     <label>Option Type</label>
     <required>false</required>

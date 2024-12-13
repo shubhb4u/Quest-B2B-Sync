@@ -3,7 +3,6 @@
     <fullName>SBQQ__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Type of action.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the type of action.</inlineHelpText>
     <label>Type</label>
     <required>false</required>

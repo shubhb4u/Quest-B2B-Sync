@@ -3,7 +3,6 @@
     <fullName>blng__OrderProduct__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the order product associated with this revenue schedule.</inlineHelpText>
     <label>Order Product</label>
     <referenceTo>OrderItem</referenceTo>

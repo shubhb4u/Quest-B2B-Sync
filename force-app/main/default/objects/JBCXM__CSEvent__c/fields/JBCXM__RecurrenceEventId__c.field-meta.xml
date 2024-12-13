@@ -3,7 +3,6 @@
     <fullName>JBCXM__RecurrenceEventId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>RecurrenceEventId</label>
     <referenceTo>JBCXM__CSEvent__c</referenceTo>
     <relationshipName>CS_Event</relationshipName>

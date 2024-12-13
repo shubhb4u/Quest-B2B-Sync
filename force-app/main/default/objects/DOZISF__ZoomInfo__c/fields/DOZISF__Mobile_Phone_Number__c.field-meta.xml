@@ -3,7 +3,6 @@
     <fullName>DOZISF__Mobile_Phone_Number__c</fullName>
     <deprecated>false</deprecated>
     <description>Person&apos;s mobile phone number.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Person&apos;s mobile phone number.</inlineHelpText>
     <label>Mobile Phone Number</label>
     <required>false</required>

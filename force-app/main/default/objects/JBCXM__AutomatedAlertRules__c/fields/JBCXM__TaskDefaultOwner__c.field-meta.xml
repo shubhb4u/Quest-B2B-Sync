@@ -3,7 +3,6 @@
     <fullName>JBCXM__TaskDefaultOwner__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>TaskDefaultOwner</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Automated_Alert_Rules</relationshipName>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for the Contracted Price</description>
-    <externalId>false</externalId>
     <inlineHelpText>Description for this Contracted Price. This will be copied into &quot;Special Price Description&quot; of Quote line items using this price.</inlineHelpText>
     <label>Description</label>
     <required>false</required>

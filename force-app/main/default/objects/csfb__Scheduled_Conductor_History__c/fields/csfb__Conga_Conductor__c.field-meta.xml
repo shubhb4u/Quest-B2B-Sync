@@ -3,7 +3,6 @@
     <fullName>csfb__Conga_Conductor__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Conga Batch</label>
     <referenceTo>csfb__Conductor__c</referenceTo>
     <relationshipLabel>Scheduled Conga Batch History</relationshipLabel>

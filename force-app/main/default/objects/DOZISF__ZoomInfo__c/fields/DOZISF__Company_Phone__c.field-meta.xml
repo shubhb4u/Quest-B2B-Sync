@@ -3,7 +3,6 @@
     <fullName>DOZISF__Company_Phone__c</fullName>
     <deprecated>false</deprecated>
     <description>Primary phone number of the company.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Primary phone number of the company.</inlineHelpText>
     <label>Company Phone</label>
     <required>false</required>

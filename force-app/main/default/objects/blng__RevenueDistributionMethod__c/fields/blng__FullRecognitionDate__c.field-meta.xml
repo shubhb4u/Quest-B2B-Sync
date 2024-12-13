@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__FullRecognitionDate__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>If the selected distribution method is full, select Manual to enter a date.</inlineHelpText>
     <label>Full Recognition Date</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This field will be checked when an email message sent via Email to Case Premium is private.</description>
-    <externalId>false</externalId>
     <label>Private</label>
     <type>Checkbox</type>
 </CustomField>

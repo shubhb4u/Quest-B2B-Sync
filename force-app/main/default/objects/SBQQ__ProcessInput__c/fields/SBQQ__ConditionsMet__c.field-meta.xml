@@ -3,7 +3,6 @@
     <fullName>SBQQ__ConditionsMet__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates which Process Input conditions must be met.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicate which Process Input conditions must be met.</inlineHelpText>
     <label>Conditions Met</label>
     <required>false</required>

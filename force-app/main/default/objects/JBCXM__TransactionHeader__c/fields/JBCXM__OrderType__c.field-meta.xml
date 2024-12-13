@@ -3,7 +3,6 @@
     <fullName>JBCXM__OrderType__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>New Business: First business transaction&lt;br&gt;&lt;br&gt;Renewal: Renewal date auto populated &lt;br&gt;&lt;br&gt;Upsell / Downsell: Subsequent Upsell or Downsell transactions&lt;br&gt;&lt;br&gt;Debook: Any corrections to the previously booked amounts&lt;br&gt;&lt;br&gt;Churn: Churn transaction</inlineHelpText>
     <label>Order Type</label>
     <lookupFilter>

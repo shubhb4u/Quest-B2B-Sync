@@ -3,7 +3,6 @@
     <fullName>SBQQ__Time__c</fullName>
     <deprecated>false</deprecated>
     <description>Timestamp for running the method</description>
-    <externalId>false</externalId>
     <inlineHelpText>Timestamp for running the method</inlineHelpText>
     <label>Time</label>
     <required>true</required>

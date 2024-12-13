@@ -3,7 +3,6 @@
     <fullName>blng__CancellationInvoicePlan__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Cancellation Invoice Plan</label>
     <referenceTo>blng__InvoicePlan__c</referenceTo>
     <relationshipLabel>Billing Treatments (Cancellation Invoice Plan)</relationshipLabel>

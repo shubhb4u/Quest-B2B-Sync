@@ -5,7 +5,6 @@
     <description>Mode of Payment.
  1. &apos;Electronic&apos;, whenever Payments/ Refunds are done via Payment Gateway.
  2. &apos;External&apos;, whenever Payments/ Refunds are manually done with Cash/ Check Payment.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Mode of Payment.
  1. &apos;Electronic&apos;, whenever Payments/ Refunds are done via Payment Gateway.
  2. &apos;External&apos;, whenever Payments/ Refunds are manually done with Cash/ Check Payment.</inlineHelpText>

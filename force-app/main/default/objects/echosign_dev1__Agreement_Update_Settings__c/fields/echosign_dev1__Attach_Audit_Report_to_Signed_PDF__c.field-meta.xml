@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to attach an audit report to the final signed agreement PDF.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to attach an audit report to the final signed agreement PDF.</inlineHelpText>
     <label>Attach Audit Report to Final Signed PDF</label>
     <trackTrending>false</trackTrending>

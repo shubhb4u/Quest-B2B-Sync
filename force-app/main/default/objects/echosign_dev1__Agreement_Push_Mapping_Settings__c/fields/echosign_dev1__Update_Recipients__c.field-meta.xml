@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to update existing recipients attributes such as recipient status etc.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to update existing recipients attributes such as recipient status etc.</inlineHelpText>
     <label>Update Recipients</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>maps__DefaultFrequencyLengthUnits__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the default frequency length units</description>
-    <externalId>false</externalId>
     <label>Default Frequency Length Units</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

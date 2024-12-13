@@ -3,7 +3,6 @@
     <fullName>maps__EventOccuredAMorPM__c</fullName>
     <deprecated>false</deprecated>
     <description>AM/PM is determined based on the Timezone of the device.</description>
-    <externalId>false</externalId>
     <inlineHelpText>AM/PM is determined based on the Timezone of the device.</inlineHelpText>
     <label>Event Occurred in AM or PM</label>
     <required>false</required>

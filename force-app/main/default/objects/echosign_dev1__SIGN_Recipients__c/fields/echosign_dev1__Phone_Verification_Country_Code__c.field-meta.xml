@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>echosign_dev1__Phone_Verification_Country_Code__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Phone Verification Country Code</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

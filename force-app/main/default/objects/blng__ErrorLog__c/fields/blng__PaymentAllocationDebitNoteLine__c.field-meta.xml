@@ -3,7 +3,6 @@
     <fullName>blng__PaymentAllocationDebitNoteLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Payment Allocation (Debit Note Line)</label>
     <referenceTo>blng__PaymentAllocationDebitNoteLine__c</referenceTo>
     <relationshipLabel>Error Logs</relationshipLabel>

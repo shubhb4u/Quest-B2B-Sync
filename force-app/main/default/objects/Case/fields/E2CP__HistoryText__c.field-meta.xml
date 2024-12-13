@@ -3,7 +3,6 @@
     <fullName>E2CP__HistoryText__c</fullName>
     <deprecated>false</deprecated>
     <description>Contains a chronology of the most recent 25 public case comments (up to 32,000 chars) for inclusion in email templates. This field is updated when inbound emails are received and outbound emails are sent through the New Comment page.</description>
-    <externalId>false</externalId>
     <label>HistoryText</label>
     <length>32000</length>
     <trackFeedHistory>false</trackFeedHistory>

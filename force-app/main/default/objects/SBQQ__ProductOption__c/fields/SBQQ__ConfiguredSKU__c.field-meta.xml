@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Product SKU of the bundle that is being configured with this option. If you create the option from the product detail page, this should already be populated.</inlineHelpText>
     <label>Configured SKU</label>
     <referenceTo>Product2</referenceTo>

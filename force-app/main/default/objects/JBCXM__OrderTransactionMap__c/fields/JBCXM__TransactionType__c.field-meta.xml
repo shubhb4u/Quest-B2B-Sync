@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Transaction line items mapped to the booking.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Transaction line items mapped to the booking.</inlineHelpText>
     <label>TransactionType</label>
     <referenceTo>JBCXM__TransactionType__c</referenceTo>

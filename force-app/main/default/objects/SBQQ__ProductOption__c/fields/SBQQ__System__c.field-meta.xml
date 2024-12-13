@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks this option as managed by the system which means users can not manually select or deselect.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to indicate this option is managed by the system which makes it unavailable for user selection.</inlineHelpText>
     <label>System</label>
     <trackTrending>false</trackTrending>

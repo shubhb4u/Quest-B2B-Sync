@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__InvoiceAgingBucket10__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Invoice Aging Bucket 10</label>
     <precision>18</precision>
     <required>false</required>

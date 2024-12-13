@@ -3,7 +3,6 @@
     <fullName>JBCXM__Template__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Template</label>
     <referenceTo>JBCXM__SuccessPlanTemplate__c</referenceTo>
     <relationshipLabel>SuccessPlanTemplate</relationshipLabel>

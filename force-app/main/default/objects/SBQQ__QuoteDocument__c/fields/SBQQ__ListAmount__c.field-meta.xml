@@ -3,7 +3,6 @@
     <fullName>SBQQ__ListAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>List amount of the quote at the time this document was generated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List amount of the quote at the time this document was generated.</inlineHelpText>
     <label>List Amount</label>
     <precision>18</precision>

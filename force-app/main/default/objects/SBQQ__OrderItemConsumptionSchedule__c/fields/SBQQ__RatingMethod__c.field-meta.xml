@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__RatingMethod__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Choose a specific use case to rate usage against this schedule. This is a controlling picklist for the Type field.</inlineHelpText>
     <label>Rating Method</label>
     <required>true</required>

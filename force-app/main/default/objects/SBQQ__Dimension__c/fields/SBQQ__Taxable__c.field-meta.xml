@@ -3,7 +3,6 @@
     <fullName>SBQQ__Taxable__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates whether this product is taxable.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether this product is taxable.</inlineHelpText>
     <label>Taxable</label>
     <required>false</required>

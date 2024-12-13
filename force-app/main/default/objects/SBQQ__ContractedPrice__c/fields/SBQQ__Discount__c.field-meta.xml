@@ -3,7 +3,6 @@
     <fullName>SBQQ__Discount__c</fullName>
     <deprecated>false</deprecated>
     <description>Discount off the list price (percent) represented by this Contracted Price. Either this field or Price should be set but not both.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount off the Price Book price (percent) represented by this Contracted Price. Either this field or Price should be set but not both.</inlineHelpText>
     <label>Discount</label>
     <precision>6</precision>

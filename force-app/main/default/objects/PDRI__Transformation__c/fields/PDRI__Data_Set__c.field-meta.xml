@@ -3,7 +3,6 @@
     <fullName>PDRI__Data_Set__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Data Set</label>
     <referenceTo>PDRI__DataSet__c</referenceTo>
     <relationshipLabel>Transformations</relationshipLabel>

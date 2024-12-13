@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This setting controls whether users can use Lead records as Recipients on Agreements.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This setting controls whether users can use Lead records as Recipients on Agreements.</inlineHelpText>
     <label>Disable Lead Recipient Type</label>
     <trackTrending>false</trackTrending>

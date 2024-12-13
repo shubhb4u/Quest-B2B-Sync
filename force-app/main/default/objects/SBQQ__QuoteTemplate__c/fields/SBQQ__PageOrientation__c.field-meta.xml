@@ -3,7 +3,6 @@
     <fullName>SBQQ__PageOrientation__c</fullName>
     <deprecated>false</deprecated>
     <description>Page orientation of PDF documents generated with this template.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Page orientation of PDF documents generated with this template.</inlineHelpText>
     <label>Page Orientation</label>
     <required>false</required>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Discount schedule applied to this order product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount schedule applied to this order product.</inlineHelpText>
     <label>Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

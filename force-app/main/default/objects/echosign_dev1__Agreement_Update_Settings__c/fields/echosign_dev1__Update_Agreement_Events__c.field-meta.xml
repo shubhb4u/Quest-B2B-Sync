@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to update events of an agreement</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to update events of an agreement</inlineHelpText>
     <label>Update Agreement Events</label>
     <trackTrending>false</trackTrending>

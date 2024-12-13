@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Discount tier used by this line item. This field is only populated if a product is volume discounted and discount schedule is of type &quot;Range&quot;.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Discount tier used by this line item. This field is only populated if a volume discount was applied and the discount schedule is of type &quot;Range&quot;.</inlineHelpText>
     <label>Discount Tier</label>
     <referenceTo>SBQQ__DiscountTier__c</referenceTo>

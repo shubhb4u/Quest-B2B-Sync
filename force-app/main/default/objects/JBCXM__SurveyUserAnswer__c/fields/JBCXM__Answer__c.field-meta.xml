@@ -3,7 +3,6 @@
     <fullName>JBCXM__Answer__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Answer</label>
     <referenceTo>JBCXM__SurveyAllowedAnswers__c</referenceTo>
     <relationshipLabel>Survey User Answers</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>maps__TooltipFieldApis__c</fullName>
     <deprecated>false</deprecated>
     <description>This is a JSON array of field apis used to create tooltips</description>
-    <externalId>false</externalId>
     <label>Tooltip Field Apis</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Show cases from case object.</description>
-    <externalId>false</externalId>
     <label>IsCaseEnabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

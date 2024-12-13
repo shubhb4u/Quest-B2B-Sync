@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Internal flag to drive automatic order creation.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select this checkbox to automatically create an order from this quote, if it is a primary quote.</inlineHelpText>
     <label>Ordered</label>
     <trackHistory>false</trackHistory>

@@ -3,7 +3,6 @@
     <fullName>PDRI__PriceBookID__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Price Book</label>
     <referenceTo>Pricebook2</referenceTo>
     <relationshipLabel>Test Cases</relationshipLabel>

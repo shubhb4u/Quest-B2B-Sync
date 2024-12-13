@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Form_Field_Child_Mapping__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Form Field Child Mapping</label>
     <referenceTo>echosign_dev1__Form_Field_Child_Mapping__c</referenceTo>
     <relationshipLabel>Form Field Child Mapping Entries</relationshipLabel>

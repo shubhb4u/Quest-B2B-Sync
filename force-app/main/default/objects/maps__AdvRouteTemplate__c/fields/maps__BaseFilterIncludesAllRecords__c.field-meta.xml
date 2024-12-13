@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This checkbox is used to determine if the template has a base filter or if it should include all records</description>
-    <externalId>false</externalId>
     <label>Base Filter Includes All Records</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

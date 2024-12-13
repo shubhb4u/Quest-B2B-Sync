@@ -3,7 +3,6 @@
     <fullName>SBQQ__Description__c</fullName>
     <deprecated>false</deprecated>
     <description>Description for this SolutionGroup.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter a description for this SolutionGroup.</inlineHelpText>
     <label>Description</label>
     <length>5000</length>

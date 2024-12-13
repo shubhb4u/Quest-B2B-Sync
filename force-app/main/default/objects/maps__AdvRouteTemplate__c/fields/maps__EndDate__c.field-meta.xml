@@ -3,7 +3,6 @@
     <fullName>maps__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>The date the template ends on</description>
-    <externalId>false</externalId>
     <label>End Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

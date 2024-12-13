@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Fixes uplift for this component to the parent package uplift. Uplift only applies to multi-segmented products.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Fixes uplift for this component to the parent package uplift. Uplift only applies to multi-segmented products.</inlineHelpText>
     <label>Component Uplifted By Package</label>
     <trackHistory>false</trackHistory>

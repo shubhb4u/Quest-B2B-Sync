@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionType__c</fullName>
     <deprecated>false</deprecated>
     <description>Indicates the subscription type to determine contract&apos;s pricing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates the subscription type to determine contract&apos;s pricing.</inlineHelpText>
     <label>Subscription Type</label>
     <required>false</required>

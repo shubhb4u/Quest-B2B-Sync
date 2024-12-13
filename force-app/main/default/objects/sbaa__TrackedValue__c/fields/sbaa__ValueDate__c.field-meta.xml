@@ -3,7 +3,6 @@
     <fullName>sbaa__ValueDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Stored value if data type is date</description>
-    <externalId>false</externalId>
     <inlineHelpText>Stored value if data type is date</inlineHelpText>
     <label>Value (Date)</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>blng__OrderProduct__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Order Product</label>
     <referenceTo>OrderItem</referenceTo>
     <relationshipLabel>Sub Invoice Lines</relationshipLabel>

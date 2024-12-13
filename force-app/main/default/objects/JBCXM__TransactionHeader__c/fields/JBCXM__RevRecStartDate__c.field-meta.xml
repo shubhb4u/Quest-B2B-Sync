@@ -3,7 +3,6 @@
     <fullName>JBCXM__RevRecStartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Deferred Revenue Recognition Start Date</description>
-    <externalId>false</externalId>
     <inlineHelpText>Deferred Revenue Recognition Start Date</inlineHelpText>
     <label>Revenue Recognition Start Date</label>
     <required>false</required>

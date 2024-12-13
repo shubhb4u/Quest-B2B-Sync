@@ -3,7 +3,6 @@
     <fullName>maps__RouteDurationIntervalType__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the route duration interval type</description>
-    <externalId>false</externalId>
     <label>Route Duration Interval Type</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

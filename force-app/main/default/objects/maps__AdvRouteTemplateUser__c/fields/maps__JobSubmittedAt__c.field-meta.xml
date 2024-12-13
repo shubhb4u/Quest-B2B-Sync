@@ -3,7 +3,6 @@
     <fullName>maps__JobSubmittedAt__c</fullName>
     <deprecated>false</deprecated>
     <description>This field tracks the last time a job was submitted</description>
-    <externalId>false</externalId>
     <label>Job Submitted At</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

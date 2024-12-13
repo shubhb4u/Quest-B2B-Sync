@@ -3,7 +3,6 @@
     <fullName>JBCXM__ColumnList__c</fullName>
     <deprecated>false</deprecated>
     <description>List of fields for list view.</description>
-    <externalId>false</externalId>
     <label>Column List</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__Localization__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Localization</label>
     <referenceTo>SBQQ__Localization__c</referenceTo>
     <relationshipLabel>Search Index</relationshipLabel>

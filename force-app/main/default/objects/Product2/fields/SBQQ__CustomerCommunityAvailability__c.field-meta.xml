@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerCommunityAvailability__c</fullName>
     <deprecated>false</deprecated>
     <description>Determines availability of this product in Customer Community.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select how this product should be available in Customer Communities.</inlineHelpText>
     <label>Customer Community Availability</label>
     <required>false</required>

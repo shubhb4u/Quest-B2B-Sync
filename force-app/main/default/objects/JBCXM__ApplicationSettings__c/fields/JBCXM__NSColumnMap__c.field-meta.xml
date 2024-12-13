@@ -3,7 +3,6 @@
     <fullName>JBCXM__NSColumnMap__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to maintain column mapping between usage measure and ns measure</description>
-    <externalId>false</externalId>
     <label>NS Column Map</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

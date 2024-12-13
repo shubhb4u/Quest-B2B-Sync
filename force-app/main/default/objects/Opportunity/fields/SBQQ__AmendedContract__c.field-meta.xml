@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Indicates the relationship to your Amended Contract.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to your Amended Contract.</inlineHelpText>
     <label>Amended Contract</label>
     <referenceTo>Contract</referenceTo>

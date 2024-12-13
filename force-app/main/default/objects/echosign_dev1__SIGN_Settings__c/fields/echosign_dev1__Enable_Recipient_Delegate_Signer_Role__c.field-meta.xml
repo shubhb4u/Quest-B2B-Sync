@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Recipients marked as &quot;Delegator to Signer&quot; may review the document but can&apos;t sign the document. They need to forward the document to another user who may sign the document.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Recipients marked as &quot;Delegator to Signer&quot; may review the document but can&apos;t sign the document. They need to forward the document to another user who may sign the document.</inlineHelpText>
     <label>Enable Recipient Delegate Signer Role</label>
     <trackTrending>false</trackTrending>

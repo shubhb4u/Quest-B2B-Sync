@@ -3,7 +3,6 @@
     <fullName>FLAGS__Track_Flag_Clear__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Track Flag Clear</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

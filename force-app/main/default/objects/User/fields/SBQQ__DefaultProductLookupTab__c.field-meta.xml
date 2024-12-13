@@ -3,7 +3,6 @@
     <fullName>SBQQ__DefaultProductLookupTab__c</fullName>
     <deprecated>false</deprecated>
     <description>Default tab for this user in Product Lookup page.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Customize default tab in Product Lookup page.</inlineHelpText>
     <label>Default Product Lookup Tab</label>
     <required>false</required>

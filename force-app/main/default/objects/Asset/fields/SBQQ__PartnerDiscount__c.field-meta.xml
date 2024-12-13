@@ -3,7 +3,6 @@
     <fullName>SBQQ__PartnerDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Partner discounts are applied after all automatic and discretionary discounts. The partner discount is taken into account in the Partner Price.</inlineHelpText>
     <label>Partner Discount</label>
     <precision>5</precision>

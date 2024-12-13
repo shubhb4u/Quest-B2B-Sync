@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates if the Value is permitted to be blank.</description>
-    <externalId>false</externalId>
     <label>Allow Blank Value</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enables Validation Helper will be active during asynchronous processing</description>
-    <externalId>false</externalId>
     <inlineHelpText>If this is checked, Enable Validation Helper will be active during asynchronous processing.  Disable if frequent row lock errors have been encountered by Rollup Helper asynchronous jobs.</inlineHelpText>
     <label>Allow Validation Helper During Async</label>
     <trackTrending>false</trackTrending>

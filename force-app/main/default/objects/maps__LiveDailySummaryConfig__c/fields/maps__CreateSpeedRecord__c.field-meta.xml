@@ -3,7 +3,6 @@
     <fullName>maps__CreateSpeedRecord__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Create Speed Record</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

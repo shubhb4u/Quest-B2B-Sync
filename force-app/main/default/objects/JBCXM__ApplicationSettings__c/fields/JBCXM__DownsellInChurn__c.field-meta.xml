@@ -3,7 +3,6 @@
     <fullName>JBCXM__DownsellInChurn__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Check to consider downsell in churn dashboard.</inlineHelpText>
     <label>Downsell In Churn</label>
     <trackTrending>false</trackTrending>

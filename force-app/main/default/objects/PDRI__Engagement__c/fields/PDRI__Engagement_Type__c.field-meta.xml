@@ -3,7 +3,6 @@
     <fullName>PDRI__Engagement_Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Contains the type of engagement. Required Field</description>
-    <externalId>false</externalId>
     <label>Engagement Type</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

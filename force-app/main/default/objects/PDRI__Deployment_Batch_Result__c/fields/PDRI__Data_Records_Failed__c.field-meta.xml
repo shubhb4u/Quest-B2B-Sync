@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Data_Records_Failed__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Data Records Failed</label>
     <summaryFilterItems>
         <field>PDRI__Deployment_Record_Result__c.PDRI__Success__c</field>

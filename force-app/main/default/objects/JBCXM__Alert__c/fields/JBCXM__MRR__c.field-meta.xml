@@ -3,7 +3,6 @@
     <fullName>JBCXM__MRR__c</fullName>
     <deprecated>false</deprecated>
     <description>MRR Value is auto calculated based on the Alert value entered in the ASV field. MRR = ASV/12</description>
-    <externalId>false</externalId>
     <inlineHelpText>MRR Value is auto calculated based on the Alert value entered in the ASV field.</inlineHelpText>
     <label>Alert MRR</label>
     <precision>12</precision>

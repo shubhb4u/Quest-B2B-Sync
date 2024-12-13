@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This flag is used to toggle the customer info update based on the CRUD operations on Transactions.</description>
-    <externalId>false</externalId>
     <label>Delink customers and transactions</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

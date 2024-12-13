@@ -3,7 +3,6 @@
     <fullName>dfsle__Type__c</fullName>
     <deprecated>false</deprecated>
     <description>Document Type</description>
-    <externalId>false</externalId>
     <inlineHelpText>Document Type</inlineHelpText>
     <label>Document Type</label>
     <required>false</required>

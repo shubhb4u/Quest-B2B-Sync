@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates that the user has access to Elements.</description>
-    <externalId>false</externalId>
     <label>Elements User</label>
     <trackFeedHistory>false</trackFeedHistory>
     <type>Checkbox</type>

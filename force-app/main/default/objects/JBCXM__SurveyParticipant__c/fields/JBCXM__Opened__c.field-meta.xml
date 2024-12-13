@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>To check whether the user visit the survey page or not.</description>
-    <externalId>false</externalId>
     <label>Email Opened</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

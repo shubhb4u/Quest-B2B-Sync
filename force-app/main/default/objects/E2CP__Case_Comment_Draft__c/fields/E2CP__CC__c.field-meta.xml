@@ -3,7 +3,6 @@
     <fullName>E2CP__CC__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores recipients entered on the New Comment page in the CC field.</description>
-    <externalId>false</externalId>
     <label>CC</label>
     <length>8192</length>
     <trackTrending>false</trackTrending>

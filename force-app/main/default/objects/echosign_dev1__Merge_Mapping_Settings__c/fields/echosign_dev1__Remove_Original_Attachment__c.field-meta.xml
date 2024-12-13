@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>When an Adobe Acrobat Sign merge mapping is used for an agreement, remove the original template document from the agreement record after the agreement is sent.</description>
-    <externalId>false</externalId>
     <inlineHelpText>When an Adobe Acrobat Sign merge mapping is used for an agreement, remove the original template document from the agreement record after the agreement is sent.</inlineHelpText>
     <label>Remove Original Document</label>
     <trackTrending>false</trackTrending>

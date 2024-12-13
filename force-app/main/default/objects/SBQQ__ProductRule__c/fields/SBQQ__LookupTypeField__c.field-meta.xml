@@ -3,7 +3,6 @@
     <fullName>SBQQ__LookupTypeField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on Lookup Object corresponding to Product Action Type picklist. Field must be a Picklist or Text.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on Lookup Object corresponding to Product Action Type picklist. Field must be a Picklist or Text.</inlineHelpText>
     <label>Lookup Type Field</label>
     <required>false</required>

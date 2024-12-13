@@ -3,7 +3,6 @@
     <fullName>SBQQ__LongTextArea__c</fullName>
     <deprecated>false</deprecated>
     <description>This field stores translations for Long Text fields.</description>
-    <externalId>false</externalId>
     <inlineHelpText>This field stores translations for Long Text fields.</inlineHelpText>
     <label>Long Text Area</label>
     <length>32768</length>

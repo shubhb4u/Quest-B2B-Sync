@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Template content that should be rendered in the footer.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Template content that should be rendered in the footer.</inlineHelpText>
     <label>Footer Content</label>
     <referenceTo>SBQQ__TemplateContent__c</referenceTo>

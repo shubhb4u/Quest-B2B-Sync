@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Balance__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <formula>blng__TotalAmount__c - blng__Allocations__c + blng__Unallocations__c -  blng__Refunds__c - blng__Debits__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Amount that has not yet been allocated</inlineHelpText>

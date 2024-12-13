@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>It specifies the rule is active or not</description>
-    <externalId>false</externalId>
     <label>Status</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

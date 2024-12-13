@@ -4,7 +4,6 @@
     <deleteConstraint>Restrict</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Approval Chain to which this Approval belongs</description>
-    <externalId>false</externalId>
     <inlineHelpText>Approval Chain to which this Approval belongs</inlineHelpText>
     <label>Approval Chain</label>
     <referenceTo>sbaa__ApprovalChain__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>blng__PaymentMode__c</fullName>
     <deprecated>false</deprecated>
     <description>Select Electronic if payments are made through Salesforce Billing; select External to manually enter a payment processed elsewhere.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select Electronic if payments are made through Salesforce Billing; select External to manually enter a payment processed elsewhere.</inlineHelpText>
     <label>Payment Mode</label>
     <required>false</required>

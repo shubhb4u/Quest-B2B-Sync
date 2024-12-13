@@ -3,7 +3,6 @@
     <fullName>PDRI__Finish_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>SI date when Implementation will be completed. Required Field</description>
-    <externalId>false</externalId>
     <label>Finish Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

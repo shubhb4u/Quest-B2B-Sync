@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isCouponCode__c</fullName>
+    <formula>ISBLANK(Coupon_Code__c) = FALSE</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isCouponCode</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -3,7 +3,6 @@
     <fullName>DOZISF__Ranking__c</fullName>
     <deprecated>false</deprecated>
     <description>Company ranking list (e.g., Fortune 500 and so on).</description>
-    <externalId>false</externalId>
     <inlineHelpText>Company ranking list (e.g., Fortune 500 and so on).</inlineHelpText>
     <label>Ranking</label>
     <length>3000</length>

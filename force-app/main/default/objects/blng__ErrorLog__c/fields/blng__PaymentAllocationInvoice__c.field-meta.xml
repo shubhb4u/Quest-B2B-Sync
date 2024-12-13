@@ -3,7 +3,6 @@
     <fullName>blng__PaymentAllocationInvoice__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Payment Allocation (Invoice)</label>
     <referenceTo>blng__PaymentAllocationInvoice__c</referenceTo>
     <relationshipLabel>Error Logs</relationshipLabel>

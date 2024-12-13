@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Replaced__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Replaced</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

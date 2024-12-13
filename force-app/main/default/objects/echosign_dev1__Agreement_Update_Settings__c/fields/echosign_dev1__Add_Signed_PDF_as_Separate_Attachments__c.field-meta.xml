@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to attach final agreement copy as separate PDFs for each document to the agreement record when agreement transaction is completed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to attach final agreement copy as separate PDFs for each document to the agreement record when agreement transaction is completed.</inlineHelpText>
     <label>Add Signed PDF as Separate Attachments</label>
     <trackTrending>false</trackTrending>

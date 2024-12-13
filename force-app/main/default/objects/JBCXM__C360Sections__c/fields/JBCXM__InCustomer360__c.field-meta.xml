@@ -3,7 +3,6 @@
     <fullName>JBCXM__InCustomer360__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>InCustomer360</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>Lat/Long values for this driver&apos;s home address</description>
     <displayLocationInDecimal>true</displayLocationInDecimal>
-    <externalId>false</externalId>
     <inlineHelpText>Lat/Long values for this driver&apos;s home address</inlineHelpText>
     <label>Location</label>
     <required>false</required>

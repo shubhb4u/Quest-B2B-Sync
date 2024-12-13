@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Parent term for this term.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Parent term for this term.</inlineHelpText>
     <label>Parent Term</label>
     <referenceTo>SBQQ__QuoteTerm__c</referenceTo>

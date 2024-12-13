@@ -3,7 +3,6 @@
     <fullName>SBQQ__TargetCustomerAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>Customer amount to be targeted in calculating additional discounts.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enter desired customer amount to automatically calculate additional discount on discountable line items.</inlineHelpText>
     <label>Target Customer Amount</label>
     <precision>14</precision>

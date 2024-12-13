@@ -3,7 +3,6 @@
     <fullName>maps__LiveDailySummaryConfig__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Reference to the summary configuration that this summary is based on</inlineHelpText>
     <label>Live Daily Summary Configuration</label>
     <referenceTo>maps__LiveDailySummaryConfig__c</referenceTo>

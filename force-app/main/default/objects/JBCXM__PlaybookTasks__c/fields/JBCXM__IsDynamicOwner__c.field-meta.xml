@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsDynamicOwner__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Has dynamic owner</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Matches the quote line end date by default. If blank, it will match the contract end date.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Matches the quote line end date by default. If blank, it will match the contract end date.</inlineHelpText>
     <label>Subscription End Date</label>
     <required>false</required>

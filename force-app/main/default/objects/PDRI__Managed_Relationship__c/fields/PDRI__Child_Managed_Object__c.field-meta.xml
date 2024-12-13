@@ -3,7 +3,6 @@
     <fullName>PDRI__Child_Managed_Object__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Child Managed Object</label>
     <referenceTo>PDRI__Managed_Object__c</referenceTo>
     <relationshipLabel>Child Managed Relationships</relationshipLabel>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__IsLRMEnabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>IsLRMEnabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

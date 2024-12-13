@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Favorite to which this Quote Line Group belongs.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Favorite to which this Quote Line Group belongs.</inlineHelpText>
     <label>Favorite</label>
     <referenceTo>SBQQ__Favorite__c</referenceTo>

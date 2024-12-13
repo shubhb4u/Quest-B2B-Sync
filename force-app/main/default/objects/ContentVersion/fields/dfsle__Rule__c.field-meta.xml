@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>JSON mapping for storing Document Generation rule helpful in implementing Conditional Template
         generation.</description>
-    <externalId>false</externalId>
     <label>Rule</label>
     <length>131072</length>
     <trackHistory>false</trackHistory>

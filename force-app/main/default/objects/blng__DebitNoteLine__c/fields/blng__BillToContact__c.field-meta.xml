@@ -3,7 +3,6 @@
     <fullName>blng__BillToContact__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Bill To Contact</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Debit Note Lines</relationshipLabel>

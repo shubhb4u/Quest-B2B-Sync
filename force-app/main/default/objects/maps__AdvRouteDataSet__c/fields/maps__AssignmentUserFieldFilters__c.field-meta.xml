@@ -3,7 +3,6 @@
     <fullName>maps__AssignmentUserFieldFilters__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Assignment User Field Filters</label>
     <referenceTo>maps__AdvRouteQueryFilterGrouping__c</referenceTo>
     <relationshipLabel>Maps Advanced Route Data Sets (Assignment User Field Filters)</relationshipLabel>

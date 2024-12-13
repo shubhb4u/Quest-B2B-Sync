@@ -3,7 +3,6 @@
     <fullName>Litmos__AccountId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Account</label>
     <referenceTo>Account</referenceTo>
     <relationshipName>AccountProgramResults</relationshipName>

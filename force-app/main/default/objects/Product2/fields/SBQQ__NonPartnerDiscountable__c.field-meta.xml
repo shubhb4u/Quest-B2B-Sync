@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Marks this product as non-discountable for partners.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check to make this product non-discountable for partners.</inlineHelpText>
     <label>Non Partner Discountable</label>
     <trackHistory>false</trackHistory>

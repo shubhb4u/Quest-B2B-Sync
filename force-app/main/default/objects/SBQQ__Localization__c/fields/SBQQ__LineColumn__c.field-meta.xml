@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The line column related to this content.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The line column related to this content.</inlineHelpText>
     <label>Line Column</label>
     <referenceTo>SBQQ__LineColumn__c</referenceTo>

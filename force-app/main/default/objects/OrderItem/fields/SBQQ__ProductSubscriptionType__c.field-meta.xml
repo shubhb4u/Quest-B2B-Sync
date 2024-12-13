@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProductSubscriptionType__c</fullName>
     <deprecated>false</deprecated>
     <description>Set the order item&apos;s product subscription type.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set the order item&apos;s product subscription type.</inlineHelpText>
     <label>Product Subscription Type</label>
     <required>false</required>

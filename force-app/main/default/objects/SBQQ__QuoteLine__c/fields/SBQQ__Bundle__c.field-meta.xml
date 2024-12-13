@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates whether this line item represents a package; meaning, it includes other line items in this quote.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates whether this line item represents a package; meaning, it includes other line items in this quote.</inlineHelpText>
     <label>Package</label>
     <trackHistory>false</trackHistory>

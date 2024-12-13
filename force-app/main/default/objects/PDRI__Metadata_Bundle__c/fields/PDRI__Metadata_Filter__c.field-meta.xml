@@ -3,7 +3,6 @@
     <fullName>PDRI__Metadata_Filter__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Metadata Filter</label>
     <referenceTo>PDRI__ComparisonView__c</referenceTo>
     <relationshipLabel>Metadata_Bundle</relationshipLabel>

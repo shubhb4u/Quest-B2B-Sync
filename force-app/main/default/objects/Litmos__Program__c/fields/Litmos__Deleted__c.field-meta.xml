@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>When a course is deleted, flag is checked.</description>
-    <externalId>false</externalId>
     <label>Deleted</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

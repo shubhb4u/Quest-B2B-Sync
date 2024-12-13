@@ -3,7 +3,6 @@
     <fullName>csfb__Ran_as__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Ran as</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Conga_Conductor_History</relationshipName>

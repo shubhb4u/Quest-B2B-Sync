@@ -3,7 +3,6 @@
     <fullName>trailheadapp__Last_Attempted_Date__c</fullName>
     <deprecated>false</deprecated>
     <description>Date the badge was last attempted.</description>
-    <externalId>false</externalId>
     <label>Last Attempted Date</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

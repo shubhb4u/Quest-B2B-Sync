@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>If checked, will hide the icon square located on the left side of custom page headers</description>
-    <externalId>false</externalId>
     <inlineHelpText>If checked, will hide the icon square located on the left side of page headers</inlineHelpText>
     <label>Hide Icons on Page Headers</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__TaxExempt__c</fullName>
     <deprecated>false</deprecated>
     <description>Selected if this account has active certificates</description>
-    <externalId>false</externalId>
     <inlineHelpText>Selected if this account has active certificates</inlineHelpText>
     <label>Tax-Exempt</label>
     <required>false</required>

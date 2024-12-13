@@ -3,7 +3,6 @@
     <fullName>SBQQ__CustomerDiscountField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on the Quote object that computes the customer discount.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Quote Line field used to calculate a discount. The value from this field is subtracted from the total price.</inlineHelpText>
     <label>Customer Discount Field</label>
     <required>false</required>

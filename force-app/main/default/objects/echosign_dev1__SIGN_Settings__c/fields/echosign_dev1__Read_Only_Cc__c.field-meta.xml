@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to make the &quot;Send email copies to&quot; field a read-only agreement field.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to make the &quot;Send email copies to&quot; field a read-only agreement field.</inlineHelpText>
     <label>Read Only Email Copies</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__Category__c</fullName>
     <deprecated>false</deprecated>
     <description>Pre-defined list of categories in the PickLists.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Pre-defined list of categories in the PickLists.</inlineHelpText>
     <label>Category</label>
     <required>false</required>

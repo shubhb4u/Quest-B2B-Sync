@@ -3,7 +3,6 @@
     <fullName>FLAGS__Set_On_Customer_Post__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Set On Customer Post</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

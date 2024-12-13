@@ -3,7 +3,6 @@
     <fullName>SBQQ__ComponentCost__c</fullName>
     <deprecated>false</deprecated>
     <description>Total cost of components in this package.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Total cost of components in this package.</inlineHelpText>
     <label>Component Cost</label>
     <precision>16</precision>

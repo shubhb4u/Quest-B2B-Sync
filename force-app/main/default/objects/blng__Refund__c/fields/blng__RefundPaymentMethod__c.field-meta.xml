@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The payment method represents a credit card or banking information that can be used to process a payment</description>
-    <externalId>false</externalId>
     <inlineHelpText>The payment method represents a credit card or banking information that can be used to process a payment</inlineHelpText>
     <label>Refund Payment Method</label>
     <referenceTo>blng__PaymentMethod__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__RenewalDownsellInChurn__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Check to consider renewal with downsell in churn.</inlineHelpText>
     <label>Renewal Downsell In Churn</label>
     <trackTrending>false</trackTrending>

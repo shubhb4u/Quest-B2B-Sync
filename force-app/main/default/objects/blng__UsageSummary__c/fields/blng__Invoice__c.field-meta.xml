@@ -3,7 +3,6 @@
     <fullName>blng__Invoice__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Invoice</label>
     <referenceTo>blng__Invoice__c</referenceTo>
     <relationshipName>InvoiceUsageMediations</relationshipName>

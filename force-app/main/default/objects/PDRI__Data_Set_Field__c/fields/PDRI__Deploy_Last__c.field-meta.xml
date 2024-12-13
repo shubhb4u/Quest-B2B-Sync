@@ -3,7 +3,6 @@
     <fullName>PDRI__Deploy_Last__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Deploy Last</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

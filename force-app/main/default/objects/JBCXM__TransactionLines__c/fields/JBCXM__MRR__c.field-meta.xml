@@ -3,7 +3,6 @@
     <fullName>JBCXM__MRR__c</fullName>
     <deprecated>false</deprecated>
     <description>MRR amount, calculated based on Booking Amount and Term</description>
-    <externalId>false</externalId>
     <inlineHelpText>MRR amount, calculated based on Booking Amount and Term</inlineHelpText>
     <label>MRR</label>
     <precision>12</precision>

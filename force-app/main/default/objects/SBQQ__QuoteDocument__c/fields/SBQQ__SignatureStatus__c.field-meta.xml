@@ -3,7 +3,6 @@
     <fullName>SBQQ__SignatureStatus__c</fullName>
     <deprecated>false</deprecated>
     <description>Status of electronic signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Status of electronic signature.</inlineHelpText>
     <label>Signature Status</label>
     <required>false</required>

@@ -3,7 +3,6 @@
     <fullName>SBQQ__ProductSortPreference__c</fullName>
     <deprecated>false</deprecated>
     <description>Product sort preference for this user. Currently only Chatter Follows are supported.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select &quot;Followed&quot; to display products you follow in Chatter before others when adding to quote.</inlineHelpText>
     <label>Product Sort Preference</label>
     <required>false</required>

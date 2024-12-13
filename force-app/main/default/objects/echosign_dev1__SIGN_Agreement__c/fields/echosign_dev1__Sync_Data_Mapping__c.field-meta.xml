@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Sync_Data_Mapping__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Sync Data Mapping</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>

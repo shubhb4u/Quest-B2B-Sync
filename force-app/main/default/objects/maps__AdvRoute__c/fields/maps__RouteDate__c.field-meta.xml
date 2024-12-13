@@ -3,7 +3,6 @@
     <fullName>maps__RouteDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the date of the route</description>
-    <externalId>false</externalId>
     <label>Route Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

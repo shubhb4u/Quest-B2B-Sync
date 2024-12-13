@@ -3,7 +3,6 @@
     <fullName>echosign_dev1__Recipient__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Recipient</label>
     <referenceTo>echosign_dev1__SIGN_Recipients__c</referenceTo>
     <relationshipLabel>Agreement Events</relationshipLabel>

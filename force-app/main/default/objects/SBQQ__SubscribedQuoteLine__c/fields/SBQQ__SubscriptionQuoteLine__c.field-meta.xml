@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Subscription quote line that covers the asset quote line.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Subscription quote line that covers the asset quote line.</inlineHelpText>
     <label>Subscription Quote Line</label>
     <referenceTo>SBQQ__QuoteLine__c</referenceTo>

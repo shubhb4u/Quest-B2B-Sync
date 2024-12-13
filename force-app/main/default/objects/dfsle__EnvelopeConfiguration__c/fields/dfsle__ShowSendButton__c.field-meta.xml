@@ -3,7 +3,6 @@
     <fullName>dfsle__ShowSendButton__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Show send button</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

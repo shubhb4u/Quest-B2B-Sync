@@ -3,7 +3,6 @@
     <fullName>E2CP__BCC__c</fullName>
     <deprecated>false</deprecated>
     <description>Stores recipients entered on the New Comment page in the BCC field.</description>
-    <externalId>false</externalId>
     <label>BCC</label>
     <length>8192</length>
     <trackTrending>false</trackTrending>

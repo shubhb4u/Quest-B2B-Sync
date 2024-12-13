@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuotedListPrice__c</fullName>
     <deprecated>false</deprecated>
     <description>List unit price for the product quoted by this line item. List Price originates from the price book.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List unit price for the product quoted by this line item. List Price originates from the price book.</inlineHelpText>
     <label>Quoted List Price</label>
     <precision>14</precision>

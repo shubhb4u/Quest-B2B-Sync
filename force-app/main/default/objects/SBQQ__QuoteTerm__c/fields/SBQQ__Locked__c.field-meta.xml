@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Controls a Quote Term being editable by a user.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Controls a Quote Term being editable by a user.</inlineHelpText>
     <label>Locked</label>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>JBCXM__NextRenewalDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Next Renewal Date of the customer.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Next Renewal Date of the Customer, auto populated based on the first transaction (New Business) and subsequent renewals.</inlineHelpText>
     <label>RenewalDate</label>
     <required>false</required>

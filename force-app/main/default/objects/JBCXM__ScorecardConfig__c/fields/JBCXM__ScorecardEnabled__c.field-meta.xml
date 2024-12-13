@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This is used to check whether the Scorecard is enabled or not.</description>
-    <externalId>false</externalId>
     <label>Is Scorecard Enabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

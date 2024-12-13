@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>This field stores the user who has last updated the rule from UI</description>
-    <externalId>false</externalId>
     <label>Last Rule Updated By</label>
     <referenceTo>User</referenceTo>
     <relationshipName>LastRuleUpdatedBy</relationshipName>

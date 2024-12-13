@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Used to display fields in the header section when using Tile display mode.</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <inlineHelpText>Used to display fields in the header section when using Tile display mode.</inlineHelpText>
     <label>Header</label>

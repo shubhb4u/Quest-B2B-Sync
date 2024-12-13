@@ -3,7 +3,6 @@
     <fullName>PDRI__Data_Set_Field__c</fullName>
     <deprecated>false</deprecated>
     <description>Created for MD-2942</description>
-    <externalId>false</externalId>
     <label>Data Set Field</label>
     <referenceTo>PDRI__Data_Set_Field__c</referenceTo>
     <relationshipLabel>Field Value Mappings</relationshipLabel>

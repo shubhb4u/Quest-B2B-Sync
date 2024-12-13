@@ -3,7 +3,6 @@
     <fullName>maps__ReassignOwner__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Reassign Owner</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

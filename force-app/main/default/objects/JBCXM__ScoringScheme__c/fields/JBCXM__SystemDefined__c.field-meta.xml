@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This is used to specify whether the Scoring scheme is created by user or default with application.</description>
-    <externalId>false</externalId>
     <label>System Defined</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

@@ -3,7 +3,6 @@
     <fullName>maps__RepeatsAs__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the frequency at which the visit will repeat</description>
-    <externalId>false</externalId>
     <label>Repeats As</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

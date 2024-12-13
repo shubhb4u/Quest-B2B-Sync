@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuoteLanguage__c</fullName>
     <deprecated>false</deprecated>
     <description>Language used for this Quote when mass generating Quote Documents</description>
-    <externalId>false</externalId>
     <inlineHelpText>Language used for this Quote when mass generating Quote Documents</inlineHelpText>
     <label>Quote Language</label>
     <required>false</required>

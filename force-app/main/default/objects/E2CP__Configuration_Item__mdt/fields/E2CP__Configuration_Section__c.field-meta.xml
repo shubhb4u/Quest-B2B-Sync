@@ -3,7 +3,6 @@
     <fullName>E2CP__Configuration_Section__c</fullName>
     <deprecated>false</deprecated>
     <description>Section that this item belongs to in Email to Case Premium Setup</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <label>Configuration Section</label>
     <referenceTo>E2CP__Configuration_Section__mdt</referenceTo>

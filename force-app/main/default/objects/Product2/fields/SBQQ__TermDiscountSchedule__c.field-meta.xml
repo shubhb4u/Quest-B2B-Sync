@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Schedule for discounts based on subscription term.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Schedule for discounts based on subscription term.</inlineHelpText>
     <label>Term Discount Schedule</label>
     <lookupFilter>

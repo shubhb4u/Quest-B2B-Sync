@@ -3,7 +3,6 @@
     <fullName>FLAGS__ExamineCommentCompanyDomain__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Examine Comment for Company Domain</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

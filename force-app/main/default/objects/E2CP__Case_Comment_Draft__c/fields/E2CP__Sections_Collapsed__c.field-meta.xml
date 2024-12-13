@@ -3,7 +3,6 @@
     <fullName>E2CP__Sections_Collapsed__c</fullName>
     <deprecated>false</deprecated>
     <description>New Comment page sections collapsed.</description>
-    <externalId>false</externalId>
     <label>Sections Collapsed</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

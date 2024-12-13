@@ -6,7 +6,6 @@
     <description>Enable the Case Flag to automatically be set on immediately after an attachment has been added to Case by an external user. 
 
 Set in the Case Flags Setup Wizard.</description>
-    <externalId>false</externalId>
     <label>Allow write after attachment</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

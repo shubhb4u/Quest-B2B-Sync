@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This flag lets us know if we are optimizing from the current time or the next day</description>
-    <externalId>false</externalId>
     <label>Optimize From Current Time</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

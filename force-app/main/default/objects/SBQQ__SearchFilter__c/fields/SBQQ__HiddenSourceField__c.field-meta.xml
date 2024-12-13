@@ -3,7 +3,6 @@
     <fullName>SBQQ__HiddenSourceField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field that sources value for use in determining whether the filter is hidden.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify the field that sources value for use in determining whether the filter is hidden.</inlineHelpText>
     <label>Hidden Source Field</label>
     <required>false</required>

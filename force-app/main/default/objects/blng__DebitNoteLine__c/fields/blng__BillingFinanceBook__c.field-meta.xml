@@ -3,7 +3,6 @@
     <fullName>blng__BillingFinanceBook__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to Finance Book assigned to this line</inlineHelpText>
     <label>Billing Finance Book</label>
     <referenceTo>blng__FinanceBook__c</referenceTo>

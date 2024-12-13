@@ -3,7 +3,6 @@
     <fullName>JBCXM__ChurnByBOP__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Calculate churn based on BOP</inlineHelpText>
     <label>Churn By BOP</label>
     <trackTrending>false</trackTrending>

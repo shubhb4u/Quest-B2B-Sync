@@ -3,7 +3,6 @@
     <fullName>SBQQ__TaxAmount__c</fullName>
     <deprecated>false</deprecated>
     <description>The estimated tax amount</description>
-    <externalId>false</externalId>
     <inlineHelpText>The estimated tax amount</inlineHelpText>
     <label>Estimated Tax</label>
     <summarizedField>OrderItem.SBQQ__TaxAmount__c</summarizedField>

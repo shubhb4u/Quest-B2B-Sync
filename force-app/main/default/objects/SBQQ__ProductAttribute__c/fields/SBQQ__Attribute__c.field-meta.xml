@@ -3,7 +3,6 @@
     <fullName>SBQQ__Attribute__c</fullName>
     <deprecated>false</deprecated>
     <description>Configuration Attribute this product attribute inherits.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Configuration Attribute this product attribute inherits.</inlineHelpText>
     <label>Configuration Attribute</label>
     <lookupFilter>

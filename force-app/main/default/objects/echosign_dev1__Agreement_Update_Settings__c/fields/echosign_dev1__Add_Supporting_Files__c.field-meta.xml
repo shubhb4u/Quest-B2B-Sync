@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to attach PDF of each supporting document uploaded by participants to the agreement record after agreement transaction is completed.</inlineHelpText>
     <label>Add Supporting Files</label>
     <trackTrending>false</trackTrending>

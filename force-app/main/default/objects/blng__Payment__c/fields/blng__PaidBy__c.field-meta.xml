@@ -3,7 +3,6 @@
     <fullName>blng__PaidBy__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Paid By</label>
     <referenceTo>Contact</referenceTo>
     <relationshipLabel>Payments</relationshipLabel>

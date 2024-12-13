@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Set to true if your org uses iTools custom permissions to control access to iTools actions (i.e.	iTools_AllowEditMySettings, iTools_AllowExportPrintView, iTools_ShowBuilderLink)</description>
-    <externalId>false</externalId>
     <inlineHelpText>Set to true if your org uses iTools custom permissions to control access to iTools actions (i.e.	iTools_AllowEditMySettings, iTools_AllowExportPrintView, iTools_ShowBuilderLink)</inlineHelpText>
     <label>EnableCustomPermissions</label>
     <trackTrending>false</trackTrending>

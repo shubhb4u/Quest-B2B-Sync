@@ -3,7 +3,6 @@
     <fullName>SBQQ__EndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>End date for subscriptions in this group.</description>
-    <externalId>false</externalId>
     <inlineHelpText>End date for subscriptions in this group.</inlineHelpText>
     <label>End Date</label>
     <required>false</required>

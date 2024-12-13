@@ -3,7 +3,6 @@
     <fullName>E2CP__Includes_Flow__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Includes Flow</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>

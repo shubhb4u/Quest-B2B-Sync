@@ -3,7 +3,6 @@
     <fullName>SBQQ__ValueObject__c</fullName>
     <deprecated>false</deprecated>
     <description>The Salesforce Object that holds the Value Field,</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the Salesforce Object where the Value Field is defined.</inlineHelpText>
     <label>Value Object</label>
     <required>false</required>

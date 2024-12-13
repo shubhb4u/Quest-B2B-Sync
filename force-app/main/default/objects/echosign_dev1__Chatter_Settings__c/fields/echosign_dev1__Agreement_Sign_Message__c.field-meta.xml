@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Post private Chatter message to signer when an agreement needs the signer&apos;s signature.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Post private Chatter message to signer when an agreement needs the signer&apos;s signature.</inlineHelpText>
     <label>Send Notifications to Sign Agreements</label>
     <trackTrending>false</trackTrending>

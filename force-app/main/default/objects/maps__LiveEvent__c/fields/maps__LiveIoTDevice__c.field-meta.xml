@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup to IoT Device that Created Event</description>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to IoT Device that Created Event</inlineHelpText>
     <label>Live IoT Device</label>
     <referenceTo>maps__LiveIoTDevice__c</referenceTo>

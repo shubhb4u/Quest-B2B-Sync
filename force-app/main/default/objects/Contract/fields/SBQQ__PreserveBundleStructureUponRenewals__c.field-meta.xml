@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>Select to maintain bundle hierarchy on renewal quotes.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox to maintain bundle hierarchy on renewal quotes.</inlineHelpText>
     <label>Preserve Bundle Structure</label>
     <trackFeedHistory>false</trackFeedHistory>

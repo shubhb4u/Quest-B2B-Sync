@@ -3,7 +3,6 @@
     <fullName>PDRI__Relationship__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Relationship</label>
     <referenceTo>PDRI__Relationship__c</referenceTo>
     <relationshipLabel>Transformations</relationshipLabel>

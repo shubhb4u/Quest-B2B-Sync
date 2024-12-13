@@ -3,7 +3,6 @@
     <fullName>JBCXM__SectionId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Section Id</label>
     <referenceTo>JBCXM__C360Sections__c</referenceTo>
     <relationshipLabel>UI Views</relationshipLabel>

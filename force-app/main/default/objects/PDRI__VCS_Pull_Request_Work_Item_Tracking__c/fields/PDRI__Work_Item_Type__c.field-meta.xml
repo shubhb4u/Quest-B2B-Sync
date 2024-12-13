@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>PDRI__Work_Item_Type__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Work Item Type</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

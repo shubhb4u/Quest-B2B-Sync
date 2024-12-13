@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscriptionBasePrice__c</fullName>
     <deprecated>false</deprecated>
     <description>Unit price used in Percent of Total calculation.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Unit price used in Percent of Total calculation.</inlineHelpText>
     <label>Subscription Base Price</label>
     <precision>14</precision>

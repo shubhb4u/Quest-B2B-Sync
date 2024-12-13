@@ -1,0 +1,9 @@
+<template>
+  <div class="cart-container" onclick={navigateToCart}>
+    <lightning-icon icon-name="utility:cart" alternative-text="Cart" size="small" class="cart-icon"></lightning-icon>
+    <!-- Show cart count only when there are items -->
+    <template if:true={hasItems}>
+      <span class="cart-count">{formattedItemCount}</span>
+    </template>
+  </div>
+</template>

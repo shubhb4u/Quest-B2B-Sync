@@ -3,7 +3,6 @@
     <fullName>blng__EffectiveEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>Effective End Date that I have a right to collect</description>
-    <externalId>false</externalId>
     <inlineHelpText>Effective End Date that I have a right to collect</inlineHelpText>
     <label>Effective End Date</label>
     <required>false</required>

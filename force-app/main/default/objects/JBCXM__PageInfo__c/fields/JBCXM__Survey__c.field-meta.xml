@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup on survey</description>
-    <externalId>false</externalId>
     <label>Survey</label>
     <referenceTo>JBCXM__Survey__c</referenceTo>
     <relationshipLabel>PageInfo</relationshipLabel>

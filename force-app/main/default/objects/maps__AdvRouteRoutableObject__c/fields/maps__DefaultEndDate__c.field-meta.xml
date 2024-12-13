@@ -3,7 +3,6 @@
     <fullName>maps__DefaultEndDate__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the default end date used for promo windows</description>
-    <externalId>false</externalId>
     <label>Default End Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

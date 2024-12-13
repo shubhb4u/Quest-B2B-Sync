@@ -3,7 +3,6 @@
     <fullName>SBQQ__SubscribedAssetIds__c</fullName>
     <deprecated>false</deprecated>
     <description>Comma separated list of asset IDs covered by this subscription line. Only applicable to renewal quotes.</description>
-    <externalId>false</externalId>
     <inlineHelpText>List of assets covered by this subscription line item. Do not update unless instructed.</inlineHelpText>
     <label>Subscribed Asset IDs</label>
     <length>19000</length>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Disables searching for records inside Maps with this Base Object.</description>
-    <externalId>false</externalId>
     <label>Disable Global Search</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

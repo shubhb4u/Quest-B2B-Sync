@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicates if Product is assigned to at least 1 active Consumption Schedule</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicates if this product has at least one consumption schedule</inlineHelpText>
     <label>Has Consumption Schedules</label>
     <trackHistory>false</trackHistory>

@@ -4,7 +4,6 @@
     <deprecated>false</deprecated>
     <description>To override the UI display of the field.
 Values: Checkbox, Badge</description>
-    <externalId>false</externalId>
     <fieldManageability>DeveloperControlled</fieldManageability>
     <inlineHelpText>To override the UI display of the field.</inlineHelpText>
     <label>UI Type Override</label>

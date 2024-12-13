@@ -4,7 +4,6 @@
     <defaultValue>true</defaultValue>
     <deprecated>false</deprecated>
     <description>This determines if our frequency calculation should start when the template starts or should be a rolling frequency</description>
-    <externalId>false</externalId>
     <inlineHelpText>uncheck this if your performance period does not line up with your template start</inlineHelpText>
     <label>Frequency Starts on Template Start</label>
     <trackTrending>false</trackTrending>

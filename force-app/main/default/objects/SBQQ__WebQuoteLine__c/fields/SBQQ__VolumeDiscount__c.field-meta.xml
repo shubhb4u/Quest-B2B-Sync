@@ -3,7 +3,6 @@
     <fullName>SBQQ__VolumeDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Volume discount in amount of Opportunity&apos;s currency applied to this line item.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Volume discount amount applied to this line item.</inlineHelpText>
     <label>Volume Discount</label>
     <precision>14</precision>

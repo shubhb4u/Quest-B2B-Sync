@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The product bundle that includes this feature. If you created the feature from the product detail page, this should already be populated.</inlineHelpText>
     <label>Configured SKU</label>
     <referenceTo>Product2</referenceTo>

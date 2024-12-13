@@ -3,7 +3,6 @@
     <fullName>JBCXM__GSLayout__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>GS Layout</label>
     <referenceTo>JBCXM__GSLayout__c</referenceTo>
     <relationshipLabel>Relationship Sections</relationshipLabel>

@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Look up to transaction to get the Churn information.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Look up to transaction to get the Churn information.</inlineHelpText>
     <label>Churn</label>
     <referenceTo>JBCXM__TransHeader__c</referenceTo>

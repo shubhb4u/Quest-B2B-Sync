@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that indicates whether this component is required or not.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if this product is required on the bundle.</inlineHelpText>
     <label>Required</label>
     <trackTrending>false</trackTrending>

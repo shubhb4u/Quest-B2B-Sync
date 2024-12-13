@@ -3,7 +3,6 @@
     <fullName>SBQQ__AdditionalDiscount__c</fullName>
     <deprecated>false</deprecated>
     <description>Total additional discount extends on this line item. Additional discount is defined as discount extended on top of volume discount or negotiated prices.</description>
-    <externalId>false</externalId>
     <formula>(SBQQ__RegularPrice__c - SBQQ__CustomerPrice__c) *  SBQQ__EffectiveQuantity__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Total additional discounts extended to this line item. Additional discount is defined as discount extended on top of volume discount or negotiated prices.</inlineHelpText>

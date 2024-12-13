@@ -3,7 +3,6 @@
     <fullName>JBCXM__MetricId__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Metric Id</label>
     <referenceTo>JBCXM__ScorecardMetric__c</referenceTo>
     <relationshipLabel>Scorecard Fact (Metric Id)</relationshipLabel>

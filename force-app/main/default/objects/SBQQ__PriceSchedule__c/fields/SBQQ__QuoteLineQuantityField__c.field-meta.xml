@@ -3,7 +3,6 @@
     <fullName>SBQQ__QuoteLineQuantityField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field used to calculate Price Schedule pricing.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field used to calculate Price Schedule pricing.</inlineHelpText>
     <label>Quote Line Quantity Field</label>
     <required>false</required>

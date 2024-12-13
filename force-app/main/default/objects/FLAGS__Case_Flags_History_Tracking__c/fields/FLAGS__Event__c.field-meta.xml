@@ -3,7 +3,6 @@
     <fullName>FLAGS__Event__c</fullName>
     <deprecated>false</deprecated>
     <description>Event that triggered this History Tracking record to be created.</description>
-    <externalId>false</externalId>
     <label>Event</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

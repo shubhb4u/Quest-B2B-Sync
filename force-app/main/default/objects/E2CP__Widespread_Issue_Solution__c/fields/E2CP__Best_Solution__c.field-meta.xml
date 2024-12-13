@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Indicator of Solution being selected as best</description>
-    <externalId>false</externalId>
     <inlineHelpText>Indicator of Solution being selected as best</inlineHelpText>
     <label>Best Solution</label>
     <trackFeedHistory>false</trackFeedHistory>

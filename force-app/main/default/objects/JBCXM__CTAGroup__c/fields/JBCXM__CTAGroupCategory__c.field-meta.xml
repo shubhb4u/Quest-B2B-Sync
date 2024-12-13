@@ -3,7 +3,6 @@
     <fullName>JBCXM__CTAGroupCategory__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>CTA Group Category</label>
     <referenceTo>JBCXM__GSMetaInfo__c</referenceTo>
     <relationshipLabel>CTAGroupCategory</relationshipLabel>

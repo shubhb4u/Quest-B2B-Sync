@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Lookup to the invoice line associated with this revenue schedule.</inlineHelpText>
     <label>Invoice Line</label>
     <referenceTo>blng__InvoiceLine__c</referenceTo>

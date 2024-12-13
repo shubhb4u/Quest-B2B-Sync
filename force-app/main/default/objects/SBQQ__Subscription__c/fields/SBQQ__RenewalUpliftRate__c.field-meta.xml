@@ -3,7 +3,6 @@
     <fullName>SBQQ__RenewalUpliftRate__c</fullName>
     <deprecated>false</deprecated>
     <description>Rate of renewal price increases.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Rate of renewal price increases.</inlineHelpText>
     <label>Renewal Uplift (%)</label>
     <precision>11</precision>

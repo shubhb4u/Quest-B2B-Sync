@@ -3,7 +3,6 @@
     <fullName>JBCXM__TriggerCriteria__c</fullName>
     <deprecated>false</deprecated>
     <description>This is used to store the Trigger criteria(Collection of rules) to create an alert.</description>
-    <externalId>false</externalId>
     <label>TriggerCriteria</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Check this box if you want to disable changing name when replacing recipient authenticated by KBA.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Check this box if you want to disable changing name when replacing recipient authenticated by KBA.</inlineHelpText>
     <label>Disable KBA Name Change</label>
     <trackTrending>false</trackTrending>

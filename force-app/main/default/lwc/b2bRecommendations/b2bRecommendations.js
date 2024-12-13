@@ -30,10 +30,11 @@ export default class Recommendations extends NavigationMixin(LightningElement) {
     'Similar Products': 'SimilarProducts',
     'Complementary Products': 'ComplementaryProducts',
     'Customers Also Bought': 'CustomersWhoBoughtAlsoBought',
-    Upsell: 'Upsell',
+    'Upsell': 'Upsell',
     'Most Viewed By Category': 'MostViewedByCategory',
     'Top Selling By Category': 'TopSellingByCategory'
   };
+  
 
   categoryUseCases = ['Recently Viewed', 'Most Viewed By Category', 'Top Selling By Category'];
 

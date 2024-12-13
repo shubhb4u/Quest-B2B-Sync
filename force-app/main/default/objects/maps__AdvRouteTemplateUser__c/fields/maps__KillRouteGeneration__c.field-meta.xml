@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>This boolean will be set to true if we need to kill the routing process for this template user</description>
-    <externalId>false</externalId>
     <label>Kill Route Generation</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

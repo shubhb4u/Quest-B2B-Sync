@@ -3,7 +3,6 @@
     <fullName>maps__DefaultWorkingHours__c</fullName>
     <deprecated>false</deprecated>
     <description>This is the default working hours for all users</description>
-    <externalId>false</externalId>
     <label>Default Working Hours</label>
     <length>32768</length>
     <trackTrending>false</trackTrending>

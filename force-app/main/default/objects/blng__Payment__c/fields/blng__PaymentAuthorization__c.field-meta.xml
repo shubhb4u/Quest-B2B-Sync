@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Payment Authorization used for payment capture</description>
-    <externalId>false</externalId>
     <inlineHelpText>Payment Authorization used for payment capture</inlineHelpText>
     <label>Payment Authorization</label>
     <referenceTo>blng__PaymentAuthorization__c</referenceTo>

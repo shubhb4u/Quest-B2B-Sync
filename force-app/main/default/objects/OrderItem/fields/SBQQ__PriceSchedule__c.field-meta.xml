@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Price schedule applied to this order product.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price schedule applied to this order product.</inlineHelpText>
     <label>Price Schedule</label>
     <referenceTo>SBQQ__PriceSchedule__c</referenceTo>

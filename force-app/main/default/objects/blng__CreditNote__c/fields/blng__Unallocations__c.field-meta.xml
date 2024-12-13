@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__Unallocations__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Unallocations</label>
     <summarizedField>blng__CreditNoteLine__c.blng__Unallocations__c</summarizedField>
     <summaryForeignKey>blng__CreditNoteLine__c.blng__CreditNote__c</summaryForeignKey>

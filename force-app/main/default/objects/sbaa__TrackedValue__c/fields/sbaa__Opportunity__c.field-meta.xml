@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Opportunity associated with the Tracked Value</description>
-    <externalId>false</externalId>
     <inlineHelpText>Opportunity associated with the Tracked Value</inlineHelpText>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>

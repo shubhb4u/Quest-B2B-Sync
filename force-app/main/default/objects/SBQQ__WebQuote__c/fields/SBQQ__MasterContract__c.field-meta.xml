@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Master contract with which subscription products in this quote are to be co-terminated.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Master contract with which subscription products in this quote are to be co-terminated.</inlineHelpText>
     <label>Master Contract</label>
     <referenceTo>Contract</referenceTo>

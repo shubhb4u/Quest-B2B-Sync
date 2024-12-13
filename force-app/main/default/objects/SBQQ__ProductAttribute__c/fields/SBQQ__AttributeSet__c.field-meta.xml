@@ -3,7 +3,6 @@
     <fullName>SBQQ__AttributeSet__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Attribute Set</label>
     <referenceTo>SBQQ__AttributeSet__c</referenceTo>
     <relationshipLabel>Attribute Items</relationshipLabel>

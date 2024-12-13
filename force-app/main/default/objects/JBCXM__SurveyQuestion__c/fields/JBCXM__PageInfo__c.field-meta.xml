@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Lookup on PageInfo</description>
-    <externalId>false</externalId>
     <label>PageInfo</label>
     <referenceTo>JBCXM__PageInfo__c</referenceTo>
     <relationshipLabel>Survey Question</relationshipLabel>

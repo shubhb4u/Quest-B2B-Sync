@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Litmos__Litmos_Fields__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Litmos Fields</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

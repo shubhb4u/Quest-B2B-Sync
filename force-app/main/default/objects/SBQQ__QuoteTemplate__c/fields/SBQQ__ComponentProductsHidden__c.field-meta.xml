@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Flag that determines whether component products are printed on quote documents, as indicated by the Component checkbox on the product</description>
-    <externalId>false</externalId>
     <inlineHelpText>Select the checkbox if component products with the Component enabled should not be printed on quote documents.</inlineHelpText>
     <label>Hide Component Products</label>
     <trackHistory>false</trackHistory>

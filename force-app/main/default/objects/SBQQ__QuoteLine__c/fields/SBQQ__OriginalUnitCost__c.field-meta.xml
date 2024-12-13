@@ -3,7 +3,6 @@
     <fullName>SBQQ__OriginalUnitCost__c</fullName>
     <deprecated>false</deprecated>
     <description>Cost for one unit of product quoted on this line item if Cost Schedules were not applied.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Cost for one unit of product quoted on this line item if Cost Schedules were not applied.</inlineHelpText>
     <label>Original Unit Cost</label>
     <precision>16</precision>

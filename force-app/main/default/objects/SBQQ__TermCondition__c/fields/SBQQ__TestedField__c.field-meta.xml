@@ -3,7 +3,6 @@
     <fullName>SBQQ__TestedField__c</fullName>
     <deprecated>false</deprecated>
     <description>Field on quote object used for testing this condition.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Field on quote object used for testing this condition.</inlineHelpText>
     <label>Tested Field</label>
     <required>false</required>

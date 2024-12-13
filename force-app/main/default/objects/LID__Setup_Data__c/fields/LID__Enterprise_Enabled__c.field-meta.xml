@@ -3,7 +3,6 @@
     <fullName>LID__Enterprise_Enabled__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Enterprise Enabled</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

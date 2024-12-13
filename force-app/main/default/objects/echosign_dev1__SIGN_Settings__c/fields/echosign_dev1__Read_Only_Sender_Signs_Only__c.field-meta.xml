@@ -4,7 +4,6 @@
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
     <description>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Enable this setting to display the ‘Sender Signs Only’ option as read-only in the Recipients section of the Agreement page. This setting works in conjunction with the Enable Sender Signs Only setting.</inlineHelpText>
     <label>Read Only Sender Signs Only</label>
     <trackTrending>false</trackTrending>

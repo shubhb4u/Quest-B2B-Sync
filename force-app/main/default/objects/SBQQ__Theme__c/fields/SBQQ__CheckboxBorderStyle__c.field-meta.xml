@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>SBQQ__CheckboxBorderStyle__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Border style of checkboxes</inlineHelpText>
     <label>Checkbox Border Style</label>
     <required>false</required>

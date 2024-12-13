@@ -3,7 +3,6 @@
     <fullName>blng__BillingFinancePeriod__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Billing Finance Period</label>
     <referenceTo>blng__FinancePeriod__c</referenceTo>
     <relationshipLabel>Debit Note</relationshipLabel>

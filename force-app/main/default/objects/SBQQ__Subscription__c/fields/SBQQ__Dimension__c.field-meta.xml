@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>Price Dimension associated with this Subscription</description>
-    <externalId>false</externalId>
     <inlineHelpText>Price Dimension associated with this Subscription</inlineHelpText>
     <label>Price Dimension</label>
     <referenceTo>SBQQ__Dimension__c</referenceTo>

@@ -3,7 +3,6 @@
     <fullName>blng__ConvertedCreditNoteLine__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Converted Credit Note Line</label>
     <referenceTo>blng__CreditNoteLine__c</referenceTo>
     <relationshipLabel>Invoice Lines</relationshipLabel>

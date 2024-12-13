@@ -3,7 +3,6 @@
     <fullName>blng__NetPayments__c</fullName>
     <deprecated>false</deprecated>
     <description>Sum of Payments</description>
-    <externalId>false</externalId>
     <inlineHelpText>Sum of Payments</inlineHelpText>
     <label>Net Payments</label>
     <precision>18</precision>

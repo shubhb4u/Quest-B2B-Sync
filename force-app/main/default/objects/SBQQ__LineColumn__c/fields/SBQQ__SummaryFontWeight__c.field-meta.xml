@@ -3,7 +3,6 @@
     <fullName>SBQQ__SummaryFontWeight__c</fullName>
     <deprecated>false</deprecated>
     <description>Weight of font applied to text in the summary row.</description>
-    <externalId>false</externalId>
     <inlineHelpText>Specify font weight for text in the summary row for this column Leaving blank defaults to font weight for the column overall.</inlineHelpText>
     <label>Summary Font Weight</label>
     <required>false</required>

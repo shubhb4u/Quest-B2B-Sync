@@ -4,7 +4,6 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <description>The original Discount Schedule that was overridden to create this Discount Schedule.</description>
-    <externalId>false</externalId>
     <inlineHelpText>The original Discount Schedule that was overridden to create this Discount Schedule.</inlineHelpText>
     <label>Original Discount Schedule</label>
     <referenceTo>SBQQ__DiscountSchedule__c</referenceTo>

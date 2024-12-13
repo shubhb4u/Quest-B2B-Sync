@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>blng__CanceledBillings__c</fullName>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Total of all canceled order products.</inlineHelpText>
     <label>Canceled Billing Amount (without tax)</label>
     <summarizedField>OrderItem.blng__CanceledBillings__c</summarizedField>

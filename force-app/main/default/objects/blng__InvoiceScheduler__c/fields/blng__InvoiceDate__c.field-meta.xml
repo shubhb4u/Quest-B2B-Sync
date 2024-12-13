@@ -3,7 +3,6 @@
     <fullName>blng__InvoiceDate__c</fullName>
     <defaultValue>TODAY()</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>Date invoice will be created. Used to determine Invoice’s due date.</inlineHelpText>
     <label>Invoice Date</label>
     <required>false</required>

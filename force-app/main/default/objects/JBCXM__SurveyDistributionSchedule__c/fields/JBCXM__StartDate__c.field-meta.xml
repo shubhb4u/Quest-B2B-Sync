@@ -3,7 +3,6 @@
     <fullName>JBCXM__StartDate__c</fullName>
     <deprecated>false</deprecated>
     <description>To specify when the schedule emails.</description>
-    <externalId>false</externalId>
     <label>Start Date</label>
     <required>false</required>
     <trackTrending>false</trackTrending>

@@ -3,7 +3,6 @@
     <fullName>blng__RevenueRecognitionGLRule__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <inlineHelpText>The revenue recognition general ledger rule selected in the revenue schedule.</inlineHelpText>
     <label>Revenue Recognition GL Rule</label>
     <referenceTo>blng__GLRule__c</referenceTo>

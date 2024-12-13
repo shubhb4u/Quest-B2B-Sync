@@ -3,7 +3,6 @@
     <fullName>PDRI__Skip_Updates__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <externalId>false</externalId>
     <label>Skip Updates</label>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
