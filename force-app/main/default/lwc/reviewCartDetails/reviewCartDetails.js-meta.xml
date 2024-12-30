@@ -6,4 +6,9 @@
         <target>lightningCommunity__Page</target>
         <target>lightningCommunity__Default</target>
     </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property label="Order Summary ID" name="ordSumId" type="String" required="true" default="{!recordId}" />
+        </targetConfig>
+    </targetConfigs>
 </LightningComponentBundle>

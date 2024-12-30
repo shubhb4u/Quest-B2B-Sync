@@ -79,12 +79,10 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
 
     handlePaymentTypeSelection(event) {
         this.selectedPaymentType = event.currentTarget.dataset.type;
-        
     }
 
     handlePOChange(event) {
         this.poNumber = event.target.value;
-        console.log('poNumber from Billing --->> ' + this.poNumber);
     }
 
 
@@ -186,8 +184,9 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
         }
 
         if (this.poNumber) {
-            this.processPayment();
-            this.navigateToReviewPage();
+                    this.processPayment();
+                    this.navigateToReviewPage();
+                
 
         } else {
 

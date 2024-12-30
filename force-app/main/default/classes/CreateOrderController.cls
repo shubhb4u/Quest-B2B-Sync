@@ -8,7 +8,7 @@
 public without sharing class CreateOrderController {
     
     @AuraEnabled
-    public static String createOrderFromCart(String cartId, String poNumber, String accountId, String storeId,Map<String, Object> paymentDetails,string contactName) {
+    public static String createOrderFromCart(String cartId,  String accountId, String storeId,Map<String, Object> paymentDetails,string contactName) {
         try {
             // Query Cart details
             WebCart cart = [
@@ -17,7 +17,7 @@ public without sharing class CreateOrderController {
                 WHERE Id = :cartId
                 LIMIT 1
             ];
-            System.debug('cart===>' + cart);
+            // System.debug('cart===>' + cart);
             
             // Query Cart Items
             List<CartItem> cartItems = [
@@ -25,7 +25,7 @@ public without sharing class CreateOrderController {
                 FROM CartItem 
                 WHERE CartId = :cartId
             ];
-            System.debug('cartItems==>' + cartItems);
+            // System.debug('cartItems==>' + cartItems);
             
             // Get Pricebook ID
             Pricebook2 priceBook = [
@@ -35,10 +35,9 @@ public without sharing class CreateOrderController {
                 LIMIT 1
             ];
             Id priceBookId = priceBook.Id;
-            System.debug('priceBookId===>' + priceBookId);
+            // System.debug('priceBookId===>' + priceBookId);
 
 
-            System.debug('poNumber===>' + poNumber);
             
             // Create an Order
             Order newOrder = new Order(
@@ -51,12 +50,11 @@ public without sharing class CreateOrderController {
                 BillingState = cart.BillingState,
                 BillingPostalCode = cart.BillingPostalCode,
                 BillingCountry = cart.BillingCountry,
-                Pricebook2Id = priceBookId,
-                PoNumber = poNumber
+                Pricebook2Id = priceBookId
             );
             insert newOrder;
             
-            System.debug('newOrder===>' + newOrder);
+            // System.debug('newOrder===>' + newOrder);
             
             // Query Order Delivery Method
             OrderDeliveryMethod deliveryMethod = [
@@ -64,7 +62,7 @@ public without sharing class CreateOrderController {
                 FROM OrderDeliveryMethod
                 LIMIT 1
             ];
-            System.debug('deliveryMethod==>' + deliveryMethod);
+            // System.debug('deliveryMethod==>' + deliveryMethod);
             
             // Create an OrderDeliveryGroup
             CartDeliveryGroup deliveryGroup = [
@@ -73,7 +71,7 @@ public without sharing class CreateOrderController {
                 WHERE CartId = :cartId
                 LIMIT 1
             ];
-            System.debug('deliveryGroup==>' + deliveryGroup);
+            // System.debug('deliveryGroup==>' + deliveryGroup);
             
             OrderDeliveryGroup newDeliveryGroup = new OrderDeliveryGroup(
                 OrderId = newOrder.Id,
@@ -82,10 +80,10 @@ public without sharing class CreateOrderController {
                 DeliverToCity = deliveryGroup.DeliverToCity,
                 DeliverToState = deliveryGroup.DeliverToState,
                 DeliverToPostalCode = deliveryGroup.DeliverToPostalCode,
-                DeliverToCountry = deliveryGroup.DeliverToCountry,
+                DeliverToCountry = 'US',
                 OrderDeliveryMethodId = deliveryMethod.Id);
             insert newDeliveryGroup;
-            System.debug('newDeliveryGroup===>' + newDeliveryGroup);
+            // System.debug('newDeliveryGroup===>' + newDeliveryGroup);
             Map<Id, PricebookEntry> productToPricebookEntryMap = new Map<Id, PricebookEntry>();
             Set<Id> productIds = new Set<Id>();
             for (CartItem cartItem : cartItems) {
@@ -144,15 +142,14 @@ public without sharing class CreateOrderController {
             newOrder.Status = 'Activated';
             update newOrder;
             
-            System.debug('newOrder==>' + newOrder);
-            System.debug('orderItems===>' + orderItems);
+            // System.debug('newOrder==>' + newOrder);
+            // System.debug('orderItems===>' + orderItems);
             
             delete cartItems;
             delete cart;
             System.debug('Cart and its items cleared.');
 
-            if(poNumber != '' ){
-                System.debug('inside card payment method !!!');
+                // System.debug('inside card payment method !!!');
                 // create CardPaymentMethod record
                 CardPaymentMethod paymentMethod = new CardPaymentMethod();
                 paymentMethod.ProcessingMode = 'External';
@@ -171,8 +168,8 @@ public without sharing class CreateOrderController {
                 insert paymentMethod;
 
                 
-                System.debug('paymentDetails: ' + paymentDetails);
-                System.debug('CardPaymentMethod: ' + paymentMethod);
+                // System.debug('paymentDetails: ' + paymentDetails);
+                // System.debug('CardPaymentMethod: ' + paymentMethod);
 
                 
             // Create Payment Group
@@ -181,7 +178,7 @@ public without sharing class CreateOrderController {
                     CurrencyIsoCode = 'USD'
                 );
                 insert pg;
-                System.debug('pg====>' + pg);
+                // System.debug('pg====>' + pg);
                 
                 // Create Payment Authorization
                 PaymentAuthorization pa = new PaymentAuthorization(
@@ -192,16 +189,16 @@ public without sharing class CreateOrderController {
                     PaymentMethodId = paymentMethod.id
                 );
                 insert pa;
-                System.debug('PA====>' + pa);
+                // System.debug('PA====>' + pa);
 
-            }
+            
             
 
             // Create Order Summary
             ConnectApi.OrderSummaryInputRepresentation inputRepresentation = new ConnectApi.OrderSummaryInputRepresentation();
             inputRepresentation.orderId = newOrder.Id;
             ConnectApi.OrderSummaryOutputRepresentation outputRepresentation = ConnectApi.OrderSummaryCreation.createOrderSummary(inputRepresentation);
-            System.debug('OrderSummary====>' + outputRepresentation);
+            // System.debug('OrderSummary====>' + outputRepresentation);
             return newOrder.Id;
         } catch (Exception e) {
             throw new AuraHandledException('Error creating order: ' + e.getMessage());
@@ -213,4 +210,19 @@ public without sharing class CreateOrderController {
         if (cardNumber.startsWith('3')) return 'American Express';
         return 'Unknown';
     }
+
+    @AuraEnabled
+    public static string getOrderForNavigation(String OrderReference){
+
+        System.debug('OrderReferenceNumber====>' + OrderReference);
+        try {
+            Order orderRecord = [SELECT Id FROM Order WHERE OrderReferenceNumber = :OrderReference LIMIT 1];
+            System.debug('Order found: ID ->> ' + orderRecord.Id);
+            return orderRecord.Id;
+        } catch (Exception e) {
+            throw new AuraHandledException('No Order found with the given Order Reference Number.');
+        }
+    }
+
+    
 }
