@@ -1,0 +1,49 @@
+<template>
+    <div class="main-container">
+        <!-- Display Product Information -->
+        <template if:true={productName}>
+            <h2 class="ProductName">{productName}</h2>
+            <p><strong>Description:</strong> {productDescription}</p>
+            <p><strong>SKU:</strong> {productSKU}</p>
+        </template>
+ 
+        <!-- Check if there are any selling models -->
+        <template if:true={hasSellingModels}>
+            <!-- Show the dropdown if there are multiple models, otherwise display the selected model directly -->
+            <template if:false={isSingleSellingModel}>
+                <h1>Subscribe</h1>
+                <lightning-combobox
+                    value={selectedPricingTerm}
+                    options={pricingTermOptions}
+                    onchange={handlePricingTermChange}>
+                </lightning-combobox>
+            </template>
+ 
+            <!-- Display details for the selected pricing term -->
+            <template if:true={selectedModel}>
+                <div class="selling-model">
+                    <p><strong>Pricing Term:</strong> {selectedModel.name}</p>
+                    <p><strong>Selling Model Type:</strong> {selectedModel.type}</p>
+                    <p><strong>Currency:</strong> {selectedModel.currencyIsoCode}</p>
+                    <p><strong>Unit Price:</strong> {selectedModel.unitPrice}</p>
+                </div>
+            </template>
+        </template>
+ 
+        <!-- Quantity -->
+        <div class="quantity">
+            <label for="quantity"><strong>Quantity:</strong></label>
+            <input type="number" value={quantity} min="1" onchange={handleQuantityChange} />
+        </div>
+ 
+        <!-- Add to Cart Button -->
+        <button class="addToCart-btn" onclick={handleAddToCart}>
+            Add to Cart
+        </button>
+ 
+        <!-- Display message when no selling models are available -->
+        <template if:false={hasSellingModels}>
+            <p>No selling models found for this product.</p>
+        </template>
+    </div>
+</template>

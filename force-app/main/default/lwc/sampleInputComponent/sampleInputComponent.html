@@ -1,0 +1,24 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 11-29-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <lightning-card title="Sample Input Component" icon-name="custom:custom63">
+        <div class="slds-p-horizontal_medium">
+            <lightning-input 
+                type="text" 
+                label="Enter your name" 
+                value={name} 
+                onchange={handleInputChange}>
+            </lightning-input>
+            <lightning-button 
+                label="Submit" 
+                variant="brand" 
+                onclick={handleSubmit}>
+            </lightning-button>
+        </div>
+    </lightning-card>
+</template>

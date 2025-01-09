@@ -1,0 +1,6 @@
+<template>
+    <lightning-input label="Account Number" value={accountNumber} onchange={handleAccountChange}></lightning-input>
+    <lightning-input label="Routing Number" value={routingNumber} onchange={handleRoutingChange}></lightning-input>
+    <lightning-input label="Amount" type="number" value={amount} onchange={handleAmountChange}></lightning-input>
+    <lightning-button label="Pay Now" onclick={handlePayNow}></lightning-button>
+</template>

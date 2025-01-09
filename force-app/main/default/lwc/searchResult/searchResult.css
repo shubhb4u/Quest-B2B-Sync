@@ -1,0 +1,44 @@
+.search-container{
+    display: flex;
+    float: right;
+}
+
+.slds-button, .slds-input{
+    border: 1px solid #aaa;
+}
+
+
+.slds-button__icon{
+    color: #aaa;
+    width: 22px;
+    height: 22px;
+}
+
+.slds-button:focus, .slds-input:focus{
+    box-shadow: none;
+}
+
+.slds-button{
+    border-right: none;
+    height: 37.6px;
+}
+.slds-input{
+    border-left: none;
+    font-size: 13.5px;
+    width: 234px;
+    height: 37.6px;
+}
+
+.custom-placeholder::placeholder {
+    font-size: 13.5px;
+}
+
+@media (max-width: 479px){
+    .slds-input, .slds-button{
+        position: relative;
+        bottom: 30px;
+    }
+    .slds-input{
+        width: 150px;
+    }
+}

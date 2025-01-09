@@ -1,0 +1,76 @@
+<template>
+    <div class="cart-full-content">
+        <template if:true={cartId}>
+            <h1 class="order-summary">Order Summary</h1>
+            <!-- Cart Items -->
+            <div class="cart-items">
+                <template if:true={hasCartItems}>
+                    <template for:each={cartItems} for:item="item">
+                        <div key={item.Id} class="cart-item">
+                            <div class="cart-item__details">
+                                <strong class="heading-product-name">{item.Name}</strong>
+                            </div>
+                            <div class="cart-item__unit-price">
+                                <!-- {item.SalesPrice} -->
+                                <!-- {item.TotalPrice} -->
+                                <template if:true={isAppliedCoupon}>
+                                    {item.SalesPrice}
+                                </template>
+                                <template if:false={isAppliedCoupon}>
+                                    {item.TotalPrice}
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+                    <!-- <div class="cart-item__sales-tax">
+                        <strong>Sales Tax:</strong> {item.SalesTax}
+                    </div> -->
+                    <div class="cart-total-tax">
+                        <span>Total Tax:</span> <span class="total-tax-amount">{totalTaxAmount}</span>
+                    </div>
+
+                    <div class="cart-coupon">
+                        <span>Coupon Code:</span>
+                        <input class="coupon-input" id="couponCode" type="text"  onchange={handleCouponChange}/>
+                    </div>
+                    
+                    <template if:true={couponError}>
+                        <div class="error-message" style="color: red; margin-top: 10px; padding: 5px; border: 1px solid red; border-radius: 4px;">
+                            <p class="error-text" style="margin: 0; font-weight: bold;">{couponError}</p>
+                        </div>
+                    </template>
+                    <template if:true={isAppliedCoupon}>
+                        <div class="coupon-info">
+                            <p>{couponCode}</p>
+                            <p>{totalDiscount}</p>
+                        </div>
+                    </template>
+                    <template if:false={isAppliedCoupon}>
+                        <div class="coupon-info">
+                            <p></p>
+                            <p></p>
+                        </div>
+                    </template>
+
+                    <div class="cart-grand-total">
+                        <strong>Grand Total:</strong><span class="grand-total-amount">{grandTotal}</span>
+                    </div>
+
+                    <!-- <div class="cart-grand-total">
+                        <strong>Grand Total: </strong><span class="grand-total-amount"> {grandTotalAmount}</span>
+                    </div> -->
+                </template>
+                <template if:false={hasCartItems}>
+                    <p>No items in the cart.</p>
+                </template>
+            </div>
+        </template>
+
+        <!-- Error Display -->
+        <template if:false={cartId}>
+            <div class="error-message">
+                <!-- <p class="cart-empty">Your cart is empty.</p> -->
+            </div>
+        </template>
+    </div>
+</template>
