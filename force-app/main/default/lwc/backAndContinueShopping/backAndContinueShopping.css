@@ -1,0 +1,15 @@
+.link-wrapper {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: underline;
+    color: #707070 !important; 
+    cursor: pointer;
+}
+
+.link:hover {
+    text-decoration: underline; 
+}

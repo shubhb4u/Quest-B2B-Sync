@@ -1,0 +1,36 @@
+<template>
+    <lightning-input 
+        label="Enter Purchase Order Number" 
+        name="poNumber" 
+        value={generatedPONumber} 
+        read-only>
+    </lightning-input>
+
+    <div class="button">
+        <lightning-button
+            label="Place PO Order" 
+            onclick={paymentProcess}
+            disabled={disablePlaceOrderButton}>
+        </lightning-button>
+    </div>
+
+    <template lwc:if={disablePlaceOrderButton}>
+        <div class="error-card">
+            <p class="error-message">
+                ❌ Insufficient credit limit to place an order.
+                Please contact your account executive : 
+                <a href="mailto:Shubham.m@etg.digital">Shubham.m@etg.digital</a>
+            </p>
+        </div>
+        
+    </template>
+    <template lwc:else>
+        <div class="success-card">
+            <p class="success-message">
+                ✅ Please use this PO number to place your order : 
+                <strong>{generatedPONumber}</strong>
+            </p>
+        </div>
+    </template>
+
+</template>

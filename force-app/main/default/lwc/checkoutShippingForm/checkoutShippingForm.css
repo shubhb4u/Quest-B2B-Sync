@@ -1,0 +1,15 @@
+.q-cart-form-wrap lightning-input {
+    margin-bottom: 10px;
+    max-width: 484px;
+}
+
+.q-form-half {
+    display: flex;
+    gap: 10px;
+    max-width: 484px;
+}
+
+.q-form-half lightning-input {
+    flex: 1;
+    max-width: 50%;
+}

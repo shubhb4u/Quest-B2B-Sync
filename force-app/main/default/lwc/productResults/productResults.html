@@ -1,0 +1,24 @@
+<template>
+    <div class="container">
+        <!-- Search Component -->
+        <template if:true={searchKey}>
+            <template if:true={products}>
+                <c-quest-products search-key={searchKey}></c-quest-products>
+            </template>
+            
+            <!-- No Products Message -->
+            <template if:false={products}>
+                <div class="slds-text-color_error slds-m-around_medium">
+                    No products available.
+                </div>
+            </template>
+        </template>
+
+        <!-- Error Message -->
+        <template if:true={error}>
+            <div class="slds-text-color_error slds-m-around_medium">
+                {error}
+            </div>
+        </template>
+    </div>
+</template>

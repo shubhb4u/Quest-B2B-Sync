@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Product Selling Model">
+        <div class="slds-p-around_medium">
+            <!-- Display picklist for Product Selling Model -->
+            <lightning-combobox
+                label="Product Selling Model"
+                value={selectedSellingModel}
+                options={sellingModelOptions}
+                onchange={handleSellingModelChange}>
+            </lightning-combobox>
+
+            <!-- Display additional fields based on the selected selling model -->
+            <template if:true={selectedSellingModel}>
+                <template for:each={productSellingModel} for:item="field" key={field.Id}>
+                    <div key={field.Id}>
+                        <lightning-output-field label={field.label} value={field.value}></lightning-output-field>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,45 @@
+.button {
+    margin-bottom: 0.5rem;
+}
+
+/* Success message styles */
+.success-card {
+    background: #3d854e !important;  /* Darker green */
+    border-left: 5px solid #216c24 !important;  /* White border */
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff; /* Ensuring white text for readability */
+    margin-top: 1rem;
+}
+
+.success-message {
+    color: #fff; /* White text for better contrast */
+    font-weight: bold;
+}
+
+/* Error message styles */
+.error-card {
+    background: #e05361 !important;  /* Darker red */
+    border-left: 5px solid #721c24 !important;  /* Darker red border */
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff; /* Ensuring white text */
+    margin-top: 1rem;
+}
+
+.error-message {
+    color: #fff; /* White text for better contrast */
+    font-weight: bold;
+}
+
+.error-message a{
+
+    color: aliceblue;
+}
+
+/* Add spacing between elements */
+.success-card, .error-card {
+    padding: 15px;
+}
+
+
