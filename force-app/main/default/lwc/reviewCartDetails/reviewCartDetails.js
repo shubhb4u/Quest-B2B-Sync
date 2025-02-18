@@ -60,7 +60,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
         this.isCCPayment = (localStorage.getItem('ccPaymentInfo') != null && localStorage.getItem('ccPaymentInfo') != '');
         this.isPoOrder = (localStorage.getItem('poNumber') != null && localStorage.getItem('poNumber') != '');
 
-        console.log('IsWirePayment in Connected callback after 2 sec delay-->> '+ this.isWirePayment);
+        // console.log('isPoOrder in Connected callback after 2 sec delay-->> '+ this.isPoOrder);
 
         if (this.cartId) {
             this.fetchCartDetailsFromApex();
@@ -189,11 +189,9 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
             this.preAuthorizePayment()
                 .then(() => {
                     console.log('Payment authorization successful.');
-                    localStorage.removeItem('poNumber'); 
                 })
                 .catch((error) => {
                     console.error('Error during PO payment authorization:', error);
-                    localStorage.removeItem('poNumber');
                 });
         } else if (this.isCCPayment) {
             // For Credit Card payment
@@ -253,9 +251,9 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
 
         try {
             this.storedPONumber = localStorage.getItem('poNumber');
-            const decryptedData = await decryptString({ encryptedText: JSON.stringify(this.storedPONumber) });
-            this.storedPONumber = JSON.parse(decryptedData);
-            console.log('stored PO in reportvalidity -->> '+ this.storedPONumber );
+            console.log('stored PO in reportvalidity -->> '+ typeof(this.storedPONumber ) + ' ' + this.storedPONumber  );
+            const decryptedData = await decryptString({ encryptedText: this.storedPONumber});
+            console.log('stored PO in reportvalidity after decrypt -->> '+ typeof(decryptedData) + ' ' + decryptedData );
 
         } catch (error) {
             this.errorMessages = [{

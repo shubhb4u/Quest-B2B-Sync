@@ -72,7 +72,9 @@ global with sharing class CybersourcePaymentAdapter implements commercepayments.
                 Map<String,String> additionalData = (Map<String,String>) postAuthRequest.additionalData;
                 String selectedPaymentMethod = (String) additionalData.get('paymentMethod');
                 // System.debug('additionalData-paymentMethod: ' + additionalData.get('paymentMethod'));
-                if (selectedPaymentMethod != null && selectedPaymentMethod == 'Wire') {
+                if (selectedPaymentMethod != null && selectedPaymentMethod == 'Purchase Order') {
+                    response =  createPostAuthResponsePurchaseOrder( (commercepayments.PostAuthorizationRequest) paymentRequest);
+                } else if (selectedPaymentMethod != null && selectedPaymentMethod == 'Wire') {
                      response =  createPostAuthResponse( (commercepayments.PostAuthorizationRequest) paymentRequest);
                 } else { // Credit Card
                     response = createPostAuthResponse( (commercepayments.PostAuthorizationRequest) paymentRequest);
@@ -83,6 +85,26 @@ global with sharing class CybersourcePaymentAdapter implements commercepayments.
         } catch (CyberSourceValidationException e) {
              return new commercepayments.GatewayErrorResponse('400', e.getMessage());
         }
+    }
+
+    private commercepayments.GatewayResponse createPostAuthResponsePurchaseOrder(commercepayments.PostAuthorizationRequest postAuthRequest) {
+        System.debug('createPostAuthResponsePurchaseOrder entry');
+        commercepayments.PostAuthApiPaymentMethodRequest apiPaymentMethod =(commercepayments.PostAuthApiPaymentMethodRequest) postAuthRequest.paymentMethod;
+        commercepayments.AlternativePaymentMethodRequest altPaymentMethod= (commercepayments.AlternativePaymentMethodRequest) apiPaymentMethod.alternativePaymentMethod;
+        // LWC passes in the Cybersource RequestId as the gatewayToken
+        String gatewayToken = (String) altPaymentMethod.gatewayToken;
+        System.debug('gatewayToken:-->> ' + gatewayToken);
+
+        commercepayments.PostAuthorizationResponse postAuthResponse = new commercepayments.PostAuthorizationResponse();
+
+        postAuthResponse.setGatewayAuthCode(gatewayToken);
+        postAuthResponse.setGatewayResultCode('success');
+        postAuthResponse.setSalesforceResultCodeInfo(RC_SUCCESS);
+        postAuthResponse.setAmount(postAuthRequest.amount);
+        postAuthResponse.setGatewayDate(system.now());
+
+        System.debug('postAuthResponse exit:-->>> ' + postAuthResponse);
+        return postAuthResponse;
     }
 
 
