@@ -136,7 +136,7 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
 
     handlePaymentTypeSelection(event) {
         this.selectedPaymentType = event.currentTarget.dataset.type;
-        if(this.selectedPaymentType == 'wire') {
+        if (this.selectedPaymentType == 'wire') {
             // this.navigateToReviewPage();
         } else if (this.selectedPaymentType == 'card') {
             this.setupMicroform();
@@ -304,25 +304,25 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
 
             if ((this.selectedPaymentType === 'card' && this.transientToken) || this.selectedPaymentType !== 'card') {
                 updateCartDetails(cartUpdatePayload)
-                .then(() => {
-                    console.log('selectedPaymentType', this.selectedPaymentType);
-                    console.log('this.poNumber', this.poNumber);
-                    if (this.selectedPaymentType === 'po' && this.poNumber) {
-                        const payload = { poNumber: this.poNumber };
-                        publish(this.messageContext, poMessageChannel, payload);
-                        this.processPayment();
-                        this.navigateToReviewPage();
-                    } else if (this.selectedPaymentType === 'card') {
-                        this.processPayment();
-                        this.navigateToReviewPage();
-                    } else if (this.selectedPaymentType === 'wire') {
-                        this.processPayment();
-                        this.navigateToReviewPage();
-                    }
-                })
-                .catch(error => {
-                    this.errors = 'Failed to update billing address.';
-                });
+                    .then(() => {
+                        console.log('selectedPaymentType', this.selectedPaymentType);
+                        console.log('this.poNumber', this.poNumber);
+                        if (this.selectedPaymentType === 'po' && this.poNumber) {
+                            const payload = { poNumber: this.poNumber };
+                            publish(this.messageContext, poMessageChannel, payload);
+                            this.processPayment();
+                            this.navigateToReviewPage();
+                        } else if (this.selectedPaymentType === 'card') {
+                            this.processPayment();
+                            this.navigateToReviewPage();
+                        } else if (this.selectedPaymentType === 'wire') {
+                            this.processPayment();
+                            this.navigateToReviewPage();
+                        }
+                    })
+                    .catch(error => {
+                        this.errors = 'Failed to update billing address.';
+                    });
             }
         } else {
             if (!isValid || !isValid1) {
@@ -333,9 +333,16 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
         }
     }
 
+
     async processPayment() {
         if (this.selectedPaymentType === 'po' && this.poNumber) { // Purchase Order flow
-            localStorage.setItem('poNumber', JSON.stringify(this.poNumber));
+            try {
+                const encryptedDataPO = await encryptString({plainText: this.poNumber});
+                // console.log('encrypted Po details ->>> ', encryptedDataPO);
+                localStorage.setItem('poNumber', encryptedDataPO);
+            } catch (error) {
+                console.log('encryption error in PO-->> : ', error);
+            }
         } else if (this.selectedPaymentType === 'wire') { // Wire ACH flow
             const wiredetails = {
                 checkAccountNumber: this.checkAccountNumber,
@@ -344,8 +351,7 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
             };
 
             try {
-                const encryptedData = await encryptString({plainText: JSON.stringify(wiredetails)});
-                // console.log('encrypted wireDetails', encryptedData);
+                const encryptedData = await encryptString({ plainText: JSON.stringify(wiredetails) });
                 localStorage.setItem('wireDetails', encryptedData);
             } catch (error) {
                 console.log('encryption error : ', error);
@@ -401,8 +407,8 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
 
     // retrieve the cart summary information
     @wire(CartSummaryAdapter, {})
-    cartSummary({error, data}){
-        if (!this.isInSitePreview()){
+    cartSummary({ error, data }) {
+        if (!this.isInSitePreview()) {
             if (data) {
                 this.cartId = data.cartId;
             } else if (error) {
@@ -415,7 +421,7 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
         this.currentCommunityId = communityId;
         // populate this.yearOptions
         const currentYear = new Date().getFullYear();
-        this.expYear = ''+currentYear;
+        this.expYear = '' + currentYear;
         for (let i = 0; i < 15; i++) {
             const yearString = '' + (currentYear + i);
             this.yearOptions.push({ label: yearString, value: yearString });
@@ -428,36 +434,36 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
         ];
 
         getStateOptions()
-        .then(res => {
-            this.stateOptions = (res || []).map(state => {return { label: state.State_Name__c, value: (state.Abbreviation__c + ':' + state.Country_Code__r.Alpha2Code__c)};});
-        })
-        .catch(err => {
-            console.log(err);
-        });
+            .then(res => {
+                this.stateOptions = (res || []).map(state => { return { label: state.State_Name__c, value: (state.Abbreviation__c + ':' + state.Country_Code__r.Alpha2Code__c) }; });
+            })
+            .catch(err => {
+                console.log(err);
+            });
 
         await loadScript(this, microformScript)
-        .then(() => {
-            this.setupMicroform();
-        }).catch(err => {
-            console.log('loadScript error: ', err);
-        });
+            .then(() => {
+                this.setupMicroform();
+            }).catch(err => {
+                console.log('loadScript error: ', err);
+            });
     }
 
     // this is not used in the cart flow. it is only for debugging and troubleshooting purpose.
     deleteCartObject() {
-        deleteCart({ cartId: this.cartId})
-        .then(res => {
-            console.log('Cart deleted successfully. Response: ', res);
-        });
+        deleteCart({ cartId: this.cartId })
+            .then(res => {
+                console.log('Cart deleted successfully. Response: ', res);
+            });
     }
 
     // create the Cybersource form and add the fields
     setupMicroform() {
         generateKey().then(res => {
             const flex = new Flex(res);
-            const microform = flex.microform({'iframe': {'line-height': '1.875rem'} });
-            const number = microform.createField('number', {placeholder:"*Card Number"});
-            const securityCode = microform.createField('securityCode', { maxLength: 4, placeholder:"*CVV"});
+            const microform = flex.microform({ 'iframe': { 'line-height': '1.875rem' } });
+            const number = microform.createField('number', { placeholder: "*Card Number" });
+            const securityCode = microform.createField('securityCode', { maxLength: 4, placeholder: "*CVV" });
 
             const numberElement = this.template.querySelector('.number-container');
             const securityCodeElement = this.template.querySelector('.securityCode-container');
@@ -465,9 +471,9 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
             securityCode.load(securityCodeElement);
             this.microform = microform;
         })
-        .catch(err => {
-            console.log('setupMicroform - generateKey - error: ', err);
-        });
+            .catch(err => {
+                console.log('setupMicroform - generateKey - error: ', err);
+            });
     }
 
     handleStateChange(event) {
@@ -524,7 +530,7 @@ export default class BillingAddressForm extends NavigationMixin(LightningElement
         return new Promise((resolve, reject) => this.microform.createToken(options, (err, token) => {
             if (err) {
                 if (err.details && err.details.length > 0) {
-                    for (let i=0; i < err.details.length; i++) {
+                    for (let i = 0; i < err.details.length; i++) {
                         if (err.details[i].message == 'Validation error' && err.details[i].location == 'number') {
                             this.errorMessages.push(CARD_INVALID_ERROR);
                         } else if (err.details[i].message == 'Validation error' && err.details[i].location == 'securityCode') {

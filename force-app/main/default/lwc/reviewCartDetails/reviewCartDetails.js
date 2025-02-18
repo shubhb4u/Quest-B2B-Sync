@@ -41,7 +41,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
     isPoOrder = false;
     @api ordSumId;
 
-    connectedCallback() {
+    async connectedCallback() {
 
         this.currentCommunityId = communityId;
         this.storeId = WebstoreId;
@@ -50,7 +50,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
 
         if (!sessionStorage.getItem("pageReloaded")) {
             sessionStorage.setItem("pageReloaded", "true");
-    
+
             setTimeout(() => {
                 window.location.reload();
             }, 2000);
@@ -61,6 +61,25 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
         this.isPoOrder = (localStorage.getItem('poNumber') != null && localStorage.getItem('poNumber') != '');
 
         // console.log('isPoOrder in Connected callback after 2 sec delay-->> '+ this.isPoOrder);
+
+        let localPoNumber = '';
+        try {
+            localPoNumber = localStorage.getItem('poNumber');
+            const decryptedData = await decryptString({encryptedText: localPoNumber} );
+
+            try {
+                this.storedPONumber = JSON.parse(decryptedData);
+            } catch (jsonError) {
+                this.storedPONumber = decryptedData;
+            }
+            console.log('Decrypted PO Data:-->>>>> ', this.storedPONumber);
+
+
+        } catch (error) {
+            this.errorMessages = [{ message: 'Something went wrong. Please try again.' }];
+            console.log('Decryption error:', error);
+            return;
+        }
 
         if (this.cartId) {
             this.fetchCartDetailsFromApex();
@@ -77,7 +96,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
         localStorage.removeItem('ccPaymentInfo');
         localStorage.removeItem('wireDetails');
     }
-    
+
 
     @wire(getRecord, { recordId: USER_ID, fields: [CONTACT_ID, ACCOUNT_ID] })
     user({ data, error }) {
@@ -99,7 +118,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
         fetchCartDetails({ cartId: this.cartId })
             .then((result) => {
                 this.cartDetails = result;
-                this.error = undefined; 
+                this.error = undefined;
             })
             .catch((error) => {
                 this.error = error;
@@ -156,7 +175,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
 
         this.isWirePayment = (localStorage.getItem('wireDetails') != null && localStorage.getItem('wireDetails') != '');
 
-        console.log('IsWirePayment in Connected callback after 2 sec delay-->> '+ this.isWirePayment);
+        console.log('IsWirePayment in Connected callback after 2 sec delay-->> ' + this.isWirePayment);
 
         if (!this.termsAccepted) {
             console.log('Please accept the Terms & Conditions.');
@@ -175,7 +194,7 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
         }
 
         if (this.isWirePayment) {
-            console.log('Wire action fired in handle complete -->>> '+ this.isWirePayment);
+            console.log('Wire action fired in handle complete -->>> ' + this.isWirePayment);
             this.authorizePaymentWire();
         }
         else if (this.isPoOrder) {
@@ -249,19 +268,27 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
     @api
     async reportValidity() {
 
-        try {
-            this.storedPONumber = localStorage.getItem('poNumber');
-            console.log('stored PO in reportvalidity -->> '+ typeof(this.storedPONumber ) + ' ' + this.storedPONumber  );
-            const decryptedData = await decryptString({ encryptedText: this.storedPONumber});
-            console.log('stored PO in reportvalidity after decrypt -->> '+ typeof(decryptedData) + ' ' + decryptedData );
+        // try {
 
-        } catch (error) {
-            this.errorMessages = [{
-                message: 'Something went wrong. Please try again.'
-            }];
-            console.log('decryption error : ', error);
-            return;
-        }
+        //     this.storedPONumber = localStorage.getItem('poNumber');
+        //     const decryptedData = await decryptString({ encryptedText: JSON.stringify(this.storedPONumber )});
+        //     // this.storedPONumber = JSON.parse(decryptedData);
+        //     this.storedPONumber = decryptedData;
+
+        //     console.log('decryptedData PO Data -->> ', this.storedPONumber);
+
+        //     // this.storedPONumber = localStorage.getItem('poNumber');
+        //     // console.log('stored PO in reportvalidity -->> '+ typeof(this.storedPONumber ) + ' ' + this.storedPONumber  );
+        //     // const decryptedData = await decryptString({ encryptedText: this.storedPONumber});
+        //     // console.log('stored PO in reportvalidity after decrypt -->> '+ typeof(decryptedData) + ' ' + decryptedData );
+
+        // } catch (error) {
+        //     this.errorMessages = [{
+        //         message: 'Something went wrong. Please try again.'
+        //     }];
+        //     console.log('decryption error : ', error);
+        //     return;
+        // }
 
         const purchaseOrderInput = this.storedPONumber;
         let isValid = false;
@@ -476,10 +503,9 @@ export default class ReviewCartDetails extends NavigationMixin(LightningElement)
     }
 
     updatePaymentInformation() {
-        console.log('poNumber in updatePaymentinfo -->> '+ this.storedPONumber);
-        console.log('poNumber before removal:-->>>> ', localStorage.getItem('poNumber'));
+        console.log('poNumber in updatePaymentinfo -->> ' + this.storedPONumber);
 
-        updatePaymentInstrument({ cartId: this.cartId, gatewayToken: this.authPaymentToken, poNumber: this.storedPONumber})
+        updatePaymentInstrument({ cartId: this.cartId, gatewayToken: this.authPaymentToken, poNumber: this.storedPONumber })
             .then((data) => {
                 console.log('Payment instrument updated successfully-->> ', data);
                 if (data) {
