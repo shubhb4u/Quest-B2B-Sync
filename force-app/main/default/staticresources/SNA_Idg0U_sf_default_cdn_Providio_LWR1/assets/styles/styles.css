@@ -1,0 +1,9 @@
+:root {
+    /*! put your custom css here */
+    body {
+            background-color: lightcoral;
+        }
+}
+body {
+    background-color: lightgreen;
+}

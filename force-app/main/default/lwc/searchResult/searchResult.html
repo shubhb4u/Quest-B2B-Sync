@@ -1,0 +1,50 @@
+<template>
+    <div class="search-container">
+        <!-- Search Button -->
+        <div class="search-button">
+            <button 
+                class="my-brand slds-button slds-button_icon slds-button_icon-container" 
+                type="button" 
+                onclick={handleSearchClick} 
+                aria-label="Search">
+                <!-- <svg class="slds-button__icon" aria-hidden="true">
+                    <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                </svg> -->
+                <lightning-icon icon-name="utility:search" class="slds-button__icon" slot="icon" size="small"></lightning-icon>
+            </button>
+        </div>
+
+        <!-- Search Input Field -->
+        <div class="input-field">
+            <input 
+                class="slds-input" 
+                type="text" 
+                value={searchKey} 
+                oninput={handleSearchKeyChange}
+                onkeypress={handleKeyPress}
+                placeholder="Search">
+        </div>
+    </div>
+
+    <!-- Display Search Results -->
+    <template if:true={products}>
+        <ul class="slds-m-around_medium">
+            <template for:each={products} for:item="product">
+                <li key={product.Id}>
+                    <strong>{product.Name}</strong>
+                    <p>Code: {product.ProductCode}</p>
+                    <p>Family: {product.Family}</p>
+                    <p>Description: {product.Description}</p>
+                    <p>SKU: {product.StockKeepingUnit}</p>
+                </li>
+            </template>
+        </ul>
+    </template>
+
+    <!-- Display Error if No Products Found -->
+    <template if:true={error}>
+        <div class="slds-text-color_error slds-m-around_medium">
+            {error}
+        </div>
+    </template>
+</template>

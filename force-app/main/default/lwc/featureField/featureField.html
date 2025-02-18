@@ -1,0 +1,20 @@
+<template>
+  <lightning-card title="Product Details" icon-name="standard:product">
+    <h1>This is feature field component for testing html field- Ankit</h1>
+    <div>test1</div>
+    <div>{feature3}</div>
+    <div>test2</div>
+    <template if:true={feature3}>
+        <div>test3</div>
+        <div lwc:dom="manual" class="html-container"></div>
+        <div>test4</div>
+    </template>
+    <template if:true={error}>
+        <p class="slds-text-color_error">Error: {error.body.message}</p>
+    </template>
+    <div>test5</div>
+      <div>{feature3}</div>
+    <div>test6</div>
+    <div lwc:dom="manual" class="html-container3"></div>
+  </lightning-card>
+</template>

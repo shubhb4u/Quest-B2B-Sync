@@ -1,0 +1,42 @@
+<template>
+    <div class="q-cart-form-wrap q-shipping-info">
+        <lightning-card title="Delivery Address">
+            <div class="">
+                <lightning-input label="Full Name" placeholder="*Full Name" type="text" value={fullName} onchange={handleInputChange}
+                    data-field="fullName" required>
+                </lightning-input>
+
+                <lightning-input label="Address" placeholder="*Address" type="text" value={street} onchange={handleInputChange}
+                    data-field="street" required>
+                </lightning-input>
+
+                <lightning-input label="Full Name" placeholder="*Full Name" type="text" value={fullName} onchange={handleInputChange}
+                    data-field="fullName" required>
+                </lightning-input>
+
+                <div class="q-form-half">
+                    <lightning-input label="City" placeholder="*City" type="text" value={city} onchange={handleInputChange}
+                        data-field="city" required>
+                    </lightning-input>
+
+                    <lightning-input label="State/Province" placeholder="*State/Province" type="text" value={state}
+                        onchange={handleInputChange} data-field="state" required>
+                    </lightning-input>
+                </div>
+
+                <lightning-input label="Postal Code" placeholder="*Zip Code" type="text" value={postalCode} onchange={handleInputChange}
+                    data-field="postalCode" required>
+                </lightning-input>
+
+                <lightning-input label="Country" placeholder="*Country" type="text" value={country} onchange={handleInputChange}
+                    data-field="country" required>
+                </lightning-input>
+
+                <div class="slds-m-top_medium">
+                    <lightning-button label="Save Shipping Address" variant="base" onclick={saveShippingAddress}>
+                    </lightning-button>
+                </div>
+            </div>
+        </lightning-card>
+    </div>
+</template>

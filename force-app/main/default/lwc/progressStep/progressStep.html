@@ -1,0 +1,24 @@
+<!-- Add this is calling component, Update current-step -->
+<!-- <c-progress-indicator current-step="1"></c-progress-indicator> -->
+
+<!-- 
+2. To make label color (completed steps) i,e; 1,2,3 add class 'active'
+3. To make dashed border color add class 'span'
+-->
+
+<template>
+    <div class="q-cart-progress">
+        <div class="progress-steps">
+            <label class="active">1</label>
+            <span class={stepTwoClass}></span>
+            <label class={stepTwoClass}>2</label>
+            <span class={stepThreeClass}></span>
+            <label class={stepThreeClass}>3</label>
+        </div>
+        <div class="progress-labels">
+            <label>Details</label>
+            <label>Review Your Data</label>
+            <label>Done</label>
+        </div>
+    </div>
+</template>

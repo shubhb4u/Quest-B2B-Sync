@@ -1,0 +1,150 @@
+<template>
+    <!-- Render main product if there are no variations -->
+    <template if:true={product}>
+        <template if:false={hasVariations}>
+            <div class="single-product-container">
+                <div class="single-product-tile">
+                    <div class="product-content">
+                        <!-- Main Product Details -->
+                        <div class="main-product">
+                            <!-- Price and Discounts -->
+                            <div class="pricesAndDiscounts">
+                                <div class="product-price">
+                                    <template lwc:if={isGuestUser}>
+                                        <span class="current-price guest">Please login to view price</span>
+                                    </template>
+                                    <template lwc:else>
+                                        <template lwc:if={discountAmountExists}>
+                                            <span class="current-price registered">{product.prodCurrencySymbol}{product.formattedDiscountedPrice}</span>
+                                            <span class="msrp">{product.prodCurrencySymbol}{product.UnitPrice}</span>
+                                        </template>
+                                        <template lwc:else>
+                                            <span class="current-price registered">{product.prodCurrencySymbol}{product.formattedUnitPrice}</span>
+                                        </template>
+                                    </template>
+                                </div>
+ 
+                                <!-- Adjustment Details -->
+                                <div class="disPrice">
+                               
+                                        <template if:true={product.adjustmentPercent}>
+                                            <span class="discountVal">{product.adjustmentPercent}% OFF</span>
+                                        </template>
+                                        <template if:true={adjustmentAmountExists}>
+                                            <span class="discountVal">{product.prodCurrencySymbol}{product.adjustmentAmount} OFF</span>
+                                        </template>
+                                   
+                                </div>
+                            </div>
+ 
+                            <!-- Product Description -->
+                            <div class="product-description">{product.Description}</div>
+ 
+                            <!-- Quantity Input -->
+                            <div class="quantity-single-prd">
+                                <label for="quantity"><strong>Quantity:</strong></label>
+                                <input type="number" value={quantity} min="1" data-id={product.Id} onchange={handleQuantityChange} />
+                            </div>
+ 
+                            <!-- Actions -->
+                            <div class="actions">
+                                <template if:true={isGuestUser}>
+                                    <button class="addToCart-button-single tooltip-container" disabled data-id={product.Product2Id} data-quantity={quantity}>
+                                        Add to Cart
+                                    </button>
+                                    <div class="tooltip" if:true={isTooltipVisible}>
+                                        Please login to add item to cart
+                                    </div>
+                                </template>
+                                <template if:false={isGuestUser}>
+                                    <button class="addToCart-button-single" data-id={product.Product2Id} data-quantity={quantity} onclick={handleAddToCart}>
+                                        Add to Cart
+                                    </button>
+                                </template>
+                                <a class="contact-us-link" href="/CIQuestEStore/contact-us" target="_blank">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </template>
+    </template>
+ 
+ 
+    <!-- Render Variations -->
+    <template if:true={hasVariations}>
+        <div class="variation-product-container">
+            <template for:each={variations} for:item="variation">
+                <div key={variation.id} class="product-variation">
+                    <button class="dropdown-toggle">
+                        <span class="variation-version">{variation.softwareVersion}</span>
+                        <template lwc:if={variation.discountedPrice}>
+                            <span class="variation-price">{variation.currencySymbol}{variation.discountedPrice}</span>
+                        </template>
+                        <lightning-icon icon-name={variation.iconName} size="x-small" class="chevron-icon" onclick={toggleDropdown} data-id={variation.id}></lightning-icon>
+                    </button>
+                    <template if:true={variation.isDropdownVisible}>
+                        <div class="variation-details">
+                            <!-- Price and Discount -->
+                            <div class="pricesAndDiscounts">
+                                <template lwc:if={isGuestUser}>
+                                    <span class="variation-price guest">Please login to view price</span>
+                                </template>
+                                <template lwc:else>
+                                    <span class="variation-price">{variation.currencySymbol}{variation.price}</span>
+                                    <template if:true={variation.discountedPrice}>
+                                        <span class="discounted-price">{variation.currencySymbol}{variation.discountedPrice}</span>
+                                    </template>
+                                    <!-- <template lwc:if={variation.Promotion.AdjustmentPercent}>
+                                        <span class="discountVal">{variation.Promotion.AdjustmentPercent}% OFF</span>
+                                    </template> -->
+                                    <template if:true={variation.isAdjustmentApplied}>
+                                        <span class="discountVal">{variation.currencySymbol}{variation.adjustmentAmount} OFF</span>
+                                    </template>
+                                </template>
+                            </div>
+                            <!-- Quantity -->
+                            <div class="quantity">
+                                <label for="quantity"><strong>Quantity:</strong></label>
+                                <input type="number" value="1" min="1" data-id={variation.id} onchange={handleQuantityChange} />
+                            </div>
+                            <!-- Actions -->
+                            <div class="actions">
+                                <template if:true={isGuestUser}>
+                                    <button class="addToCart-button tooltip-container" disabled data-id={variation.id}>
+                                        Add to Cart
+                                    </button>
+                                    <div class="tooltip" if:true={isTooltipVisible}>
+                                        Please login to add item to cart
+                                    </div>
+                                </template>
+                                <template if:false={isGuestUser}>
+                                    <button class="addToCart-button" data-id={variation.id} onclick={handleAddToCart}>
+                                        Add to Cart
+                                    </button>
+                                </template>
+                                <a class="contact-us-link" href="/contact-us" target="_blank">Contact Us</a>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </div>
+    </template>
+ 
+    <!-- Add to Cart Modal -->
+    <template if:true={isATCModalOpen}>
+        <div class="slds-modal atc-modal slds-fade-in-open" role="dialog" aria-labelledby="Add to cart modal" aria-modal="true">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header slds-border_none">
+                    <div class={computedHeaderClasses}><h2 class="slds-modal__title slds-hyphenate slds-p-around_x-small ">{modalTitle}</h2></div>
+                </div>
+                <div class="slds-modal__content slds-p-around_x-small">{modalMessage}</div>
+                <div class="slds-modal__footer slds-p-around_x-small">
+                    <lightning-button variant="brand" label="Close" onclick={handleModalClose}></lightning-button>
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop_open" onclick={handleModalClose}></div>
+    </template>
+</template>
