@@ -58,7 +58,6 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     }
 
     connectedCallback() {
-        console.log('Explore category called --> !!');
         this.checkIsGuestUser();
         this.storeId = WebstoreId;
         console.log('store Id ==>', this.storeId);
@@ -87,7 +86,6 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     reinitializeCarousel() {
         this.setItemsPerPage();
         if (this.products?.length) {
-            this.startIndex = 0;
             this.currentPage = 0;
             this.updateDisplayedProducts();
             this.updateIndicators();
@@ -166,12 +164,9 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     }
 
     updateDisplayedProducts() {
-        // Use startIndex instead of currentPage * itemsPerPage
-        const endIndex = Math.min(this.startIndex + this.itemsPerPage, this.products.length);
-        this.displayedProducts = this.products.slice(this.startIndex, endIndex);
-        
-        // Update currentPage based on startIndex for indicators
-        this.currentPage = Math.floor(this.startIndex / this.itemsPerPage);
+        const startIndex = this.currentPage * this.itemsPerPage;
+        const endIndex = startIndex + this.itemsPerPage;
+        this.displayedProducts = this.products.slice(startIndex, endIndex);
     }
 
     handleAddToWishlist(event) {
@@ -239,28 +234,23 @@ export default class ProductCarouselFromCategory extends NavigationMixin(Lightni
     }
 
     handlePrevious() {
-        if (this.startIndex > 0) {
-            // Move back by one product instead of a full page
-            this.startIndex = Math.max(0, this.startIndex - 1);
+        if (this.currentPage > 0) {
+            this.currentPage--;
             this.updateDisplayedProducts();
             this.updateIndicatorClasses();
         }
     }
 
     handleNext() {
-        const maxStartIndex = Math.max(0, this.products.length - this.itemsPerPage);
-        if (this.startIndex < maxStartIndex) {
-            // Move forward by one product instead of a full page
-            this.startIndex = Math.min(maxStartIndex, this.startIndex + 1);
+        if (this.currentPage < this.carouselIndicators.length - 1) {
+            this.currentPage++;
             this.updateDisplayedProducts();
             this.updateIndicatorClasses();
         }
     }
 
     handleIndicatorClick(event) {
-        // Update to use startIndex
-        const clickedPage = parseInt(event.target.dataset.index, 10);
-        this.startIndex = clickedPage * this.itemsPerPage;
+        this.currentPage = parseInt(event.target.dataset.index, 10);
         this.updateDisplayedProducts();
         this.updateIndicatorClasses();
     }

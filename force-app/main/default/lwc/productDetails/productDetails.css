@@ -67,7 +67,7 @@
 }
 .quantity{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     margin: 20px 0;
 }
@@ -180,6 +180,7 @@ p{
 .dropdown-toggle {
     border-radius: 11px;
     background-color: #fff;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.08); 
     padding: 12px 16px 16px;
     margin-bottom: 25px;
     position: relative;
@@ -190,7 +191,7 @@ p{
 }
 .variation-details {
     border-radius: 11px;
-    /* box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.08); */
+     box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.08);
     background-color: #fff;
     padding: 12px 24px 16px;
     margin-bottom: 25px;

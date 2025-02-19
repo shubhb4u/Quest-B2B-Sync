@@ -73,7 +73,9 @@
  
     <!-- Render Variations -->
     <template if:true={hasVariations}>
-        <div class="variation-product-container">
+        <div class="product-tile">
+            <div class="product-content">
+        <div class="product-variations">
             <template for:each={variations} for:item="variation">
                 <div key={variation.id} class="product-variation">
                     <button class="dropdown-toggle">
@@ -130,6 +132,8 @@
                 </div>
             </template>
         </div>
+        </div>
+    </div>
     </template>
  
     <!-- Add to Cart Modal -->

@@ -1,0 +1,47 @@
+<!--
+  @description       : 
+  @author            : ChangeMeIn@UserSettingsUnder.SFDoc
+  @group             : 
+  @last modified on  : 08-08-2024
+  @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
+-->
+<template>
+    <div class="q-feature-products">
+        <div class="q-container">
+            <h2>Related Products</h2>
+            <a href="https://etgdigital6-dev-ed.develop.my.site.com/InsightsB2B/category/products-solutions/0ZGak0000001061GAA" class="q-link-arrow q-arrow-orange">See All Products</a>
+            <div class="slider-container q-product-slider-v1 q-product-boxes">
+                <div class="splide splide__page-arrows splide--slide splide--ltr splide--draggable is-active" id="splide01">
+                    <div class="splide__track" id="splide01-track">
+                        <div class="splide__list" id="splide01-list">
+                            <template for:each={displayedProducts} for:item="product">
+                                <div class="product-block" key={product.Id}>
+                                    <div class="img-ctr">
+                                        <c-slds-carousel-cms-panel content-key={product.Product2.Content_Type__c}></c-slds-carousel-cms-panel>
+                                    </div>
+                                    <div class="product-name slds-m-bottom_xx-small">{product.Product2.Name}</div>
+                                    <div class="product-model slds-m-bottom_small">Product Code: <span>{product.Product2.ProductCode}</span></div>
+                                    <div class="product-border slds-border_bottom slds-m-bottom_small"></div>
+                                    <!--<div class="product-name slds-m-bottom_xx-small">{product.Product2.Description}</div>-->
+                                    <div class="product-price-mobile">${product.formattedUnitPrice}</div>
+                                    <a class="buyAnchor" data-id={product.Product2.Id} data-name={product.Product2.Name} onclick={handleBuy}>Buy</a>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                    <div class="splide__arrows icomoon-container">
+                        <button class="splide__arrow splide__arrow--prev sn-prev icomoon-icon icon-arrow_back" aria-label="Previous slide" onclick={handlePrevious}>Previous</button>
+                        <ul class="splide__pagination">
+                            <template for:each={carouselIndicators} for:item="indicator">
+                                <li key={indicator.index}>
+                                    <button class={indicator.class} type="button" data-index={indicator.index} aria-controls="splide01-slide" onclick={handleIndicatorClick}></button>
+                                </li>
+                            </template>
+                        </ul>
+                        <button class="splide__arrow splide__arrow--next sn-next icomoon-icon icon-arrow_forward" aria-label="Next slide" onclick={handleNext}>Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
